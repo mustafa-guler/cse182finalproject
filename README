@@ -1,3 +1,7 @@
+github link:
+https://github.com/mustafa-guler/cse182finalproject
+
+
 Run the setup bash script to install dependencies and fix some system dependent code.
 It requires the path to the hmmer binaries.
     Example: ./setup ~/hmmer-3.1b2-linux-intel-x86_64/bin
