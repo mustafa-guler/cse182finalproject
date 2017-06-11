@@ -1,0 +1,240 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO11577 Site-specific DNA methylase-like protein
+OS=Acinetobacter baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025
+/ NCDC KC755 / 5377) GN=A1S_1147 SV=1 UP=UP000006737:Chromosome
+
+Length=251
+
+RID: K5K5RYNB014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO11577.1  Site-specific DNA methylase-like protein [Acinetobact...  506     0.0  
+AGE51326.1  site-specific DNA methylase [Paramecium bursaria Chlo...  73.6    1e-12
+CYV80080.1  Uncharacterised protein [Streptococcus suis]              62.0    2e-08
+AGE48978.1  site-specific DNA methylase [Paramecium bursaria Chlo...  57.0    8e-07
+KXU03197.1  hypothetical protein SORDD24_01945 [Streptococcus ora...  54.7    1e-05
+ABT13915.1  hypothetical protein MT325_M361R [Paramecium bursaria...  40.0    0.24 
+YP_001497891.1  hypothetical protein NY2A_b695L [Paramecium bursa...  41.6    0.48 
+JAS48956.1  hypothetical protein g.19968 [Cuerna arida]               40.0    1.3  
+CCZ07650.1  uncharacterized protein BN482_00927 [Clostridium sp. ...  39.7    1.7  
+SLH78648.1  Uncharacterised protein [Mycobacterium abscessus subs...  38.9    2.9  
+
+
+>ABO11577.1 Site-specific DNA methylase-like protein [Acinetobacter baumannii 
+ATCC 17978]
+Length=251
+
+ Score = 506 bits (1303),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 251/251 (100%), Positives = 251/251 (100%), Gaps = 0/251 (0%)
+
+Query  1    MALSRSTRLATPSATRPNSGSTSHHVSSLHDDRADRLSCSCHLSWSESLVMSLCSLKQSE  60
+            MALSRSTRLATPSATRPNSGSTSHHVSSLHDDRADRLSCSCHLSWSESLVMSLCSLKQSE
+Sbjct  1    MALSRSTRLATPSATRPNSGSTSHHVSSLHDDRADRLSCSCHLSWSESLVMSLCSLKQSE  60
+
+Query  61   LEDSPQHRLSRSLDDCSPSHACSHPMLWELGISQLDRLGFSIDPDCPIVGVDHFENPLLV  120
+            LEDSPQHRLSRSLDDCSPSHACSHPMLWELGISQLDRLGFSIDPDCPIVGVDHFENPLLV
+Sbjct  61   LEDSPQHRLSRSLDDCSPSHACSHPMLWELGISQLDRLGFSIDPDCPIVGVDHFENPLLV  120
+
+Query  121  AWPTIQIRSRIWGAPKLDAEKRAHCASYPIWARSLMTRVSPLETSIGEFSTNTYLGRTSP  180
+            AWPTIQIRSRIWGAPKLDAEKRAHCASYPIWARSLMTRVSPLETSIGEFSTNTYLGRTSP
+Sbjct  121  AWPTIQIRSRIWGAPKLDAEKRAHCASYPIWARSLMTRVSPLETSIGEFSTNTYLGRTSP  180
+
+Query  181  IIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPSKVVMSDQIGKASRIP  240
+            IIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPSKVVMSDQIGKASRIP
+Sbjct  181  IIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPSKVVMSDQIGKASRIP  240
+
+Query  241  SFCRCAKTCAA  251
+            SFCRCAKTCAA
+Sbjct  241  SFCRCAKTCAA  251
+
+
+>AGE51326.1 site-specific DNA methylase [Paramecium bursaria Chlorella virus 
+CVG-1]
+Length=174
+
+ Score = 73.6 bits (179),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 48/118 (41%), Positives = 60/118 (51%), Gaps = 3/118 (3%)
+
+Query  128  RSRIWGAPKLDAEKRAHCASYPIWARSLMTRVSPLET-SIGEFSTNTYLGRTSPIIRAIS  186
+            R R WGAP   A    H  SYP  +++L T ++ +    + EFS N YLG  S +I   S
+Sbjct  7    RWRWWGAPIFVARHVNHLQSYPSLSKALTTTLTFVFLDKMCEFSRNRYLGLHSLVILTTS  66
+
+Query  187  DQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPSKVVMSDQIGKASRIPSFCR  244
+            +  P+ S S PAPFPA E   HG PP   ST P H   SKV  S   G +     FC+
+Sbjct  67   ENKPDASCSNPAPFPAIEKPVHGHPPVTMSTFPFHSVASKVHTSSNTGTSGCF--FCK  122
+
+
+>CYV80080.1 Uncharacterised protein [Streptococcus suis]
+Length=145
+
+ Score = 62.0 bits (149),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 44/101 (44%), Positives = 50/101 (50%), Gaps = 4/101 (4%)
+
+Query  123  PTIQIRSRIWGAPKLDAEKRAHCASYPI--WARSLMTRVSPLE--TSIGEFSTNTYLGRT  178
+            P I  RSR WG PK       H ASYP    A S+++ V PL   ++   FS N YLG  
+Sbjct  32   PIINTRSRFWGTPKFLLLNTCHSASYPSSSNAPSMVSNVFPLSWLSNPVTFSRNRYLGLR  91
+
+Query  179  SPIIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIP  219
+                 AIS        S PA FPA   +WHG PP ITST P
+Sbjct  92   IDANLAISKNKVPLVSSNPARFPAMLKAWHGNPPQITSTRP  132
+
+
+>AGE48978.1 site-specific DNA methylase [Paramecium bursaria Chlorella virus 
+AP110A]
+ AGE49998.1 site-specific DNA methylase [Paramecium bursaria Chlorella virus 
+Can18-4]
+ AGE50663.1 site-specific DNA methylase [Paramecium bursaria Chlorella virus 
+CVA-1]
+ AGE52341.1 site-specific DNA methylase [Paramecium bursaria Chlorella virus 
+CVR-1]
+Length=131
+
+ Score = 57.0 bits (136),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 34/77 (44%), Positives = 41/77 (53%), Gaps = 2/77 (3%)
+
+Query  168  EFSTNTYLGRTSPIIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPSKV  227
+            EFS N YLG  S +I   S+ +P+ S S PAPFPA E   HG PP + ST P H   SK 
+Sbjct  3    EFSRNRYLGSHSLVILTTSENNPDASCSNPAPFPAIEKPVHGHPPVMMSTFPFHSVASKA  62
+
+Query  228  VMSDQIGKASRIPSFCR  244
+              S   G +     FC+
+Sbjct  63   HTSSNTGTSGCF--FCK  77
+
+
+>KXU03197.1 hypothetical protein SORDD24_01945 [Streptococcus oralis]
+Length=183
+
+ Score = 54.7 bits (130),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 38/103 (37%), Positives = 51/103 (50%), Gaps = 6/103 (6%)
+
+Query  122  WPTIQIRSRIWGAPKLDAEKRAHCASYPIWARS--LMTRVSP---LETSIGEFSTNTYLG  176
+            WP +  RS  WG PK      +H   YP  +++  +++ V+P   L + +  FS N YLG
+Sbjct  56   WPIMSTRSLFWGTPKFLLLIFSHSTLYPNSSKAPRMVSNVAPPSWLRSPL-TFSRNRYLG  114
+
+Query  177  RTSPIIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIP  219
+                   AIS +   R  S P  FPA   +WHG PP I ST P
+Sbjct  115  LRIDANLAISKKRLPRVSSKPRLFPAMLKAWHGNPPQIMSTRP  157
+
+
+>ABT13915.1 hypothetical protein MT325_M361R [Paramecium bursaria chlorella 
+virus MT325]
+Length=71
+
+ Score = 40.0 bits (92),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 23/53 (43%), Positives = 28/53 (53%), Gaps = 0/53 (0%)
+
+Query  182  IRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPSKVVMSDQIG  234
+            +R  S + P+ S S P PFPA E    G PP + ST P +G  SKV  S   G
+Sbjct  1    MRTTSVKRPDASCSKPVPFPAVEKPVQGHPPVMMSTFPRYGVASKVHTSSNTG  53
+
+
+>YP_001497891.1 hypothetical protein NY2A_b695L [Paramecium bursaria Chlorella 
+virus NY2A]
+ ABT15094.1 hypothetical protein NY2A_b695L [Paramecium bursaria Chlorella 
+virus NY2A]
+Length=191
+
+ Score = 41.6 bits (96),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 24/62 (39%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  156  MTRVSPLETSIGEFSTNTYLGRTSPIIRAISDQSPERSPSIPAPFPADEMSWHGKPPDIT  215
+            MT +      + EFS NTY G  S +I   S  SPE S   P   PA E    G+P ++ 
+Sbjct  1    MTLIFSKSDKVCEFSKNTYFGLHSSVILTTSVNSPEASCENPVLVPALENPVQGQPANMI  60
+
+Query  216  ST  217
+            ST
+Sbjct  61   ST  62
+
+
+>JAS48956.1 hypothetical protein g.19968 [Cuerna arida]
+Length=182
+
+ Score = 40.0 bits (92),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 36/82 (44%), Gaps = 12/82 (15%)
+
+Query  72   SLDDCSPSHACSHPMLWELGISQLDRLGFSIDPDCPIVGVDHFENPLLVAWPTIQIRSRI  131
+            +L++ +PS   +   +WELG   ++  G+     C I+         L  W TIQ R   
+Sbjct  10   TLEETTPSFILN---IWELGTEFIEDYGWYFLALCLII---------LYYWQTIQERLDR  57
+
+Query  132  WGAPKLDAEKRAHCASYPIWAR  153
+            W + K D E  A C   P W R
+Sbjct  58   WYSEKSDKEYAAKCKKDPDWIR  79
+
+
+>CCZ07650.1 uncharacterized protein BN482_00927 [Clostridium sp. CAG:127]
+Length=157
+
+ Score = 39.7 bits (91),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 32/76 (42%), Gaps = 8/76 (11%)
+
+Query  162  LETSIGEFSTNTYLGR-------TSPIIRAISDQSPERSPSIPAPFPADEMSWHGKPPDI  214
+            LE +   FS   Y G         S +I   S   PER PS P  FPA   SW G P  I
+Sbjct  19   LEKAPATFSQMIYFGYCPFVFSLISLVILTASMNKPEREPSSPVCFPATLKSWQGLPKLI  78
+
+Query  215  TSTIPCHGFPSKVVMS  230
+             ST      PS  VMS
+Sbjct  79   ISTTGIFA-PSICVMS  93
+
+
+>SLH78648.1 Uncharacterised protein [Mycobacterium abscessus subsp. abscessus]
+Length=158
+
+ Score = 38.9 bits (89),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 35/65 (54%), Gaps = 3/65 (5%)
+
+Query  167  GEFSTNTYLG-RTSPIIRAISDQSPERSPSIPAPFPADEMSWHGKPPDITSTIPCHGFPS  225
+            G FS N+  G R     R  S   PER+P +PA  PA + SW GK P  TS++P  G   
+Sbjct  3    GTFSINSQRGPRLRRTSRNTSSTRPERNPVMPAVRPACDRSWQGK-PAATSSVPA-GTAR  60
+
+Query  226  KVVMS  230
+            + VMS
+Sbjct  61   RAVMS  65
+
+
+
+Lambda      K        H
+   0.318    0.130    0.418 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 2699928567414
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

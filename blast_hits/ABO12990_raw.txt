@@ -1,0 +1,3807 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO12990 23-dihydroxybenzoate-AMP ligase OS=Acinetobacter
+baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 /
+5377) GN=A1S_2573 SV=1 UP=UP000006737:Chromosome
+
+Length=35
+
+RID: K5VKE1N4014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO12990.1  23-dihydroxybenzoate-AMP ligase [Acinetobacter bauman...  73.9    5e-17
+WP_049594809.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter b...  74.3    1e-14
+WP_000469474.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [A...  74.3    1e-14
+WP_076032877.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter s...  68.9    1e-12
+WP_004929193.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [A...  68.9    1e-12
+WP_016655679.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter r...  68.2    2e-12
+WP_004749317.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter s...  65.9    1e-11
+WP_084702808.1  hypothetical protein [Pseudomonas japonica]           53.5    2e-07
+WP_070070016.1  (2,3-dihydroxybenzoyl)adenylate synthase [Acineto...  48.9    1e-05
+WP_060490652.1  2,3-dihydroxybenzoate-AMP ligase [Psychrobacter s...  48.1    2e-05
+WP_063337109.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [M...  46.6    8e-05
+WP_046017296.1  2,3-dihydroxybenzoate-AMP ligase [Marinomonas sp....  46.2    9e-05
+WP_051665916.1  hypothetical protein [Lachnospiraceae bacterium N...  46.2    1e-04
+SFK44131.1  2,3-dihydroxybenzoate-AMP ligase/yersiniabactin salic...  45.8    1e-04
+SFR61991.1  yersiniabactin salicyl-AMP ligase [Pseudobutyrivibrio...  43.5    0.001
+WP_083986853.1  2,3-dihydroxybenzoate-AMP ligase [Frankia sp. EI5c]   43.1    0.001
+SCX96233.1  yersiniabactin salicyl-AMP ligase [Pseudobutyrivibrio...  42.4    0.003
+WP_035033296.1  2,3-dihydroxybenzoate-AMP ligase [Aquamicrobium d...  41.2    0.007
+WP_024353925.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas n...  40.8    0.008
+WP_004604442.1  peptide arylation enzyme [[Eubacterium] celluloso...  40.8    0.010
+WP_054290512.1  (2,3-dihydroxybenzoyl)adenylate synthase [Kibdelo...  40.4    0.011
+SDD25025.1  2,3-dihydroxybenzoate-AMP ligase [Alloactinosynnema i...  40.4    0.011
+WP_076223465.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas s...  40.4    0.011
+WP_046651723.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas d...  40.4    0.011
+WP_025977638.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas n...  40.4    0.011
+WP_003167402.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas d...  40.4    0.011
+WP_003163699.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas d...  40.4    0.011
+WP_007930481.1  2,3-dihydroxybenzoate-AMP ligase [Pelosinus ferme...  40.4    0.012
+SFL67609.1  2,3-dihydroxybenzoate-AMP ligase [Pelosinus propionic...  40.4    0.013
+WP_007952764.1  2,3-dihydroxybenzoate-AMP ligase [Pelosinus ferme...  40.4    0.013
+SJM64400.1  2,3-dihydroxybenzoate-AMP ligase [Brevundimonas dimin...  40.4    0.013
+WP_004573292.1  2,3-dihydroxybenzoate-AMP ligase [Acetonema longum]   40.4    0.013
+WP_038493299.1  2,3-dihydroxybenzoate-AMP ligase [Janthinobacteri...  40.0    0.015
+CDG83719.1  2,3-dihydroxybenzoate-AMP ligase [Janthinobacterium a...  40.0    0.015
+WP_076992615.1  (2,3-dihydroxybenzoyl)adenylate synthase [Actinos...  40.0    0.015
+WP_042191324.1  2,3-dihydroxybenzoate-AMP ligase [Kibdelosporangi...  40.0    0.015
+WP_025909660.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  40.0    0.016
+EUA42400.1  hypothetical protein I553_6260 [Mycobacterium xenopi ...  37.7    0.016
+SDQ65475.1  pyochelin biosynthesis protein PchD [Pseudomonas sp. ...  40.0    0.016
+WP_045198128.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas sp....  40.0    0.016
+EUA35716.1  hypothetical protein I552_6518 [Mycobacterium xenopi ...  37.7    0.016
+WP_010112297.1  salicylate synthase [Burkholderia oklahomensis]       40.0    0.018
+WP_038487651.1  2,3-dihydroxybenzoate-AMP ligase [Collimonas arenae]  39.7    0.019
+WP_066012627.1  2,3-dihydroxybenzoate-AMP ligase [Thioclava sp. S...  39.7    0.020
+WP_085854019.1  2,3-dihydroxybenzoate-AMP ligase [Palleronia mari...  39.7    0.023
+WP_024847267.1  2,3-dihydroxybenzoate-AMP ligase [Aminobacter sp....  39.7    0.025
+OJU60390.1  2,3-dihydroxybenzoate-AMP ligase [Altererythrobacter ...  39.7    0.025
+OLF14563.1  (2,3-dihydroxybenzoyl)adenylate synthase [Actinophyto...  39.7    0.025
+WP_084734592.1  (2,3-dihydroxybenzoyl)adenylate synthase [Actinop...  39.7    0.025
+KHL26700.1  enterobactin synthase subunit E [Porphyrobacter mercu...  39.3    0.026
+WP_081996137.1  2,3-dihydroxybenzoate-AMP ligase [Porphyrobacter ...  39.3    0.026
+WP_011065358.1  2,3-dihydroxybenzoate-AMP ligase [Oceanobacillus ...  39.3    0.028
+ELO84593.1  enterobactin synthase subunit E [Salmonella enterica ...  37.7    0.029
+WP_017796088.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [O...  39.3    0.030
+SDH53636.1  Non-ribosomal peptide synthetase component E (peptide...  39.3    0.031
+WP_080182239.1  2,3-dihydroxybenzoate--AMP ligase [Salmonella ent...  37.4    0.031
+WP_070397178.1  (2,3-dihydroxybenzoyl)adenylate synthase [Hydroge...  39.3    0.032
+SDE84463.1  2,3-dihydroxybenzoate-AMP ligase [Citreicella thiooxi...  39.3    0.032
+WP_008887598.1  2,3-dihydroxybenzoate-AMP ligase [Citreicella sp....  39.3    0.032
+WP_068522880.1  2,3-dihydroxybenzoate-AMP ligase [Tsukamurella ty...  38.9    0.035
+WP_068741422.1  2,3-dihydroxybenzoate-AMP ligase [Tsukamurella ty...  38.9    0.035
+WP_079443798.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas ver...  38.9    0.037
+WP_048388685.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas hel...  38.9    0.037
+WP_047882197.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas sp....  38.9    0.037
+WP_046489537.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas ver...  38.9    0.037
+WP_046383433.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas ver...  38.9    0.037
+WP_040268330.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas rho...  38.9    0.037
+WP_034113719.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas flu...  38.9    0.037
+WP_034097876.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas flu...  38.9    0.037
+WP_017849083.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas ver...  38.9    0.037
+WP_036469290.1  acyl-CoA synthetase [Mycobacterium triplex]           38.9    0.039
+WP_035281917.1  2,3-dihydroxybenzoate-AMP ligase [Actinokineospor...  38.9    0.039
+KSB19491.1  hypothetical protein LFZ91_19905 [Salmonella enterica...  37.4    0.041
+CNT56530.1  enterobactin synthase subunit E [Salmonella enterica ...  37.4    0.041
+SDL86593.1  2,3-dihydroxybenzoate-AMP ligase [Dendrosporobacter q...  38.9    0.043
+WP_035877911.1  AMP-dependent synthetase [Cupriavidus sp. amp6]       38.9    0.044
+WP_011301592.1  AMP-dependent synthetase [Cupriavidus pinatubonen...  38.9    0.044
+WP_076696648.1  2,3-dihydroxybenzoate-AMP ligase [Pelagibaca abyssi]  38.9    0.044
+WP_047995071.1  2,3-dihydroxybenzoate-AMP ligase [Puniceibacteriu...  38.9    0.045
+WP_018639600.1  2,3-dihydroxybenzoate-AMP ligase [Frankia elaeagni]   38.9    0.046
+SDL50708.1  2,3-dihydroxybenzoate-AMP ligase [Paracoccus chinensis]   38.5    0.049
+SEC07955.1  2,3-dihydroxybenzoate-AMP ligase [Rhodobacter sp. 24-...  38.5    0.049
+WP_071700376.1  acyl-CoA synthetase [Mycobacterium heckeshornense]    38.5    0.049
+WP_048890934.1  acyl-CoA synthetase [Mycobacterium heckeshornense]    38.5    0.049
+WP_045882810.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas chl...  38.5    0.050
+WP_044463384.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas sp....  38.5    0.050
+AKA24235.1  hypothetical protein PCL1606_27840 [Pseudomonas chlor...  38.5    0.050
+WP_062554440.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rhizobi...  38.5    0.051
+WP_017566493.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis sy...  38.5    0.053
+WP_068222014.1  acyl-CoA synthetase [Mycobacterium sp. E3339]         38.5    0.054
+WP_067819117.1  acyl-CoA synthetase [Mycobacterium sp. E2989]         38.5    0.054
+WP_067895190.1  acyl-CoA synthetase [Mycobacterium sp. ACS4054]       38.5    0.054
+WP_055402320.1  MULTISPECIES: acyl-CoA synthetase [Mycobacterium]     38.5    0.054
+KJS15486.1  hypothetical protein VR69_13005 [Peptococcaceae bacte...  38.5    0.056
+WP_034615933.1  AMP-dependent synthetase [Acinetobacter sp. ETR1]     38.5    0.058
+WP_004819789.1  hypothetical protein [Acinetobacter guillouiae]       38.5    0.058
+OFZ98341.1  2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria ...  38.5    0.058
+WP_066258506.1  2,3-dihydroxybenzoate-AMP ligase [Hydrogenophaga ...  38.5    0.060
+WP_020667604.1  2,3-dihydroxybenzoate-AMP ligase [Amycolatopsis n...  38.5    0.065
+WP_065355493.1  2,3-dihydroxybenzoate-AMP ligase [Kluyvera ascorb...  38.5    0.065
+WP_064548193.1  2,3-dihydroxybenzoate-AMP ligase [Kluyvera georgi...  38.5    0.065
+WP_062775239.1  2,3-dihydroxybenzoate-AMP ligase [Kluyvera interm...  38.5    0.065
+WP_061281876.1  (2,3-dihydroxybenzoyl)adenylate synthase [Kluyver...  38.5    0.065
+WP_052284774.1  2,3-dihydroxybenzoate-AMP ligase [Kluyvera cryocr...  38.5    0.065
+WP_035895891.1  2,3-dihydroxybenzoate-AMP ligase [Kluyvera ascorb...  38.5    0.065
+OGB53159.1  2,3-dihydroxybenzoate-AMP ligase [Burkholderiales bac...  38.5    0.065
+WP_077854714.1  salicylate synthase [Clostridium beijerinckii]        38.1    0.066
+WP_010137912.1  2,3-dihydroxybenzoate-AMP ligase [Oceanicola sp. ...  38.1    0.067
+SFM60953.1  2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia ammo...  38.1    0.069
+WP_017541164.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis ha...  38.1    0.069
+WP_017557652.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis ba...  38.1    0.069
+WP_063534454.1  salicylate synthase [Burkholderia sp. MSMB1589WGS]    38.1    0.070
+WP_059933394.1  MULTISPECIES: salicylate synthase [pseudomallei g...  38.1    0.070
+WP_059469819.1  MULTISPECIES: salicylate synthase [pseudomallei g...  38.1    0.070
+WP_015604003.1  MULTISPECIES: salicylate synthase [pseudomallei g...  38.1    0.070
+WP_006029111.1  MULTISPECIES: salicylate synthase [Burkholderia]      38.1    0.070
+WP_066493139.1  salicylate synthase [Burkholderia sp. BDU8]           38.1    0.070
+WP_066575527.1  salicylate synthase [Burkholderia sp. ABCPW 14]       38.1    0.070
+WP_010117774.1  salicylate synthase [Burkholderia oklahomensis]       38.1    0.070
+WP_020105933.1  hypothetical protein [Nocardia sp. 348MFTsu5.1]       38.1    0.070
+WP_073222019.1  (2,3-dihydroxybenzoyl)adenylate synthase [Massili...  38.1    0.071
+WP_018632570.1  2,3-dihydroxybenzoate-AMP ligase [Meganema peride...  38.1    0.072
+EEI83834.1  putative (2,3-dihydroxybenzoyl)adenylate synthase [An...  38.1    0.073
+WP_040349753.1  2,3-dihydroxybenzoate-AMP ligase [Anaerococcus te...  38.1    0.074
+KQB84314.1  2,3-dihydroxybenzoate-AMP ligase [Corynebacterium oculi]  38.1    0.081
+WP_055122645.1  2,3-dihydroxybenzoate-AMP ligase [Corynebacterium...  38.1    0.081
+WP_028930647.1  hypothetical protein [Pseudonocardia asaccharolyt...  38.1    0.082
+WP_053199106.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces vi...  38.1    0.083
+WP_066108184.1  2,3-dihydroxybenzoate-AMP ligase [Yangia sp. CCB-...  38.1    0.084
+WP_025844479.1  salicylate synthase [Brevibacillus agri]              38.1    0.085
+SFO42225.1  2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia ammo...  38.1    0.085
+SDW43229.1  2,3-dihydroxybenzoate-AMP ligase [Amycolatopsis xylan...  38.1    0.085
+ANN35671.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus th...  38.1    0.087
+WP_033341850.1  2,3-dihydroxybenzoate-AMP ligase [Catenuloplanes ...  38.1    0.088
+WP_085197558.1  acyl-CoA synthetase [Mycobacterium xenopi]            38.1    0.089
+WP_003920640.1  AMP-dependent ligase [Mycobacterium xenopi]           38.1    0.089
+WP_081157218.1  (2,3-dihydroxybenzoyl)adenylate synthase [Geobaci...  38.1    0.090
+WP_066148966.1  2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus s...  38.1    0.090
+WP_044742592.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [A...  38.1    0.090
+WP_029761584.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [G...  38.1    0.090
+WP_019416993.1  2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus k...  38.1    0.090
+WP_076960485.1  2,3-dihydroxybenzoate-AMP ligase [Roseomonas sp. M3]  37.7    0.090
+WP_015965418.1  (2,3-dihydroxybenzoyl)adenylate synthase [Enterob...  37.7    0.091
+WP_047787211.1  AMP-dependent synthetase [Variovorax paradoxus]       37.7    0.093
+WP_003185956.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  37.7    0.093
+WP_009329728.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  37.7    0.093
+SCG19053.1  2,3-dihydroxybenzoate-AMP ligase [Micromonospora echi...  37.7    0.095
+KPK23834.1  hypothetical protein AMK69_17305 [Nitrospira bacteriu...  37.7    0.097
+WP_013876116.1  2,3-dihydroxybenzoate-AMP ligase [Parageobacillus...  37.7    0.098
+WP_003247656.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  37.7    0.098
+SDG53327.1  2,3-dihydroxybenzoate-AMP ligase [Yangia pacifica]        37.7    0.099
+WP_013399840.1  2,3-dihydroxybenzoate-AMP ligase [Geobacillus sp....  37.7    0.10 
+WP_054259490.1  (2,3-dihydroxybenzoyl)adenylate synthase [Propion...  37.7    0.10 
+WP_062717320.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces ca...  37.7    0.10 
+WP_000213532.1  MULTISPECIES: hypothetical protein [Streptococcus]    37.4    0.11 
+WP_028498982.1  2,3-dihydroxybenzoate-AMP ligase [Microvirgula ae...  37.7    0.11 
+WP_062699373.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces re...  37.7    0.11 
+WP_057491892.1  hypothetical protein [Streptococcus agalactiae]       37.4    0.11 
+WP_064552331.1  (2,3-dihydroxybenzoyl)adenylate synthase [Parageo...  37.7    0.11 
+WP_019604075.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.7    0.11 
+WP_035746649.1  2,3-dihydroxybenzoate-AMP ligase [Haematobacter m...  37.7    0.11 
+WP_014397184.1  2,3-dihydroxybenzoate-AMP ligase [Corallococcus c...  37.7    0.11 
+WP_033626152.1  2,3-dihydroxybenzoate-AMP ligase [Enterococcus fa...  37.7    0.11 
+WP_068797557.1  2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia ...  37.7    0.11 
+KPK31120.1  hypothetical protein AMK69_01340 [Nitrospira bacteriu...  37.7    0.11 
+WP_086336665.1  hypothetical protein [Gilliamella apicola]            37.7    0.12 
+WP_063237278.1  2,3-dihydroxybenzoate-AMP ligase [Cupriavidus oxa...  37.7    0.12 
+WP_061318981.1  fatty acid--CoA ligase [Clostridium botulinum]        37.7    0.12 
+WP_000213531.1  MULTISPECIES: hypothetical protein [Streptococcus]    37.4    0.13 
+WP_063128481.1  2,3-dihydroxybenzoate-AMP ligase [Nocardia fusca]     37.4    0.13 
+WP_019610267.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis sp...  37.4    0.13 
+WP_075125709.1  (2,3-dihydroxybenzoyl)adenylate synthase [Actinop...  37.4    0.13 
+WP_025358197.1  2,3-dihydroxybenzoate-AMP ligase [Kutzneria albida]   37.4    0.13 
+CUU61186.1  2,3-dihydroxybenzoate-AMP ligase [Frankia sp. G2]         37.4    0.13 
+WP_071082418.1  (2,3-dihydroxybenzoyl)adenylate synthase [Frankia...  37.4    0.13 
+SJM69571.1  2,3-dihydroxybenzoate-AMP ligase [Frigoribacterium sp...  37.4    0.13 
+WP_025729250.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus ginsen...  37.4    0.14 
+WP_035354639.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus ginsen...  37.4    0.14 
+WP_068533502.1  2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pu...  37.4    0.14 
+WP_068567051.1  2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pu...  37.4    0.14 
+WP_068913513.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter s...  37.4    0.14 
+WP_035710275.1  2,3-dihydroxybenzoate-AMP ligase [Haematobacter m...  37.4    0.14 
+WP_073998357.1  (2,3-dihydroxybenzoyl)adenylate synthase [Anaeroc...  37.4    0.14 
+WP_037561531.1  2,3-dihydroxybenzoate-AMP ligase [Sporosarcina ur...  37.4    0.14 
+WP_044877782.1  2,3-dihydroxybenzoate-AMP ligase [Paenibacillus s...  37.4    0.15 
+WP_072469610.1  (2,3-dihydroxybenzoyl)adenylate synthase [Peptoni...  37.4    0.15 
+SCD38066.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces sp. So...  37.4    0.15 
+WP_020553769.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces sc...  37.4    0.15 
+WP_013797040.1  (2,3-dihydroxybenzoyl)adenylate synthase [Marinom...  37.4    0.16 
+WP_002643394.1  2,3-dihydroxybenzoate-AMP ligase [Cystobacter fus...  37.4    0.16 
+WP_071898254.1  (2,3-dihydroxybenzoyl)adenylate synthase [Cystoba...  37.4    0.16 
+WP_075120094.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas chl...  37.4    0.16 
+WP_047210037.1  2,3-dihydroxybenzoate-AMP ligase [Streptococcus a...  37.4    0.16 
+WP_052809269.1  2,3-dihydroxybenzoate-AMP ligase [Streptomonospor...  37.4    0.16 
+WP_001017899.1  2,3-dihydroxybenzoate-AMP ligase [Streptococcus a...  37.4    0.16 
+WP_005943831.1  2,3-dihydroxybenzoate-AMP ligase [Gordonia hirsuta]   37.4    0.16 
+OGA07531.1  2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria ...  37.4    0.16 
+OFZ85934.1  2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria ...  37.4    0.16 
+SDP55325.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces sp. cf...  37.4    0.16 
+WP_062152811.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces cu...  37.4    0.16 
+WP_048584463.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces vi...  37.4    0.16 
+WP_004003302.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces vi...  37.4    0.16 
+WP_082230564.1  ATP-dependent acyl-CoA ligase [Haloprofundus mari...  37.4    0.16 
+WP_001017900.1  2,3-dihydroxybenzoate-AMP ligase [Streptococcus a...  37.4    0.16 
+WP_017767101.1  2,3-dihydroxybenzoate-AMP ligase [Streptococcus a...  37.4    0.16 
+WP_086264668.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter p...  37.4    0.17 
+WP_057689763.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter b...  37.4    0.17 
+WP_023188348.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter n...  37.4    0.17 
+WP_004887249.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [A...  37.4    0.17 
+SCW90757.1  2,3-dihydroxybenzoate-AMP ligase [Ancylobacter rudong...  37.4    0.17 
+WP_056902142.1  2,3-dihydroxybenzoate-AMP ligase [Pseudorhodofera...  37.0    0.17 
+WP_050465532.1  2,3-dihydroxybenzoate-AMP ligase [Herbaspirillum ...  37.0    0.18 
+WP_078606910.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces fl...  37.0    0.18 
+CQD14491.1  AMP-dependent synthetase and ligase [Mycobacterium le...  37.0    0.18 
+WP_045826615.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_028885786.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_028883617.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_028875518.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_018275210.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_019600987.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_018415639.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_018014014.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+WP_015817154.1  2,3-dihydroxybenzoate-AMP ligase [Teredinibacter ...  37.0    0.18 
+SEO93291.1  2,3-dihydroxybenzoate-AMP ligase [Denitrobacterium de...  37.0    0.18 
+WP_066664919.1  2,3-dihydroxybenzoate-AMP ligase [Denitrobacteriu...  37.0    0.18 
+WP_023059270.1  2,3-dihydroxybenzoate-AMP ligase [Peptoniphilus s...  37.0    0.19 
+WP_028712689.1  2,3-dihydroxybenzoate-AMP ligase [Paracoccus sp. ...  37.0    0.19 
+WP_026918304.1  2,3-dihydroxybenzoate-AMP ligase [Gordonia shando...  37.0    0.19 
+WP_064557143.1  2,3-dihydroxybenzoate-AMP ligase [Buttiauxella br...  37.0    0.19 
+WP_064548912.1  2,3-dihydroxybenzoate-AMP ligase [Buttiauxella fe...  37.0    0.19 
+WP_064553201.1  2,3-dihydroxybenzoate-AMP ligase [Buttiauxella no...  37.0    0.19 
+WP_064516826.1  2,3-dihydroxybenzoate-AMP ligase [Buttiauxella ga...  37.0    0.19 
+WP_034456876.1  2,3-dihydroxybenzoate-AMP ligase [Buttiauxella ag...  37.0    0.19 
+KFC83504.1  2,3-dihydroxybenzoate-AMP ligase [Buttiauxella agrest...  37.0    0.20 
+WP_046656649.1  2,3-dihydroxybenzoate-AMP ligase [Lysobacter caps...  37.0    0.20 
+WP_076649718.1  2,3-dihydroxybenzoate-AMP ligase [Pontibaca methy...  37.0    0.20 
+WP_006544529.1  2,3-dihydroxybenzoate-AMP ligase [Frankia sp. EUN1f]  37.0    0.20 
+WP_026624787.1  2,3-dihydroxybenzoate-AMP ligase [Eggerthia caten...  37.0    0.20 
+OFW31499.1  hypothetical protein A3J28_07220 [Acidobacteria bacte...  37.0    0.20 
+WP_017522929.1  hypothetical protein [Pusillimonas noertemannii]      37.0    0.20 
+OLC40506.1  2,3-dihydroxybenzoate-AMP ligase [Acidobacteria bacte...  37.0    0.20 
+SCZ40680.1  2,3-dihydroxybenzoate-AMP ligase [Afifella marina DSM...  37.0    0.20 
+EEL23021.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus cereus Roc...  35.4    0.21 
+EEL19883.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus cereus Roc...  35.4    0.21 
+WP_017627551.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis ch...  37.0    0.21 
+CKG89085.1  salicylate-AMP-ligase [Streptococcus pneumoniae]          35.4    0.21 
+WP_069848012.1  salicylate synthase [Brevibacillus brevis]            37.0    0.21 
+WP_017252055.1  salicylate synthase [Brevibacillus brevis]            37.0    0.21 
+WP_030176703.1  2,3-dihydroxybenzoate-AMP ligase [Spirillospora a...  37.0    0.22 
+SEN85653.1  2,3-dihydroxybenzoate-AMP ligase [Paracoccus alcaliph...  37.0    0.22 
+WP_071114870.1  2,3-dihydroxybenzoate-AMP ligase [Chromobacterium...  37.0    0.22 
+WP_071116041.1  2,3-dihydroxybenzoate-AMP ligase [Chromobacterium...  37.0    0.22 
+WP_070649280.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070848010.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070634749.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070677928.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070686627.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070687570.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070688462.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070682280.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070692360.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070690511.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070738783.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070506033.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070543725.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070483916.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070599788.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070593430.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_070605450.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+OFL19606.1  2,3-dihydroxybenzoate-AMP ligase [Rothia sp. HMSC069C03]  37.0    0.23 
+WP_070614914.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  37.0    0.23 
+WP_049362974.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_049360349.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  37.0    0.23 
+WP_049354603.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  37.0    0.23 
+WP_049352772.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  37.0    0.23 
+WP_049349017.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_049347406.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_049345535.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_049343419.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  37.0    0.23 
+WP_049342126.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_049333184.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_049327747.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  37.0    0.23 
+WP_060824617.1  2,3-dihydroxybenzoate-AMP ligase [Rothia mucilagi...  37.0    0.23 
+WP_012903308.1  2,3-dihydroxybenzoate-AMP ligase [Rothia mucilagi...  37.0    0.23 
+WP_005505577.1  2,3-dihydroxybenzoate-AMP ligase [Rothia mucilagi...  37.0    0.23 
+WP_005507420.1  2,3-dihydroxybenzoate-AMP ligase [Rothia mucilagi...  37.0    0.23 
+CNI87500.1  bifunctional enzyme mbtA: salicyl-AMP ligase + salicy...  37.0    0.23 
+WP_012934286.1  2,3-dihydroxybenzoate-AMP ligase [Conexibacter wo...  36.6    0.23 
+WP_035819060.1  AMP-dependent synthetase [Cupriavidus sp. SK-4]       36.6    0.24 
+WP_071067236.1  (2,3-dihydroxybenzoyl)adenylate synthase [Frankia...  36.6    0.24 
+WP_054566330.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [F...  36.6    0.24 
+WP_019191514.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [F...  36.6    0.24 
+WP_002841767.1  2,3-dihydroxybenzoate-AMP ligase [Finegoldia magna]   36.6    0.24 
+WP_002838940.1  2,3-dihydroxybenzoate-AMP ligase [Finegoldia magna]   36.6    0.25 
+WP_007716337.1  salicylate synthase [Brevibacillus sp. BC25]          36.6    0.25 
+CJC30979.1  salicylate-AMP-ligase [Streptococcus pneumoniae]          35.4    0.25 
+WP_067559474.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter l...  36.6    0.25 
+EEI85964.1  putative (2,3-dihydroxybenzoyl)adenylate synthase [An...  36.6    0.25 
+WP_039931458.1  2,3-dihydroxybenzoate-AMP ligase [Anaerococcus la...  36.6    0.25 
+WP_012797115.1  2,3-dihydroxybenzoate-AMP ligase [Anaerococcus pr...  36.6    0.25 
+WP_061982326.1  2,3-dihydroxybenzoate-AMP ligase [Amycolatopsis r...  36.6    0.25 
+WP_086211485.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter s...  36.6    0.25 
+KWZ76800.1  putativeadenylate synthase [Anaerococcus tetradius]       36.6    0.25 
+WP_048951827.1  2,3-dihydroxybenzoate-AMP ligase [Enterococcus fa...  36.6    0.25 
+WP_005956663.1  2,3-dihydroxybenzoate-AMP ligase [Peptoniphilus h...  36.6    0.25 
+WP_002838532.1  2,3-dihydroxybenzoate-AMP ligase [Finegoldia magna]   36.6    0.25 
+SEA56219.1  crotonobetaine/carnitine-CoA ligase [Desulfuromusa ky...  36.6    0.26 
+WP_081585981.1  hypothetical protein [Tsukamurella sp. 1534]          36.6    0.26 
+WP_013152078.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis da...  36.6    0.26 
+WP_073425392.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.6    0.26 
+WP_060929768.1  2,3-dihydroxybenzoate-AMP ligase [Anaerococcus te...  36.6    0.26 
+WP_067488031.1  (2,3-dihydroxybenzoyl)adenylate synthase [Actinom...  36.6    0.26 
+SFA97337.1  yersiniabactin salicyl-AMP ligase [Acetitomaculum rum...  36.6    0.26 
+WP_063536306.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.6    0.26 
+WP_004818330.1  2,3-dihydroxybenzoate-AMP ligase [Anaerococcus hy...  36.6    0.26 
+WP_070981146.1  2,3-dihydroxybenzoate-AMP ligase [Chromobacterium...  36.6    0.27 
+WP_046168824.1  2,3-dihydroxybenzoate-AMP ligase [Chromobacterium...  36.6    0.27 
+WP_046158723.1  2,3-dihydroxybenzoate-AMP ligase [Chromobacterium...  36.6    0.27 
+WP_034607406.1  2,3-dihydroxybenzoate-AMP ligase [Chitinimonas ko...  36.6    0.27 
+WP_025195296.1  2,3-dihydroxybenzoate-AMP ligase [Streptococcus a...  36.6    0.27 
+WP_054263336.1  (2,3-dihydroxybenzoyl)adenylate synthase [Janthin...  36.6    0.27 
+WP_016433572.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces sp...  36.6    0.27 
+WP_079929685.1  2,3-dihydroxybenzoate-AMP ligase [Gordonia sp. i37]   36.6    0.28 
+WP_020171366.1  2,3-dihydroxybenzoate-AMP ligase [Gordonia polyis...  36.6    0.28 
+WP_014359999.1  2,3-dihydroxybenzoate-AMP ligase [Gordonia polyis...  36.6    0.28 
+WP_006370118.1  2,3-dihydroxybenzoate-AMP ligase [Gordonia polyis...  36.6    0.28 
+SEH69150.1  2,3-dihydroxybenzoate-AMP ligase [Paracoccus alkenifer]   36.6    0.28 
+WP_049665384.1  ATP-dependent acyl-CoA ligase [Lysinibacillus xyl...  36.6    0.28 
+WP_071083951.1  2,3-dihydroxybenzoate-AMP ligase [Frankia sp. Cc1...  36.6    0.28 
+WP_017596199.1  2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis po...  36.6    0.28 
+WP_066342630.1  2,3-dihydroxybenzoate-AMP ligase [Azohydromonas l...  36.6    0.29 
+WP_046292397.1  AMP-dependent synthetase [Pandoraea oxalativorans]    36.6    0.29 
+WP_061162562.1  2,3-dihydroxybenzoate-AMP ligase [Burkholderia te...  36.6    0.29 
+WP_052236914.1  hypothetical protein [Frischella perrara]             36.6    0.29 
+WP_070620769.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  36.6    0.29 
+WP_070662149.1  (2,3-dihydroxybenzoyl)adenylate synthase [Rothia ...  36.6    0.29 
+WP_048778266.1  2,3-dihydroxybenzoate-AMP ligase [Rothia dentocar...  36.6    0.29 
+SAL80086.1  AMP-dependent synthetase and ligase [Burkholderia arvi]   36.6    0.30 
+SER21591.1  2,3-dihydroxybenzoate-AMP ligase [Actinokineospora te...  36.6    0.30 
+OGA02313.1  hypothetical protein A3H35_04410 [Betaproteobacteria ...  35.8    0.30 
+WP_053568201.1  AMP-dependent synthetase [Caballeronia cordobensis]   36.6    0.30 
+WP_045450577.1  AMP-dependent synthetase [Burkholderia sp. RPE67]     36.6    0.30 
+WP_014191425.1  AMP-dependent synthetase [Burkholderia sp. YI23]      36.6    0.30 
+WP_048638325.1  2,3-dihydroxybenzoate-AMP ligase [Brenneria goodw...  36.6    0.30 
+KIE48740.1  acyl--CoA ligase [marine actinobacterium MedAcidi-G1]     36.6    0.30 
+WP_060820363.1  salicylate synthase [Burkholderia sp. BDU19]          36.6    0.31 
+WP_059670002.1  salicylate synthase [Burkholderia sp. MSMB1498]       36.6    0.31 
+WP_059646356.1  salicylate synthase [Burkholderia sp. MSMB0852]       36.6    0.31 
+WP_059575572.1  MULTISPECIES: salicylate synthase [pseudomallei g...  36.6    0.31 
+WP_038755251.1  salicylate synthase [Burkholderia sp. ABCPW 111]      36.6    0.31 
+WP_066198965.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.6    0.31 
+WP_079432504.1  hypothetical protein [Streptococcus agalactiae]       36.6    0.31 
+WP_000999409.1  hypothetical protein [Streptococcus agalactiae]       36.6    0.31 
+WP_039819260.1  2,3-dihydroxybenzoate-AMP ligase [Nocardia otitid...  36.6    0.31 
+CZT40044.1  hypothetical protein SA111_01860 [Streptococcus agala...  36.6    0.32 
+SDZ41090.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus caseinilyt...  36.2    0.33 
+AJA45717.1  Peptide arylation enzyme [Frischella perrara]             36.2    0.33 
+WP_078199317.1  2,3-dihydroxybenzoate-AMP ligase [Cupriavidus nec...  36.2    0.33 
+WP_024093893.1  2,3-dihydroxybenzoate-AMP ligase [Paenibacillus l...  36.2    0.33 
+WP_067308833.1  acyl-CoA synthetase [Mycobacterium scrofulaceum]      36.2    0.33 
+WP_083038287.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.33 
+WP_036654448.1  2,3-dihydroxybenzoate-AMP ligase [Paenibacillus l...  36.2    0.33 
+WP_078978226.1  (2,3-dihydroxybenzoyl)adenylate synthase [Strepto...  36.2    0.33 
+WP_020552488.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces sc...  36.2    0.33 
+WP_062624957.1  2,3-dihydroxybenzoate-AMP ligase [Fusobacterium n...  36.2    0.34 
+WP_054216415.1  (2,3-dihydroxybenzoyl)adenylate synthase [Actinob...  36.2    0.34 
+WP_033061352.1  MULTISPECIES: fatty acid--CoA ligase [Clostridium]    36.2    0.35 
+SCD83601.1  2,3-dihydroxybenzoate-AMP ligase [Streptomyces sp. di...  36.2    0.35 
+WP_046193652.1  AMP-dependent synthetase [Sphingomonas sp. SRS2]      36.2    0.35 
+WP_003483279.1  MULTISPECIES: fatty acid--CoA ligase [Clostridium]    36.2    0.35 
+WP_067934305.1  acyl-CoA synthetase [Mycobacterium sp. E2479]         36.2    0.35 
+WP_072586085.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_076042469.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_030036957.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_003357390.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+OHO68059.1  hypothetical protein HMPREF2580_10960 [Staphylococcus...  36.2    0.36 
+WP_029152202.1  2,3-dihydroxybenzoate-AMP ligase [Microbacterium ...  36.2    0.36 
+KIE50335.1  hypothetical protein MB54_01290 [marine actinobacteri...  36.2    0.36 
+APF28183.1  AMP-binding enzyme family protein [Clostridium botuli...  36.2    0.36 
+WP_061320010.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_012048239.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_076237210.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_076176383.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_033066408.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_014521877.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_002444929.1  (2,3-dihydroxybenzoyl)adenylate synthase [Staphyl...  36.2    0.36 
+WP_051401775.1  salicylate synthase [Advenella kashmirensis]          36.2    0.36 
+WP_037235131.1  2,3-dihydroxybenzoate-AMP ligase [Rothia dentocar...  36.2    0.36 
+WP_006888699.1  2,3-dihydroxybenzoate-AMP ligase [Rothia aeria]       36.2    0.36 
+WP_032054924.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter b...  36.2    0.36 
+WP_085322055.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_012342055.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_071647594.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_061326788.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_061320657.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_061316523.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_075144379.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_076235410.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_024933183.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_012704821.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_003361703.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_033062277.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.36 
+WP_083321698.1  hypothetical protein [Staphylococcus sp. HMSC036D05]  36.2    0.36 
+WP_068269342.1  acyl-CoA synthetase [Mycobacterium sp. E2660]         36.2    0.36 
+WP_067835320.1  acyl-CoA synthetase [Mycobacterium sp. E3078]         36.2    0.36 
+WP_067914390.1  MULTISPECIES: acyl-CoA synthetase [Mycobacterium]     36.2    0.36 
+WP_073456516.1  hypothetical protein [Pseudonocardia thermophila]     36.2    0.37 
+WP_003400684.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_012101012.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_053337617.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_003492344.1  fatty acid--CoA ligase [Clostridium sporogenes]       36.2    0.37 
+WP_012720657.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_061294344.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_076172565.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_053924723.1  Triostin synthetase I [Streptomyces chattanoogensis]  36.2    0.37 
+WP_003265875.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_055334453.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_047942289.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_039558748.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_042550581.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_064298641.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_043945929.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_042590313.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_013208409.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_039569260.1  salicylate synthase [Ralstonia solanacearum]          36.2    0.37 
+WP_049279690.1  AMP-dependent synthetase [Ralstonia solanacearum]     36.2    0.37 
+WP_058010284.1  fatty acid--CoA ligase [Clostridium sporogenes]       36.2    0.37 
+WP_041347693.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.37 
+WP_013168108.1  2,3-dihydroxybenzoate-AMP ligase [Starkeya novella]   36.2    0.37 
+WP_074850487.1  hypothetical protein [Tsukamurella tyrosinosolvens]   36.2    0.38 
+WP_068626636.1  hypothetical protein [Tsukamurella tyrosinosolvens]   36.2    0.38 
+OGA13098.1  2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria ...  36.2    0.38 
+WP_061310349.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.38 
+WP_025776391.1  fatty acid--CoA ligase [Clostridium botulinum]        36.2    0.38 
+KXP06292.1  hypothetical protein AXK59_08245 [Tsukamurella tyrosi...  36.2    0.38 
+KXO93821.1  hypothetical protein AXK58_18120 [Tsukamurella tyrosi...  36.2    0.38 
+WP_068793244.1  salicylate synthase [Brevibacillus laterosporus]      36.2    0.38 
+WP_031412276.1  salicylate synthase [Brevibacillus laterosporus]      36.2    0.38 
+WP_018671915.1  salicylate synthase [Brevibacillus laterosporus]      36.2    0.38 
+WP_003339899.1  salicylate synthase [Brevibacillus laterosporus]      36.2    0.38 
+WP_003336456.1  salicylate synthase [Brevibacillus laterosporus]      36.2    0.38 
+OAP29090.1  2,3-dihydroxybenzoate-AMP ligase [Amycolatopsis sp. M39]  36.2    0.38 
+WP_057076249.1  2,3-dihydroxybenzoate-AMP ligase [Acinetobacter p...  36.2    0.38 
+WP_051104776.1  2,3-dihydroxybenzoate-AMP ligase [Catelliglobosis...  36.2    0.38 
+WP_022584016.1  salicylate synthase [Brevibacillus laterosporus]      36.2    0.38 
+CNT89413.1  enterobactin synthase subunit E [Salmonella enterica ...  35.8    0.39 
+SDK98856.1  2,3-dihydroxybenzoate-AMP ligase [Paenibacillus sp. O...  36.2    0.39 
+WP_079348143.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.39 
+WP_079697576.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.39 
+WP_076287694.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.39 
+WP_072733961.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.39 
+SEK41974.1  2,3-dihydroxybenzoate-AMP ligase [Paenibacillus sp. O...  36.2    0.39 
+SEB20361.1  2,3-dihydroxybenzoate-AMP ligase [Paenibacillus sp. 2...  36.2    0.39 
+WP_064641629.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.39 
+WP_063565924.1  (2,3-dihydroxybenzoyl)adenylate synthase [Paeniba...  36.2    0.39 
+WP_024629707.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [P...  36.2    0.39 
+WP_044666428.1  2,3-dihydroxybenzoate-AMP ligase [Streptococcus s...  36.2    0.40 
+WP_026910384.1  2,3-dihydroxybenzoate-AMP ligase [Patulibacter mi...  36.2    0.41 
+WP_010300797.1  2,3-dihydroxybenzoate-AMP ligase [Kurthia senegal...  36.2    0.41 
+WP_085910514.1  2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia ...  36.2    0.41 
+WP_036764337.1  2,3-dihydroxybenzoate-AMP ligase [Peptostreptococ...  36.2    0.41 
+WP_022620596.1  2,3-dihydroxybenzoate-AMP ligase [Clostridioides ...  36.2    0.41 
+WP_070886987.1  2,3-dihydroxybenzoate-AMP ligase [Pseudomonas arg...  36.2    0.42 
+WP_049149904.1  enterobactin synthase subunit E [Corynebacterium ...  36.2    0.42 
+WP_049168526.1  2,3-dihydroxybenzoate-AMP ligase [Corynebacterium...  36.2    0.42 
+WP_018120710.1  2,3-dihydroxybenzoate-AMP ligase [Corynebacterium...  36.2    0.42 
+WP_062064343.1  (2,3-dihydroxybenzoyl)adenylate synthase [Cellvib...  36.2    0.42 
+WP_012777080.1  2,3-dihydroxybenzoate-AMP ligase [Photorhabdus as...  36.2    0.42 
+WP_004624301.1  2,3-dihydroxybenzoate-AMP ligase [[Clostridium] t...  36.2    0.42 
+KYN91387.1  hypothetical protein A3219_13830 [Salmonella enterica]    35.8    0.42 
+WP_004838455.1  2,3-dihydroxybenzoate-AMP ligase [Anaerococcus va...  36.2    0.42 
+WP_082998519.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_069007240.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  36.2    0.43 
+WP_064115946.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_060561889.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_044801754.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus veleze...  36.2    0.43 
+WP_033574908.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus amylol...  36.2    0.43 
+WP_015418120.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  36.2    0.43 
+WP_037184776.1  2,3-dihydroxybenzoate-AMP ligase [Rhodococcus fas...  36.2    0.43 
+WP_037164877.1  2,3-dihydroxybenzoate-AMP ligase [Rhodococcus fas...  36.2    0.43 
+WP_037104974.1  2,3-dihydroxybenzoate-AMP ligase [Rhodococcus fas...  36.2    0.43 
+WP_020111568.1  2,3-dihydroxybenzoate-AMP ligase [Rhodococcus sp....  36.2    0.43 
+WP_019667397.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [R...  36.2    0.43 
+WP_077722774.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_076424464.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_070082297.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_064107447.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_061581456.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_012118329.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  36.2    0.43 
+WP_059367909.1  (2,3-dihydroxybenzoyl)adenylate synthase [Bacillu...  36.2    0.43 
+WP_060675432.1  MULTISPECIES: (2,3-dihydroxybenzoyl)adenylate syn...  36.2    0.43 
+WP_053285184.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus veleze...  36.2    0.43 
+WP_047936087.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus veleze...  36.2    0.43 
+WP_045208762.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus veleze...  36.2    0.43 
+WP_043020749.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus veleze...  36.2    0.43 
+WP_039063535.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  36.2    0.43 
+WP_032869787.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus sp. UN...  36.2    0.43 
+WP_032876768.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  36.2    0.43 
+WP_031378404.1  MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [B...  36.2    0.43 
+WP_025650211.1  2,3-dihydroxybenzoate-AMP ligase [Bacillus veleze...  36.2    0.43 
+
+
+>ABO12990.1 23-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii ATCC 
+17978]
+Length=35
+
+ Score = 73.9 bits (180),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+           MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG
+Sbjct  1   MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+
+
+>WP_049594809.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ AKQ26044.1 2,3-dihydroxybenzoate--AMP ligase [Acinetobacter baumannii]
+ ODP44218.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP46083.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP53606.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP57500.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP61415.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP62899.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP64573.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ ODP72840.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ APP29615.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ APX48083.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+Length=539
+
+ Score = 74.3 bits (181),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 34/35 (97%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +ISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG
+Sbjct  505  LISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  539
+
+
+>WP_000469474.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter]
+ EGJ62220.1 putativeadenylate synthase [Acinetobacter baumannii 6013150]
+ EGJ62656.1 putativeadenylate synthase [Acinetobacter baumannii 6013113]
+ ENW87925.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter sp. CIP 
+53.82]
+ EXE68221.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii 397971]
+ EZF17296.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter baumannii 
+R1B]
+ KLT74534.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter 
+baumannii MRSN 4106]
+ KLT83352.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter 
+baumannii MRSN 3527]
+ KLT97908.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter 
+baumannii MRSN 3405]
+ KLT98756.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter 
+baumannii MRSN 3942]
+ ALJ86089.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQD25259.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQE05649.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF43572.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF45958.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF78755.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF84408.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF89937.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF96384.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQF98895.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQG03460.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQG11872.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQG13708.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQG23529.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQG30601.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KRJ40685.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KRT52091.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KRU01798.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KRU03097.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KRU03417.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KRU09360.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KZA48489.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ OTM26224.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ OTT30036.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+Length=539
+
+ Score = 74.3 bits (181),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 34/35 (97%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +ISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG
+Sbjct  505  LISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  539
+
+
+>WP_076032877.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter soli]
+ APV36120.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter soli]
+Length=539
+
+ Score = 68.9 bits (167),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 31/35 (89%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +I KNIAHFKIPDEIEVV DFKYTHVGKVNRQ+LG
+Sbjct  505  LIGKNIAHFKIPDEIEVVPDFKYTHVGKVNRQELG  539
+
+
+>WP_004929193.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter]
+ CAG69514.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. ADP1]
+ ENV53436.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter baylyi 
+DSM 14961 = CIP 107474]
+Length=539
+
+ Score = 68.9 bits (167),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  KNIAHFKIPDEI+VVADFKYTHVGKVNRQKLG
+Sbjct  505  LTGKNIAHFKIPDEIDVVADFKYTHVGKVNRQKLG  539
+
+
+>WP_016655679.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter rudis]
+ EPF75602.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter rudis 
+CIP 110305]
+Length=539
+
+ Score = 68.2 bits (165),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/35 (83%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++SKNI+HFKIPDEIE+VADFKYTHVGKVNR++LG
+Sbjct  505  LMSKNISHFKIPDEIEIVADFKYTHVGKVNRKELG  539
+
+
+>WP_004749317.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. ANC 3789]
+ ENU79062.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter sp. ANC 
+3789]
+Length=538
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 30/34 (88%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I KNIA +KIPDEIEVVADFKYTHVGKVNRQKL
+Sbjct  505  LIDKNIAQYKIPDEIEVVADFKYTHVGKVNRQKL  538
+
+
+>WP_084702808.1 hypothetical protein [Pseudomonas japonica]
+Length=1586
+
+ Score = 53.5 bits (127),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/34 (59%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1     MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+             ++S+ +A FK+PDE+E+V DFKYTHVGK+++Q+L
+Sbjct  1547  LMSRKLALFKMPDELELVTDFKYTHVGKIHKQQL  1580
+
+
+>WP_070070016.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter qingfengensis]
+ OEY95544.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter qingfengensis]
+Length=538
+
+ Score = 48.9 bits (115),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            K IA +K+PDE+E V++FKYTHVGK+++QKL
+Sbjct  507  KRIAEYKLPDEVENVSEFKYTHVGKIHKQKL  537
+
+
+>WP_060490652.1 2,3-dihydroxybenzoate-AMP ligase [Psychrobacter sp. P11F6]
+ KRG34105.1 2,3-dihydroxybenzoate--AMP ligase [Psychrobacter sp. P11F6]
+Length=539
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNR  31
+            ++ KNIAH+K+PDE+E+V DF+YT VGKV +
+Sbjct  509  LMQKNIAHYKLPDELELVTDFQYTLVGKVRK  539
+
+
+>WP_063337109.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Marinomonas]
+ KZM45031.1 2,3-dihydroxybenzoate--AMP ligase [Marinomonas sp. SBI22]
+ KZM46730.1 2,3-dihydroxybenzoate--AMP ligase [Marinomonas sp. SBI8L]
+Length=544
+
+ Score = 46.6 bits (109),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNR  31
+            ++ K IA +K+PDEIE+V DF YT VGKVN+
+Sbjct  505  LMQKKIAEYKLPDEIELVDDFTYTQVGKVNK  535
+
+
+>WP_046017296.1 2,3-dihydroxybenzoate-AMP ligase [Marinomonas sp. S3726]
+ KJZ13856.1 2,3-dihydroxybenzoate--AMP ligase [Marinomonas sp. S3726]
+Length=544
+
+ Score = 46.2 bits (108),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNR  31
+            ++ K IA +K+PDEIE+V DF YT VGKVN+
+Sbjct  505  LMQKKIAEYKLPDEIELVDDFTYTQVGKVNK  535
+
+
+>WP_051665916.1 hypothetical protein [Lachnospiraceae bacterium ND2006]
+Length=531
+
+ Score = 46.2 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/32 (59%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            SK IA FK+PD+ E+V +F YT VGK++R+KL
+Sbjct  492  SKGIAEFKLPDQFEIVNEFPYTAVGKIDRKKL  523
+
+
+>SFK44131.1 2,3-dihydroxybenzoate-AMP ligase/yersiniabactin salicyl-AMP ligase 
+[Lachnospiraceae bacterium KH1T2]
+Length=531
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/32 (59%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            SK IA FK+PD+ E+V +F YT VGK++R+KL
+Sbjct  492  SKGIAEFKLPDQFEIVNEFPYTAVGKIDRKKL  523
+
+
+>SFR61991.1 yersiniabactin salicyl-AMP ligase [Pseudobutyrivibrio sp. NOR37]
+Length=525
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS  +A FK+PD+I+ V+D+  T+VGK+NR++L
+Sbjct  485  LISNKVAAFKLPDQIKYVSDWPLTNVGKINRKEL  518
+
+
+>WP_083986853.1 2,3-dihydroxybenzoate-AMP ligase [Frankia sp. EI5c]
+ OAA24380.1 mycobactin salicyl-AMP ligase [Frankia sp. EI5c]
+Length=598
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +AHF +PD + VVADF YT VGK+++++L
+Sbjct  562  RGLAHFMLPDRLAVVADFPYTAVGKIDKREL  592
+
+
+>SCX96233.1 yersiniabactin salicyl-AMP ligase [Pseudobutyrivibrio sp. AR14]
+Length=526
+
+ Score = 42.4 bits (98),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I+  +A FK+PD+I+ V+D+  T+VGK+NR++L
+Sbjct  486  LIANKVAAFKLPDQIKYVSDWPLTNVGKINRKEL  519
+
+
+>WP_035033296.1 2,3-dihydroxybenzoate-AMP ligase [Aquamicrobium defluvii]
+ EXL01418.1 enterobactin synthase subunit E [Aquamicrobium defluvii]
+ EZQ12632.1 enterobactin synthase subunit E [Pseudomonas bauzanensis]
+Length=542
+
+ Score = 41.2 bits (95),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M ++N+A FK+PD+I  V  F+ T VGK++R++L
+Sbjct  493  MRTRNVAEFKVPDQIRFVEAFETTAVGKISRKEL  526
+
+
+>WP_024353925.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas naejangsanensis]
+Length=542
+
+ Score = 40.8 bits (94),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVEDFAVTAVGKVSRREL  527
+
+
+>WP_004604442.1 peptide arylation enzyme [[Eubacterium] cellulosolvens]
+ EIM58325.1 peptide arylation enzyme [ [[Eubacterium] cellulosolvens 6]
+Length=536
+
+ Score = 40.8 bits (94),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M++  +A +KIPDEI +V +F Y ++GKV++++L
+Sbjct  491  MLAMGVAAYKIPDEIMIVTEFPYKNIGKVDKKEL  524
+
+
+>WP_054290512.1 (2,3-dihydroxybenzoyl)adenylate synthase [Kibdelosporangium phytohabitans]
+ ALG08605.1 enterobactin synthase subunit E [Kibdelosporangium phytohabitans]
+Length=532
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            + +A FKIPD+IE+V +F YT VGK +R+ L 
+Sbjct  491  RGLAAFKIPDKIELVDEFPYTGVGKTSRRALA  522
+
+
+>SDD25025.1 2,3-dihydroxybenzoate-AMP ligase [Alloactinosynnema iranicum]
+Length=519
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 25/33 (76%), Gaps = 0/33 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            S+ +A FK+PD +EV+ +F YT VGKV+++ L 
+Sbjct  484  SRGLADFKLPDRLEVLNEFPYTAVGKVSKKALA  516
+
+
+>WP_076223465.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas sp. ZS04]
+ OMG59629.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas sp. ZS04]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVDDFAVTAVGKVSRREL  527
+
+
+>WP_046651723.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas diminuta]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVDDFAVTAVGKVSRREL  527
+
+
+>WP_025977638.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas naejangsanensis]
+ ANF53707.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas naejangsanensis]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVDDFAVTAVGKVSRREL  527
+
+
+>WP_003167402.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas diminuta]
+ EKY28280.1 putativeadenylate synthase [Brevundimonas diminuta 470-4]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVDDFAVTAVGKVSRREL  527
+
+
+>WP_003163699.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas diminuta]
+ EGF96377.1 enterobactin synthetase component E [Brevundimonas diminuta ATCC 
+11568]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVDDFAVTAVGKVSRREL  527
+
+
+>WP_007930481.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans]
+ EIW20695.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans B4]
+ EIW25460.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans A11]
+ OAM93720.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans DSM 17108]
+ SDQ87726.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/31 (55%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FKIPD IE +  F YT +GKV+++KL
+Sbjct  497  RGIAAFKIPDRIEFIHSFPYTPLGKVSKKKL  527
+
+
+>SFL67609.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus propionicus DSM 13327]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/31 (55%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FKIPD IE +  F YT +GKV+++KL
+Sbjct  497  RGIAAFKIPDRIEFIHSFPYTPLGKVSKKKL  527
+
+
+>WP_007952764.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans]
+ AJQ27022.1 2,3-dihydroxybenzoate-AMP ligase [Pelosinus fermentans JBW45]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/31 (55%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FKIPD IE +  F YT +GKV+++KL
+Sbjct  497  RGIAAFKIPDRIEFIHSFPYTPLGKVSKKKL  527
+
+
+>SJM64400.1 2,3-dihydroxybenzoate-AMP ligase [Brevundimonas diminuta 3F5N]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V DF  T VGK++R++L
+Sbjct  494  MRKRDIADFKVPDQIVFVEDFAVTAVGKISRREL  527
+
+
+>WP_004573292.1 2,3-dihydroxybenzoate-AMP ligase [Acetonema longum]
+ EGO63959.1 2,3-dihydroxybenzoate-AMP ligase [Acetonema longum DSM 6540]
+Length=542
+
+ Score = 40.4 bits (93),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE + DF YT +GKV++++L
+Sbjct  497  RGLATFKIPDRIEFIDDFPYTPLGKVSKKEL  527
+
+
+>WP_038493299.1 2,3-dihydroxybenzoate-AMP ligase [Janthinobacterium agaricidamnosum]
+Length=550
+
+ Score = 40.0 bits (92),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 18/31 (58%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IAH+KIPD IE V  F  T VGKVN++ L
+Sbjct  505  RGIAHYKIPDRIEFVDRFPMTGVGKVNKRVL  535
+
+
+>CDG83719.1 2,3-dihydroxybenzoate-AMP ligase [Janthinobacterium agaricidamnosum 
+NBRC 102515 = DSM 9628]
+Length=541
+
+ Score = 40.0 bits (92),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 18/31 (58%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IAH+KIPD IE V  F  T VGKVN++ L
+Sbjct  496  RGIAHYKIPDRIEFVDRFPMTGVGKVNKRVL  526
+
+
+>WP_076992615.1 (2,3-dihydroxybenzoyl)adenylate synthase [Actinosynnema sp. ALI-1.44]
+ ONI75155.1 (2,3-dihydroxybenzoyl)adenylate synthase [Actinosynnema sp. ALI-1.44]
+Length=532
+
+ Score = 40.0 bits (92),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            + +A FKIPD IE+V +F YT VGK +R+ L 
+Sbjct  491  RGLAAFKIPDRIELVDEFPYTGVGKTSRRALA  522
+
+
+>WP_042191324.1 2,3-dihydroxybenzoate-AMP ligase [Kibdelosporangium sp. MJ126-NF4]
+ CEL19999.1 2,3-dihydroxybenzoate-AMP ligase [Kibdelosporangium sp. MJ126-NF4]
+ CTQ97223.1 2,3-dihydroxybenzoate-AMP ligase (EC 2.7.7.58) [Kibdelosporangium 
+sp. MJ126-NF4]
+Length=532
+
+ Score = 40.0 bits (92),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            + +A FKIPD IE+V +F YT VGK +R+ L 
+Sbjct  491  RGLAAFKIPDRIELVDEFPYTGVGKTSRRALA  522
+
+
+>WP_025909660.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Bacillus]
+ KSU88600.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus sp. SGD-V-76]
+ KZB91935.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus sp. VT 712]
+ SCC08926.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus sp. v-76]
+Length=540
+
+ Score = 40.0 bits (92),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/31 (55%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V +F YT +GKV++ KL
+Sbjct  497  RGLATFKIPDRIEFVEEFPYTPLGKVSKNKL  527
+
+
+>EUA42400.1 hypothetical protein I553_6260 [Mycobacterium xenopi 4042]
+Length=52
+
+ Score = 37.7 bits (86),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 15/30 (50%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6   IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+           IAHFK+P+ + +V    YT  GKVNR++L 
+Sbjct  16  IAHFKLPERLVIVDRIPYTETGKVNRRQLA  45
+
+
+>SDQ65475.1 pyochelin biosynthesis protein PchD [Pseudomonas sp. UC 17F4]
+Length=555
+
+ Score = 40.0 bits (92),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 18/32 (56%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            S+ +A FK+PD IE VA F  T VGKV+R+ L
+Sbjct  506  SQGLAAFKVPDRIEFVAQFPQTGVGKVSRKDL  537
+
+
+>WP_045198128.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas sp. 2(2015)]
+ KJK17014.1 AMP-dependent synthetase [Pseudomonas sp. 2(2015)]
+Length=555
+
+ Score = 40.0 bits (92),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 18/32 (56%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            S+ +A FK+PD IE VA F  T VGKV+R+ L
+Sbjct  506  SQGLAAFKVPDRIEFVAQFPQTGVGKVSRKDL  537
+
+
+>EUA35716.1 hypothetical protein I552_6518 [Mycobacterium xenopi 3993]
+Length=55
+
+ Score = 37.7 bits (86),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 15/30 (50%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6   IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+           IAHFK+P+ + +V    YT  GKVNR++L 
+Sbjct  19  IAHFKLPERLVIVDRIPYTETGKVNRRQLA  48
+
+
+>WP_010112297.1 salicylate synthase [Burkholderia oklahomensis]
+ AIO69581.1 salicylate synthase [Burkholderia oklahomensis]
+ KUY65212.1 AMP-dependent synthetase [Burkholderia oklahomensis EO147]
+ AOI40261.1 AMP-dependent synthetase [Burkholderia oklahomensis EO147]
+Length=986
+
+ Score = 40.0 bits (92),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+VA +  T VGK+++Q+L
+Sbjct  505  ARGLSEFKLPDQIEIVAHWPLTSVGKIDKQRL  536
+
+
+>WP_038487651.1 2,3-dihydroxybenzoate-AMP ligase [Collimonas arenae]
+ AIY40963.1 2,3-dihydroxybenzoate-AMP ligase [bacillibactin] siderophore 
+[Collimonas arenae]
+Length=550
+
+ Score = 39.7 bits (91),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 18/31 (58%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IAH+KIPD IE V  F  T VGKVN++ L
+Sbjct  505  RGIAHYKIPDHIEFVDRFPKTGVGKVNKRVL  535
+
+
+>WP_066012627.1 2,3-dihydroxybenzoate-AMP ligase [Thioclava sp. SK-1]
+ OCX61282.1 2,3-dihydroxybenzoate-AMP ligase [Thioclava sp. SK-1]
+Length=551
+
+ Score = 39.7 bits (91),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M +++IA FKIPD+I   A F+ T VGKV+R+ L
+Sbjct  496  MRARDIAAFKIPDQIIFTAKFQTTAVGKVDRKSL  529
+
+
+>WP_085854019.1 2,3-dihydroxybenzoate-AMP ligase [Palleronia marisminoris]
+ SFG94608.1 2,3-dihydroxybenzoate-AMP ligase [Palleronia marisminoris]
+ SLN46480.1 2,3-dihydroxybenzoate-AMP ligase [Palleronia marisminoris]
+Length=543
+
+ Score = 39.7 bits (91),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + +A FKIPDEI  V +F  T VGK++R++L
+Sbjct  489  MRGREVAAFKIPDEIRFVHEFATTAVGKISRRQL  522
+
+
+>WP_024847267.1 2,3-dihydroxybenzoate-AMP ligase [Aminobacter sp. J41]
+Length=541
+
+ Score = 39.7 bits (91),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M ++ +A FK+PD+I  V++F+ T VGK++R++L
+Sbjct  494  MRARKVADFKVPDQIVFVSEFQTTAVGKISRKEL  527
+
+
+>OJU60390.1 2,3-dihydroxybenzoate-AMP ligase [Altererythrobacter sp. 66-12]
+Length=543
+
+ Score = 39.7 bits (91),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + IA FKIPD+I  V DF  T VGK++R++L
+Sbjct  494  MRGRAIAAFKIPDQIVFVEDFATTAVGKISRKEL  527
+
+
+>OLF14563.1 (2,3-dihydroxybenzoyl)adenylate synthase [Actinophytocola xinjiangensis]
+Length=532
+
+ Score = 39.7 bits (91),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FKIPD +E+V  F YT VGK +R+ L
+Sbjct  490  TRGLAAFKIPDRVELVETFPYTGVGKTSRKDL  521
+
+
+>WP_084734592.1 (2,3-dihydroxybenzoyl)adenylate synthase [Actinophytocola xinjiangensis]
+Length=531
+
+ Score = 39.7 bits (91),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FKIPD +E+V  F YT VGK +R+ L
+Sbjct  489  TRGLAAFKIPDRVELVETFPYTGVGKTSRKDL  520
+
+
+>KHL26700.1 enterobactin synthase subunit E [Porphyrobacter mercurialis]
+Length=537
+
+ Score = 39.3 bits (90),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  489  MRGRGIAAFKVPDQIVFVDDFATTAVGKVSRKEL  522
+
+
+>WP_081996137.1 2,3-dihydroxybenzoate-AMP ligase [Porphyrobacter mercurialis]
+Length=509
+
+ Score = 39.3 bits (90),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + IA FK+PD+I  V DF  T VGKV+R++L
+Sbjct  461  MRGRGIAAFKVPDQIVFVDDFATTAVGKVSRKEL  494
+
+
+>WP_011065358.1 2,3-dihydroxybenzoate-AMP ligase [Oceanobacillus iheyensis]
+ BAC12912.1 2,3-dihydroxybenzoate-AMP ligase (EC 6.2.1.-) [Oceanobacillus 
+iheyensis HTE831]
+Length=539
+
+ Score = 39.3 bits (90),  Expect = 0.028, Method: Compositional matrix adjust.
+ Identities = 18/31 (58%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            K IA+FKIPD IE V  F YT +GKV+++ L
+Sbjct  496  KGIANFKIPDRIEFVDRFPYTALGKVSKKNL  526
+
+
+>ELO84593.1 enterobactin synthase subunit E [Salmonella enterica subsp. enterica 
+serovar Enteritidis str. 6.0562-1]
+Length=77
+
+ Score = 37.7 bits (86),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + +A FK+PD +E VA    T VGKV++++L
+Sbjct  37  QGVAEFKLPDRVECVASLPLTPVGKVDKKQL  67
+
+
+>WP_017796088.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Oceanobacillus]
+ OEH54106.1 2,3-dihydroxybenzoate-AMP ligase [Oceanobacillus sp. E9]
+Length=539
+
+ Score = 39.3 bits (90),  Expect = 0.030, Method: Compositional matrix adjust.
+ Identities = 18/31 (58%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            K IA+FKIPD IE V  F YT +GKV+++ L
+Sbjct  496  KGIANFKIPDRIEFVDRFPYTALGKVSKKNL  526
+
+
+>SDH53636.1 Non-ribosomal peptide synthetase component E (peptide arylation 
+enzyme) [Variovorax sp. OV700]
+Length=554
+
+ Score = 39.3 bits (90),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++S+ +A +K P+ IE VA F  T VGK++RQ++
+Sbjct  506  LVSQGLAKYKCPERIEAVATFPVTRVGKLDRQQM  539
+
+
+>WP_080182239.1 2,3-dihydroxybenzoate--AMP ligase [Salmonella enterica]
+Length=61
+
+ Score = 37.4 bits (85),  Expect = 0.031, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + +A FK+PD +E VA    T VGKV++++L
+Sbjct  21  QGVAEFKLPDRVECVASLPLTPVGKVDKKQL  51
+
+
+>WP_070397178.1 (2,3-dihydroxybenzoyl)adenylate synthase [Hydrogenophaga sp. 
+PML113]
+ OJV70087.1 2,3-dihydroxybenzoate-AMP ligase [Hydrogenophaga sp. 70-12]
+Length=554
+
+ Score = 39.3 bits (90),  Expect = 0.032, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +++K IA FK+P+ +EV+ DF  +  GKV+++ LG
+Sbjct  502  LLTKEIAKFKLPERLEVLPDFPVSTFGKVSKKALG  536
+
+
+>SDE84463.1 2,3-dihydroxybenzoate-AMP ligase [Citreicella thiooxidans]
+Length=543
+
+ Score = 39.3 bits (90),  Expect = 0.032, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + +A FK+PDEI +V  F  T VGK++R++L
+Sbjct  494  MRGREVAAFKVPDEIRIVDGFATTAVGKISRRQL  527
+
+
+>WP_008887598.1 2,3-dihydroxybenzoate-AMP ligase [Citreicella sp. SE45]
+ EEX12084.1 2,3-dihydroxybenzoate-AMP ligase [Citreicella sp. SE45]
+Length=543
+
+ Score = 39.3 bits (90),  Expect = 0.032, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + +A FK+PDEI +V  F  T VGK++R++L
+Sbjct  494  MRGREVAAFKVPDEIRIVDGFATTAVGKISRRQL  527
+
+
+>WP_068522880.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella tyrosinosolvens]
+ KXP07452.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella tyrosinosolvens]
+ KZL98653.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella tyrosinosolvens]
+Length=542
+
+ Score = 38.9 bits (89),  Expect = 0.035, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A +K+PD +E VA+F  T VGK++R++L
+Sbjct  490  ARGVAEYKVPDRVEFVAEFPTTGVGKISRREL  521
+
+
+>WP_068741422.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella tyrosinosolvens]
+ KXO95325.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella tyrosinosolvens]
+ SED42124.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella tyrosinosolvens]
+Length=542
+
+ Score = 38.9 bits (89),  Expect = 0.035, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A +K+PD +E VA+F  T VGK++R++L
+Sbjct  490  ARGVAEYKVPDRVEFVAEFPTTGVGKISRREL  521
+
+
+>WP_079443798.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas veronii]
+ AQY66394.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas veronii]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_048388685.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas helleri]
+ KMN22632.1 AMP-dependent synthetase [Pseudomonas helleri]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_047882197.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas sp. ARP3]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_046489537.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas veronii]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_046383433.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas veronii]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_040268330.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas rhodesiae]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_034113719.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas fluorescens]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_034097876.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas fluorescens]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_017849083.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas veronii]
+ SBW80981.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas veronii 1YdBTEX2]
+Length=551
+
+ Score = 38.9 bits (89),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FK+PD IE VA F +T VGKV+R+ L
+Sbjct  509  LAAFKVPDRIEFVAHFPHTGVGKVSRKDL  537
+
+
+>WP_036469290.1 acyl-CoA synthetase [Mycobacterium triplex]
+ CDO88880.1 acyl-CoA synthetase [Mycobacterium triplex]
+ ORX01922.1 acyl-CoA synthetase [Mycobacterium triplex]
+Length=483
+
+ Score = 38.9 bits (89),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++IAHFK+P+ + +V +  Y+ +GKVNR +L 
+Sbjct  445  ESIAHFKLPERLAIVDNIPYSAIGKVNRDQLA  476
+
+
+>WP_035281917.1 2,3-dihydroxybenzoate-AMP ligase [Actinokineospora spheciospongiae]
+ EWC62177.1 2,3-dihydroxybenzoate-AMP ligase [Actinokineospora spheciospongiae]
+Length=516
+
+ Score = 38.9 bits (89),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            + +A +K+PD +EV+ +F YT VGKV++++L 
+Sbjct  482  RGVADYKLPDRLEVLPEFPYTAVGKVSKKELA  513
+
+
+>KSB19491.1 hypothetical protein LFZ91_19905 [Salmonella enterica subsp. 
+enterica serovar Hillingdon]
+Length=70
+
+ Score = 37.4 bits (85),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + +A FK+PD +E VA    T VGKV++++L
+Sbjct  30  QGVAEFKLPDRVECVASLPLTPVGKVDKKQL  60
+
+
+>CNT56530.1 enterobactin synthase subunit E [Salmonella enterica subsp. enterica 
+serovar Bovismorbificans]
+ CNT89277.1 enterobactin synthase subunit E [Salmonella enterica subsp. enterica 
+serovar Bovismorbificans]
+ CNT74247.1 enterobactin synthase subunit E [Salmonella enterica subsp. enterica 
+serovar Bovismorbificans]
+Length=81
+
+ Score = 37.4 bits (85),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + +A FK+PD +E VA    T VGKV++++L
+Sbjct  41  QGVAEFKLPDRVECVASLPLTPVGKVDKKQL  71
+
+
+>SDL86593.1 2,3-dihydroxybenzoate-AMP ligase [Dendrosporobacter quercicolus]
+Length=540
+
+ Score = 38.9 bits (89),  Expect = 0.043, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FKIPD IE +  F YT +GKV++++L
+Sbjct  495  RGIAAFKIPDRIEFIDSFPYTPLGKVSKKEL  525
+
+
+>WP_035877911.1 AMP-dependent synthetase [Cupriavidus sp. amp6]
+Length=569
+
+ Score = 38.9 bits (89),  Expect = 0.044, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + +A FK P+ IEVVA+F  T VGKV++  L
+Sbjct  512  LVEQGLAKFKCPERIEVVAEFPVTRVGKVDKAAL  545
+
+
+>WP_011301592.1 AMP-dependent synthetase [Cupriavidus pinatubonensis]
+ AAZ64829.1 AMP-dependent synthetase and ligase [Ralstonia eutropha JMP134]
+Length=565
+
+ Score = 38.9 bits (89),  Expect = 0.044, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + +A FK P+ IEVVA+F  T VGKV++  L
+Sbjct  512  LVEQGLAKFKCPERIEVVAEFPVTRVGKVDKAAL  545
+
+
+>WP_076696648.1 2,3-dihydroxybenzoate-AMP ligase [Pelagibaca abyssi]
+ APZ51820.1 2,3-dihydroxybenzoate-AMP ligase [Pelagibaca abyssi]
+Length=543
+
+ Score = 38.9 bits (89),  Expect = 0.044, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++IA FK+PDEI +V  F  T VGK++R+ L
+Sbjct  499  RDIAAFKVPDEIRLVTSFGTTAVGKISRRAL  529
+
+
+>WP_047995071.1 2,3-dihydroxybenzoate-AMP ligase [Puniceibacterium sp. IMCC21224]
+ KMK66992.1 peptide arylation enzyme [Puniceibacterium sp. IMCC21224]
+Length=540
+
+ Score = 38.9 bits (89),  Expect = 0.045, Method: Composition-based stats.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + IA FKIPDEI  V  F  T VGK++R++L
+Sbjct  493  MGQRQIAAFKIPDEIRFVDGFATTAVGKISRKEL  526
+
+
+>WP_018639600.1 2,3-dihydroxybenzoate-AMP ligase [Frankia elaeagni]
+Length=541
+
+ Score = 38.9 bits (89),  Expect = 0.046, Method: Composition-based stats.
+ Identities = 16/29 (55%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            K +A FK+PD +EVV +F YT VGKV+++
+Sbjct  507  KGLATFKLPDVVEVVDEFPYTAVGKVSKR  535
+
+
+>SDL50708.1 2,3-dihydroxybenzoate-AMP ligase [Paracoccus chinensis]
+Length=540
+
+ Score = 38.5 bits (88),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ IA FK+PD+I  V +FK T VGKV+R  L
+Sbjct  495  ARGIAEFKVPDQIVFVPEFKTTAVGKVSRNVL  526
+
+
+>SEC07955.1 2,3-dihydroxybenzoate-AMP ligase [Rhodobacter sp. 24-YEA-8]
+Length=562
+
+ Score = 38.5 bits (88),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FK+PDE+  V +F  T VGK++R KL
+Sbjct  517  RGIAAFKVPDEVVFVTEFATTAVGKISRNKL  547
+
+
+>WP_071700376.1 acyl-CoA synthetase [Mycobacterium heckeshornense]
+ OIZ75879.1 acyl-CoA synthetase [Mycobacterium heckeshornense]
+Length=479
+
+ Score = 38.5 bits (88),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 16/30 (53%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            IAHFK+P+ + VV    YT  GKVNR++L 
+Sbjct  443  IAHFKLPERLVVVDHIPYTETGKVNRRQLA  472
+
+
+>WP_048890934.1 acyl-CoA synthetase [Mycobacterium heckeshornense]
+ KMV22973.1 acyl-CoA synthetase [Mycobacterium heckeshornense]
+Length=479
+
+ Score = 38.5 bits (88),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 16/30 (53%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            IAHFK+P+ + VV    YT  GKVNR++L 
+Sbjct  443  IAHFKLPERLVVVDHIPYTETGKVNRRQLA  472
+
+
+>WP_045882810.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas chlororaphis]
+Length=555
+
+ Score = 38.5 bits (88),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD IE VA F  T VGKV+R+ L
+Sbjct  506  NQGLAAFKVPDRIEFVAQFPQTGVGKVSRKDL  537
+
+
+>WP_044463384.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas sp. MRSN12121]
+ AJO78887.1 AMP-dependent synthetase [Pseudomonas sp. MRSN12121]
+Length=555
+
+ Score = 38.5 bits (88),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD IE VA F  T VGKV+R+ L
+Sbjct  506  NQGLAAFKVPDRIEFVAQFPQTGVGKVSRKDL  537
+
+
+>AKA24235.1 hypothetical protein PCL1606_27840 [Pseudomonas chlororaphis]
+Length=543
+
+ Score = 38.5 bits (88),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD IE VA F  T VGKV+R+ L
+Sbjct  494  NQGLAAFKVPDRIEFVAQFPQTGVGKVSRKDL  525
+
+
+>WP_062554440.1 (2,3-dihydroxybenzoyl)adenylate synthase [Rhizobium sp. Root149]
+ KQZ54998.1 2,3-dihydroxybenzoate-AMP ligase [Rhizobium sp. Root149]
+Length=544
+
+ Score = 38.5 bits (88),  Expect = 0.051, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M S+ +A FK+PD+I  V  F+ T VGKV+R++L
+Sbjct  493  MRSRKVADFKVPDQIVFVDAFELTAVGKVSRKEL  526
+
+
+>WP_017566493.1 2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis synnemataformans]
+Length=581
+
+ Score = 38.5 bits (88),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M+ +  A FK+PDE+  VA+   T VGKV++++L
+Sbjct  541  MLERGAAAFKVPDEVRAVAELPLTGVGKVDKRRL  574
+
+
+>WP_068222014.1 acyl-CoA synthetase [Mycobacterium sp. E3339]
+ OBG61636.1 acyl-CoA synthetase [Mycobacterium sp. E3339]
+Length=479
+
+ Score = 38.5 bits (88),  Expect = 0.054, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++IA+FK+P+ + +V D  Y+  GKVNR++L 
+Sbjct  441  ESIAYFKLPERLAIVDDIPYSSTGKVNRRRLA  472
+
+
+>WP_067819117.1 acyl-CoA synthetase [Mycobacterium sp. E2989]
+ OBH87496.1 acyl-CoA synthetase [Mycobacterium sp. E2989]
+Length=479
+
+ Score = 38.5 bits (88),  Expect = 0.054, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++IA+FK+P+ + +V D  Y+  GKVNR++L 
+Sbjct  441  ESIAYFKLPERLAIVDDIPYSSTGKVNRRRLA  472
+
+
+>WP_067895190.1 acyl-CoA synthetase [Mycobacterium sp. ACS4054]
+ OBF12661.1 acyl-CoA synthetase [Mycobacterium sp. ACS4054]
+Length=479
+
+ Score = 38.5 bits (88),  Expect = 0.054, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++IA+FK+P+ + +V D  Y+  GKVNR++L 
+Sbjct  441  ESIAYFKLPERLAIVDDIPYSSTGKVNRRRLA  472
+
+
+>WP_055402320.1 MULTISPECIES: acyl-CoA synthetase [Mycobacterium]
+Length=479
+
+ Score = 38.5 bits (88),  Expect = 0.054, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++IA+FK+P+ + +V D  Y+  GKVNR++L 
+Sbjct  441  ESIAYFKLPERLAIVDDIPYSSTGKVNRRRLA  472
+
+
+>KJS15486.1 hypothetical protein VR69_13005 [Peptococcaceae bacterium BRH_c4b]
+Length=556
+
+ Score = 38.5 bits (88),  Expect = 0.056, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M+ K IA FK+P+ +E++  F  T+VGK+ ++ L
+Sbjct  505  MLEKKIAKFKLPERLEIIEQFPLTNVGKIQKKDL  538
+
+
+>WP_034615933.1 AMP-dependent synthetase [Acinetobacter sp. ETR1]
+ XP_005968459.1 PREDICTED: acyl-CoA synthetase family member 2, mitochondrial-like 
+[Pantholops hodgsonii]
+ KEC83590.1 AMP-dependent synthetase [Acinetobacter sp. ETR1]
+Length=563
+
+ Score = 38.5 bits (88),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I + +A +K P+ IE++A+F  T+VGK+N+ +L
+Sbjct  508  LIDQGLAKYKCPERIEIIAEFPLTNVGKLNKPEL  541
+
+
+>WP_004819789.1 hypothetical protein [Acinetobacter guillouiae]
+ ENV17348.1 hypothetical protein F964_02062 [Acinetobacter guillouiae NIPH 
+991]
+Length=563
+
+ Score = 38.5 bits (88),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I + +A +K P+ IE++A+F  T+VGK+N+ +L
+Sbjct  508  LIDQGLAKYKCPERIEIIAEFPLTNVGKLNKPEL  541
+
+
+>OFZ98341.1 2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria bacterium 
+RIFCSPLOWO2_02_FULL_62_17]
+Length=552
+
+ Score = 38.5 bits (88),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +++K IA FK+P+ +E+++DF  +  GKV+++ LG
+Sbjct  502  LLTKEIAKFKLPERLEMLSDFPVSTFGKVSKKALG  536
+
+
+>WP_066258506.1 2,3-dihydroxybenzoate-AMP ligase [Hydrogenophaga flava]
+Length=553
+
+ Score = 38.5 bits (88),  Expect = 0.060, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +++K IA FK+P+ +E++ DF  +  GKV+++ LG
+Sbjct  502  LLTKEIAKFKLPERLEILPDFPVSTFGKVSKKALG  536
+
+
+>WP_020667604.1 2,3-dihydroxybenzoate-AMP ligase [Amycolatopsis nigrescens]
+Length=538
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E+V  F +T VGKV+R++L
+Sbjct  495  RGLALFKVPDRVEIVPAFPHTGVGKVSRREL  525
+
+
+>WP_065355493.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera ascorbata]
+Length=536
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVAEFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>WP_064548193.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera georgiana]
+ OAT47020.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera georgiana ATCC 51603]
+Length=536
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVAEFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>WP_062775239.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera intermedia]
+Length=536
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVAEFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>WP_061281876.1 (2,3-dihydroxybenzoyl)adenylate synthase [Kluyvera cryocrescens]
+Length=536
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVAEFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>WP_052284774.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera cryocrescens]
+Length=536
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVAEFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>WP_035895891.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera ascorbata]
+ KFC99460.1 2,3-dihydroxybenzoate-AMP ligase [Kluyvera ascorbata ATCC 33433]
+Length=536
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVAEFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>OGB53159.1 2,3-dihydroxybenzoate-AMP ligase [Burkholderiales bacterium RIFOXYD12_FULL_59_19]
+ OGB80677.1 2,3-dihydroxybenzoate-AMP ligase [Burkholderiales bacterium RIFOXYC12_FULL_60_6]
+Length=550
+
+ Score = 38.5 bits (88),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +++K IA FK+P+ +E++ DF  +  GKV+++ LG
+Sbjct  502  LMTKEIAKFKLPERLEILPDFPVSTFGKVSKKALG  536
+
+
+>WP_077854714.1 salicylate synthase [Clostridium beijerinckii]
+ OOM30795.1 2,3-dihydroxybenzoate-AMP ligase [Clostridium beijerinckii]
+Length=990
+
+ Score = 38.1 bits (87),  Expect = 0.066, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A +KIPD+IE +  + +T+VGK+N+QKL
+Sbjct  499  LAQYKIPDQIEYIDFWPFTNVGKINKQKL  527
+
+
+>WP_010137912.1 2,3-dihydroxybenzoate-AMP ligase [Oceanicola sp. S124]
+Length=541
+
+ Score = 38.1 bits (87),  Expect = 0.067, Method: Composition-based stats.
+ Identities = 17/31 (55%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FKIPDEI +V     T VGK+NR+ L
+Sbjct  496  RQIAAFKIPDEIRLVESLGTTAVGKINRRAL  526
+
+
+>SFM60953.1 2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia ammonioxydans]
+Length=555
+
+ Score = 38.1 bits (87),  Expect = 0.069, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE+V DF  T VGK ++++L
+Sbjct  513  RGVAAFKIPDLIEIVPDFPVTGVGKTSKREL  543
+
+
+>WP_017541164.1 2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis halophila]
+Length=555
+
+ Score = 38.1 bits (87),  Expect = 0.069, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +EVV +F  T VGKV+R+ L
+Sbjct  510  RGLASYKIPDRVEVVPEFPATGVGKVSRRDL  540
+
+
+>WP_017557652.1 2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis baichengensis]
+Length=555
+
+ Score = 38.1 bits (87),  Expect = 0.069, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +EVV +F  T VGKV+R+ L
+Sbjct  510  RGLASYKIPDRVEVVPEFPATGVGKVSRRDL  540
+
+
+>WP_063534454.1 salicylate synthase [Burkholderia sp. MSMB1589WGS]
+Length=987
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  506  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  537
+
+
+>WP_059933394.1 MULTISPECIES: salicylate synthase [pseudomallei group]
+ KVN06636.1 AMP-dependent synthetase [Burkholderia sp. MSMB1552]
+ KWZ50140.1 AMP-dependent synthetase [Burkholderia sp. MSMB1588]
+Length=987
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  506  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  537
+
+
+>WP_059469819.1 MULTISPECIES: salicylate synthase [pseudomallei group]
+ KVE42590.1 AMP-dependent synthetase [Burkholderia sp. BDU6]
+ KVE43524.1 AMP-dependent synthetase [Burkholderia sp. BDU5]
+ AOJ03864.1 AMP-dependent synthetase [Burkholderia sp. BDU6]
+Length=987
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  506  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  537
+
+
+>WP_015604003.1 MULTISPECIES: salicylate synthase [pseudomallei group]
+ AGK51573.1 salicylate synthase [Burkholderia thailandensis MSMB121]
+ KST72024.1 AMP-dependent synthetase [Burkholderia humptydooensis]
+Length=987
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  506  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  537
+
+
+>WP_006029111.1 MULTISPECIES: salicylate synthase [Burkholderia]
+ EIP85251.1 AMP-dependent synthetase and ligase [Burkholderia thailandensis 
+MSMB43]
+ AJY38737.1 salicylate synthase [Burkholderia sp. 2002721687]
+ ALX44935.1 AMP-dependent synthetase [Burkholderia sp. Bp5365]
+Length=987
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  506  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  537
+
+
+>WP_066493139.1 salicylate synthase [Burkholderia sp. BDU8]
+ KVE50236.1 AMP-dependent synthetase [Burkholderia sp. BDU8]
+ AOJ07812.1 AMP-dependent synthetase [Burkholderia sp. BDU8]
+Length=986
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  505  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  536
+
+
+>WP_066575527.1 salicylate synthase [Burkholderia sp. ABCPW 14]
+ KVD74428.1 AMP-dependent synthetase [Burkholderia sp. ABCPW 14]
+Length=986
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  505  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  536
+
+
+>WP_010117774.1 salicylate synthase [Burkholderia oklahomensis]
+ AJX34760.1 salicylate synthase [Burkholderia oklahomensis C6786]
+ KUY47243.1 AMP-dependent synthetase [Burkholderia oklahomensis C6786]
+ AOI49881.1 AMP-dependent synthetase [Burkholderia oklahomensis C6786]
+Length=986
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ ++ FK+PD+IE+ A +  T VGK+++Q+L
+Sbjct  505  ARGLSEFKLPDQIEIAAHWPLTSVGKIDKQRL  536
+
+
+>WP_020105933.1 hypothetical protein [Nocardia sp. 348MFTsu5.1]
+Length=528
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +KN+A FK+P +IE V +F  T  GK+ R++L
+Sbjct  487  AKNLASFKVPKQIEFVDEFPRTETGKLQRRRL  518
+
+
+>WP_073222019.1 (2,3-dihydroxybenzoyl)adenylate synthase [Massilia sp. CF038]
+ SHH53267.1 2,3-dihydroxybenzoate-AMP ligase [Massilia sp. CF038]
+Length=546
+
+ Score = 38.1 bits (87),  Expect = 0.071, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FKIPD IE V  F  T VGKV++++L
+Sbjct  498  ARGLAQFKIPDRIEFVGHFPKTGVGKVDKRQL  529
+
+
+>WP_018632570.1 2,3-dihydroxybenzoate-AMP ligase [Meganema perideroedes]
+Length=542
+
+ Score = 38.1 bits (87),  Expect = 0.072, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + +A FKIPD++  V DF+ T VGK++R+ L
+Sbjct  493  MRGRELAGFKIPDQVVFVPDFETTAVGKISRKAL  526
+
+
+>EEI83834.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Anaerococcus 
+tetradius ATCC 35098]
+Length=534
+
+ Score = 38.1 bits (87),  Expect = 0.073, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +++KN+A FK+PD I+ +  +  T +GK++R KL
+Sbjct  497  LVNKNVAEFKLPDSIKYIDSWPLTALGKIDRNKL  530
+
+
+>WP_040349753.1 2,3-dihydroxybenzoate-AMP ligase [Anaerococcus tetradius]
+Length=528
+
+ Score = 38.1 bits (87),  Expect = 0.074, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +++KN+A FK+PD I+ +  +  T +GK++R KL
+Sbjct  491  LVNKNVAEFKLPDSIKYIDSWPLTALGKIDRNKL  524
+
+
+>KQB84314.1 2,3-dihydroxybenzoate-AMP ligase [Corynebacterium oculi]
+Length=544
+
+ Score = 38.1 bits (87),  Expect = 0.081, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQK  33
+            ++ F +PD IE+VA+F YT VGKV++++
+Sbjct  512  LSSFAVPDAIEIVAEFPYTGVGKVSKKQ  539
+
+
+>WP_055122645.1 2,3-dihydroxybenzoate-AMP ligase [Corynebacterium oculi]
+Length=524
+
+ Score = 38.1 bits (87),  Expect = 0.081, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQK  33
+            ++ F +PD IE+VA+F YT VGKV++++
+Sbjct  492  LSSFAVPDAIEIVAEFPYTGVGKVSKKQ  519
+
+
+>WP_028930647.1 hypothetical protein [Pseudonocardia asaccharolytica]
+Length=561
+
+ Score = 38.1 bits (87),  Expect = 0.082, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + +A FK+P+ IE+V +F  T+VGKV+++ L
+Sbjct  513  LLEQGLAKFKLPERIEIVPEFPLTNVGKVSKKDL  546
+
+
+>WP_053199106.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces viridochromogenes]
+ KOG17251.1 Triostin synthetase I [Streptomyces viridochromogenes]
+ KOG20841.1 Triostin synthetase I [Streptomyces viridochromogenes]
+Length=542
+
+ Score = 38.1 bits (87),  Expect = 0.083, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD++EV+  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDQVEVIEAFPRTSVGKIDKKALG  527
+
+
+>WP_066108184.1 2,3-dihydroxybenzoate-AMP ligase [Yangia sp. CCB-MM3]
+ ANT61955.1 2,3-dihydroxybenzoate-AMP ligase [Yangia sp. CCB-MM3]
+Length=542
+
+ Score = 38.1 bits (87),  Expect = 0.084, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FK+PD+I  V +F+ T VGKV+R+ L
+Sbjct  497  RGIAEFKVPDQIVFVPEFQTTAVGKVSRKAL  527
+
+
+>WP_025844479.1 salicylate synthase [Brevibacillus agri]
+Length=996
+
+ Score = 38.1 bits (87),  Expect = 0.085, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            K +A +K+PD++E+V  +  T VGKVN+ KL
+Sbjct  495  KGVARYKMPDQLELVRSWPLTSVGKVNKNKL  525
+
+
+>SFO42225.1 2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia ammonioxydans]
+Length=560
+
+ Score = 38.1 bits (87),  Expect = 0.085, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I + +A FK+P+ IE+V  F  T+VGKV+++ L
+Sbjct  512  LIGRGLAKFKLPERIEIVEAFPLTNVGKVSKKDL  545
+
+
+>SDW43229.1 2,3-dihydroxybenzoate-AMP ligase [Amycolatopsis xylanica]
+Length=528
+
+ Score = 38.1 bits (87),  Expect = 0.085, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 25/33 (76%), Gaps = 0/33 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            ++ +A +K+PD +EV+ +F  T VGKV+++ LG
+Sbjct  490  ARGVAAYKLPDRVEVLEEFPLTTVGKVSKKALG  522
+
+
+>ANN35671.1 (2,3-dihydroxybenzoyl)adenylate synthase (plasmid) [Bacillus 
+thuringiensis serovar coreanensis]
+Length=538
+
+ Score = 38.1 bits (87),  Expect = 0.087, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + IA +KIPD IE +  F  T VGKV+++KL
+Sbjct  492  LMERGIAAYKIPDRIEFIESFPQTGVGKVSKKKL  525
+
+
+>WP_033341850.1 2,3-dihydroxybenzoate-AMP ligase [Catenuloplanes japonicus]
+Length=523
+
+ Score = 38.1 bits (87),  Expect = 0.088, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            S+ +A +KIPD++E VA F  T VGKV++ +L
+Sbjct  487  SRGLAAYKIPDKVEFVAAFPQTAVGKVSKARL  518
+
+
+>WP_085197558.1 acyl-CoA synthetase [Mycobacterium xenopi]
+ ORX13011.1 acyl-CoA synthetase [Mycobacterium xenopi]
+Length=479
+
+ Score = 38.1 bits (87),  Expect = 0.089, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            IAHFK+P+ + +V    YT  GKVNR++L 
+Sbjct  443  IAHFKLPERLVIVDRIPYTETGKVNRRQLA  472
+
+
+>WP_003920640.1 AMP-dependent ligase [Mycobacterium xenopi]
+ EID14368.1 AMP-dependent synthetase/ligase [Mycobacterium xenopi RIVM700367]
+Length=479
+
+ Score = 38.1 bits (87),  Expect = 0.089, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            IAHFK+P+ + +V    YT  GKVNR++L 
+Sbjct  443  IAHFKLPERLVIVDRIPYTETGKVNRRQLA  472
+
+
+>WP_081157218.1 (2,3-dihydroxybenzoyl)adenylate synthase [Geobacillus sp. 47C-IIb]
+ OQP10514.1 (2,3-dihydroxybenzoyl)adenylate synthase [Geobacillus sp. 47C-IIb]
+ ARP41192.1 Vibriobactin-specific 2,3-dihydroxybenzoate-AMP ligase [Geobacillus 
+thermodenitrificans]
+Length=541
+
+ Score = 38.1 bits (87),  Expect = 0.090, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N+++L
+Sbjct  495  RGVAAFKIPDRIEFVDSFPKTPVGKINKREL  525
+
+
+>WP_066148966.1 2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus sp. P3H1B]
+ KXG09498.1 2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus sp. P3H1B]
+Length=541
+
+ Score = 38.1 bits (87),  Expect = 0.090, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N+++L
+Sbjct  495  RGVAAFKIPDRIEFVDSFPKTPVGKINKREL  525
+
+
+>WP_044742592.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus]
+ ANB56443.1 (2,3-dihydroxybenzoyl)adenylate synthase [Anoxybacillus sp. B2M1]
+ ANB65844.1 (2,3-dihydroxybenzoyl)adenylate synthase [Anoxybacillus sp. B7M1]
+ OQM44756.1 2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus sp. UARK-01]
+Length=541
+
+ Score = 38.1 bits (87),  Expect = 0.090, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N+++L
+Sbjct  495  RGVAAFKIPDRIEFVDSFPKTPVGKINKREL  525
+
+
+>WP_029761584.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Geobacillus]
+ KQB94807.1 2,3-dihydroxybenzoate-AMP ligase [Geobacillus sp. PA-3]
+ ARA98008.1 (2,3-dihydroxybenzoyl)adenylate synthase [Geobacillus thermodenitrificans]
+Length=541
+
+ Score = 38.1 bits (87),  Expect = 0.090, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N+++L
+Sbjct  495  RGVAAFKIPDRIEFVDSFPKTPVGKINKREL  525
+
+
+>WP_019416993.1 2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus kamchatkensis]
+Length=541
+
+ Score = 38.1 bits (87),  Expect = 0.090, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N+++L
+Sbjct  495  RGVAAFKIPDRIEFVDSFPKTPVGKINKREL  525
+
+
+>WP_076960485.1 2,3-dihydroxybenzoate-AMP ligase [Roseomonas sp. M3]
+ ONG44616.1 2,3-dihydroxybenzoate-AMP ligase [Roseomonas sp. M3]
+Length=543
+
+ Score = 37.7 bits (86),  Expect = 0.090, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 25/33 (76%), Gaps = 0/33 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQK  33
+            M  + IA FK+PD++ +VA+F+ T  GK++R++
+Sbjct  495  MRGRGIADFKVPDQVVIVAEFETTAAGKISRKE  527
+
+
+>WP_015965418.1 (2,3-dihydroxybenzoyl)adenylate synthase [Enterobacteriaceae 
+bacterium strain FGI 57]
+ AGB79179.1 2,3-dihydroxybenzoate-AMP ligase [Enterobacteriaceae bacterium 
+strain FGI 57]
+Length=536
+
+ Score = 37.7 bits (86),  Expect = 0.091, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD +E V +   THVGKV++++L
+Sbjct  496  QGVADFKLPDRVECVDELPLTHVGKVDKKQL  526
+
+
+>WP_047787211.1 AMP-dependent synthetase [Variovorax paradoxus]
+ KLN52790.1 2,3-dihydroxybenzoate-AMP ligase [Variovorax paradoxus]
+Length=554
+
+ Score = 37.7 bits (86),  Expect = 0.093, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++S+ +A +K P+ IE V  F  T VGK++RQ++
+Sbjct  506  LVSRGLAKYKCPEHIEAVTTFPITRVGKLDRQQM  539
+
+
+>WP_003185956.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Bacillus subtilis 
+group]
+ AAU25340.1 2,3-dihydroxybenzoate-AMP ligase (enterobactin synthetase component 
+E) [Bacillus licheniformis DSM 13 = ATCC 14580]
+ AAU42714.1 2,3-dihydroxybenzoate-AMP ligase DhbE [Bacillus licheniformis 
+DSM 13 = ATCC 14580]
+ KJH54198.1 enterobactin synthase subunit E [Bacillus licheniformis]
+ AKQ75168.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis WX-02]
+ KUL11458.1 enterobactin synthase subunit E [Bacillus licheniformis LMG 17339]
+ KYC74930.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ AOP17125.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ OKS80701.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ OLO20248.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OLQ54243.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus paralicheniformis]
+ ARC60720.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+Length=540
+
+ Score = 37.7 bits (86),  Expect = 0.093, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +E+V DF  T VGKV++++L
+Sbjct  495  RGLAAYKIPDRVEMVEDFPQTGVGKVSKKEL  525
+
+
+>WP_009329728.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Bacillus]
+ EFV70508.1 DhbE protein [Bacillus sp. BT1B_CT2]
+ EQM26156.1 enterobactin synthase subunit E [Bacillus licheniformis CG-B52]
+ KJE33366.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ KYC78047.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ KYC81881.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ KYC99592.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ AMR12238.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OAG80607.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OAZ62135.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ SER11427.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OIS73681.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OIS75842.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OIS77095.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OIS85968.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ OJT63152.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ OKA54851.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ OLF97525.1 23-dihydroxybenzoate-AMP ligase (bacillibactin) siderophore [Bacillus 
+licheniformis]
+ OLG05668.1 23-dihydroxybenzoate-AMP ligase (bacillibactin) siderophore [Bacillus 
+licheniformis]
+ OLQ45818.1 (2,3-dihydroxybenzoyl)adenylate synthase [Bacillus licheniformis]
+ ARC63599.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ ARC69951.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+ ARC75520.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus licheniformis]
+Length=540
+
+ Score = 37.7 bits (86),  Expect = 0.093, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +E+V DF  T VGKV++++L
+Sbjct  495  RGLAAYKIPDRVEMVEDFPQTGVGKVSKKEL  525
+
+
+>SCG19053.1 2,3-dihydroxybenzoate-AMP ligase [Micromonospora echinofusca]
+Length=557
+
+ Score = 37.7 bits (86),  Expect = 0.095, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M    +AHFK+P+ +EVV +   T VGKVN++ L
+Sbjct  513  MERAGVAHFKLPERLEVVDELPVTPVGKVNKKAL  546
+
+
+>KPK23834.1 hypothetical protein AMK69_17305 [Nitrospira bacterium SG8_3]
+Length=553
+
+ Score = 37.7 bits (86),  Expect = 0.097, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +++K IA FK+P+ +EVV +F  T VGK+++ +L
+Sbjct  509  LMNKKIAKFKLPERLEVVEEFPLTSVGKISKVEL  542
+
+
+>WP_013876116.1 2,3-dihydroxybenzoate-AMP ligase [Parageobacillus thermoglucosidans]
+ AEH46245.1 2,3-dihydroxybenzoate-AMP ligase [Parageobacillus thermoglucosidasius 
+C56-YS93]
+Length=541
+
+ Score = 37.7 bits (86),  Expect = 0.098, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N++ L
+Sbjct  495  RGVASFKIPDRIEFVDSFPKTAVGKINKRAL  525
+
+
+>WP_003247656.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Bacillaceae]
+ EID42270.1 2,3-dihydroxybenzoate-AMP ligase [Parageobacillus thermoglucosidasius 
+TNO-09.020]
+ GAJ44092.1 putative 2,3-dihydroxybenzoate-AMP ligase [Parageobacillus thermoglucosidasius 
+NBRC 107763]
+ KJX69511.1 enterobactin synthase subunit E [Parageobacillus thermoglucosidans]
+ ALF08922.1 enterobactin synthase subunit E [Parageobacillus thermoglucosidans]
+ KYD12732.1 2,3-dihydroxybenzoate-AMP ligase [Anoxybacillus flavithermus]
+ OAO87187.1 23-dihydroxybenzoate-AMP ligase (bacillibactin) siderophore [Parageobacillus 
+thermoglucosidans]
+ ANZ29004.1 (2,3-dihydroxybenzoyl)adenylate synthase [Parageobacillus thermoglucosidans]
+ APM79743.1 (2,3-dihydroxybenzoyl)adenylate synthase [Parageobacillus thermoglucosidans]
+Length=541
+
+ Score = 37.7 bits (86),  Expect = 0.098, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N++ L
+Sbjct  495  RGVASFKIPDRIEFVDSFPKTAVGKINKRAL  525
+
+
+>SDG53327.1 2,3-dihydroxybenzoate-AMP ligase [Yangia pacifica]
+ SFS65966.1 2,3-dihydroxybenzoate-AMP ligase [Yangia pacifica]
+Length=542
+
+ Score = 37.7 bits (86),  Expect = 0.099, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FK+PD+I  V +F+ T VGKV+R+ L
+Sbjct  497  RGIAEFKVPDQIVFVPEFETTAVGKVSRKAL  527
+
+
+>WP_013399840.1 2,3-dihydroxybenzoate-AMP ligase [Geobacillus sp. Y4.1MC1]
+ ADP73021.1 2,3-dihydroxybenzoate-AMP ligase [Geobacillus sp. Y4.1MC1]
+Length=541
+
+ Score = 37.7 bits (86),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N++ L
+Sbjct  495  RGVASFKIPDRIEFVDSFPKTAVGKINKRAL  525
+
+
+>WP_054259490.1 (2,3-dihydroxybenzoyl)adenylate synthase [Propionispora sp. 2/2-37]
+ CUH95313.1 2,3-dihydroxybenzoate-AMP ligase [Propionispora sp. 2/2-37]
+Length=543
+
+ Score = 37.7 bits (86),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA +KIPD IE +  F YT +GKV++++L
+Sbjct  497  RGIAGYKIPDRIEFIQSFPYTPLGKVSKKEL  527
+
+
+>WP_062717320.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces caeruleatus]
+ KUO05291.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces caeruleatus]
+Length=542
+
+ Score = 37.7 bits (86),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EVV  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDRVEVVEAFPRTSVGKIDKKTLG  527
+
+
+>WP_000213532.1 MULTISPECIES: hypothetical protein [Streptococcus]
+ EPT87461.1 hypothetical protein SAG0102_03180 [Streptococcus agalactiae 
+BSU188]
+ EPU49896.1 hypothetical protein SAG0300_00220 [Streptococcus agalactiae 
+GB00002]
+ EPU96101.1 hypothetical protein SAG0321_05315 [Streptococcus agalactiae 
+GB00247]
+ EPV17052.1 hypothetical protein SAG0332_01740 [Streptococcus agalactiae 
+GB00601]
+ EPV32888.1 hypothetical protein SAG0345_02965 [Streptococcus agalactiae 
+GB00887]
+ EPV53344.1 hypothetical protein SAG0356_07150 [Streptococcus agalactiae 
+GB00911]
+ EPV64452.1 hypothetical protein SAG0363_01250 [Streptococcus agalactiae 
+GB00932]
+ EPV68117.1 hypothetical protein SAG0364_08155 [Streptococcus agalactiae 
+GB00933]
+ AIF89192.1 hypothetical protein EN73_08345 [Streptococcus agalactiae]
+ CFB72263.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CFQ85136.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CND61392.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNB13485.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ KLJ26952.1 hypothetical protein WA44_09250 [Streptococcus agalactiae]
+ KLJ30879.1 hypothetical protein WA46_09535 [Streptococcus agalactiae]
+ KLJ43067.1 hypothetical protein WA52_10260 [Streptococcus agalactiae]
+ KLJ43387.1 hypothetical protein WA53_08415 [Streptococcus agalactiae]
+ KLJ47019.1 hypothetical protein WA54_09405 [Streptococcus agalactiae]
+ KLJ78261.1 hypothetical protein WA96_01960 [Streptococcus agalactiae]
+ KLK19000.1 hypothetical protein WB17_03415 [Streptococcus agalactiae]
+ KLK30706.1 hypothetical protein WB23_01215 [Streptococcus agalactiae]
+ KLK46606.1 hypothetical protein WA72_03500 [Streptococcus agalactiae]
+ KLK55133.1 hypothetical protein WA77_01485 [Streptococcus agalactiae]
+ KLK73693.1 hypothetical protein WA88_08795 [Streptococcus agalactiae]
+ KLK81715.1 hypothetical protein WA92_08900 [Streptococcus agalactiae]
+ KLK82237.1 hypothetical protein WA93_07880 [Streptococcus agalactiae]
+ CNH53615.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNG03472.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNJ59142.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNJ49157.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNI86780.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ OCK11065.1 hypothetical protein AX272_04450 [Streptococcus agalactiae]
+ OCL39190.1 hypothetical protein AX275_04715 [Streptococcus agalactiae]
+ OCL39747.1 hypothetical protein AX276_04220 [Streptococcus agalactiae]
+ OCL43798.1 hypothetical protein AX274_01340 [Streptococcus agalactiae]
+ OCL45520.1 hypothetical protein AX271_05455 [Streptococcus agalactiae]
+ OCL51540.1 hypothetical protein AX269_02255 [Streptococcus agalactiae]
+ OCL52130.1 hypothetical protein AX273_03140 [Streptococcus agalactiae]
+ OCL57507.1 hypothetical protein AX267_07860 [Streptococcus agalactiae]
+ OCL58582.1 hypothetical protein AX266_06185 [Streptococcus agalactiae]
+ OCL66806.1 hypothetical protein AX262_03770 [Streptococcus agalactiae]
+ OCM15547.1 hypothetical protein AX215_05690 [Streptococcus agalactiae]
+ OCM19880.1 hypothetical protein AX218_05180 [Streptococcus agalactiae]
+ OCM21907.1 hypothetical protein AX219_02420 [Streptococcus agalactiae]
+ OCM35250.1 hypothetical protein AX226_01915 [Streptococcus agalactiae]
+ OCM37809.1 hypothetical protein AX225_08150 [Streptococcus agalactiae]
+ OCM41954.1 hypothetical protein AX228_07600 [Streptococcus agalactiae]
+ OCM43752.1 hypothetical protein AX230_07990 [Streptococcus agalactiae]
+ OCM47055.1 hypothetical protein AX232_00265 [Streptococcus agalactiae]
+ OCM49653.1 hypothetical protein AX231_02965 [Streptococcus agalactiae]
+ OFK36646.1 hypothetical protein HMPREF2818_05350 [Streptococcus sp. HMSC076H09]
+ OFL25448.1 hypothetical protein HMPREF2777_05800 [Streptococcus sp. HMSC076H08]
+ OFO74815.1 hypothetical protein HMPREF3017_05190 [Streptococcus sp. HMSC076H10]
+ OFQ14435.1 hypothetical protein HMPREF2950_06300 [Streptococcus sp. HMSC076H07]
+ OFQ19502.1 hypothetical protein HMPREF2949_08615 [Streptococcus sp. HMSC057F04]
+ OHQ85396.1 hypothetical protein HMPREF2645_09610 [Streptococcus sp. HMSC074F09]
+Length=147
+
+ Score = 37.4 bits (85),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  110  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  143
+
+
+>WP_028498982.1 2,3-dihydroxybenzoate-AMP ligase [Microvirgula aerodenitrificans]
+Length=550
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            S+ +A FK+PD IE+VA F  T +GK++++ L
+Sbjct  507  SQGLAAFKVPDRIELVAAFPQTGIGKISKKTL  538
+
+
+>WP_062699373.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces regalis]
+ KUL44138.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces regalis]
+Length=542
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EVV  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDRVEVVEAFPRTSVGKIDKKALG  527
+
+
+>WP_057491892.1 hypothetical protein [Streptococcus agalactiae]
+Length=147
+
+ Score = 37.4 bits (85),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  110  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  143
+
+
+>WP_064552331.1 (2,3-dihydroxybenzoyl)adenylate synthase [Parageobacillus thermoglucosidans]
+ OAT72548.1 (2,3-dihydroxybenzoyl)adenylate synthase [Parageobacillus thermoglucosidans]
+Length=541
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE V  F  T VGK+N++ L
+Sbjct  495  RGVASFKIPDRIEFVDSFPKTAVGKINKRAL  525
+
+
+>WP_019604075.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ IA FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGIAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_035746649.1 2,3-dihydroxybenzoate-AMP ligase [Haematobacter missouriensis]
+ KFI25873.1 hypothetical protein CG51_12875 [Haematobacter missouriensis]
+Length=546
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M S+ +A FK+PD++  V  F+ T VGKV+R+ L
+Sbjct  498  MRSRGVADFKVPDQVVFVTAFEATAVGKVSRKAL  531
+
+
+>WP_014397184.1 2,3-dihydroxybenzoate-AMP ligase [Corallococcus coralloides]
+ AFE08578.1 2,3-dihydroxybenzoate-AMP ligase [Corallococcus coralloides DSM 
+2259]
+Length=547
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 17/31 (55%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FKIPD IE VA F  T VGKV+++ L
+Sbjct  504  RGLASFKIPDRIEFVAAFPQTGVGKVSKKAL  534
+
+
+>WP_033626152.1 2,3-dihydroxybenzoate-AMP ligase [Enterococcus faecalis]
+ ETU65111.1 (2,3-dihydroxybenzoyl)adenylate synthase [Enterococcus faecalis 
+EnGen0426]
+Length=528
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +  KN+A FK+PD ++ + D+  T +GK++R KL
+Sbjct  491  LSDKNLAEFKLPDSVKYIDDWPLTALGKIDRNKL  524
+
+
+>WP_068797557.1 2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia sp. HH130630-07]
+ ANY07172.1 2,3-dihydroxybenzoate-AMP ligase [Pseudonocardia sp. HH130630-07]
+Length=560
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD IE+V DF  T VGK ++++L
+Sbjct  518  RGVAAFKVPDLIEIVPDFPVTGVGKTSKREL  548
+
+
+>KPK31120.1 hypothetical protein AMK69_01340 [Nitrospira bacterium SG8_3]
+Length=549
+
+ Score = 37.7 bits (86),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA FK+P+ +E+V     THVGK+N+++L
+Sbjct  507  RRIAKFKLPERLELVDQLPQTHVGKINKKEL  537
+
+
+>WP_086336665.1 hypothetical protein [Gilliamella apicola]
+ OTQ31997.1 hypothetical protein B6D19_06895 [Gilliamella apicola]
+ OTQ41476.1 hypothetical protein B6D20_09275 [Gilliamella apicola]
+Length=538
+
+ Score = 37.7 bits (86),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            +++K++A  K+PD++E+V  F+YT +GKVN++
+Sbjct  498  LLNKHVAWQKLPDKLEIVKTFEYTLIGKVNKR  529
+
+
+>WP_063237278.1 2,3-dihydroxybenzoate-AMP ligase [Cupriavidus oxalaticus]
+Length=565
+
+ Score = 37.7 bits (86),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++++ +A FK P+ IEVV +F  T VGKV++  L
+Sbjct  512  LVAQGLAKFKCPERIEVVVEFPVTRVGKVDKAAL  545
+
+
+>WP_061318981.1 fatty acid--CoA ligase [Clostridium botulinum]
+ APH18734.1 AMP-binding enzyme family protein [Clostridium botulinum]
+Length=543
+
+ Score = 37.7 bits (86),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 16/33 (48%), Positives = 22/33 (67%), Gaps = 0/33 (0%)
+
+Query  2    ISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IS+N+AH+K+P  IE   +F  T  GK+ R KL
+Sbjct  497  ISQNLAHYKVPKYIEFYDEFPLTDTGKIKRHKL  529
+
+
+>WP_000213531.1 MULTISPECIES: hypothetical protein [Streptococcus]
+ EAO71146.1 2,3-dihydroxybenzoate-AMP ligase [Streptococcus agalactiae 515]
+ EPT38662.1 hypothetical protein SAG0024_04490 [Streptococcus agalactiae 
+FSL C1-494]
+ EPT45956.1 hypothetical protein SAG0034_05830 [Streptococcus agalactiae 
+FSL S3-170]
+ EPT48376.1 hypothetical protein SAG0042_03675 [Streptococcus agalactiae 
+FSL F2-343]
+ EPT70296.1 hypothetical protein SAG0066_05285 [Streptococcus agalactiae 
+CCUG 38383]
+ EPT90222.1 hypothetical protein SAG0097_08275 [Streptococcus agalactiae 
+BSU442]
+ EPU23391.1 hypothetical protein SAG0137_08800 [Streptococcus agalactiae 
+LMG 14838]
+ EPU59729.1 hypothetical protein SAG0304_04980 [Streptococcus agalactiae 
+GB00018]
+ EPU78254.1 hypothetical protein SAG0314_01120 [Streptococcus agalactiae 
+GB00190]
+ EPU79822.1 hypothetical protein SAG0313_04885 [Streptococcus agalactiae 
+GB00174]
+ EPU89914.1 hypothetical protein SAG0320_02985 [Streptococcus agalactiae 
+GB00245]
+ EPV05788.1 hypothetical protein SAG0327_04460 [Streptococcus agalactiae 
+GB00548]
+ EPV57621.1 hypothetical protein SAG0359_01445 [Streptococcus agalactiae 
+GB00922]
+ EPV73839.1 hypothetical protein SAG0374_02230 [Streptococcus agalactiae 
+GB00975]
+ EPV82893.1 hypothetical protein SAG0376_06855 [Streptococcus agalactiae 
+GB00986]
+ EPV83928.1 hypothetical protein SAG0377_05970 [Streptococcus agalactiae 
+GB00992]
+ EPV94508.1 hypothetical protein SAG0038_03520 [Streptococcus agalactiae 
+FSL S3-090]
+ EPW06240.1 hypothetical protein SAG0044_04890 [Streptococcus agalactiae 
+FSL S3-268]
+ EPW11298.1 hypothetical protein SAG0046_09995 [Streptococcus agalactiae 
+FSL S3-005]
+ EPW23097.1 hypothetical protein SAG0062_00940 [Streptococcus agalactiae 
+CCUG 37739]
+ EPW31499.1 hypothetical protein SAG0069_08260 [Streptococcus agalactiae 
+CCUG 44074]
+ EPW34172.1 hypothetical protein SAG0072_03170 [Streptococcus agalactiae 
+CCUG 44110]
+ EPW49125.1 hypothetical protein SAG0081_03050 [Streptococcus agalactiae 
+LMG 15081]
+ EPW66662.1 hypothetical protein SAG0098_01240 [Streptococcus agalactiae 
+BSU253]
+ EPW68053.1 hypothetical protein SAG0100_00465 [Streptococcus agalactiae 
+BSU260]
+ EPW84549.1 hypothetical protein SAG0112_08535 [Streptococcus agalactiae 
+MRI Z1-199]
+ EPW99452.1 hypothetical protein SAG0144_09825 [Streptococcus agalactiae 
+MRI Z1-035]
+ EPX13510.1 hypothetical protein SAG0192_00915 [Streptococcus agalactiae 
+str. Gottschalk 1002A]
+ EPX22673.1 hypothetical protein SAG0213_07310 [Streptococcus agalactiae 
+str. Gottschalk 31825]
+ EPX25789.1 hypothetical protein SAG0189_03440 [Streptococcus agalactiae 
+str. Gottschalk 19247]
+ EPX39006.1 hypothetical protein SAG0342_08090 [Streptococcus agalactiae 
+GB00867]
+ EQA28802.1 hypothetical protein SAG0142_08550 [Streptococcus agalactiae 
+MRI Z1-024]
+ AIK72186.1 hypothetical protein DK41_08615 [Streptococcus agalactiae]
+ AIK74299.1 hypothetical protein DK42_08885 [Streptococcus agalactiae]
+ AIK76354.1 hypothetical protein DX05_08930 [Streptococcus agalactiae]
+ CFQ64185.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CFW70157.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ KLJ52461.1 hypothetical protein WA57_09195 [Streptococcus agalactiae]
+ KLJ58042.1 hypothetical protein WA59_04250 [Streptococcus agalactiae]
+ KLJ80653.1 hypothetical protein WA98_04925 [Streptococcus agalactiae]
+ KLK10735.1 hypothetical protein WB14_05925 [Streptococcus agalactiae]
+ KLK58000.1 hypothetical protein WA80_06605 [Streptococcus agalactiae]
+ KLK63845.1 hypothetical protein WA83_06945 [Streptococcus agalactiae]
+ KLK70160.1 hypothetical protein WA86_06885 [Streptococcus agalactiae]
+ KLK79075.1 hypothetical protein WA91_07295 [Streptococcus agalactiae]
+ KLK86340.1 hypothetical protein WA94_05290 [Streptococcus agalactiae]
+ KLL40879.1 hypothetical protein WA20_04535 [Streptococcus agalactiae]
+ KLL77383.1 hypothetical protein WA18_08415 [Streptococcus agalactiae]
+ CNF02101.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNG28321.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CND06053.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNK80074.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNJ71916.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNJ87854.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNG15674.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNB53793.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNJ66809.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CNK59102.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CND22462.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CQQ60896.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ CQD49057.1 salicylate-AMP-ligase [Streptococcus agalactiae]
+ KXA58630.1 hypothetical protein HMPREF1885_01058 [Streptococcus agalactiae]
+ OCM30497.1 hypothetical protein AX222_06100 [Streptococcus agalactiae]
+ OFK40232.1 hypothetical protein HMPREF2817_01335 [Streptococcus sp. HMSC070A10]
+ OFN84959.1 hypothetical protein HMPREF2723_08400 [Streptococcus sp. HMSC076D11]
+ OFO04865.1 hypothetical protein HMPREF2599_08675 [Streptococcus sp. HMSC068H01]
+ OFQ67745.1 hypothetical protein HMPREF2923_06590 [Streptococcus sp. HMSC078D02]
+ OFR72905.1 hypothetical protein HMPREF2870_06105 [Streptococcus sp. HMSC070B09]
+ OHO86089.1 hypothetical protein HMPREF2653_08030 [Streptococcus sp. HMSC056B03]
+ ARC44659.1 hypothetical protein A6J82_04520 [Streptococcus agalactiae]
+Length=147
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  110  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  143
+
+
+>WP_063128481.1 2,3-dihydroxybenzoate-AMP ligase [Nocardia fusca]
+Length=561
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + +A FK+P+ +EVV +F  T+VGKV+++ L
+Sbjct  513  LLDQGLAKFKLPERVEVVDEFPLTNVGKVSKKDL  546
+
+
+>WP_019610267.1 2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis sp. CNS-639]
+Length=548
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M+ +  A FK+PDE+  VA    T VGKV++++L
+Sbjct  508  MLERGAAAFKVPDEVRAVAGLPLTGVGKVDKKRL  541
+
+
+>WP_075125709.1 (2,3-dihydroxybenzoyl)adenylate synthase [Actinophytocola xanthii]
+ OLF17335.1 2,3-dihydroxybenzoate-AMP ligase [Actinophytocola xanthii]
+Length=551
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK P ++E+VADF  T VGKV+++ L
+Sbjct  507  AEGVAKFKHPQQLEIVADFPLTAVGKVDKKAL  538
+
+
+>WP_025358197.1 2,3-dihydroxybenzoate-AMP ligase [Kutzneria albida]
+ AHH98167.1 hypothetical protein KALB_4805 [Kutzneria albida DSM 43870]
+Length=531
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD IEVV  F +T VGK +R+ L
+Sbjct  491  RGLAGYKIPDRIEVVESFPHTGVGKTSRRDL  521
+
+
+>CUU61186.1 2,3-dihydroxybenzoate-AMP ligase [Frankia sp. G2]
+Length=551
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            + +A FK+PD +EVV +F YT VGKV+++
+Sbjct  507  RGLATFKLPDFVEVVDEFPYTAVGKVSKR  535
+
+
+>WP_071082418.1 (2,3-dihydroxybenzoyl)adenylate synthase [Frankia sp. Cc1.17]
+ OHV43325.1 2,3-dihydroxybenzoate-AMP ligase [Frankia sp. Cc1.17]
+ OHV44888.1 2,3-dihydroxybenzoate-AMP ligase [Frankia sp. Cc1.17]
+Length=541
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            + +A FK+PD +EVV +F YT VGKV+++
+Sbjct  507  RGLATFKLPDFVEVVDEFPYTAVGKVSKR  535
+
+
+>SJM69571.1 2,3-dihydroxybenzoate-AMP ligase [Frigoribacterium sp. JB110]
+Length=540
+
+ Score = 37.4 bits (85),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            + +A FK+PD +EVV +F YT VGKV+++
+Sbjct  506  RGLATFKLPDFVEVVDEFPYTAVGKVSKR  534
+
+
+>WP_025729250.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus ginsengihumi]
+Length=538
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD IE V DF  T VGK+N++ L
+Sbjct  495  RGLATYKIPDRIEFVNDFPKTPVGKINKRAL  525
+
+
+>WP_035354639.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus ginsengihumi]
+ KHD85362.1 enterobactin synthase subunit E [Bacillus ginsengihumi]
+Length=538
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD IE V DF  T VGK+N++ L
+Sbjct  495  RGLATYKIPDRIEFVNDFPKTPVGKINKRAL  525
+
+
+>WP_068533502.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pulmonis]
+ KXP11410.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pulmonis]
+Length=561
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A +K+PD +E V +F  T VGK++R++L
+Sbjct  515  ARGVAEYKVPDRVEFVTEFPTTGVGKISRREL  546
+
+
+>WP_068567051.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pulmonis]
+ KXO90159.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pulmonis]
+ SDQ56560.1 2,3-dihydroxybenzoate-AMP ligase [Tsukamurella pulmonis]
+Length=561
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A +K+PD +E V +F  T VGK++R++L
+Sbjct  515  ARGVAEYKVPDRVEFVTEFPTTGVGKISRREL  546
+
+
+>WP_068913513.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. WCHA34]
+Length=554
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A FKIPD IE + D  YT +GK+++++L
+Sbjct  517  LATFKIPDHIEFIEDMPYTALGKIDKKEL  545
+
+
+>WP_035710275.1 2,3-dihydroxybenzoate-AMP ligase [Haematobacter massiliensis]
+ KFI29571.1 enterobactin synthase subunit E [Haematobacter massiliensis]
+Length=546
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M S+ +A FK+PD++  V  F+ T VGKV+R+ L
+Sbjct  498  MRSRGVADFKVPDQVIFVTAFESTAVGKVSRKAL  531
+
+
+>WP_073998357.1 (2,3-dihydroxybenzoyl)adenylate synthase [Anaerococcus sp. Marseille-P2143]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +++ N+A FK+PD+I+ +  +  T +GK++R+KL
+Sbjct  491  LVNNNVAEFKLPDDIKYIDSWPLTALGKIDRKKL  524
+
+
+>WP_037561531.1 2,3-dihydroxybenzoate-AMP ligase [Sporosarcina ureae]
+ ARF13174.1 2,3-dihydroxybenzoate-AMP ligase [Sporosarcina ureae]
+Length=538
+
+ Score = 37.4 bits (85),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I + IA FKIPD +E+V  F  T  GKV+++ L
+Sbjct  492  LIKRGIADFKIPDRVEIVDTFPQTSFGKVSKKAL  525
+
+
+>WP_044877782.1 2,3-dihydroxybenzoate-AMP ligase [Paenibacillus sp. IHBB 10380]
+ AJS59353.1 enterobactin synthase subunit E [Paenibacillus sp. IHBB 10380]
+Length=543
+
+ Score = 37.4 bits (85),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +E +A F  T VGKVN++ L
+Sbjct  497  RGVAVYKIPDRVEFIASFPKTGVGKVNKKAL  527
+
+
+>WP_072469610.1 (2,3-dihydroxybenzoyl)adenylate synthase [Peptoniphilaceae bacterium 
+FC2]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +KN+A FK+PD I+ +  +  T +GK++R KL
+Sbjct  491  LANKNVAEFKLPDSIQYIDSWPLTALGKIDRNKL  524
+
+
+>SCD38066.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces sp. SolWspMP-5a-2]
+Length=543
+
+ Score = 37.4 bits (85),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EVV  F  T VGK+++++LG
+Sbjct  494  LAGRGVAGYKLPDRVEVVEVFPRTSVGKIDKKELG  528
+
+
+>WP_020553769.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces scabrisporus]
+Length=547
+
+ Score = 37.4 bits (85),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I + +A FK+PD + VV +F  T +GK++++ L
+Sbjct  504  LIERGVAAFKLPDRVAVVTEFPLTAIGKIDKRAL  537
+
+
+>WP_013797040.1 (2,3-dihydroxybenzoyl)adenylate synthase [Marinomonas posidonica]
+ AEF55568.1 (2,3-dihydroxybenzoyl)adenylate synthase [Marinomonas posidonica 
+IVIA-Po-181]
+Length=556
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +I + +AHF +PD IE V +   T VGKV  Q+L
+Sbjct  510  LIEEGVAHFMLPDSIEYVPELPLTAVGKVAYQQL  543
+
+
+>WP_002643394.1 2,3-dihydroxybenzoate-AMP ligase [Cystobacter fuscus]
+ EPX58949.1 2,3-dihydroxybenzoate-AMP ligase [Cystobacter fuscus DSM 2262]
+Length=545
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            S+ +A FKIPD IE V  F  T VGKV+++ L
+Sbjct  502  SRGLAAFKIPDRIEFVDSFPQTGVGKVSKKDL  533
+
+
+>WP_071898254.1 (2,3-dihydroxybenzoyl)adenylate synthase [Cystobacter ferrugineus]
+ OJH41579.1 (2,3-dihydroxybenzoyl)adenylate synthase [Cystobacter ferrugineus]
+Length=537
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 17/32 (53%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            S+ +A FKIPD IE V  F  T VGKV+++ L
+Sbjct  494  SRGLAAFKIPDRIEFVDSFPQTGVGKVSKKDL  525
+
+
+>WP_075120094.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas chlororaphis]
+ OLF53559.1 2,3-dihydroxybenzoate-AMP ligase [Pseudomonas chlororaphis]
+Length=532
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            + +A +K+PD ++V+A F  T +GKVNR+ L 
+Sbjct  495  RGLAAYKLPDRLQVLAQFPLTRLGKVNRKALA  526
+
+
+>WP_047210037.1 2,3-dihydroxybenzoate-AMP ligase [Streptococcus agalactiae]
+ KLL81074.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  491  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  524
+
+
+>WP_052809269.1 2,3-dihydroxybenzoate-AMP ligase [Streptomonospora alba]
+Length=560
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +E VA F  T VGKV+R++L
+Sbjct  505  RGLAAYKIPDRVEFVAAFPATGVGKVSRREL  535
+
+
+>WP_001017899.1 2,3-dihydroxybenzoate-AMP ligase [Streptococcus agalactiae]
+ EPT35022.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae FSL 
+S3-277]
+ EPT39740.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae FSL 
+S3-501]
+ EPV86218.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae FSL 
+C1-487]
+ EPV88484.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae FSL 
+S3-251]
+ EPV88597.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae FSL 
+S3-105]
+ KLL29882.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae]
+ KLL34512.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae]
+ KLL38237.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  491  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  524
+
+
+>WP_005943831.1 2,3-dihydroxybenzoate-AMP ligase [Gordonia hirsuta]
+ GAC58903.1 putative 2,3-dihydroxybenzoate-AMP ligase [Gordonia hirsuta DSM 
+44140 = NBRC 16056]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A +K+PD ++ VADF  T VGKV+R++L
+Sbjct  491  LAEWKLPDAVKAVADFPETGVGKVSRKRL  519
+
+
+>OGA07531.1 2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria bacterium 
+RIFCSPLOWO2_02_FULL_65_20]
+ OGA36357.1 2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria bacterium 
+RIFCSPLOWO2_12_FULL_65_110]
+Length=549
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +++K++A FK+P+ +E+V+DF  +  GKV+++ L 
+Sbjct  502  LVAKDMAKFKLPERLEIVSDFPVSTFGKVSKKILA  536
+
+
+>OFZ85934.1 2,3-dihydroxybenzoate-AMP ligase [Betaproteobacteria bacterium 
+RBG_16_64_18]
+Length=549
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +++K++A FK+P+ +E+V+DF  +  GKV+++ L 
+Sbjct  502  LVAKDMAKFKLPERLEIVSDFPVSTFGKVSKKILA  536
+
+
+>SDP55325.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces sp. cf386]
+Length=542
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EV+  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDRVEVIEAFPRTSVGKIDKKALG  527
+
+
+>WP_062152811.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces curacoi]
+ KUM73493.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces curacoi]
+Length=542
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EV+  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDRVEVIEAFPRTSVGKIDKKALG  527
+
+
+>WP_048584463.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces viridochromogenes]
+ KMS70844.1 Triostin synthetase I [Streptomyces viridochromogenes]
+Length=542
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EV+  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDRVEVIEAFPRTSVGKIDKKALG  527
+
+
+>WP_004003302.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces viridochromogenes]
+ ELS51227.1 putative AMP-dependent synthetase and ligase [Streptomyces viridochromogenes 
+Tue57]
+Length=542
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            +  + +A +K+PD +EV+  F  T VGK++++ LG
+Sbjct  493  LTERGVAAYKLPDRVEVIEAFPRTSVGKIDKKALG  527
+
+
+>WP_082230564.1 ATP-dependent acyl-CoA ligase [Haloprofundus marisrubri]
+Length=532
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +++A FK+P  IE V +F YT  GK+ +QKL
+Sbjct  463  EHLASFKVPRYIEFVEEFPYTPTGKIQKQKL  493
+
+
+>WP_001017900.1 2,3-dihydroxybenzoate-AMP ligase [Streptococcus agalactiae]
+ EPT40925.1 2,3-dihydroxybenzoate--AMP ligase [Streptococcus agalactiae FSL 
+S3-603]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  491  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  524
+
+
+>WP_017767101.1 2,3-dihydroxybenzoate-AMP ligase [Streptococcus agalactiae]
+Length=528
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD ++ +  +  T +GK++R KL
+Sbjct  491  LISNNVADFKLPDAVKYIDSWPLTALGKIDRNKL  524
+
+
+>WP_086264668.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter pittii]
+ OTL21868.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter pittii]
+Length=554
+
+ Score = 37.4 bits (85),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 13/29 (45%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A +KIPD +E +  F YT  GK+N+++L
+Sbjct  514  LATYKIPDRVEFIEQFPYTAFGKINKKRL  542
+
+
+>WP_057689763.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+ KQD07675.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+Length=554
+
+ Score = 37.4 bits (85),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 13/29 (45%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A +KIPD +E +  F YT  GK+N+++L
+Sbjct  514  LATYKIPDRVEFIEQFPYTAFGKINKKRL  542
+
+
+>WP_023188348.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter nosocomialis]
+ CDG75448.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter nosocomialis 
+28F]
+Length=554
+
+ Score = 37.4 bits (85),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 13/29 (45%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A +KIPD +E +  F YT  GK+N+++L
+Sbjct  514  LATYKIPDRVEFIEQFPYTAFGKINKKRL  542
+
+
+>WP_004887249.1 MULTISPECIES: 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter 
+calcoaceticus/baumannii complex]
+ AAN28932.1 2,3-dihydroxybenzoate-AMP ligase DhbE [Acinetobacter baumannii]
+ EEX00018.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter sp. RUH2624]
+ EKF45324.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter nosocomialis 
+Ab22222]
+ EKU60258.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter 
+sp. WC-487]
+ ENV39584.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter nosocomialis 
+NIPH 386]
+ EXB12963.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 1396970]
+ EXE99223.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 259052]
+ EXH78350.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 216872]
+ EXI11193.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 694762]
+ EXR17952.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 1130196]
+ EXS44406.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 88816]
+ EYT16291.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter sp. 1592897]
+ KDM56659.1 (2,3-dihydroxybenzoyl)adenylate synthase [Acinetobacter baumannii 
+BIDMC 57]
+ KRJ10931.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter nosocomialis]
+ OTU48098.1 2,3-dihydroxybenzoate-AMP ligase [Acinetobacter baumannii]
+Length=554
+
+ Score = 37.4 bits (85),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 13/29 (45%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +A +KIPD +E +  F YT  GK+N+++L
+Sbjct  514  LATYKIPDRVEFIEQFPYTAFGKINKKRL  542
+
+
+>SCW90757.1 2,3-dihydroxybenzoate-AMP ligase [Ancylobacter rudongensis]
+Length=541
+
+ Score = 37.4 bits (85),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M ++ +A FK+PD+I  V  F+ T VGKV+R++L
+Sbjct  494  MRTRGLADFKVPDQIMFVDGFETTAVGKVSRKEL  527
+
+
+>WP_056902142.1 2,3-dihydroxybenzoate-AMP ligase [Pseudorhodoferax sp. Leaf274]
+ KQP36181.1 2,3-dihydroxybenzoate-AMP ligase [Pseudorhodoferax sp. Leaf274]
+Length=547
+
+ Score = 37.0 bits (84),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + +A FKIPD+I  VA F  T VGK +R++L
+Sbjct  502  MRGRGVAAFKIPDQIVFVAAFDQTAVGKTSRKEL  535
+
+
+>WP_050465532.1 2,3-dihydroxybenzoate-AMP ligase [Herbaspirillum autotrophicum]
+Length=549
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +NIA FK+PD IE    F  T VGKV+++ L
+Sbjct  505  RNIARFKLPDRIEFTDSFPKTGVGKVDKRAL  535
+
+
+>WP_078606910.1 2,3-dihydroxybenzoate-AMP ligase [Streptomyces flavidovirens]
+Length=548
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + +A FK+PD +E VAD   T +GK++++ L
+Sbjct  502  LLERGVAAFKLPDRVERVADLPLTAIGKIDKRAL  535
+
+
+>CQD14491.1 AMP-dependent synthetase and ligase [Mycobacterium lentiflavum]
+Length=481
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/30 (47%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKLG  35
+            IA+FK+P+ + +V D  Y+  GKVNR +L 
+Sbjct  445  IAYFKLPERLAIVEDIPYSTTGKVNRDQLA  474
+
+
+>WP_045826615.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter sp. 991H.S.0a.06]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_028885786.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_028883617.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_028875518.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_018275210.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_019600987.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_018415639.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_018014014.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>WP_015817154.1 2,3-dihydroxybenzoate-AMP ligase [Teredinibacter turnerae]
+ ACR11042.1 Enterobactin synthetase component E/2,3-dihydroxybenzoate-AMP 
+ligase [Teredinibacter turnerae T7901]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  3    SKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ +A FK+PD I V+ +F  T VGK+N++ L
+Sbjct  500  AQGVAEFKLPDHIAVLPEFPLTAVGKINKKAL  531
+
+
+>SEO93291.1 2,3-dihydroxybenzoate-AMP ligase [Denitrobacterium detoxificans]
+Length=564
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 16/29 (55%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            K IA FKIPDE E+V +F  T VGK +++
+Sbjct  531  KGIAGFKIPDEFEIVDEFPETFVGKTSKR  559
+
+
+>WP_066664919.1 2,3-dihydroxybenzoate-AMP ligase [Denitrobacterium detoxificans]
+ ANE23463.1 enterobactin synthase subunit E [Denitrobacterium detoxificans]
+Length=548
+
+ Score = 37.0 bits (84),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 16/29 (55%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQ  32
+            K IA FKIPDE E+V +F  T VGK +++
+Sbjct  515  KGIAGFKIPDEFEIVDEFPETFVGKTSKR  543
+
+
+>WP_023059270.1 2,3-dihydroxybenzoate-AMP ligase [Peptoniphilus sp. BV3AC2]
+ ERT64604.1 putative (2,3-dihydroxybenzoyl)adenylate synthase [Peptoniphilus 
+sp. BV3AC2]
+Length=528
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +KN+A FK+PD I+ +  +  T +GK++R+KL
+Sbjct  491  LANKNVAEFKLPDSIKYIDSWPLTALGKIDRKKL  524
+
+
+>WP_028712689.1 2,3-dihydroxybenzoate-AMP ligase [Paracoccus sp. J55]
+Length=555
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FKIPDE+ V+  F  T VGKVN+++L
+Sbjct  506  IAAFKIPDEVIVLDRFPQTGVGKVNKRQL  534
+
+
+>WP_026918304.1 2,3-dihydroxybenzoate-AMP ligase [Gordonia shandongensis]
+Length=540
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +K+PD +E+V +F  T VGK++R+ L
+Sbjct  494  RGVADYKVPDRVEIVEEFPTTGVGKISRRDL  524
+
+
+>WP_064557143.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella brennerae]
+ OAT33976.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella brennerae ATCC 
+51605]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FK+PD IE+V +   T VGKV++++L
+Sbjct  499  IADFKLPDRIEIVENLPLTAVGKVDKKRL  527
+
+
+>WP_064548912.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella ferragutiae]
+ OAT24638.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella ferragutiae ATCC 
+51602]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FK+PD IE+V +   T VGKV++++L
+Sbjct  499  IADFKLPDRIEIVENLPLTAVGKVDKKRL  527
+
+
+>WP_064553201.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella noackiae]
+ OAT21810.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella noackiae ATCC 
+51607]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FK+PD IE+V +   T VGKV++++L
+Sbjct  499  IADFKLPDRIEIVENLPLTAVGKVDKKRL  527
+
+
+>WP_064516826.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella gaviniae]
+ OAT18297.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella gaviniae ATCC 
+51604]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FK+PD IE+V +   T VGKV++++L
+Sbjct  499  IADFKLPDRIEIVENLPLTAVGKVDKKRL  527
+
+
+>WP_034456876.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella agrestis]
+Length=538
+
+ Score = 37.0 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FK+PD IE+V +   T VGKV++++L
+Sbjct  499  IADFKLPDRIEIVENLPLTAVGKVDKKRL  527
+
+
+>KFC83504.1 2,3-dihydroxybenzoate-AMP ligase [Buttiauxella agrestis ATCC 
+33320]
+Length=461
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 15/29 (52%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  6    IAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            IA FK+PD IE+V +   T VGKV++++L
+Sbjct  422  IADFKLPDRIEIVENLPLTAVGKVDKKRL  450
+
+
+>WP_046656649.1 2,3-dihydroxybenzoate-AMP ligase [Lysobacter capsici]
+Length=569
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + IA +KIPD +E+VA   YT VGK +++ L
+Sbjct  511  RGIAAYKIPDRVELVAALPYTAVGKADKKAL  541
+
+
+>WP_076649718.1 2,3-dihydroxybenzoate-AMP ligase [Pontibaca methylaminivorans]
+ SIT83904.1 2,3-dihydroxybenzoate-AMP ligase [Pontibaca methylaminivorans]
+Length=547
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  ++IA FK+PD+I  V  F  T VGK++R++L
+Sbjct  498  MRERDIAPFKVPDQIVFVDSFATTAVGKISRKEL  531
+
+
+>WP_006544529.1 2,3-dihydroxybenzoate-AMP ligase [Frankia sp. EUN1f]
+ EFC80207.1 AMP-dependent synthetase and ligase [Frankia sp. EUN1f]
+Length=597
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A F +PD +EVV  F YT VGK+++++L
+Sbjct  561  RGLARFMLPDRLEVVDGFPYTAVGKIDKREL  591
+
+
+>WP_026624787.1 2,3-dihydroxybenzoate-AMP ligase [Eggerthia catenaformis]
+ SFE36901.1 yersiniabactin salicyl-AMP ligase [Peptostreptococcus sp. D1]
+Length=527
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            +IS N+A FK+PD+++ +  +  T +GK++R KL
+Sbjct  490  LISNNVADFKLPDKVKYIDAWPLTALGKIDRNKL  523
+
+
+>OFW31499.1 hypothetical protein A3J28_07220 [Acidobacteria bacterium RIFCSPLOWO2_12_FULL_60_22]
+Length=548
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ K IA FK+P+ +E+V  F  T VGKV+++ L
+Sbjct  505  LLEKKIAKFKLPERLELVESFPLTGVGKVSKKTL  538
+
+
+>WP_017522929.1 hypothetical protein [Pusillimonas noertemannii]
+Length=556
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNR  31
+            ++S+ +A FK P+ +EVV +F  T VGKV++
+Sbjct  503  LVSQGLAKFKCPERVEVVEEFPVTRVGKVDK  533
+
+
+>OLC40506.1 2,3-dihydroxybenzoate-AMP ligase [Acidobacteria bacterium 13_1_40CM_65_14]
+ OLD19422.1 2,3-dihydroxybenzoate-AMP ligase [Acidobacteria bacterium 13_1_40CM_3_65_5]
+Length=549
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            ++ + +A FK+P+ IE + +   T+VGKVN+Q L
+Sbjct  508  LLGQGLATFKLPERIETIGEMPLTNVGKVNKQLL  541
+
+
+>SCZ40680.1 2,3-dihydroxybenzoate-AMP ligase [Afifella marina DSM 2698]
+Length=543
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A FK+PD+I ++ DF  T VGKV+R +L
+Sbjct  498  RGLADFKVPDQIVLLEDFSTTAVGKVSRAEL  528
+
+
+>EEL23021.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus cereus Rock1-3]
+Length=76
+
+ Score = 35.4 bits (80),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + IA +KIPD IE +  F  T VGKV++++L
+Sbjct  33  RGIAAYKIPDRIEFIESFPQTGVGKVSKKEL  63
+
+
+>EEL19883.1 2,3-dihydroxybenzoate-AMP ligase [Bacillus cereus Rock1-3]
+Length=76
+
+ Score = 35.4 bits (80),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + IA +KIPD IE +  F  T VGKV++++L
+Sbjct  33  RGIAAYKIPDRIEFIESFPQTGVGKVSKKEL  63
+
+
+>WP_017627551.1 2,3-dihydroxybenzoate-AMP ligase [Nocardiopsis chromatogenes]
+Length=555
+
+ Score = 37.0 bits (84),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 16/31 (52%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +EVV  F  T VGKV+R+ L
+Sbjct  510  RGLASYKIPDRVEVVPAFPATGVGKVSRRDL  540
+
+
+>CKG89085.1 salicylate-AMP-ligase [Streptococcus pneumoniae]
+Length=76
+
+ Score = 35.4 bits (80),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4   KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+           + IA +KIPD IE +  F  T VGKV++++L
+Sbjct  33  RGIAAYKIPDRIEFIESFPQTGVGKVSKKEL  63
+
+
+>WP_069848012.1 salicylate synthase [Brevibacillus brevis]
+Length=986
+
+ Score = 37.0 bits (84),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            K +A +K+PD+IE++  +  T VGKVN+ KL
+Sbjct  495  KGVARYKMPDQIELIDYWPLTSVGKVNKAKL  525
+
+
+>WP_017252055.1 salicylate synthase [Brevibacillus brevis]
+Length=986
+
+ Score = 37.0 bits (84),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            K +A +K+PD+IE++  +  T VGKVN+ KL
+Sbjct  495  KGVARYKMPDQIELIDYWPLTSVGKVNKAKL  525
+
+
+>WP_030176703.1 2,3-dihydroxybenzoate-AMP ligase [Spirillospora albida]
+Length=541
+
+ Score = 37.0 bits (84),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  4    KNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            + +A +KIPD +E+VA F  T VGK+++++L
+Sbjct  499  RGLAGYKIPDRVEIVARFPVTGVGKISKREL  529
+
+
+>SEN85653.1 2,3-dihydroxybenzoate-AMP ligase [Paracoccus alcaliphilus]
+Length=539
+
+ Score = 37.0 bits (84),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  1    MISKNIAHFKIPDEIEVVADFKYTHVGKVNRQKL  34
+            M  + +A FK+PD++  V +F+ T VGK++R +L
+Sbjct  491  MRGRGVADFKVPDQVVFVPEFETTAVGKISRNQL  524
+
+
+
+Lambda      K        H
+   0.321    0.138    0.395 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1146381257112
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

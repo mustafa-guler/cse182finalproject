@@ -1,0 +1,83 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO10843 putative Zinc-binding protein OS=Acinetobacter
+baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 /
+5377) GN=A1S_0384 SV=1 UP=UP000006737:Chromosome
+
+Length=32
+
+RID: K5E7H7T0014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO10843.1  putative Zinc-binding protein [Acinetobacter baumanni...  63.5    7e-13
+EXA65008.1  hypothetical protein J504_2266 [Acinetobacter baumann...  38.5    0.007
+
+
+>ABO10843.1 putative Zinc-binding protein [Acinetobacter baumannii ATCC 17978]
+Length=32
+
+ Score = 63.5 bits (153),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   MQRSEQNGRNSLPSQTLGSPQRGQGNVRGIKQ  32
+           MQRSEQNGRNSLPSQTLGSPQRGQGNVRGIKQ
+Sbjct  1   MQRSEQNGRNSLPSQTLGSPQRGQGNVRGIKQ  32
+
+
+>EXA65008.1 hypothetical protein J504_2266 [Acinetobacter baumannii 348935]
+Length=48
+
+ Score = 38.5 bits (88),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  1   MQRSEQNGRNSLPSQTLGSPQRGQGNVRGI  30
+           MQRSEQ GRNSL SQ +  PQRG   V  I
+Sbjct  1   MQRSEQKGRNSLFSQVVSLPQRGHFKVVDI  30
+
+
+
+Lambda      K        H
+   0.306    0.125    0.343 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1108445564200
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

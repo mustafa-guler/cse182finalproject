@@ -1,0 +1,3767 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO12986 hypothetical protein OS=Acinetobacter baumannii
+(strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377)
+GN=A1S_2569 SV=1 UP=UP000006737:Chromosome
+
+Length=59
+
+RID: K5VJ4Y5N014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO12986.1  hypothetical protein A1S_2569 [Acinetobacter baumanni...  122     1e-35
+ENX28379.1  hypothetical protein F891_01226 [Acinetobacter sp. CI...  122     4e-34
+ENX23468.1  hypothetical protein F893_01358 [Acinetobacter sp. CI...  121     7e-34
+EIM38413.1  putative transposase [Acinetobacter sp. HA]               121     1e-33
+ENV14139.1  hypothetical protein F965_00375 [Acinetobacter schind...  121     1e-33
+ENX25244.1  hypothetical protein F891_03407 [Acinetobacter sp. CI...  120     2e-33
+KJV38130.1  transposase [Acinetobacter brisouii]                      119     4e-33
+ENW85269.1  hypothetical protein F906_02798 [Acinetobacter sp. NI...  119     5e-33
+GAB76227.1  putative transposase [Acinetobacter radioresistens DS...  119     9e-33
+ENX02067.1  hypothetical protein F899_01253 [Acinetobacter sp. CI...  118     1e-32
+ENW31920.1  hypothetical protein F924_00136 [Acinetobacter lwoffi...  118     1e-32
+ENX26504.1  hypothetical protein F890_03477 [Acinetobacter sp. CI...  118     1e-32
+EKE23899.1  Transposase [uncultured bacterium]                        117     1e-32
+EXC44915.1  transposase DDE domain protein [Acinetobacter baumann...  118     2e-32
+WP_016167426.1  IS5 family transposase [Acinetobacter tandoii]        120     2e-32
+WP_076753340.1  IS5/IS1182 family transposase [Acinetobacter schi...  119     3e-32
+ENU99820.1  hypothetical protein F969_01182 [Acinetobacter sp. NI...  117     4e-32
+EXR25488.1  transposase DDE domain protein [Acinetobacter sp. 117...  112     5e-31
+ENV39033.1  hypothetical protein F958_03861 [Acinetobacter nosoco...  112     6e-31
+WP_002126631.1  IS5/IS1182 family transposase [Acinetobacter pittii]  112     2e-30
+AMW77577.1  transposase [Acinetobacter sp. TGL-Y2]                    103     2e-26
+AMW78305.1  transposase [Acinetobacter sp. TGL-Y2]                    100     1e-25
+AMW78478.1  transposase [Acinetobacter sp. TGL-Y2]                    100     1e-25
+WP_079887144.1  IS5/IS1182 family transposase [Neisseria meningit...  99.8    4e-25
+WP_083314112.1  IS5/IS1182 family transposase [Neisseria sp. HMSC...  99.4    5e-25
+WP_050547808.1  IS5 family transposase [Neisseria meningitidis]       99.4    6e-25
+WP_086429924.1  IS5/IS1182 family transposase [Neisseria meningit...  99.4    6e-25
+WP_079876305.1  IS5/IS1182 family transposase [Neisseria meningit...  99.4    6e-25
+AFP82062.1  putative transposase [Neisseria meningitidis]             99.4    6e-25
+EHP17243.1  transposase IS4 family [Neisseria meningitidis NM220]     99.0    6e-25
+CAA88915.1  orf2 [Neisseria meningitidis]                             99.4    7e-25
+AMW79426.1  transposase [Acinetobacter sp. TGL-Y2]                    99.0    7e-25
+ADZ00636.1  transposase IS4 family [Neisseria meningitidis M04-24...  99.4    1e-24
+WP_002238669.1  IS5 family transposase [Neisseria meningitidis]       99.0    4e-24
+WP_002236340.1  IS5 family transposase [Neisseria meningitidis]       98.6    5e-24
+WP_002242698.1  IS5 family transposase [Neisseria meningitidis]       98.6    5e-24
+WP_002237486.1  IS5/IS1182 family transposase [Neisseria meningit...  98.6    6e-24
+SJM36083.1  Transposase DDE domain protein [Psychrobacter sp. CIP...  96.3    9e-24
+WP_082302075.1  IS5/IS1182 family transposase [Neisseria meningit...  94.0    6e-23
+WP_068910183.1  IS4/IS5 family transposase [Acinetobacter sp. WCH...  94.0    6e-23
+KIN15120.1  transposase [Halomonas sp. KHS3]                          93.6    9e-23
+OLF39710.1  IS5 family transposase [Psychrobacter sp. Rd 27.2]        92.4    2e-22
+KRG33364.1  transposase [Psychrobacter sp. P11G3]                     92.4    3e-22
+OIJ38208.1  IS5 family transposase [Acinetobacter sp. LCT-H3]         89.7    1e-21
+AIL77318.1  transposase [Acinetobacter baumannii]                     89.7    2e-21
+ENX09515.1  hypothetical protein F897_01607 [Acinetobacter sp. NI...  89.7    2e-21
+SLJ83899.1  transposase IS4 family [Psychrobacter sp. DAB_AL43B]      90.5    2e-21
+KMU99019.1  transposase [Acinetobacter sp. VT 511]                    89.4    2e-21
+KXK39379.1  IS4 family transposase [Nitrosomonas europaea]            91.3    4e-21
+OCY16788.1  transposase [Acinetobacter pittii]                        88.6    5e-21
+ENU98429.1  hypothetical protein F969_02460 [Acinetobacter sp. NI...  88.2    8e-21
+ENU18736.1  hypothetical protein F994_02863 [Acinetobacter bohemi...  87.8    1e-20
+WP_068907911.1  IS5 family transposase [Acinetobacter sp. WCHA34]     87.8    1e-20
+EPH31644.1  Mobile element protein [Acinetobacter guillouiae MSP4...  87.0    2e-20
+WP_034581389.1  IS5 family transposase [Acinetobacter radioresist...  87.0    2e-20
+ODN53594.1  transposase [Acinetobacter sp. 51m]                       87.0    2e-20
+SDC29490.1  Transposase DDE domain-containing protein [Acinetobac...  83.2    1e-19
+KGH50576.1  transposase [Acinetobacter idrijaensis]                   85.1    1e-19
+WP_076611762.1  IS5 family transposase ISPa67 [Pseudomonas aerugi...  87.4    1e-19
+KJV45818.1  transposase [Acinetobacter indicus]                       84.7    1e-19
+WP_079281077.1  hypothetical protein [Acinetobacter baumannii]        82.8    3e-19
+CUV58760.1  transposase (fragment) [Ralstonia solanacearum]           81.3    7e-19
+KFC51782.1  transposase [Micrococcus luteus]                          82.8    2e-18
+KTD54681.1  transposase [Legionella santicrucis]                      81.3    2e-18
+KTD54680.1  transposase [Legionella santicrucis]                      83.6    2e-18
+CDM41143.1  putative protein y4sN [Pseudomonas pseudoalcaligenes ...  81.3    3e-18
+WP_031693767.1  IS5 family transposase [Pseudomonas aeruginosa]       83.6    3e-18
+EPL59517.1  transposase, IS4 [Pseudomonas stutzeri B1SMN1]            80.9    4e-18
+SEE12328.1  transposase, IS4 family [Pseudomonas anguilliseptica]     83.2    4e-18
+WP_046621750.1  IS5 family transposase [Pseudomonas stutzeri]         82.4    5e-18
+WP_075963002.1  IS5/IS1182 family transposase [Pseudomonas sp. PA...  82.4    5e-18
+WP_033095166.1  IS5 family transposase [Colwellia psychrerythraea]    82.8    6e-18
+CDH06781.1  transposase (fragment) [Xenorhabdus bovienii str. ore...  79.3    7e-18
+CDM40165.1  Transposase insH for insertion sequence element IS5 [...  81.3    8e-18
+WP_084308753.1  IS5/IS1182 family transposase [Pseudomonas flaves...  82.4    9e-18
+WP_080944653.1  IS5/IS1182 family transposase [Pseudomonas fluore...  82.4    9e-18
+SFU35493.1  Transposase DDE domain-containing protein [Nitrosospi...  78.6    1e-17
+ERT10127.1  hypothetical protein O185_27260 [Photorhabdus tempera...  78.6    1e-17
+WP_040534536.1  IS5 family transposase [Legionella drancourtii]       82.0    1e-17
+WP_006869887.1  IS5 family transposase [Legionella drancourtii]       82.4    1e-17
+WP_049266668.1  IS5 family transposase [Pseudomonas aeruginosa]       80.5    1e-17
+WP_023085590.1  IS5 family transposase [Pseudomonas aeruginosa]       81.6    2e-17
+WP_081029324.1  IS5/IS1182 family transposase [Pseudomonas savast...  81.6    2e-17
+WP_080748243.1  IS5/IS1182 family transposase [Pseudomonas chloro...  81.6    2e-17
+KWS39570.1  transposase [Pseudomonas savastanoi pv. nerii]            81.3    2e-17
+AIS10947.1  transposase [Pseudomonas chlororaphis subsp. aurantiaca]  81.3    2e-17
+WP_014150166.1  IS5/IS1182 family transposase [Methylomicrobium a...  81.3    2e-17
+CZJ11073.1  Transposase and inactivated derivatives [Legionella p...  78.2    3e-17
+CAH13208.1  hypothetical protein lpp2056 [Legionella pneumophila ...  78.2    3e-17
+WP_026130384.1  IS5/IS1182 family transposase [Methylomicrobium b...  81.3    3e-17
+EQB97756.1  transposase [Photorhabdus temperata subsp. temperata ...  78.6    3e-17
+KFI17811.1  transposase [Nitrosococcus oceani C-27]                   77.4    3e-17
+WP_044424081.1  IS5/IS1182 family transposase [Pseudomonas savast...  80.1    4e-17
+WP_001926652.1  IS5/IS1182 family transposase [Vibrio cholerae]       80.9    4e-17
+WP_082765975.1  IS5/IS1182 family transposase [Azotobacter vinela...  80.9    4e-17
+OAH57077.1  transposase [Pseudomonas monteilii]                       79.0    4e-17
+WP_011789342.1  IS5 family transposase ISSpu10 [Shewanella sp. W3...  80.9    4e-17
+CQB46829.1  transposase of ISSpu10 [Vibrio cholerae]                  80.5    4e-17
+EKL33361.1  transposase DDE domain protein [Vibrio cholerae HE-40]    80.5    4e-17
+WP_060402347.1  IS5 family transposase [Pseudomonas amygdali]         79.0    5e-17
+ONG37024.1  IS5 family transposase [Enhydrobacter sp. H5]             78.6    5e-17
+WP_025441400.1  IS5/IS1182 family transposase [Vibrio parahaemoly...  80.5    5e-17
+WP_008983132.1  IS5/IS1182 family transposase [Alishewanella agri]    80.5    5e-17
+WP_020563109.1  IS5/IS1182 family transposase [Methylosarcina fib...  80.5    5e-17
+AHI98669.1  Mobile element protein [Vibrio parahaemolyticus UCM-V...  80.5    6e-17
+SFU78416.1  transposase, IS4 family [Nitrosospira multiformis]        79.7    6e-17
+WP_079744035.1  IS5/IS1182 family transposase [Pseudomonas aerugi...  80.5    6e-17
+WP_082628944.1  IS5/IS1182 family transposase [Alishewanella sp. ...  80.1    6e-17
+ERB42260.1  transposase ISSod6 [Legionella pneumophila str. 121004]   77.4    6e-17
+WP_080944769.1  IS5/IS1182 family transposase [Pseudomonas fluore...  80.1    7e-17
+ABQ55507.1  ISSod6 transposase, IS1301 [Legionella pneumophila st...  78.2    7e-17
+WP_074025470.1  IS5/IS1182 family transposase, partial [Xenorhabd...  79.3    7e-17
+WP_008950669.1  IS5 family transposase [Alishewanella jeotgali]       80.1    7e-17
+KRS22030.1  transposase [Alishewanella sp. WH16-1]                    79.7    7e-17
+WP_017839497.1  IS5/IS1182 family transposase [Methylomicrobium b...  78.6    8e-17
+WP_080034179.1  IS5/IS1182 family transposase [Pseudomonas syringae]  79.0    8e-17
+EPM48362.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  78.2    9e-17
+WP_008985541.1  IS5 family transposase [Alishewanella agri]           80.1    9e-17
+WP_081031677.1  IS5/IS1182 family transposase [Pseudomonas syring...  79.7    9e-17
+KTC49049.1  transposase [Pseudomonas syringae pv. actinidiae ICMP...  78.2    9e-17
+WP_081010263.1  IS5/IS1182 family transposase [Pseudomonas syring...  79.7    9e-17
+WP_082632973.1  IS5/IS1182 family transposase [Nitrosomonas ureae]    79.7    1e-16
+CDM90008.1  transposase [Xenorhabdus bovienii]                        79.3    1e-16
+WP_032645564.1  IS5 family transposase [Pseudomonas syringae]         78.2    1e-16
+WP_082632988.1  IS5/IS1182 family transposase [Nitrosomonas ureae]    79.7    1e-16
+EHL31055.1  ISSod6 transposase, IS1301 [Legionella drancourtii LL...  77.8    1e-16
+OKO95230.1  transposase [Xenorhabdus eapokensis]                      78.2    1e-16
+WP_033016175.1  IS5 family transposase [Pseudoalteromonas sp. BSi...  79.7    1e-16
+WP_014843691.1  IS5 family transposase [Legionella pneumophila]       79.7    1e-16
+ALQ52458.1  transposase [Nitrosomonas ureae]                          79.3    1e-16
+AGH53983.1  Mobile element protein [Legionella pneumophila subsp....  79.0    1e-16
+EQC00980.1  transposase [Photorhabdus temperata subsp. temperata ...  77.8    1e-16
+WP_064023769.1  IS5/IS1182 family transposase [Methylomonas sp. D...  79.3    1e-16
+WP_080397068.1  IS5/IS1182 family transposase [Pseudomonas syringae]  79.3    1e-16
+KPC03233.1  Transposase [Pseudomonas syringae pv. maculicola]         79.3    1e-16
+WP_082632995.1  IS5/IS1182 family transposase [Nitrosomonas ureae]    79.3    1e-16
+GAO93198.1  hypothetical protein PSA5_10795 [Pseudomonas syringae...  79.3    1e-16
+WP_010947046.1  IS5 family transposase [Legionella pneumophila]       79.3    1e-16
+SFB43047.1  transposase, IS4 family [Azotobacter beijerinckii]        79.7    1e-16
+WP_080392632.1  IS5/IS1182 family transposase [Pseudomonas syringae]  79.3    1e-16
+WP_080543310.1  IS5/IS1182 family transposase [Pseudomonas amygdali]  79.3    1e-16
+WP_077527984.1  IS5/IS1182 family transposase [Pseudomonas syringae]  79.3    1e-16
+ALQ52484.1  transposase [Nitrosomonas ureae]                          79.3    1e-16
+WP_083381529.1  IS5/IS1182 family transposase [Nitrosomonas ureae]    79.3    1e-16
+WP_012987951.1  IS5/IS1182 family transposase [Xenorhabdus bovienii]  79.3    1e-16
+CEK21260.1  transposase [Xenorhabdus nematophila AN6/1]               79.3    1e-16
+CBJ89290.1  transposase [Xenorhabdus nematophila ATCC 19061]          79.0    1e-16
+CBJ11589.1  putative transposase [Legionella longbeachae NSW150]      77.8    1e-16
+WP_082632977.1  IS5/IS1182 family transposase [Nitrosomonas ureae]    79.3    1e-16
+AGN14208.1  transposase [Legionella pneumophila subsp. pneumophil...  79.0    1e-16
+KFI21220.1  transposase [Nitrosococcus oceani]                        78.2    2e-16
+ALQ52498.1  transposase [Nitrosomonas ureae]                          79.3    2e-16
+EPM70716.1  transposase, IS4 [Pseudomonas syringae pv. theae ICMP...  78.6    2e-16
+ALQ52462.1  transposase [Nitrosomonas ureae]                          79.0    2e-16
+WP_013183194.1  IS5 family transposase [Xenorhabdus nematophila]      79.3    2e-16
+SER87612.1  transposase, IS4 family [Azotobacter beijerinckii]        79.3    2e-16
+WP_032664887.1  IS5/IS1182 family transposase [Pseudomonas syringae]  79.0    2e-16
+WP_046336150.1  IS5 family transposase [Xenorhabdus bovienii]         79.3    2e-16
+EGH14755.1  Transposase, IS4, partial [Pseudomonas amygdali pv. m...  79.0    2e-16
+EEZ95293.1  putative transposase [Legionella longbeachae D-4968]      77.8    2e-16
+OOK92642.1  IS5 family transposase [Pseudomonas syringae pv. acti...  79.0    2e-16
+WP_041573654.1  IS5 family transposase [Xenorhabdus nematophila]      79.3    2e-16
+WP_010845415.1  IS5 family transposase [Xenorhabdus nematophila]      79.0    2e-16
+OPH33430.1  hypothetical protein B5J93_12890 [Moraxella equi]         75.5    2e-16
+CEE95007.1  transposase [Xenorhabdus nematophila str. Anatoliense]    79.0    2e-16
+WP_038219484.1  IS5 family transposase [Xenorhabdus nematophila]      79.0    2e-16
+WP_038244302.1  IS5 family transposase [Xenorhabdus bovienii]         79.0    2e-16
+GAA80739.1  hypothetical protein P20495_3254 [Pseudoalteromonas s...  78.6    2e-16
+WP_012837682.1  IS5/IS1182 family transposase [Comamonas testoste...  79.3    2e-16
+WP_068391216.1  IS5 family transposase [Ventosimonas gracilis]        79.0    2e-16
+WP_020342282.1  IS5 family transposase [Pseudomonas syringae]         78.2    2e-16
+WP_082045668.1  IS5/IS1182 family transposase [Azotobacter chrooc...  79.0    2e-16
+SFL25596.1  transposase, IS4 family [Azotobacter beijerinckii]        79.0    2e-16
+ERT10099.1  hypothetical protein O185_27450 [Photorhabdus tempera...  78.6    2e-16
+ABC30043.1  Transposase and inactivated derivatives [Hahella chej...  77.4    2e-16
+KPW95040.1  hypothetical protein ALO79_200161 [Pseudomonas syring...  75.1    2e-16
+SFM76929.1  transposase, IS4 family [Nitrosomonas nitrosa]            79.3    2e-16
+WP_031282464.1  IS5/IS1182 family transposase [Photorhabdus tempe...  79.0    2e-16
+WP_038224926.1  IS5/IS1182 family transposase [Xenorhabdus bovienii]  79.0    2e-16
+SEJ30605.1  transposase, IS4 family [Azotobacter beijerinckii]        79.0    2e-16
+WP_004543214.1  MULTISPECIES: IS5 family transposase [Proteobacte...  79.0    2e-16
+KTD52612.1  transposase [Legionella santicrucis]                      75.1    2e-16
+KEZ77735.1  transposase, IS4 [Salinisphaera hydrothermalis C41B8]     78.2    2e-16
+WP_046974709.1  IS5/IS1182 family transposase [Photorhabdus tempe...  79.0    2e-16
+ACO77194.1  Transposase, IS4 [Azotobacter vinelandii DJ]              78.6    3e-16
+AJE23859.1  Transposase, IS4 family [Azotobacter chroococcum NCIM...  78.6    3e-16
+KEZ75735.1  transposase, IS4 [Salinisphaera hydrothermalis C41B8]     77.0    3e-16
+WP_082045430.1  IS5/IS1182 family transposase [Azotobacter chrooc...  78.6    3e-16
+WP_074906042.1  IS5/IS1182 family transposase [Nitrosomonas commu...  77.0    3e-16
+WP_038227011.1  IS5 family transposase [Xenorhabdus bovienii]         77.0    3e-16
+SDH61880.1  Transposase [Nitrosomonas sp. Nm132]                      76.3    3e-16
+CBJ81929.1  transposase [Xenorhabdus bovienii SS-2004]                77.8    3e-16
+AJE21945.1  Transposase, IS4 family [Azotobacter chroococcum NCIM...  78.2    3e-16
+SFL07449.1  transposase, IS4 family [Azotobacter beijerinckii]        78.2    4e-16
+SEJ09776.1  transposase, IS4 family [Azotobacter beijerinckii]        78.2    4e-16
+WP_079995910.1  IS5/IS1182 family transposase [Pseudomonas syringae]  77.0    4e-16
+SEJ51413.1  transposase, IS4 family [Azotobacter beijerinckii]        77.0    4e-16
+EGH68757.1  Transposase, IS4 [Pseudomonas syringae pv. actinidiae...  76.6    4e-16
+WP_082110359.1  IS5/IS1182 family transposase [Nitrosomonas commu...  78.2    4e-16
+WP_054997868.1  IS5 family transposase [Pseudomonas tremae]           76.3    4e-16
+WP_083398336.1  IS5/IS1182 family transposase [Nitrosomonas commu...  77.8    5e-16
+WP_047686011.1  IS5/IS1182 family transposase [Xenorhabdus sp. NB...  77.8    5e-16
+SDY40275.1  Transposase [Nitrosomonas sp. Nm33]                       76.3    5e-16
+AKH39503.1  transposase [Nitrosomonas communis]                       77.8    5e-16
+WP_080032929.1  IS5/IS1182 family transposase [Pseudomonas syringae]  77.8    5e-16
+WP_082438194.1  IS5/IS1182 family transposase [Pseudomonas cannab...  77.8    6e-16
+WP_038179891.1  IS5/IS1182 family transposase [Xenorhabdus bovienii]  77.8    6e-16
+WP_051870870.1  IS5 family transposase [Xenorhabdus bovienii]         77.0    6e-16
+WP_080399766.1  IS5/IS1182 family transposase [Pseudomonas syringae]  77.8    6e-16
+CDG92359.1  transposase [Xenorhabdus bovienii str. feltiae Florida]   77.0    6e-16
+EPM90655.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  77.4    6e-16
+WP_082045535.1  IS5/IS1182 family transposase [Azotobacter chrooc...  77.4    6e-16
+CDH32534.1  transposase [Xenorhabdus bovienii str. Intermedium]       77.4    7e-16
+SDI19110.1  Transposase [Nitrosomonas sp. Nm132]                      75.5    7e-16
+AJE23431.1  Transposase, IS4 family [Azotobacter chroococcum NCIM...  77.4    7e-16
+WP_074907651.1  IS5/IS1182 family transposase [Nitrosomonas commu...  76.6    7e-16
+WP_071159566.1  IS5/IS1182 family transposase [Methylomonas sp. LWB]  77.4    8e-16
+SFB65743.1  transposase, IS4 family [Azotobacter beijerinckii]        76.6    8e-16
+WP_038220425.1  IS5 family transposase [Xenorhabdus nematophila]      76.3    9e-16
+KHD28093.1  transposase [Xenorhabdus nematophila]                     75.1    9e-16
+WP_080153576.1  IS5/IS1182 family transposase [Pseudomonas syringae]  77.0    9e-16
+SFM78953.1  Transposase [Nitrosomonas communis]                       76.6    9e-16
+WP_082305692.1  MULTISPECIES: hypothetical protein [Pseudoalterom...  73.9    9e-16
+WP_083796423.1  IS5/IS1182 family transposase [Marinobacter sp. E...  77.0    9e-16
+WP_038207738.1  IS5 family transposase [Xenorhabdus bovienii]         77.0    9e-16
+SDY87873.1  Putative transposase of IS4/5 family [Nitrosomonas sp...  75.1    1e-15
+CZH55772.1  Transposase and inactivated derivatives [Legionella p...  74.3    1e-15
+EAZ98231.1  transposase [Marinobacter sp. ELB17]                      77.0    1e-15
+WP_013183573.1  IS5/IS1182 family transposase [Xenorhabdus nemato...  77.0    1e-15
+WP_051869151.1  IS5 family transposase [Xenorhabdus bovienii]         76.6    1e-15
+EPM95611.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  76.6    1e-15
+WP_038219891.1  IS5/IS1182 family transposase [Xenorhabdus nemato...  77.0    1e-15
+WP_040107112.1  IS5/IS1182 family transposase [Azotobacter chrooc...  76.6    1e-15
+WP_013184705.1  IS5/IS1182 family transposase [Xenorhabdus nemato...  77.0    1e-15
+EPM47764.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  76.6    1e-15
+WP_038251361.1  IS5 family transposase [Xenorhabdus nematophila]      77.0    1e-15
+AJE23542.1  Transposase, IS4 family [Azotobacter chroococcum NCIM...  76.3    1e-15
+SFM53910.1  Transposase [Nitrosomonas communis]                       77.0    1e-15
+WP_082110400.1  IS5/IS1182 family transposase [Nitrosomonas commu...  76.6    1e-15
+WP_084188679.1  IS5 family transposase [Salinisphaera hydrotherma...  76.6    1e-15
+WP_046336656.1  IS5 family transposase [Xenorhabdus bovienii]         76.6    1e-15
+WP_084671835.1  IS5/IS1182 family transposase [Halomonas ilicicola]   76.6    1e-15
+WP_082110364.1  IS5/IS1182 family transposase [Nitrosomonas commu...  76.6    1e-15
+WP_038221071.1  IS5 family transposase [Xenorhabdus nematophila]      75.1    1e-15
+KTD59725.1  ISSod6 transposase [Legionella sainthelensi]              74.3    1e-15
+WP_057424415.1  IS5 family transposase [Pseudomonas amygdali]         75.5    1e-15
+AKH39567.1  transposase [Nitrosomonas communis]                       76.6    2e-15
+SDY15129.1  Transposase [Nitrosomonas sp. Nm33]                       76.6    2e-15
+WP_082110346.1  IS5/IS1182 family transposase [Nitrosomonas commu...  76.6    2e-15
+WP_047686025.1  IS5 family transposase [Xenorhabdus sp. NBAII Xen...  75.9    2e-15
+AKH39504.1  transposase [Nitrosomonas communis]                       76.3    2e-15
+CBJ91054.1  transposase (fragment) [Xenorhabdus nematophila ATCC ...  75.5    2e-15
+CBJ91713.1  transposase (fragment) [Xenorhabdus nematophila ATCC ...  75.5    2e-15
+CBJ79608.1  transposase (fragment) [Xenorhabdus bovienii SS-2004]     75.1    2e-15
+AKH39470.1  transposase [Nitrosomonas communis]                       76.3    2e-15
+CBJ89968.1  transposase (fragment) [Xenorhabdus nematophila ATCC ...  75.5    2e-15
+KPY04697.1  Transposase, IS4 [Pseudomonas amygdali pv. mori]          76.3    2e-15
+KPX08701.1  hypothetical protein ALO73_200152 [Pseudomonas syring...  74.7    2e-15
+KPB59922.1  Transposase [Pseudomonas amygdali pv. myricae]            74.7    2e-15
+WP_082648954.1  IS5/IS1182 family transposase [Pseudomonas margin...  76.3    2e-15
+CCW31975.1  transposase [Xenorhabdus nematophila F1]                  75.5    2e-15
+KEY58529.1  transposase [Serratia sp. DD3]                            74.7    2e-15
+CEF33117.1  transposase (fragment) [Xenorhabdus nematophila str. ...  75.5    2e-15
+KTC25943.1  transposase [Pseudomonas marginalis ICMP 9505]            76.3    2e-15
+EPN24021.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  72.0    2e-15
+SFN08869.1  Putative transposase of IS4/5 family [Nitrosomonas co...  73.9    2e-15
+WP_081007491.1  IS5/IS1182 family transposase [Pseudomonas amygdali]  74.3    2e-15
+EPM78817.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  72.0    2e-15
+WP_007350013.1  IS5 family transposase [Marinobacter sp. ELB17]       75.9    3e-15
+WP_013184019.1  IS5/IS1182 family transposase [Xenorhabdus nemato...  75.9    3e-15
+CZH91630.1  Transposase and inactivated derivatives [Legionella p...  74.7    3e-15
+WP_037385687.1  IS5 family transposase [Serratia sp. DD3]             75.9    3e-15
+WP_086190877.1  hypothetical protein [Acinetobacter sp. ANC 3832]     74.3    3e-15
+WP_082110355.1  IS5/IS1182 family transposase [Nitrosomonas commu...  75.9    3e-15
+AKH39498.1  transposase [Nitrosomonas communis]                       75.5    3e-15
+WP_033158617.1  IS5 family transposase [Methylomonas sp. LW13]        74.3    4e-15
+OGV29944.1  transposase [Legionellales bacterium RIFCSPHIGHO2_12_...  75.5    4e-15
+WP_080399678.1  IS5/IS1182 family transposase [Pseudomonas syringae]  75.5    4e-15
+WP_081261735.1  hypothetical protein [Moraxella catarrhalis]          72.8    5e-15
+SFN21637.1  Transposase DDE domain-containing protein [Nitrosomon...  73.9    5e-15
+WP_079550575.1  IS5/IS1182 family transposase [Halomonas subglaci...  75.1    5e-15
+CDH03894.1  transposase (fragment) [Xenorhabdus bovienii str. fel...  73.6    5e-15
+CDM92298.1  transposase (fragment) [Xenorhabdus bovienii]             73.9    5e-15
+KDB47201.1  transposase [Haemophilus parasuis HPS9]                   70.9    5e-15
+CDM90906.1  transposase (fragment) [Xenorhabdus bovienii]             73.6    5e-15
+WP_051869049.1  IS5/IS1182 family transposase [Xenorhabdus bovienii]  74.7    6e-15
+SFL66858.1  Transposase [Nitrosomonas communis]                       73.6    6e-15
+CEF29370.1  transposase [Xenorhabdus nematophila str. Websteri]       74.7    7e-15
+EQA11460.1  transposase, IS4 family protein [Haemophilus parasuis...  70.9    7e-15
+EQA04154.1  putative transposase [Haemophilus parasuis str. Nagas...  71.2    7e-15
+SDY68319.1  Transposase [Nitrosomonas sp. Nm58]                       74.7    8e-15
+EMY47228.1  transposase, IS4 family protein [Haemophilus parasuis...  70.5    8e-15
+WP_033159547.1  IS5/IS1182 family transposase [Methylomonas sp. L...  74.7    8e-15
+EPN37913.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  73.6    8e-15
+KEY56589.1  transposase [Serratia sp. DD3]                            73.2    9e-15
+WP_028865312.1  transposase [Psychromonas aquimarina]                 73.6    9e-15
+WP_082110416.1  IS5/IS1182 family transposase [Nitrosomonas commu...  74.7    9e-15
+AKH39579.1  transposase [Nitrosomonas communis]                       74.3    1e-14
+EKX97026.1  transposase, IS4 family [Aggregatibacter actinomycete...  73.9    1e-14
+WP_037384869.1  IS5 family transposase [Serratia sp. DD3]             74.3    1e-14
+KID53300.1  transposase IS4 [Neisseria meningitidis LNP27256]         72.4    1e-14
+KPX21532.1  Transposase, IS4, partial [Pseudomonas amygdali pv. e...  72.8    1e-14
+WP_085815661.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    1e-14
+WP_067554834.1  IS5 family transposase [Acinetobacter larvae]         73.9    1e-14
+WP_047771248.1  MULTISPECIES: IS5/IS1182 family transposase [Xeno...  73.6    1e-14
+EPN15620.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  70.9    1e-14
+WP_085815407.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    2e-14
+WP_032138127.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    2e-14
+WP_003790170.1  IS5/IS1182 family transposase [Kingella kingae]       73.9    2e-14
+SDX89546.1  Transposase DDE domain-containing protein [Nitrosomon...  72.0    2e-14
+WP_085815442.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    2e-14
+WP_085815416.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    2e-14
+WP_085815494.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    2e-14
+WP_085815434.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.9    2e-14
+WP_074021881.1  IS5/IS1182 family transposase [Xenorhabdus thuong...  73.9    2e-14
+WP_057788733.1  IS5/IS1182 family transposase [Alishewanella sp. ...  73.9    2e-14
+WP_054763859.1  IS5/IS1182 family transposase [Methylomonas koyamae]  73.9    2e-14
+WP_074025452.1  IS5/IS1182 family transposase, partial [Xenorhabd...  73.9    2e-14
+SBW84762.1  transposase [Pseudomonas veronii 1YdBTEX2]                71.2    2e-14
+WP_036973876.1  IS5/IS1182 family transposase [Pseudoalteromonas ...  73.9    2e-14
+WP_033158715.1  IS5 family transposase [Methylomonas sp. LW13]        73.6    2e-14
+EPN39916.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  70.9    2e-14
+WP_067554607.1  IS5 family transposase [Acinetobacter larvae]         73.6    2e-14
+WP_067553113.1  IS5 family transposase [Acinetobacter larvae]         73.6    2e-14
+WP_050582176.1  MULTISPECIES: IS5/IS1182 family transposase [Pseu...  72.8    2e-14
+WP_067552802.1  IS5 family transposase [Acinetobacter larvae]         73.6    2e-14
+WP_074019855.1  IS5/IS1182 family transposase [Xenorhabdus thuong...  73.9    2e-14
+WP_024603875.1  MULTISPECIES: transposase [Pseudoalteromonas]         72.8    2e-14
+WP_049753177.1  IS5/IS1182 family transposase [[Haemophilus] para...  69.7    2e-14
+WP_061866571.1  IS5 family transposase [Aggregatibacter actinomyc...  73.9    2e-14
+WP_067555348.1  IS5 family transposase [Acinetobacter larvae]         73.6    2e-14
+WP_049588185.1  IS5 family transposase [Alteromonas macleodii]        73.6    2e-14
+EPN30107.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  69.7    2e-14
+EIC13113.1  transposase, IS4 family protein [Kingella kingae PYKK...  71.2    2e-14
+WP_025565986.1  IS5 family transposase [Psychromonas sp. SP041]       73.6    2e-14
+WP_085815538.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.6    2e-14
+WP_085815495.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   73.2    2e-14
+WP_061888545.1  IS5 family transposase [Aggregatibacter actinomyc...  72.4    2e-14
+AGP87259.1  transposase, IS4 family protein [Alteromonas mediterr...  72.8    2e-14
+CEE92077.1  transposase [Xenorhabdus nematophila str. Anatoliense]    73.6    2e-14
+WP_083835094.1  hypothetical protein [Alishewanella jeotgali]         70.5    3e-14
+WP_060828696.1  IS5 family transposase [Aggregatibacter actinomyc...  73.6    3e-14
+OAU97614.1  Mobile element protein [Moraxella catarrhalis]            70.5    3e-14
+WP_077559894.1  IS5/IS1182 family transposase [Pasteurellaceae ba...  73.2    3e-14
+WP_015068055.1  IS5 family transposase [Alteromonas mediterranea]     73.2    3e-14
+BAS49013.1  transposase, IS4 family protein [Aggregatibacter acti...  73.2    3e-14
+WP_076611971.1  IS5 family transposase ISAac2 [Aggregatibacter ac...  73.2    3e-14
+WP_076923280.1  IS5/IS1182 family transposase [Pseudoalteromonas ...  72.4    4e-14
+AEA99421.1  transposase [Alteromonas mediterranea DE]                 71.6    4e-14
+CRZ19910.1  transposase [Kingella kingae]                             73.2    4e-14
+OBU35319.1  transposase [Photobacterium phosphoreum]                  72.8    4e-14
+WP_001138310.1  IS5/IS1182 family transposase [Vibrio cholerae]       72.8    4e-14
+WP_024611512.1  IS5/IS1182 family transposase [Pseudoalteromonas ...  72.8    4e-14
+WP_036973881.1  IS5/IS1182 family transposase [Pseudoalteromonas ...  72.8    4e-14
+CDT61509.1  hypothetical protein BN1095_6010002 [Clostridioides d...  70.5    4e-14
+WP_065561306.1  IS5 family transposase [Gilliamella apicola]          72.0    4e-14
+WP_024600859.1  MULTISPECIES: IS5/IS1182 family transposase [Pseu...  72.8    4e-14
+WP_065561204.1  IS5 family transposase [Gilliamella apicola]          72.0    5e-14
+GAA65036.1  hypothetical protein P20311_2840 [Pseudoalteromonas s...  72.8    5e-14
+WP_082960876.1  IS5/IS1182 family transposase [Photobacterium pho...  72.4    5e-14
+WP_065559901.1  IS5 family transposase [Gilliamella apicola]          72.0    5e-14
+SFI58036.1  Transposase [Nitrosomonas sp. Nm34]                       71.2    5e-14
+OOK98404.1  hypothetical protein B0B36_11050 [Pseudomonas syringa...  70.5    5e-14
+WP_064185331.1  IS5 family transposase [Klebsiella pneumoniae]        72.4    5e-14
+EPN15319.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  68.9    6e-14
+WP_065623152.1  IS5/IS1182 family transposase [Gilliamella apicola]   72.4    6e-14
+KOE66317.1  hypothetical protein A160_0204030 [Aggregatibacter ac...  70.9    6e-14
+ETS32242.1  transposase [Photorhabdus temperata subsp. khanii NC19]   72.0    6e-14
+SBS39163.1  Transposase DDE domain protein [Marinomonas spartinae]    70.9    7e-14
+WP_036844751.1  IS5/IS1182 family transposase [Photorhabdus tempe...  72.4    7e-14
+CEG56275.1  transposase (fragment) [Legionella fallonii LLAP-10]      70.9    7e-14
+WP_002642686.1  IS5/IS1182 family transposase [Simonsiella muelleri]  72.4    7e-14
+KOE70731.1  hypothetical protein D18P1_0301270 [Aggregatibacter a...  70.1    7e-14
+EPN53717.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  69.3    7e-14
+WP_058967438.1  IS5 family transposase [Acinetobacter bereziniae]     72.0    7e-14
+WP_077559890.1  IS5/IS1182 family transposase [Pasteurellaceae ba...  72.0    8e-14
+WP_065561428.1  IS5/IS1182 family transposase [Gilliamella apicola]   72.0    8e-14
+WP_002641156.1  IS5/IS1182 family transposase [Simonsiella muelleri]  72.0    8e-14
+WP_002641722.1  IS5/IS1182 family transposase [Simonsiella muelleri]  72.0    8e-14
+KYK75859.1  transposase [Aggregatibacter actinomycetemcomitans se...  68.6    8e-14
+KYK73819.1  transposase [Aggregatibacter actinomycetemcomitans se...  70.1    8e-14
+WP_065560193.1  IS5/IS1182 family transposase [Gilliamella apicola]   72.0    9e-14
+ANU82411.1  hypothetical protein BBH51_06955 [Aggregatibacter act...  73.2    9e-14
+WP_032136321.1  IS5/IS1182 family transposase [Kingella sp. Sch538]   71.2    9e-14
+WP_044835764.1  IS5/IS1182 family transposase [Thalassomonas acti...  72.0    9e-14
+WP_065610672.1  IS5/IS1182 family transposase [Gilliamella apicola]   72.0    9e-14
+WP_034915900.1  IS5/IS1182 family transposase [Gilliamella apicola]   72.0    1e-13
+WP_065609057.1  IS5/IS1182 family transposase [Gilliamella apicola]   72.0    1e-13
+WP_032138188.1  IS5 family transposase [Kingella sp. Sch538]          71.2    1e-13
+WP_051320155.1  transposase [Kingella kingae]                         70.9    1e-13
+WP_067551755.1  IS5 family transposase [Acinetobacter larvae]         71.6    1e-13
+SFM62643.1  Transposase [Nitrosomonas communis]                       70.1    1e-13
+WP_053085763.1  transposase [Kingella kingae]                         70.9    1e-13
+EPN66672.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  69.3    1e-13
+WP_072141417.1  IS5/IS1182 family transposase [Kingella kingae]       70.9    1e-13
+WP_046696816.1  IS5/IS1182 family transposase [Moraxella bovoculi]    71.6    1e-13
+OKP03710.1  transposase [Xenorhabdus thuongxuanensis]                 69.7    1e-13
+WP_052326552.1  transposase [Kingella kingae]                         70.5    1e-13
+EPM68557.1  transposase, IS4 [Pseudomonas syringae pv. actinidiae...  68.9    1e-13
+WP_065623220.1  IS5 family transposase [Gilliamella apicola]          70.5    1e-13
+WP_051311958.1  transposase [Kingella kingae]                         70.5    1e-13
+WP_081261602.1  hypothetical protein [Moraxella catarrhalis]          68.2    1e-13
+KYK86385.1  transposase IS4 [Aggregatibacter actinomycetemcomitan...  70.9    2e-13
+KDN09279.1  Mobile element protein [Gilliamella apicola]              70.5    2e-13
+KDD78376.1  hypothetical protein HPS41_11015 [Haemophilus parasui...  67.0    2e-13
+SFI83456.1  Transposase [Nitrosomonas sp. Nm34]                       70.9    2e-13
+ENV23347.1  hypothetical protein F963_00632 [Acinetobacter berezi...  70.1    2e-13
+SDH86895.1  Transposase [Nitrosomonas sp. Nm132]                      69.3    2e-13
+WP_084004708.1  IS5/IS1182 family transposase [Terasakiispira pap...  70.9    2e-13
+ODC05521.1  transposase [Terasakiispira papahanaumokuakeensis]        70.9    2e-13
+OSN12286.1  hypothetical protein BV340_05488 [Pseudomonas syringa...  68.9    2e-13
+EQA09700.1  putative transposase [Haemophilus parasuis D74]           66.6    3e-13
+WP_075524404.1  transposase [Gilliamella apicola]                     70.5    3e-13
+SCB81611.1  Transposase DDE domain-containing protein, partial [G...  67.8    3e-13
+WP_065623240.1  IS5/IS1182 family transposase [Gilliamella apicola]   70.5    3e-13
+WP_075524086.1  transposase [Gilliamella apicola]                     70.5    3e-13
+WP_065609582.1  IS5 family transposase [Gilliamella apicola]          70.5    3e-13
+CZF78684.1  Transposase DDE domain protein [Grimontia marina]         70.1    3e-13
+WP_067340554.1  IS5 family transposase [Marinomonas spartinae]        70.5    3e-13
+WP_075607988.1  IS5/IS1182 family transposase [Idiomarina sp. 5.13]   70.5    3e-13
+KTD16825.1  transposase DDE domain protein [Legionella jordanis]      70.1    3e-13
+EKM26352.1  transposase DDE domain protein [Vibrio sp. HENC-03]       70.1    3e-13
+WP_068034672.1  IS5 family transposase [Psychrobacter sp. P11G5]      70.5    3e-13
+WP_080997377.1  DDE transposase [Aggregatibacter actinomycetemcom...  70.1    3e-13
+WP_027221356.1  IS5 family transposase [Legionella pneumophila]       70.5    3e-13
+KES14545.1  hypothetical protein GASC598I20_001800 [Gilliamella a...  70.1    4e-13
+OCH52910.1  transposase [Vibrio lentus]                               69.7    4e-13
+AFH93099.1  transposase [Providencia stuartii MRSN 2154]              69.3    4e-13
+WP_045625567.1  IS5 family transposase [Vibrio parahaemolyticus]      70.5    4e-13
+WP_017105263.1  IS5 family transposase [Vibrio tasmaniensis]          69.7    4e-13
+WP_009584009.1  IS4/IS5 family transposase [Acinetobacter sp. WC-...  69.3    4e-13
+ELW85293.1  hypothetical protein ACINWC743_0190 [Acinetobacter sp...  67.0    4e-13
+WP_083191006.1  IS5/IS1182 family transposase [Vibrio lentus]         69.7    4e-13
+ADV54501.1  ISSod6 transposase, TnpA_ISSod6 [Shewanella putrefaci...  70.1    4e-13
+SCB80475.1  Transposase [Gilliamella bombicola]                       70.1    4e-13
+SDI03560.1  Transposase [Nitrosomonas sp. Nm132]                      68.6    4e-13
+WP_041411978.1  IS5 family transposase [Shewanella putrefaciens]      70.1    4e-13
+WP_046224192.1  IS5 family transposase [Vibrio sp. ECSMB14106]        70.1    4e-13
+ELW78686.1  transposase, IS4 family [Acinetobacter sp. WC-743]        69.3    4e-13
+WP_060532469.1  IS5/IS1182 family transposase [Vibrio vulnificus]     70.1    4e-13
+WP_026028612.1  MULTISPECIES: IS5 family transposase [Vibrio]         70.1    4e-13
+WP_058971775.1  IS5 family transposase [Acinetobacter bereziniae]     70.1    4e-13
+WP_046761019.1  IS5 family transposase [Acinetobacter sp. Ag2]        70.1    4e-13
+WP_005032014.1  IS5 family transposase [Acinetobacter bereziniae]     70.1    4e-13
+WP_005032411.1  IS5/IS1182 family transposase [Acinetobacter bere...  70.1    4e-13
+WP_065819974.1  IS5/IS1182 family transposase [Vibrio cidicii]        70.1    4e-13
+WP_022610739.1  IS5/IS1182 family transposase [Vibrio nigripulchr...  70.1    4e-13
+WP_065677341.1  IS5 family transposase [Vibrio celticus]              70.1    4e-13
+WP_062705703.1  IS5 family transposase [Grimontia marina]             70.1    4e-13
+WP_009586206.1  IS4/IS5 family transposase [Acinetobacter sp. WC-...  69.3    5e-13
+WP_075538236.1  transposase [Gilliamella apicola]                     70.1    5e-13
+OAV01357.1  Mobile element protein [Moraxella catarrhalis]            67.4    5e-13
+ALM71835.1  Mobile element protein [Vibrio vulnificus]                70.1    5e-13
+WP_061888848.1  IS5 family transposase [Aggregatibacter actinomyc...  69.3    5e-13
+WP_029223739.1  IS5 family transposase [Vibrio tasmaniensis]          70.1    5e-13
+WP_042088844.1  IS5 family transposase [Acinetobacter bereziniae]     69.3    5e-13
+SBT14986.1  Transposase DDE domain protein [Vibrio celticus]          70.1    5e-13
+WP_085246956.1  IS5/IS1182 family transposase [Gilliamella mensalis]  70.1    5e-13
+ELW89915.1  transposase, IS4 family [Acinetobacter sp. WC-743]        68.9    5e-13
+WP_009584513.1  IS4/IS5 family transposase [Acinetobacter sp. WC-...  68.9    5e-13
+WP_065581908.1  IS5/IS1182 family transposase [Gilliamella apicola]   70.1    5e-13
+EOC58496.1  transposase DDE domain protein [Neisseria meningitidi...  68.2    5e-13
+CZF85606.1  Transposase DDE domain protein [Grimontia marina]         68.6    5e-13
+KKE81260.1  transposase IS1301 [Pseudoalteromonas luteoviolacea S...  68.6    5e-13
+OAV00771.1  Mobile element protein [Moraxella catarrhalis]            67.4    5e-13
+WP_065560068.1  IS5 family transposase [Gilliamella apicola]          68.6    6e-13
+WP_004861184.1  IS5/IS1182 family transposase [Acinetobacter gern...  69.7    6e-13
+WP_004996851.1  MULTISPECIES: IS5 family transposase [Acinetobacter]  69.7    6e-13
+WP_044436059.1  IS5 family transposase [Acinetobacter ursingii]       69.7    6e-13
+EOC58447.1  transposase DDE domain protein [Neisseria meningitidi...  68.2    6e-13
+WP_071805297.1  IS5/IS1182 family transposase [Aggregatibacter ac...  69.7    7e-13
+WP_011071076.1  IS5 family transposase ISSod6 [Shewanella oneiden...  69.7    7e-13
+WP_011071731.1  IS5 family transposase [Shewanella oneidensis]        69.7    7e-13
+WP_034167680.1  IS5/IS1182 family transposase [Escherichia coli]      69.7    7e-13
+WP_011073155.1  IS5 family transposase [Shewanella oneidensis]        69.3    8e-13
+WP_069597143.1  IS5/IS1182 family transposase [Vibrio crassostreae]   67.8    8e-13
+SCB81993.1  Transposase, partial [Gilliamella intestini]              67.8    9e-13
+WP_047681665.1  IS5/IS1182 family transposase [Xenorhabdus sp. NB...  69.3    9e-13
+WP_038304215.1  transposase [Kingella kingae]                         68.6    9e-13
+WP_062728314.1  IS5 family transposase [Legionella pneumophila]       69.3    9e-13
+WP_051258266.1  transposase [Kingella kingae]                         68.6    9e-13
+WP_067558186.1  IS5 family transposase [Acinetobacter larvae]         69.3    9e-13
+SCC01351.1  Transposase, partial [Gilliamella intestini]              67.8    9e-13
+WP_069945575.1  IS5/IS1182 family transposase [Alteromonas macleo...  69.3    9e-13
+OEH68621.1  transposase [Psychrobacter sp. B29-1]                     67.4    1e-12
+WP_061096257.1  IS5 family transposase [Alteromonas macleodii]        69.3    1e-12
+WP_051290314.1  transposase [Kingella kingae]                         68.6    1e-12
+EKT61439.1  transposase [Providencia burhodogranariea DSM 19968]      65.9    1e-12
+CBJ90239.1  transposase (fragment) [Xenorhabdus nematophila ATCC ...  67.8    1e-12
+WP_051267798.1  transposase [Kingella kingae]                         68.6    1e-12
+WP_051267744.1  transposase [Kingella kingae]                         68.6    1e-12
+WP_051150055.1  transposase [Kingella kingae]                         68.2    1e-12
+WP_051286070.1  transposase [Kingella kingae]                         68.2    1e-12
+CBJ91848.1  transposase [Xenorhabdus nematophila ATCC 19061]          68.6    1e-12
+OES25267.1  transposase DDE domain protein [Alteromonas macleodii]    68.9    1e-12
+CDT00482.1  transposase (fragment) [Vibrio crassostreae]              68.2    1e-12
+WP_034703988.1  IS5 family transposase [Acinetobacter baumannii]      68.2    1e-12
+CZJ19738.1  Transposase and inactivated derivatives [Legionella p...  68.9    1e-12
+WP_051268269.1  transposase [Kingella kingae]                         68.2    1e-12
+WP_065606598.1  IS5/IS1182 family transposase [Gilliamella apicola]   68.9    1e-12
+
+
+>ABO12986.1 hypothetical protein A1S_2569 [Acinetobacter baumannii ATCC 17978]
+ EXE68217.1 hypothetical protein J585_1844 [Acinetobacter baumannii 397971]
+ KLT74461.1 hypothetical protein T632_3759 [Acinetobacter baumannii MRSN 
+4106]
+ KLT83217.1 hypothetical protein T630_3997 [Acinetobacter baumannii MRSN 
+3527]
+ KLT97910.1 hypothetical protein T629_3917 [Acinetobacter baumannii MRSN 
+3405]
+ KLT98744.1 hypothetical protein T631_3832 [Acinetobacter baumannii MRSN 
+3942]
+ ALJ86093.1 hypothetical protein AN415_00144 [Acinetobacter baumannii]
+ KZA48485.1 hypothetical protein LV45_02756 [Acinetobacter baumannii]
+Length=59
+
+ Score = 122 bits (307),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+
+
+>ENX28379.1 hypothetical protein F891_01226 [Acinetobacter sp. CIP 101966]
+Length=170
+
+ Score = 122 bits (306),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENX23468.1 hypothetical protein F893_01358 [Acinetobacter sp. CIP 102136]
+ ENX27733.1 hypothetical protein F890_03229 [Acinetobacter sp. CIP 64.7]
+ ENX31108.1 hypothetical protein F890_01252 [Acinetobacter sp. CIP 64.7]
+Length=168
+
+ Score = 121 bits (304),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>EIM38413.1 putative transposase [Acinetobacter sp. HA]
+Length=168
+
+ Score = 121 bits (303),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENV14139.1 hypothetical protein F965_00375 [Acinetobacter schindleri NIPH 
+900]
+Length=168
+
+ Score = 121 bits (303),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENX25244.1 hypothetical protein F891_03407 [Acinetobacter sp. CIP 101966]
+Length=168
+
+ Score = 120 bits (301),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIR+HQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRLHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>KJV38130.1 transposase [Acinetobacter brisouii]
+Length=168
+
+ Score = 119 bits (299),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIR HQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRAHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENW85269.1 hypothetical protein F906_02798 [Acinetobacter sp. NIPH 713]
+ ENW85847.1 hypothetical protein F906_02175 [Acinetobacter sp. NIPH 713]
+ ENW86818.1 hypothetical protein F906_01890 [Acinetobacter sp. NIPH 713]
+ ENW87301.1 hypothetical protein F906_00526 [Acinetobacter sp. NIPH 713]
+ ENW87812.1 hypothetical protein F906_01055 [Acinetobacter sp. NIPH 713]
+Length=168
+
+ Score = 119 bits (298),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKIT G
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITEG  59
+
+
+>GAB76227.1 putative transposase [Acinetobacter radioresistens DSM 6976 = 
+NBRC 102413 = CIP 103788]
+ ENV84920.1 hypothetical protein F939_02979 [Acinetobacter radioresistens 
+DSM 6976 = NBRC 102413 = CIP 103788]
+ APC57317.1 transposase IS5 family (plasmid) [Acinetobacter lwoffii]
+Length=168
+
+ Score = 119 bits (297),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENX02067.1 hypothetical protein F899_01253 [Acinetobacter sp. CIP 101934]
+Length=168
+
+ Score = 118 bits (296),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENW31920.1 hypothetical protein F924_00136 [Acinetobacter lwoffii ATCC 9957 
+= CIP 70.31]
+Length=168
+
+ Score = 118 bits (296),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENX26504.1 hypothetical protein F890_03477 [Acinetobacter sp. CIP 64.7]
+Length=168
+
+ Score = 118 bits (296),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>EKE23899.1 Transposase [uncultured bacterium]
+ ENU14935.1 hypothetical protein F995_03159 [Acinetobacter sp. CIP A162]
+ ESJ93868.1 hypothetical protein P800_03078 [Acinetobacter lwoffii NCTC 5866 
+= CIP 64.10 = NIPH 512]
+Length=145
+
+ Score = 117 bits (294),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASGAR+GFERAIGQSRGG+ TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGARYGFERAIGQSRGGQTTKIHLATDANGLPIDFKITGG  59
+
+
+>EXC44915.1 transposase DDE domain protein [Acinetobacter baumannii 99063]
+Length=168
+
+ Score = 118 bits (295),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIR HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRAHQHASGARYGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>WP_016167426.1 IS5 family transposase [Acinetobacter tandoii]
+ EOR06518.1 hypothetical protein I593_02386 [Acinetobacter tandoii DSM 14970 
+= CIP 107469]
+Length=250
+
+ Score = 120 bits (300),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +DQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  83   LDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  141
+
+
+>WP_076753340.1 IS5/IS1182 family transposase [Acinetobacter schindleri]
+ APX62456.1 transposase protein [Acinetobacter schindleri]
+Length=234
+
+ Score = 119 bits (298),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +DQEWVFIDGSYIRVHQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  83   LDQEWVFIDGSYIRVHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  141
+
+
+>ENU99820.1 hypothetical protein F969_01182 [Acinetobacter sp. NIPH 899]
+Length=168
+
+ Score = 117 bits (293),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFIDGSYIRVHQ+ASG R+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDGSYIRVHQHASGTRNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  59
+
+
+>EXR25488.1 transposase DDE domain protein [Acinetobacter sp. 1179249]
+Length=112
+
+ Score = 112 bits (281),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFID SYIR HQ+AS ARHGFERAIGQSRG R TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDESYIRTHQHASRARHGFERAIGQSRGERTTKIHLATDANGLPIDFKITGG  59
+
+
+>ENV39033.1 hypothetical protein F958_03861 [Acinetobacter nosocomialis NIPH 
+386]
+ EXB17264.1 transposase DDE domain protein [Acinetobacter baumannii 1429530]
+ EXC10245.1 transposase DDE domain protein [Acinetobacter baumannii 4749]
+ EXH09603.1 transposase DDE domain protein [Acinetobacter sp. 1245593]
+ EXR36453.1 transposase DDE domain protein [Acinetobacter sp. 1294243]
+ OID34734.1 transposase [Acinetobacter nosocomialis]
+ OIG80775.1 transposase [Acinetobacter baumannii]
+ OUC57363.1 transposase [Acinetobacter seifertii]
+Length=112
+
+ Score = 112 bits (280),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFID SYIR HQ+AS ARHGFERAIGQSRG R TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIDESYIRTHQHASRARHGFERAIGQSRGERTTKIHLATDANGLPIDFKITGG  59
+
+
+>WP_002126631.1 IS5/IS1182 family transposase [Acinetobacter pittii]
+ EEW98342.1 hypothetical protein HMPREF0014_03300 [Acinetobacter sp. RUH2624]
+ EKP48140.1 transposase, IS4 family [Acinetobacter baumannii Naval-82]
+ ENV24004.1 hypothetical protein F962_03778 [Acinetobacter baumannii NIPH 
+190]
+ KCX12436.1 transposase DDE domain protein [Acinetobacter sp. 1264765]
+ OCY41362.1 transposase [Acinetobacter pittii]
+ OCY90514.1 transposase [Acinetobacter pittii]
+ OIC73641.1 transposase [Acinetobacter nosocomialis]
+ OIG45918.1 transposase [Acinetobacter baumannii]
+ ONN47998.1 transposase [Acinetobacter genomosp. 33YU]
+Length=165
+
+ Score = 112 bits (281),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 52/59 (88%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MDQEWVFI+GSYIR HQ+ASGARHGF+RAIG+SRG R TKIHLATDANGLPIDFKITGG
+Sbjct  1   MDQEWVFIEGSYIRAHQHASGARHGFKRAIGRSRGERTTKIHLATDANGLPIDFKITGG  59
+
+
+>AMW77577.1 transposase [Acinetobacter sp. TGL-Y2]
+ AMW77978.1 transposase [Acinetobacter sp. TGL-Y2]
+Length=168
+
+ Score = 103 bits (256),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 48/59 (81%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD+EWVFIDGSYIR HQ+ASGARHG ERAIG+SRGG  TKIHLA DA+G PIDF+ITGG
+Sbjct  1   MDKEWVFIDGSYIRAHQHASGARHGEERAIGKSRGGATTKIHLAVDASGYPIDFEITGG  59
+
+
+>AMW78305.1 transposase [Acinetobacter sp. TGL-Y2]
+Length=168
+
+ Score = 100 bits (250),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 47/59 (80%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD+EWVFIDGSYIR HQ+ASGARHG E AIG+SRGG  TKIHLA DA+G PIDF+ITGG
+Sbjct  1   MDKEWVFIDGSYIRAHQHASGARHGEESAIGKSRGGATTKIHLAVDASGYPIDFEITGG  59
+
+
+>AMW78478.1 transposase [Acinetobacter sp. TGL-Y2]
+ AMW78566.1 transposase [Acinetobacter sp. TGL-Y2]
+ AMW78607.1 transposase [Acinetobacter sp. TGL-Y2]
+Length=168
+
+ Score = 100 bits (249),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 47/59 (80%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD+EWVFIDGSYIR HQ+ASGARHG E AIG+SRGG  TKIHLA DA+G PIDF+ITGG
+Sbjct  1   MDKEWVFIDGSYIRAHQHASGARHGEESAIGKSRGGATTKIHLAVDASGYPIDFEITGG  59
+
+
+>WP_079887144.1 IS5/IS1182 family transposase, partial [Neisseria meningitidis]
+Length=172
+
+ Score = 99.8 bits (247),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  5   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  63
+
+
+>WP_083314112.1 IS5/IS1182 family transposase, partial [Neisseria sp. HMSC070F02]
+Length=175
+
+ Score = 99.4 bits (246),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  8   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  66
+
+
+>WP_050547808.1 IS5 family transposase, partial [Neisseria meningitidis]
+Length=182
+
+ Score = 99.4 bits (246),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  15  IDEEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  73
+
+
+>WP_086429924.1 IS5/IS1182 family transposase, partial [Neisseria meningitidis]
+Length=180
+
+ Score = 99.4 bits (246),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  13  IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  71
+
+
+>WP_079876305.1 IS5/IS1182 family transposase, partial [Neisseria meningitidis]
+Length=175
+
+ Score = 99.4 bits (246),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  8   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  66
+
+
+>AFP82062.1 putative transposase [Neisseria meningitidis]
+ CCP19688.1 transposase IS4 family [Neisseria meningitidis]
+ EOC15877.1 transposase DDE domain protein [Neisseria meningitidis 73696]
+Length=179
+
+ Score = 99.4 bits (246),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  12  IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  70
+
+
+>EHP17243.1 transposase IS4 family, partial [Neisseria meningitidis NM220]
+Length=169
+
+ Score = 99.0 bits (245),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  12  IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  70
+
+
+>CAA88915.1 orf2 [Neisseria meningitidis]
+ ABW08131.1 unknown [Neisseria meningitidis]
+ EGC54112.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC54421.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC54852.1 putative transposase [Neisseria meningitidis M6190]
+ EGC55056.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC55065.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC55341.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC55593.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC55785.1 transposase IS4 family [Neisseria meningitidis M6190]
+ EGC60962.1 transposase IS4 family [Neisseria meningitidis ES14902]
+ EGC61013.1 transposase IS4 family [Neisseria meningitidis ES14902]
+ EGC61134.1 transposase IS4 family [Neisseria meningitidis ES14902]
+ EGC61451.1 transposase IS4 family [Neisseria meningitidis ES14902]
+ ADY92831.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY92845.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY92847.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY92980.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY92989.1 putative transposase [Neisseria meningitidis G2136]
+ ADY93026.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93252.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93332.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93606.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93707.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93720.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93847.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY93874.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY94078.1 transposase [Neisseria meningitidis G2136]
+ ADY94119.1 putative transposase [Neisseria meningitidis G2136]
+ ADY94164.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY94258.1 transposase IS4 family [Neisseria meningitidis G2136]
+ ADY94522.1 putative transposase [Neisseria meningitidis G2136]
+ ADZ00626.1 transposase IS4 family [Neisseria meningitidis M04-240196]
+ ADZ01181.1 transposase IS4 family [Neisseria meningitidis M04-240196]
+ ADZ01415.1 transposase IS4 family [Neisseria meningitidis M04-240196]
+ ADZ02168.1 transposase IS4 family [Neisseria meningitidis M04-240196]
+ AFP82061.1 putative transposase [Neisseria meningitidis]
+ CCP19733.1 transposase [Neisseria meningitidis]
+ CCP19761.1 transposase [Neisseria meningitidis]
+ CCP19815.1 Transposase IS4 family [Neisseria meningitidis]
+ CCP19923.1 IS4 family transposase [Neisseria meningitidis]
+ EOC11269.1 transposase DDE domain protein [Neisseria meningitidis 81858]
+ EOC11272.1 transposase DDE domain protein [Neisseria meningitidis 81858]
+ EOC11327.1 transposase DDE domain protein, partial [Neisseria meningitidis 
+81858]
+ EOC11510.1 transposase DDE domain protein, partial [Neisseria meningitidis 
+81858]
+ KID53736.1 transposase IS4 [Neisseria meningitidis LNP27256]
+ KID54465.1 transposase IS4 [Neisseria meningitidis LNP27256]
+Length=179
+
+ Score = 99.4 bits (246),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  12  IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  70
+
+
+>AMW79426.1 transposase [Acinetobacter sp. TGL-Y2]
+Length=168
+
+ Score = 99.0 bits (245),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 46/59 (78%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD+EWVFIDGSYIR HQ+ASGARHG E  IG+SRGG  TKIHLA DA+G PIDF+ITGG
+Sbjct  1   MDKEWVFIDGSYIRAHQHASGARHGEESTIGKSRGGATTKIHLAVDASGYPIDFEITGG  59
+
+
+>ADZ00636.1 transposase IS4 family [Neisseria meningitidis M04-240196]
+Length=202
+
+ Score = 99.4 bits (246),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  12  IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  70
+
+
+>WP_002238669.1 IS5 family transposase [Neisseria meningitidis]
+ EJU72891.1 putative transposase [Neisseria meningitidis 80179]
+Length=249
+
+ Score = 99.0 bits (245),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  82   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  140
+
+
+>WP_002236340.1 IS5 family transposase [Neisseria meningitidis]
+ EJU60242.1 putative transposase [Neisseria meningitidis NM183]
+Length=249
+
+ Score = 98.6 bits (244),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  82   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  140
+
+
+>WP_002242698.1 IS5 family transposase [Neisseria meningitidis]
+ EJU79114.1 putative transposase [Neisseria meningitidis NM3081]
+Length=250
+
+ Score = 98.6 bits (244),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  83   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  141
+
+
+>WP_002237486.1 IS5/IS1182 family transposase [Neisseria meningitidis]
+ EJU63642.1 putative transposase [Neisseria meningitidis NM576]
+Length=250
+
+ Score = 98.6 bits (244),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +D+EWVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  83   IDKEWVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  141
+
+
+>SJM36083.1 Transposase DDE domain protein [Psychrobacter sp. CIP 110853]
+Length=179
+
+ Score = 96.3 bits (238),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 45/58 (78%), Positives = 49/58 (84%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D+EWVFIDGSY+R HQ+ASGAR G ERAIG SRGG  TKIHL  DA+G PIDFKITGG
+Sbjct  13  DKEWVFIDGSYVRCHQHASGARRGEERAIGLSRGGNTTKIHLCVDAHGNPIDFKITGG  70
+
+
+>WP_082302075.1 IS5/IS1182 family transposase, partial [Neisseria meningitidis]
+Length=164
+
+ Score = 94.0 bits (232),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 41/55 (75%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  5   WVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           WVFIDGSY+R HQ+ASGAR GF+RAIGQSRGG  TKIHL  D++G P+DFK+TGG
+Sbjct  1   WVFIDGSYVRCHQHASGARRGFDRAIGQSRGGNTTKIHLCVDSHGNPLDFKVTGG  55
+
+
+>WP_068910183.1 IS4/IS5 family transposase [Acinetobacter sp. WCHA34]
+Length=168
+
+ Score = 94.0 bits (232),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 45/59 (76%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD EWVFIDGS IR HQ+ASGARH   RAIG SRGG  TKIHLA DANG P+DF ITGG
+Sbjct  1   MDTEWVFIDGSCIRAHQHASGARHSENRAIGTSRGGITTKIHLAVDANGYPLDFDITGG  59
+
+
+>KIN15120.1 transposase [Halomonas sp. KHS3]
+Length=168
+
+ Score = 93.6 bits (231),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 41/59 (69%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD EWVF DGSY+R HQ+ASGARHG ERAIG+SRGG  TK+H+  DA+G P+DF++TGG
+Sbjct  1   MDAEWVFADGSYLRAHQHASGARHGEERAIGKSRGGATTKLHMLADAHGNPVDFEVTGG  59
+
+
+>OLF39710.1 IS5 family transposase [Psychrobacter sp. Rd 27.2]
+Length=168
+
+ Score = 92.4 bits (228),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD+EWVF DGSYIR HQ++SGAR G  RA G+SRGG  TKIHLA D++G PIDFKITGG
+Sbjct  1   MDEEWVFADGSYIRCHQHSSGARRGELRATGKSRGGTTTKIHLAVDSHGNPIDFKITGG  59
+
+
+>KRG33364.1 transposase [Psychrobacter sp. P11G3]
+Length=168
+
+ Score = 92.4 bits (228),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           MD+EWVF DGSYIR HQ++SGAR G  RA G+SRGG  TKIHLA D++G PIDFKITGG
+Sbjct  1   MDEEWVFADGSYIRCHQHSSGARRGELRATGKSRGGTTTKIHLAVDSHGNPIDFKITGG  59
+
+
+>OIJ38208.1 IS5 family transposase [Acinetobacter sp. LCT-H3]
+Length=138
+
+ Score = 89.7 bits (221),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 42/45 (93%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>AIL77318.1 transposase [Acinetobacter baumannii]
+ AIL77354.1 transposase [Acinetobacter baumannii]
+ AIL77629.1 transposase [Acinetobacter baumannii]
+ AIL78066.1 transposase [Acinetobacter baumannii]
+ AIL78164.1 transposase [Acinetobacter baumannii]
+ AIL78994.1 transposase [Acinetobacter baumannii]
+ AIL79201.1 transposase [Acinetobacter baumannii]
+ AIL80616.1 transposase [Acinetobacter baumannii]
+ AIL81083.1 transposase [Acinetobacter baumannii]
+Length=154
+
+ Score = 89.7 bits (221),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 42/45 (93%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>ENX09515.1 hypothetical protein F897_01607 [Acinetobacter sp. NIPH 2171]
+Length=154
+
+ Score = 89.7 bits (221),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 42/45 (93%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>SLJ83899.1 transposase IS4 family [Psychrobacter sp. DAB_AL43B]
+ SLJ85015.1 transposase [Psychrobacter sp. DAB_AL43B]
+Length=179
+
+ Score = 90.5 bits (223),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  1   MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +D+EWVF DGSYIR HQ++SGAR G  RA G+SRGG  TKIHLA D++G PIDFKITGG
+Sbjct  12  IDEEWVFADGSYIRCHQHSSGARRGELRATGKSRGGTTTKIHLAVDSHGNPIDFKITGG  70
+
+
+>KMU99019.1 transposase [Acinetobacter sp. VT 511]
+ KMV00100.1 transposase [Acinetobacter sp. VT 511]
+Length=154
+
+ Score = 89.4 bits (220),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 42/45 (93%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARHGFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>KXK39379.1 IS4 family transposase [Nitrosomonas europaea]
+Length=250
+
+ Score = 91.3 bits (225),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 41/59 (69%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +D EWVF DGSY+R HQ+ASGAR G ERAIG+SRGG  TK+H+A DA+G PIDF++TGG
+Sbjct  83   IDSEWVFTDGSYVRAHQHASGARRGEERAIGKSRGGATTKLHIAADAHGNPIDFEVTGG  141
+
+
+>OCY16788.1 transposase [Acinetobacter pittii]
+Length=154
+
+ Score = 88.6 bits (218),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 43/45 (96%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARHGFERAIGQSR GR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHGFERAIGQSRSGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>ENU98429.1 hypothetical protein F969_02460 [Acinetobacter sp. NIPH 899]
+Length=154
+
+ Score = 88.2 bits (217),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 43/45 (96%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARH FERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHSFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>ENU18736.1 hypothetical protein F994_02863 [Acinetobacter bohemicus ANC 
+3994]
+ ENU19089.1 hypothetical protein F994_01944 [Acinetobacter bohemicus ANC 
+3994]
+ ENU19534.1 hypothetical protein F994_02394 [Acinetobacter bohemicus ANC 
+3994]
+ ENU21144.1 hypothetical protein F994_00612 [Acinetobacter bohemicus ANC 
+3994]
+Length=154
+
+ Score = 87.8 bits (216),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>WP_068907911.1 IS5 family transposase [Acinetobacter sp. WCHA34]
+Length=154
+
+ Score = 87.8 bits (216),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>EPH31644.1 Mobile element protein [Acinetobacter guillouiae MSP4-18]
+Length=154
+
+ Score = 87.0 bits (214),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>WP_034581389.1 IS5 family transposase [Acinetobacter radioresistens]
+Length=154
+
+ Score = 87.0 bits (214),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>ODN53594.1 transposase [Acinetobacter sp. 51m]
+Length=154
+
+ Score = 87.0 bits (214),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITGG  45
+
+
+>SDC29490.1 Transposase DDE domain-containing protein [Acinetobacter boissieri]
+Length=74
+
+ Score = 83.2 bits (204),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 39/45 (87%), Positives = 43/45 (96%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGARHGF+RAIG+SRGG  TKIHLATDANGLPIDFKITGG
+Sbjct  1   MHQHASGARHGFKRAIGKSRGGPTTKIHLATDANGLPIDFKITGG  45
+
+
+>KGH50576.1 transposase [Acinetobacter idrijaensis]
+Length=154
+
+ Score = 85.1 bits (209),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 40/44 (91%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITG  58
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDANGLPIDFKITG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDANGLPIDFKITG  44
+
+
+>WP_076611762.1 IS5 family transposase ISPa67 [Pseudomonas aeruginosa]
+Length=249
+
+ Score = 87.4 bits (215),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 37/58 (64%), Positives = 48/58 (83%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA  G + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYVKAHQHSAGAASGNDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  141
+
+
+>KJV45818.1 transposase [Acinetobacter indicus]
+Length=154
+
+ Score = 84.7 bits (208),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 40/45 (89%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGGR TKIHLATDA+GLPIDFKITGG
+Sbjct  1   MHQHASGARNGFERAIGQSRGGRTTKIHLATDASGLPIDFKITGG  45
+
+
+>WP_079281077.1 hypothetical protein [Acinetobacter baumannii]
+Length=119
+
+ Score = 82.8 bits (203),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 39/45 (87%), Positives = 43/45 (96%), Gaps = 0/45 (0%)
+
+Query  15  VHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +HQ+ASGAR+GFERAIGQSRGG+ TKIHLATDANGL IDFKITGG
+Sbjct  1   MHQHASGARYGFERAIGQSRGGQTTKIHLATDANGLTIDFKITGG  45
+
+
+>CUV58760.1 transposase (fragment), partial [Ralstonia solanacearum]
+Length=84
+
+ Score = 81.3 bits (199),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY++ HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  10  DMEWVFIDGSYVKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  67
+
+
+>KFC51782.1 transposase, partial [Micrococcus luteus]
+Length=179
+
+ Score = 82.8 bits (203),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  14  DMEWVFIDGSYAKAHQHSAGAASANDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  71
+
+
+>KTD54681.1 transposase [Legionella santicrucis]
+Length=133
+
+ Score = 81.3 bits (199),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 38/58 (66%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS I+ HQ++SGA      AIG+SRGG  TKIH+A DA GLPIDF+ITGG
+Sbjct  12  DHEWAFIDGSIIKAHQHSSGAASEENEAIGKSRGGNTTKIHMAVDAFGLPIDFEITGG  69
+
+
+>KTD54680.1 transposase [Legionella santicrucis]
+Length=229
+
+ Score = 83.6 bits (205),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 37/59 (63%), Positives = 46/59 (78%), Gaps = 0/59 (0%)
+
+Query  1    MDQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            +D EW FIDGS I+ HQ+++GA     +AIG+SRGG  TKIH+A DA GLPIDF+ITGG
+Sbjct  83   LDLEWAFIDGSIIKAHQHSAGAASEENQAIGKSRGGNTTKIHMAVDAFGLPIDFEITGG  141
+
+
+>CDM41143.1 putative protein y4sN [Pseudomonas pseudoalcaligenes CECT 5344]
+ CDR91771.1 putative protein y4sN [Pseudomonas pseudoalcaligenes]
+Length=144
+
+ Score = 81.3 bits (199),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDG Y + HQ+++GA  G + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGCYAKAHQHSAGAASGNDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  141
+
+
+>WP_031693767.1 IS5 family transposase [Pseudomonas aeruginosa]
+ EZO89522.1 hypothetical protein V555_05158 [Pseudomonas aeruginosa BWH054]
+Length=249
+
+ Score = 83.6 bits (205),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASANDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  141
+
+
+>EPL59517.1 transposase, IS4, partial [Pseudomonas stutzeri B1SMN1]
+Length=143
+
+ Score = 80.9 bits (198),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASANDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  141
+
+
+>SEE12328.1 transposase, IS4 family [Pseudomonas anguilliseptica]
+Length=249
+
+ Score = 83.2 bits (204),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA  G + AIG+SR G  +K HLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAVSGNDEAIGKSRAGNTSKTHLAVDAHGLPIEFEITGG  141
+
+
+>WP_046621750.1 IS5 family transposase, partial [Pseudomonas stutzeri]
+ KKJ94368.1 transposase, partial [Pseudomonas stutzeri]
+Length=217
+
+ Score = 82.4 bits (202),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  52   DMEWVFIDGSYAKAHQHSAGAASSNDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  109
+
+
+>WP_075963002.1 IS5/IS1182 family transposase [Pseudomonas sp. PA15(2017)]
+ OLU23550.1 IS5 family transposase [Pseudomonas sp. PA15(2017)]
+Length=219
+
+ Score = 82.4 bits (202),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA  G + AIG+SR G  +KIHLA DA  LPI F+ITGG
+Sbjct  54   DMEWVFIDGSYVKAHQHSAGAASGQDEAIGKSRAGNTSKIHLAVDACALPIAFEITGG  111
+
+
+>WP_033095166.1 IS5 family transposase [Colwellia psychrerythraea]
+ KGJ88369.1 putative transposase IS4/IS5 family [Colwellia psychrerythraea]
+Length=249
+
+ Score = 82.8 bits (203),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQY++GA    E+AI  SRGG  +KIHLA D+ GLPI+F ITGG
+Sbjct  84   DTEWEFIDGSYVKAHQYSTGAASEHEQAIALSRGGNTSKIHLAVDSYGLPIEFIITGG  141
+
+
+>CDH06781.1 transposase (fragment) [Xenorhabdus bovienii str. oregonense]
+Length=102
+
+ Score = 79.3 bits (194),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW+FIDGS IR HQ++SGA    + AIG+SRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  7   DTEWLFIDGSIIRAHQHSSGAASTEDEAIGKSRGGRSTKIHLAVDSYGLPVHFELSGG  64
+
+
+>CDM40165.1 Transposase insH for insertion sequence element IS5 [Pseudomonas 
+pseudoalcaligenes CECT 5344]
+ CDR90792.1 Transposase insH for insertion sequence element IS5 [Pseudomonas 
+pseudoalcaligenes]
+Length=180
+
+ Score = 81.3 bits (199),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 36/56 (64%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  4   EWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           EWVFIDGSY + HQ+++GA  G + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  2   EWVFIDGSYAKAHQHSAGAASGNDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  57
+
+
+>WP_084308753.1 IS5/IS1182 family transposase [Pseudomonas flavescens]
+ SDI96307.1 Transposase [Pseudomonas flavescens]
+Length=249
+
+ Score = 82.4 bits (202),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAGSANDEAIGKSRAGNTSKIHLAVDAHGLPIEFEITGG  141
+
+
+>WP_080944653.1 IS5/IS1182 family transposase [Pseudomonas fluorescens]
+ AKA82124.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA82677.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA82781.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA82873.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA83390.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA84832.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA85321.1 Mobile element protein [Pseudomonas fluorescens]
+ AKA85852.1 Mobile element protein [Pseudomonas fluorescens]
+Length=249
+
+ Score = 82.4 bits (202),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 37/58 (64%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA  G + AIG+SR G  +KIHLA DA GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAVGGRDEAIGKSRAGNTSKIHLAVDAYGLPIEFEITGG  141
+
+
+>SFU35493.1 Transposase DDE domain-containing protein [Nitrosospira multiformis]
+Length=99
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLP++F+ITGG
+Sbjct  13  DLEWAFIDGSYAKAHQHSAGAASSEDEAIGKSRAGTTSKIHLAVDAHGLPVEFEITGG  70
+
+
+>ERT10127.1 hypothetical protein O185_27260, partial [Photorhabdus temperata 
+J3]
+Length=112
+
+ Score = 78.6 bits (192),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ+++GA    + A+GQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  49   DSEWLFIDGSIVRAHQHSAGATSEMDEAMGQSRGGRSTKIHLAVDSYGLPVHFELSGG  106
+
+
+>WP_040534536.1 IS5 family transposase [Legionella drancourtii]
+Length=249
+
+ Score = 82.0 bits (201),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+++GA     +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  84   DLEWEFIDGSIVKAHQHSAGAASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  141
+
+
+>WP_006869887.1 IS5 family transposase [Legionella drancourtii]
+ EHL31776.1 hypothetical protein LDG_5939 [Legionella drancourtii LLAP12]
+Length=274
+
+ Score = 82.4 bits (202),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+++GA     +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  109  DLEWEFIDGSIVKAHQHSAGAASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  166
+
+
+>WP_049266668.1 IS5 family transposase, partial [Pseudomonas aeruginosa]
+Length=187
+
+ Score = 80.5 bits (197),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY + HQ+++GA    + A G+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  22  DMEWVFIDGSYAKAHQHSAGAASANDEATGKSRAGNTSKIHLAVDAHGLPIEFEITGG  79
+
+
+>WP_023085590.1 IS5 family transposase [Pseudomonas aeruginosa]
+ ERU59088.1 hypothetical protein Q088_05925 [Pseudomonas aeruginosa C41]
+ ERU64214.1 hypothetical protein Q088_04391 [Pseudomonas aeruginosa C41]
+ ERV33350.1 hypothetical protein Q070_00059 [Pseudomonas aeruginosa BL16]
+ ERV94280.1 hypothetical protein Q040_00151 [Pseudomonas aeruginosa BWHPSA027]
+ ETV18162.1 hypothetical protein Q049_00585 [Pseudomonas aeruginosa BWHPSA044]
+ ALY59458.1 DDE transposase [Pseudomonas aeruginosa]
+ ALY74249.1 DDE transposase [Pseudomonas aeruginosa]
+ ALY85369.1 DDE transposase [Pseudomonas aeruginosa]
+ ALY77388.1 transposase [Pseudomonas aeruginosa]
+ KSC41415.2 DDE transposase [Pseudomonas aeruginosa]
+ KSJ69714.2 DDE transposase [Pseudomonas aeruginosa]
+ KSL03775.2 DDE transposase [Pseudomonas aeruginosa]
+ KSL95101.2 DDE transposase [Pseudomonas aeruginosa]
+ KSM74153.2 DDE transposase [Pseudomonas aeruginosa]
+Length=249
+
+ Score = 81.6 bits (200),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    + A G+SR G  +KIHLA DA+GLPI+F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASANDEATGKSRAGNTSKIHLAVDAHGLPIEFEITGG  141
+
+
+>WP_081029324.1 IS5/IS1182 family transposase [Pseudomonas savastanoi]
+ KPX97034.1 hypothetical protein ALO61_200199 [Pseudomonas savastanoi pv. 
+nerii]
+ KPY37103.1 hypothetical protein ALO49_200110 [Pseudomonas savastanoi pv. 
+retacarpa]
+Length=249
+
+ Score = 81.6 bits (200),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYVKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  141
+
+
+>WP_080748243.1 IS5/IS1182 family transposase [Pseudomonas chlororaphis]
+Length=249
+
+ Score = 81.6 bits (200),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGSY + HQ+++GA  G ++AIG+SR G  +KIHLA DA GLP+ F+ITGG
+Sbjct  84   DMEWIFIDGSYAKAHQHSAGAAGGMDQAIGKSRAGNTSKIHLAVDACGLPVVFEITGG  141
+
+
+>KWS39570.1 transposase [Pseudomonas savastanoi pv. nerii]
+Length=245
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  80   DMEWVFIDGSYVKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  137
+
+
+>AIS10947.1 transposase [Pseudomonas chlororaphis subsp. aurantiaca]
+ AIS10951.1 transposase [Pseudomonas chlororaphis subsp. aurantiaca]
+ AIS13333.1 transposase [Pseudomonas chlororaphis subsp. aurantiaca]
+Length=245
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGSY + HQ+++GA  G ++AIG+SR G  +KIHLA DA GLP+ F+ITGG
+Sbjct  80   DMEWIFIDGSYAKAHQHSAGAAGGMDQAIGKSRAGNTSKIHLAVDACGLPVVFEITGG  137
+
+
+>WP_014150166.1 IS5/IS1182 family transposase [Methylomicrobium alcaliphilum]
+ CCE25413.1 transposase [Methylomicrobium alcaliphilum 20Z]
+Length=249
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ++SGA HG E AIG+S  G  TKIH+A DA GLPI F +TGG
+Sbjct  84   DLEWQFIDGSIVKAHQHSSGAAHGQESAIGKSVAGNTTKIHMAVDACGLPIHFTLTGG  141
+
+
+>CZJ11073.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI88903.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI69073.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ23979.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZR11688.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ OOK44448.1 ISSod6 transposase [Legionella pneumophila subsp. pneumophila 
+str. Mississauga]
+Length=124
+
+ Score = 78.2 bits (191),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS ++ HQ+++G      +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  12  DLEWEFIDGSIVKAHQHSAGGASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  69
+
+
+>CAH13208.1 hypothetical protein lpp2056 [Legionella pneumophila str. Paris]
+ CZG42817.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG64811.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG62304.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG40583.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG74011.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH87093.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG50767.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG67489.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG49548.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG68462.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG64784.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK18988.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI34755.1 Transposase and inactivated derivatives [Legionella pneumophila]
+Length=124
+
+ Score = 78.2 bits (191),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS ++ HQ+++G      +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  12  DLEWEFIDGSIVKAHQHSAGGASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  69
+
+
+>WP_026130384.1 IS5/IS1182 family transposase [Methylomicrobium buryatense]
+Length=249
+
+ Score = 81.3 bits (199),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ++SGA HG E AIG+S  G  TKIH+A DA GLPI F +TGG
+Sbjct  84   DLEWQFIDGSIVKAHQHSSGAAHGQESAIGKSVAGNTTKIHMAVDACGLPIHFTLTGG  141
+
+
+>EQB97756.1 transposase, partial [Photorhabdus temperata subsp. temperata 
+M1021]
+Length=134
+
+ Score = 78.6 bits (192),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ+++GA    + A+GQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  68   DSEWLFIDGSIVRAHQHSAGATSEMDEAMGQSRGGRSTKIHLAVDSYGLPVHFELSGG  125
+
+
+>KFI17811.1 transposase, partial [Nitrosococcus oceani C-27]
+Length=96
+
+ Score = 77.4 bits (189),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  33  DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  90
+
+
+>WP_044424081.1 IS5/IS1182 family transposase [Pseudomonas savastanoi]
+Length=216
+
+ Score = 80.1 bits (196),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  51   DMEWVFIDGSYVKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  108
+
+
+>WP_001926652.1 IS5/IS1182 family transposase [Vibrio cholerae]
+ EGR03941.1 transposase DDE domain protein [Vibrio cholerae HE39]
+ EKL37290.1 transposase DDE domain protein [Vibrio cholerae HE-46]
+ ORP08926.1 IS5/IS1182 family transposase [Vibrio cholerae]
+Length=253
+
+ Score = 80.9 bits (198),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+A+GAR   + AIG+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  85   DLEWEFIDGSIVKAHQHATGARSEDKEAIGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  142
+
+
+>WP_082765975.1 IS5/IS1182 family transposase [Azotobacter vinelandii]
+Length=249
+
+ Score = 80.9 bits (198),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 37/58 (64%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA  G + AIG+SR G  +KIHLA DA GLPI F+ITGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASGKDEAIGKSRAGNTSKIHLAVDACGLPIAFEITGG  141
+
+
+>OAH57077.1 transposase [Pseudomonas monteilii]
+Length=171
+
+ Score = 79.0 bits (193),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 37/58 (64%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA  G   AIG+SR G  TKIHLA DA GLPI+F ITGG
+Sbjct  80   DLEWEFIDGSYVKAHQHSAGAASGETEAIGKSRTGNTTKIHLAVDAYGLPIEFVITGG  137
+
+
+>WP_011789342.1 IS5 family transposase ISSpu10 [Shewanella sp. W3-18-1]
+ ABM24869.1 transposase, IS4 family [Shewanella sp. W3-18-1]
+ ABM24873.1 transposase, IS4 family [Shewanella sp. W3-18-1]
+Length=253
+
+ Score = 80.9 bits (198),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+A+GAR   + AIG+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  85   DLEWEFIDGSIVKAHQHATGARSEDKEAIGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  142
+
+
+>CQB46829.1 transposase of ISSpu10 (plasmid) [Vibrio cholerae]
+Length=249
+
+ Score = 80.5 bits (197),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+A+GAR   + AIG+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  81   DLEWEFIDGSIVKAHQHATGARSEDKEAIGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  138
+
+
+>EKL33361.1 transposase DDE domain protein [Vibrio cholerae HE-40]
+Length=249
+
+ Score = 80.5 bits (197),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+A+GAR   + AIG+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  81   DLEWEFIDGSIVKAHQHATGARSEDKEAIGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  138
+
+
+>WP_060402347.1 IS5 family transposase, partial [Pseudomonas amygdali]
+ KWS64265.1 transposase, partial [Pseudomonas amygdali pv. morsprunorum]
+Length=179
+
+ Score = 79.0 bits (193),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  14  DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  71
+
+
+>ONG37024.1 IS5 family transposase [Enhydrobacter sp. H5]
+Length=156
+
+ Score = 78.6 bits (192),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 35/47 (74%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  13  IRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           +R HQ+ASGAR GF+RAIGQS GGR TKIHL  DANG P+DFK+TGG
+Sbjct  1   MRCHQHASGARLGFDRAIGQSHGGRTTKIHLCCDANGYPLDFKVTGG  47
+
+
+>WP_025441400.1 IS5/IS1182 family transposase [Vibrio parahaemolyticus]
+Length=253
+
+ Score = 80.5 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+A+GAR   + AIG+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  85   DLEWEFIDGSIVKAHQHATGARSEDKEAIGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  142
+
+
+>WP_008983132.1 IS5/IS1182 family transposase [Alishewanella agri]
+ EIW88927.1 transposase, IS4 family protein [Alishewanella agri BL06]
+ EIW90358.1 transposase, IS4 family protein [Alishewanella agri BL06]
+Length=253
+
+ Score = 80.5 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS I+ HQ+A+GAR   + A+G+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  85   DLEWEFIDGSIIKAHQHATGARSEDKEAVGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  142
+
+
+>WP_020563109.1 IS5/IS1182 family transposase [Methylosarcina fibrata]
+Length=249
+
+ Score = 80.5 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ++SGA H  E AIG+S  G  TKIH+A DA GLPI F +TGG
+Sbjct  84   DLEWAFIDGSIVKAHQHSSGAAHEQETAIGKSVAGNTTKIHMAVDAGGLPIHFSVTGG  141
+
+
+>AHI98669.1 Mobile element protein [Vibrio parahaemolyticus UCM-V493]
+Length=249
+
+ Score = 80.5 bits (197),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ+A+GAR   + AIG+SRGG  TKIH+A D+ GLPIDF +TGG
+Sbjct  81   DLEWEFIDGSIVKAHQHATGARSEDKEAIGKSRGGNTTKIHMAVDSCGLPIDFIVTGG  138
+
+
+>SFU78416.1 transposase, IS4 family [Nitrosospira multiformis]
+Length=214
+
+ Score = 79.7 bits (195),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY + HQ+++GA    + AIG+SR G  +KIHLA DA+GLP++F+ITGG
+Sbjct  49   DLEWAFIDGSYAKAHQHSAGAASSEDEAIGKSRAGNTSKIHLAVDAHGLPVEFEITGG  106
+
+
+>WP_079744035.1 IS5/IS1182 family transposase [Pseudomonas aeruginosa]
+Length=249
+
+ Score = 80.5 bits (197),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ+++GA  G   AIG+SR G  +KIHLA DA GLP+ F+ITGG
+Sbjct  84   DFEWAFIDGTYVKAHQHSAGAASGQPEAIGKSRAGHTSKIHLAVDAQGLPVAFEITGG  141
+
+
+>WP_082628944.1 IS5/IS1182 family transposase [Alishewanella sp. WH16-1]
+Length=233
+
+ Score = 80.1 bits (196),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGSY++ HQ+++GA+    +AIG+SR G  TKIHLA D+ GLPI+F +TGG
+Sbjct  84   DTEWIFIDGSYVKAHQHSAGAQGVEPQAIGKSRAGNTTKIHLAVDSYGLPIEFTVTGG  141
+
+
+>ERB42260.1 transposase ISSod6 [Legionella pneumophila str. 121004]
+ ERH42104.1 transposase ISSod6 [Legionella pneumophila str. Leg01/53]
+ ERH45162.1 transposase ISSod6 [Legionella pneumophila str. Leg01/11]
+ ERI46771.1 transposase ISSod6 [Legionella pneumophila str. Leg01/20]
+ GAN27422.1 transposase DDE domain protein [Legionella pneumophila]
+ CZI26934.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI89305.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ06137.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI51241.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ03784.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH68004.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI54522.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG41146.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI53494.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG60419.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH63897.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG46679.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH89846.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG10270.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK02183.1 transposase [Legionella pneumophila]
+ CZH64877.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG44644.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI93052.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI65471.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI39753.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI59769.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZR19624.1 Transposase and inactivated derivatives [Legionella pneumophila]
+Length=124
+
+ Score = 77.4 bits (189),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS ++ HQ+++G      +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  12  DLEWGFIDGSIVKAHQHSAGGASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  69
+
+
+>WP_080944769.1 IS5/IS1182 family transposase [Pseudomonas fluorescens]
+ AKA86449.1 Mobile element protein [Pseudomonas fluorescens]
+Length=249
+
+ Score = 80.1 bits (196),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWV IDGSY + HQ+++GA  G + AIG+SR G  +KIHLA DA GLPI+F+ITGG
+Sbjct  84   DMEWVLIDGSYAKAHQHSAGAVGGRDEAIGKSRAGNTSKIHLAVDAYGLPIEFEITGG  141
+
+
+>ABQ55507.1 ISSod6 transposase, IS1301 [Legionella pneumophila str. Corby]
+ ADG25439.1 Transposase [Legionella pneumophila 2300/99 Alcoy]
+Length=155
+
+ Score = 78.2 bits (191),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS ++ HQ+++G      +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  43  DLEWEFIDGSIVKAHQHSAGGASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  100
+
+
+>WP_074025470.1 IS5/IS1182 family transposase, partial [Xenorhabdus eapokensis]
+Length=205
+
+ Score = 79.3 bits (194),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW+FIDGS +R HQ++SGA    + AIG+SRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  37  DTEWLFIDGSIVRAHQHSSGAVSPEDEAIGKSRGGRSTKIHLAVDSYGLPVHFELSGG  94
+
+
+>WP_008950669.1 IS5 family transposase [Alishewanella jeotgali]
+ EHR40907.1 transposase, IS4 family protein [Alishewanella jeotgali KCTC 
+22429]
+Length=253
+
+ Score = 80.1 bits (196),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++VHQ+A+GA    + AIG+SRGG  TKIH+A D++GLP+DF +TGG
+Sbjct  85   DLEWEFIDGSIVKVHQHATGACSEDKEAIGKSRGGNTTKIHMAVDSSGLPVDFIVTGG  142
+
+
+>KRS22030.1 transposase [Alishewanella sp. WH16-1]
+Length=229
+
+ Score = 79.7 bits (195),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGSY++ HQ+++GA+    +AIG+SR G  TKIHLA D+ GLPI+F +TGG
+Sbjct  80   DTEWIFIDGSYVKAHQHSAGAQGVEPQAIGKSRAGNTTKIHLAVDSYGLPIEFTVTGG  137
+
+
+>WP_017839497.1 IS5/IS1182 family transposase [Methylomicrobium buryatense]
+Length=183
+
+ Score = 78.6 bits (192),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ++SGA +G E AIG+S  G  TKIH+A DA GLPI F +TGG
+Sbjct  67   DLEWAFIDGSIVKAHQHSSGAAYGQESAIGKSVAGNTTKIHMAVDAYGLPIHFTVTGG  124
+
+
+>WP_080034179.1 IS5/IS1182 family transposase, partial [Pseudomonas syringae]
+Length=193
+
+ Score = 79.0 bits (193),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  141
+
+
+>EPM48362.1 transposase, IS4 [Pseudomonas syringae pv. actinidiae ICMP 19098]
+Length=172
+
+ Score = 78.2 bits (191),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  7   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDLTGG  64
+
+
+>WP_008985541.1 IS5 family transposase [Alishewanella agri]
+ EIW87608.1 transposase, IS4 family protein [Alishewanella agri BL06]
+Length=253
+
+ Score = 80.1 bits (196),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++VHQ+A+GA    + AIG+SRGG  TKIH+A D++GLP+DF +TGG
+Sbjct  85   DLEWEFIDGSIVKVHQHATGACSEDKEAIGKSRGGNTTKIHMAVDSSGLPVDFIVTGG  142
+
+
+>WP_081031677.1 IS5/IS1182 family transposase [Pseudomonas syringae group genomosp. 
+3]
+ KPX16774.1 Transposase, IS4 [Pseudomonas syringae pv. delphinii]
+Length=249
+
+ Score = 79.7 bits (195),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  141
+
+
+>KTC49049.1 transposase, partial [Pseudomonas syringae pv. actinidiae ICMP 
+19497]
+Length=172
+
+ Score = 78.2 bits (191),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  7   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDLTGG  64
+
+
+>WP_081010263.1 IS5/IS1182 family transposase [Pseudomonas syringae group genomosp. 
+3]
+Length=249
+
+ Score = 79.7 bits (195),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  141
+
+
+>WP_082632973.1 IS5/IS1182 family transposase [Nitrosomonas ureae]
+Length=249
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  84   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  141
+
+
+>CDM90008.1 transposase [Xenorhabdus bovienii]
+Length=229
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR TK+HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTKLHLAVDSQGLPVHFELSGG  142
+
+
+>WP_032645564.1 IS5 family transposase, partial [Pseudomonas syringae]
+Length=181
+
+ Score = 78.2 bits (191),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  16  DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  73
+
+
+>WP_082632988.1 IS5/IS1182 family transposase [Nitrosomonas ureae]
+Length=249
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  84   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  141
+
+
+>EHL31055.1 ISSod6 transposase, IS1301 [Legionella drancourtii LLAP12]
+Length=165
+
+ Score = 77.8 bits (190),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 35/56 (63%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  4   EWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           EW FIDGS ++ HQ+++GA     +AIG+SRGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  2   EWEFIDGSIVKAHQHSAGAASEENQAIGKSRGGNTTKIHMAVDAHGLPIDFEITGG  57
+
+
+>OKO95230.1 transposase [Xenorhabdus eapokensis]
+Length=175
+
+ Score = 78.2 bits (191),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW+FIDGS +R HQ++SGA    + AIG+SRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  7   DTEWLFIDGSIVRAHQHSSGAVSPEDEAIGKSRGGRSTKIHLAVDSYGLPVHFELSGG  64
+
+
+>WP_033016175.1 IS5 family transposase [Pseudoalteromonas sp. BSi20495]
+Length=249
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA    E+AI  SRGG  +KIHLA D+ GLPI+F ITGG
+Sbjct  84   DTEWEFIDGSYVKAHQHSTGAASQQEQAIALSRGGNTSKIHLAVDSYGLPIEFIITGG  141
+
+
+>WP_014843691.1 IS5 family transposase [Legionella pneumophila]
+ CCD08423.1 transposase [Legionella pneumophila subsp. pneumophila]
+ GAN23203.1 transposase DDE domain protein [Legionella pneumophila]
+ CZH43177.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ96340.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZR11378.1 Transposase and inactivated derivatives [Legionella pneumophila]
+Length=249
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 34/56 (61%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  4    EWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            EW FIDGS ++ HQ+++GA     +AIG+ RGG  TKIH+A DA+GLPIDF+ITGG
+Sbjct  86   EWEFIDGSIVKAHQHSAGAASEENQAIGKFRGGNTTKIHMAVDAHGLPIDFEITGG  141
+
+
+>ALQ52458.1 transposase [Nitrosomonas ureae]
+Length=245
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  80   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  137
+
+
+>AGH53983.1 Mobile element protein [Legionella pneumophila subsp. pneumophila 
+LPE509]
+Length=210
+
+ Score = 79.0 bits (193),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS +R HQ+++GA      AIG+SRGG  TKIH+A DA GLPI+F++TGG
+Sbjct  45   DLEWEFIDGSIVRAHQHSTGACSTESEAIGKSRGGNTTKIHMAVDAFGLPIEFQLTGG  102
+
+
+>EQC00980.1 transposase, partial [Photorhabdus temperata subsp. temperata 
+M1021]
+Length=160
+
+ Score = 77.8 bits (190),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ+++GA    + A+GQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  68   DSEWLFIDGSIVRAHQHSAGATSETDEAMGQSRGGRSTKIHLAVDSYGLPVHFELSGG  125
+
+
+>WP_064023769.1 IS5/IS1182 family transposase [Methylomonas sp. DH-1]
+ ANE58021.1 transposase (plasmid) [Methylomonas sp. DH-1]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ++SGA H  E AIG+S  G  TKIH+A DA GLPI F +TGG
+Sbjct  84   DLEWTFIDGSIVKAHQHSSGAAHERETAIGKSVAGNTTKIHMAVDACGLPIHFSVTGG  141
+
+
+>WP_080397068.1 IS5/IS1182 family transposase [Pseudomonas syringae]
+ KPZ06357.1 hypothetical protein ALO94_200045 [Pseudomonas syringae pv. spinaceae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA    ++AIG+SR G  +KIHL  DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYVKAHQHSAGAASTQDQAIGKSRAGNTSKIHLTVDACGLPIAFDVTGG  141
+
+
+>KPC03233.1 Transposase [Pseudomonas syringae pv. maculicola]
+Length=245
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  137
+
+
+>WP_082632995.1 IS5/IS1182 family transposase [Nitrosomonas ureae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  84   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  141
+
+
+>GAO93198.1 hypothetical protein PSA5_10795 [Pseudomonas syringae pv. actinidiae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIVFDVTGG  141
+
+
+>WP_010947046.1 IS5 family transposase [Legionella pneumophila]
+ YP_095345.1 transposase [Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+ AAU27398.1 transposase [Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+ AEW51519.1 transposase [Legionella pneumophila subsp. pneumophila ATCC 43290]
+ CZH84396.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG26400.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG25371.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG36458.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG04268.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH50469.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL63867.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ90504.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH61764.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH28369.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG29273.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL84389.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL23281.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ74826.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH63960.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK66355.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ13903.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK85428.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ74830.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK33039.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH66211.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK75219.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL15123.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL22677.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ87358.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ08133.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI96181.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL72672.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ98466.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL53410.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ28079.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL76169.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ67927.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ59075.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ72713.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK52817.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK13917.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK34035.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK76380.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL15161.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK23209.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL25577.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK27616.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK21048.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK55480.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL65171.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ51261.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ61964.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL84719.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ82886.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ93334.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL10030.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ47282.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK94561.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ50087.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK73542.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK98652.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZM39044.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK97292.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK47083.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK98641.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL44284.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK56625.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI66321.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG25670.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ50631.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK65670.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK59737.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK53251.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG36045.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZG11679.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL37731.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK60459.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL38378.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ57997.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK40030.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL45954.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK91959.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZJ54744.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK85826.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK18380.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZL10424.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH65408.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK65659.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI03855.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI00180.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH09416.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI27599.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK36135.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK85407.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZI18258.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZK48065.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZQ81496.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZQ80395.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZR17539.1 transposase [Legionella pneumophila]
+ CZR16676.1 transposase [Legionella pneumophila]
+ CZR22984.1 transposase [Legionella pneumophila]
+ AOU04330.1 transposase [Legionella pneumophila]
+ AOU07295.1 transposase [Legionella pneumophila]
+ AOU10339.1 IS5 family transposase [Legionella pneumophila]
+ AOU13252.1 IS5 family transposase [Legionella pneumophila]
+ AOU16263.1 IS5 family transposase [Legionella pneumophila]
+ AOU19223.1 IS5 family transposase [Legionella pneumophila]
+ AOU22219.1 IS5 family transposase [Legionella pneumophila]
+ AOU25141.1 transposase [Legionella pneumophila]
+ AOU28134.1 transposase [Legionella pneumophila]
+ AOU31117.1 transposase [Legionella pneumophila]
+ AOU34081.1 transposase [Legionella pneumophila]
+ AOU37043.1 transposase [Legionella pneumophila]
+ AOU40006.1 transposase [Legionella pneumophila]
+ AOU42957.1 transposase [Legionella pneumophila]
+ AOU45871.1 transposase [Legionella pneumophila]
+ AOU48882.1 transposase [Legionella pneumophila]
+ AOU51936.1 transposase [Legionella pneumophila]
+ AOU54853.1 transposase [Legionella pneumophila]
+ AOU57857.1 transposase [Legionella pneumophila]
+ AOU60772.1 transposase [Legionella pneumophila]
+ AOU63748.1 transposase [Legionella pneumophila]
+ AOU66756.1 transposase [Legionella pneumophila]
+ AOU69726.1 transposase [Legionella pneumophila]
+ AOU72756.1 transposase [Legionella pneumophila]
+ AOU83152.1 transposase [Legionella pneumophila]
+ AOU86144.1 transposase [Legionella pneumophila]
+ AOU89110.1 transposase [Legionella pneumophila]
+ SFZ40026.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ APT98398.1 transposase [Legionella pneumophila]
+ OOD05592.1 DDE transposase [Legionella pneumophila subsp. pneumophila ATCC 
+43290]
+ OQW25270.1 DDE transposase [Legionella pneumophila subsp. pneumophila]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS +R HQ+++GA      AIG+SRGG  TKIH+A DA GLPI+F++TGG
+Sbjct  84   DLEWEFIDGSIVRAHQHSTGACSTESEAIGKSRGGNTTKIHMAVDAFGLPIEFQLTGG  141
+
+
+>SFB43047.1 transposase, IS4 family [Azotobacter beijerinckii]
+Length=262
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQHEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>WP_080392632.1 IS5/IS1182 family transposase [Pseudomonas syringae]
+ KPZ29687.1 hypothetical protein AN901_201513 [Pseudomonas syringae pv. theae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  141
+
+
+>WP_080543310.1 IS5/IS1182 family transposase, partial [Pseudomonas amygdali]
+Length=246
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  141
+
+
+>WP_077527984.1 IS5/IS1182 family transposase [Pseudomonas syringae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDLTGG  141
+
+
+>ALQ52484.1 transposase [Nitrosomonas ureae]
+ ALQ52599.1 transposase [Nitrosomonas ureae]
+ ALQ52652.1 transposase [Nitrosomonas ureae]
+Length=245
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  80   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  137
+
+
+>WP_083381529.1 IS5/IS1182 family transposase [Nitrosomonas ureae]
+ SEQ49442.1 Transposase [Nitrosomonas ureae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSYI+ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP++F+ITGG
+Sbjct  84   DCEWEFIDGSYIKAHQHSAGAAGKKPQAIGKSRAGNTTKIHLAVDSYGLPVEFEITGG  141
+
+
+>WP_012987951.1 IS5/IS1182 family transposase [Xenorhabdus bovienii]
+ CBJ80557.1 transposase [Xenorhabdus bovienii SS-2004]
+ CDH30313.1 transposase [Xenorhabdus bovienii str. Jollieti]
+Length=253
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR TK+HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTKLHLAVDSQGLPVHFELSGG  142
+
+
+>CEK21260.1 transposase [Xenorhabdus nematophila AN6/1]
+ CEK21817.1 transposase [Xenorhabdus nematophila AN6/1]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  81   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  138
+
+
+>CBJ89290.1 transposase [Xenorhabdus nematophila ATCC 19061]
+Length=236
+
+ Score = 79.0 bits (193),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  68   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  125
+
+
+>CBJ11589.1 putative transposase [Legionella longbeachae NSW150]
+Length=182
+
+ Score = 77.8 bits (190),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D +W FIDG  ++ HQ+++GA     +AIG+SRGG  TKIH+A DA GLPIDF+ITGG
+Sbjct  84   DLDWEFIDGGMVKAHQHSAGAASNENQAIGKSRGGNTTKIHMAVDAYGLPIDFEITGG  141
+
+
+>WP_082632977.1 IS5/IS1182 family transposase [Nitrosomonas ureae]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  84   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  141
+
+
+>AGN14208.1 transposase [Legionella pneumophila subsp. pneumophila str. Thunder 
+Bay]
+ OOK41248.1 transposase [Legionella pneumophila subsp. pneumophila str. Sudbury]
+Length=232
+
+ Score = 79.0 bits (193),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS +R HQ+++GA      AIG+SRGG  TKIH+A DA GLPI+F++TGG
+Sbjct  67   DLEWEFIDGSIVRAHQHSTGACSTESEAIGKSRGGNTTKIHMAVDAFGLPIEFQLTGG  124
+
+
+>KFI21220.1 transposase, partial [Nitrosococcus oceani]
+Length=202
+
+ Score = 78.2 bits (191),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  80   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  137
+
+
+>ALQ52498.1 transposase [Nitrosomonas ureae]
+Length=245
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  80   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  137
+
+
+>EPM70716.1 transposase, IS4 [Pseudomonas syringae pv. theae ICMP 3923]
+Length=220
+
+ Score = 78.6 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  55   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  112
+
+
+>ALQ52462.1 transposase [Nitrosomonas ureae]
+ ALQ52500.1 transposase [Nitrosomonas ureae]
+ ALQ52529.1 transposase [Nitrosomonas ureae]
+ ALQ52637.1 transposase [Nitrosomonas ureae]
+Length=245
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP DF+ITGG
+Sbjct  80   DCEWEFIDGSYVKAHQHSAGAADKEPQAIGKSRAGNTTKIHLAVDSYGLPADFEITGG  137
+
+
+>WP_013183194.1 IS5 family transposase [Xenorhabdus nematophila]
+ CBJ88344.1 transposase [Xenorhabdus nematophila ATCC 19061]
+ CBJ88906.1 transposase [Xenorhabdus nematophila ATCC 19061]
+Length=253
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  85   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  142
+
+
+>SER87612.1 transposase, IS4 family [Azotobacter beijerinckii]
+Length=249
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGLTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>WP_032664887.1 IS5/IS1182 family transposase [Pseudomonas syringae]
+Length=235
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  70   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  127
+
+
+>WP_046336150.1 IS5 family transposase [Xenorhabdus bovienii]
+ CDM88523.1 transposase [Xenorhabdus bovienii]
+ CDM89606.1 transposase [Xenorhabdus bovienii]
+ CDM90140.1 transposase [Xenorhabdus bovienii]
+ CDM90335.1 transposase [Xenorhabdus bovienii]
+ CDM90711.1 transposase [Xenorhabdus bovienii]
+ CDM90875.1 transposase [Xenorhabdus bovienii]
+ CDM90918.1 transposase [Xenorhabdus bovienii]
+ CDM91678.1 transposase [Xenorhabdus bovienii]
+Length=253
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR TK+HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTKLHLAVDSQGLPVHFELSGG  142
+
+
+>EGH14755.1 Transposase, IS4, partial [Pseudomonas amygdali pv. morsprunorum 
+str. M302280]
+Length=242
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  137
+
+
+>EEZ95293.1 putative transposase [Legionella longbeachae D-4968]
+Length=178
+
+ Score = 77.8 bits (190),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D +W FIDG  ++ HQ+++GA     +AIG+SRGG  TKIH+A DA GLPIDF+ITGG
+Sbjct  80   DLDWEFIDGGMVKAHQHSAGAASNENQAIGKSRGGNTTKIHMAVDAYGLPIDFEITGG  137
+
+
+>OOK92642.1 IS5 family transposase [Pseudomonas syringae pv. actinidifoliorum]
+ OOL00312.1 IS5 family transposase [Pseudomonas syringae pv. actinidifoliorum]
+Length=245
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDLTGG  137
+
+
+>WP_041573654.1 IS5 family transposase [Xenorhabdus nematophila]
+ CEK22192.1 transposase [Xenorhabdus nematophila AN6/1]
+Length=253
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  85   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  142
+
+
+>WP_010845415.1 IS5 family transposase [Xenorhabdus nematophila]
+ CCW30245.1 transposase [Xenorhabdus nematophila F1]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  85   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  142
+
+
+>OPH33430.1 hypothetical protein B5J93_12890, partial [Moraxella equi]
+Length=95
+
+ Score = 75.5 bits (184),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EWVFID SYI+ HQ+A    +  E+ IG+S GG  TKIHL  DA G PIDF ITGG
+Sbjct  12  DTEWVFIDDSYIKAHQHACNVANKTEQGIGKSVGGNTTKIHLVVDACGNPIDFLITGG  69
+
+
+>CEE95007.1 transposase [Xenorhabdus nematophila str. Anatoliense]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  85   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  142
+
+
+>WP_038219484.1 IS5 family transposase [Xenorhabdus nematophila]
+ KHD28930.1 transposase [Xenorhabdus nematophila]
+ CEF31480.1 transposase [Xenorhabdus nematophila str. Websteri]
+ CEF29267.1 transposase [Xenorhabdus nematophila str. Websteri]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D++GLP++F+++GG
+Sbjct  85   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSDGLPVNFELSGG  142
+
+
+>WP_038244302.1 IS5 family transposase [Xenorhabdus bovienii]
+ CDH21574.1 transposase [Xenorhabdus bovienii str. kraussei Quebec]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR TK+HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTKLHLAVDSQGLPVHFELSGG  142
+
+
+>GAA80739.1 hypothetical protein P20495_3254 [Pseudoalteromonas sp. BSi20495]
+Length=232
+
+ Score = 78.6 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA    E+AI  SRGG  +KIHLA D+ GLPI+F ITGG
+Sbjct  67   DTEWEFIDGSYVKAHQHSTGAASQQEQAIALSRGGNTSKIHLAVDSYGLPIEFIITGG  124
+
+
+>WP_012837682.1 IS5/IS1182 family transposase [Comamonas testosteroni]
+ ACY32263.1 Transposase, IS4 [Comamonas testosteroni CNB-2]
+Length=264
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDG+Y + HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F ITGG
+Sbjct  84   DFEWVFIDGTYAKAHQHSSGAASDQPEAIGKSRAGNTSKIHLAVDAHGLPVAFDITGG  141
+
+
+>WP_068391216.1 IS5 family transposase [Ventosimonas gracilis]
+ KXU37069.1 transposase [Ventosimonas gracilis]
+Length=249
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA  G E+AIG+SR G  +KIH+A DA G P+ F+ITGG
+Sbjct  84   DLEWVFIDGSYAKAHQHSAGAAGGQEQAIGKSRAGNTSKIHMAVDAFGWPVAFEITGG  141
+
+
+>WP_020342282.1 IS5 family transposase, partial [Pseudomonas syringae]
+ EPN23764.1 transposase, IS4, partial [Pseudomonas syringae pv. actinidiae 
+ICMP 19099]
+Length=210
+
+ Score = 78.2 bits (191),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  47   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDLTGG  104
+
+
+>WP_082045668.1 IS5/IS1182 family transposase [Azotobacter chroococcum]
+Length=249
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGNTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>SFL25596.1 transposase, IS4 family [Azotobacter beijerinckii]
+Length=249
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGNTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>ERT10099.1 hypothetical protein O185_27450 [Photorhabdus temperata J3]
+Length=236
+
+ Score = 78.6 bits (192),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ+++GA    + AIGQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  68   DSEWLFIDGSIVRAHQHSAGATSETDEAIGQSRGGRSTKIHLAVDSYGLPVHFELSGG  125
+
+
+>ABC30043.1 Transposase and inactivated derivatives [Hahella chejuensis KCTC 
+2396]
+Length=183
+
+ Score = 77.4 bits (189),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TK+HLA DA GLP++F+ITGG
+Sbjct  84   DLEWGFIDGSYVKAHQHSAGACTEEPQAIGKSRAGNTTKVHLAVDAYGLPVEFEITGG  141
+
+
+>KPW95040.1 hypothetical protein ALO79_200161 [Pseudomonas syringae pv. castaneae]
+Length=86
+
+ Score = 75.1 bits (183),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 33/56 (59%), Positives = 42/56 (75%), Gaps = 0/56 (0%)
+
+Query  4   EWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  2   EWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDAYGLPIAFDVTAG  57
+
+
+>SFM76929.1 transposase, IS4 family [Nitrosomonas nitrosa]
+Length=267
+
+ Score = 79.3 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  102  DCEWEFIDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLAVDGYGLPVEFEITGG  159
+
+
+>WP_031282464.1 IS5/IS1182 family transposase [Photorhabdus temperata]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ+++GA    + AIGQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DSEWLFIDGSIVRAHQHSAGATSETDEAIGQSRGGRSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>WP_038224926.1 IS5/IS1182 family transposase [Xenorhabdus bovienii]
+ CDH02197.1 transposase [Xenorhabdus bovienii str. feltiae Moldova]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +RVHQ+++GA    + A+GQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRVHQHSAGAASEEDEAMGQSRGGRSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>SEJ30605.1 transposase, IS4 family [Azotobacter beijerinckii]
+Length=249
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>WP_004543214.1 MULTISPECIES: IS5 family transposase [Proteobacteria]
+ EBA44431.1 transposase [Burkholderia pseudomallei 305]
+ SFY19144.1 transposase, IS4 family [Azotobacter vinelandii]
+Length=249
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>KTD52612.1 transposase, partial [Legionella santicrucis]
+Length=97
+
+ Score = 75.1 bits (183),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS I+ +Q+++G      +AIG+SRGG  TKIH+A DA GLPIDF+ITGG
+Sbjct  19  DIEWAFIDGSIIKAYQHSAGVASEENQAIGKSRGGNTTKIHMAVDAFGLPIDFEITGG  76
+
+
+>KEZ77735.1 transposase, IS4 [Salinisphaera hydrothermalis C41B8]
+Length=214
+
+ Score = 78.2 bits (191),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 37/58 (64%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY + HQ+++GA  G  +AIG SR GR TKIHLA DA GLPI F+ITGG
+Sbjct  49   DLEWAFMDGSYAKAHQHSAGASGGQPQAIGASRAGRTTKIHLAVDAYGLPITFEITGG  106
+
+
+>WP_046974709.1 IS5/IS1182 family transposase [Photorhabdus temperata]
+ AKH63452.1 transposase [Photorhabdus temperata subsp. thracensis]
+ AKH63737.1 transposase [Photorhabdus temperata subsp. thracensis]
+Length=253
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ+++GA    + AIGQSRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DSEWLFIDGSIVRAHQHSAGATSEADEAIGQSRGGRSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>ACO77194.1 Transposase, IS4 [Azotobacter vinelandii DJ]
+ AGK15453.1 Transposase, IS4 [Azotobacter vinelandii CA]
+ AGK19625.1 Transposase, IS4 [Azotobacter vinelandii CA6]
+Length=245
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  80   DLEWAFIDGTYVKAHQHSSGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  137
+
+
+>AJE23859.1 Transposase, IS4 family (plasmid) [Azotobacter chroococcum NCIMB 
+8003]
+Length=245
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  80   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGNTSKIHLAVDAHGLPVAFEITGG  137
+
+
+>KEZ75735.1 transposase, IS4 [Salinisphaera hydrothermalis C41B8]
+Length=179
+
+ Score = 77.0 bits (188),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY + HQ+++GA  G  +AIG SR GR TKIH+A DA GLPI F+ITGG
+Sbjct  84   DLEWAFMDGSYAKAHQHSAGASGGQPQAIGPSRAGRTTKIHVAVDAYGLPITFEITGG  141
+
+
+>WP_082045430.1 IS5/IS1182 family transposase [Azotobacter chroococcum]
+ AJE21663.1 Transposase, IS4 family [Azotobacter chroococcum NCIMB 8003]
+Length=249
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQPEAIGRSRAGHTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>WP_074906042.1 IS5/IS1182 family transposase, partial [Nitrosomonas communis]
+ SFM60734.1 Transposase DDE domain-containing protein, partial [Nitrosomonas 
+communis]
+Length=178
+
+ Score = 77.0 bits (188),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F ITGG
+Sbjct  84   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLAVDGYGLPVEFGITGG  141
+
+
+>WP_038227011.1 IS5 family transposase, partial [Xenorhabdus bovienii]
+Length=182
+
+ Score = 77.0 bits (188),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR T +HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTTLHLAVDSQGLPVHFELSGG  142
+
+
+>SDH61880.1 Transposase, partial [Nitrosomonas sp. Nm132]
+Length=146
+
+ Score = 76.3 bits (186),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  84   DWEWEFIDGSYVKAHQHSAGAAGKKPQAIGKSRAGNTTKIHLAVDGCGLPVEFEITGG  141
+
+
+>CBJ81929.1 transposase [Xenorhabdus bovienii SS-2004]
+ CDH27770.1 transposase [Xenorhabdus bovienii str. Jollieti]
+Length=213
+
+ Score = 77.8 bits (190),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FID S +R HQ++SGA    + AIG+SRGGR TKIHLA D+ GLP++F+++GG
+Sbjct  45   DTEWLFIDSSIVRAHQHSSGATSKKDEAIGKSRGGRSTKIHLAVDSYGLPVNFELSGG  102
+
+
+>AJE21945.1 Transposase, IS4 family [Azotobacter chroococcum NCIMB 8003]
+Length=245
+
+ Score = 78.2 bits (191),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  80   DLEWAFIDGTYVKAHQHSSGAASDQPEAIGRSRAGHTSKIHLAVDAHGLPVAFEITGG  137
+
+
+>SFL07449.1 transposase, IS4 family [Azotobacter beijerinckii]
+Length=249
+
+ Score = 78.2 bits (191),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGLTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>SEJ09776.1 transposase, IS4 family [Azotobacter beijerinckii]
+Length=249
+
+ Score = 78.2 bits (191),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGLTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>WP_079995910.1 IS5/IS1182 family transposase, partial [Pseudomonas syringae]
+Length=191
+
+ Score = 77.0 bits (188),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  141
+
+
+>SEJ51413.1 transposase, IS4 family, partial [Azotobacter beijerinckii]
+Length=201
+
+ Score = 77.0 bits (188),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  24  DLEWAFIDGTYVKAHQHSSGAASDQHEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  81
+
+
+>EGH68757.1 Transposase, IS4 [Pseudomonas syringae pv. actinidiae str. M302091]
+Length=187
+
+ Score = 76.6 bits (187),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  137
+
+
+>WP_082110359.1 IS5/IS1182 family transposase [Nitrosomonas communis]
+Length=249
+
+ Score = 78.2 bits (191),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  84   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLAVDGYGLPVEFEITGG  141
+
+
+>WP_054997868.1 IS5 family transposase, partial [Pseudomonas tremae]
+Length=164
+
+ Score = 76.3 bits (186),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 34/56 (61%), Positives = 43/56 (77%), Gaps = 0/56 (0%)
+
+Query  4   EWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +TGG
+Sbjct  1   EWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTGG  56
+
+
+>WP_083398336.1 IS5/IS1182 family transposase [Nitrosomonas communis]
+ SFL94223.1 Transposase [Nitrosomonas communis]
+Length=249
+
+ Score = 77.8 bits (190),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D+ GLP++F++TGG
+Sbjct  84   DWEWEFIDGSYVKAHQHSAGAVGQEPQAIGKSRAGNTTKIHLAVDSCGLPVEFEVTGG  141
+
+
+>WP_047686011.1 IS5/IS1182 family transposase [Xenorhabdus sp. NBAII XenSa04]
+Length=245
+
+ Score = 77.8 bits (190),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  77   DTEWLFIDGSIVRAHQHSSGAASTEDEAIGKSRGGRSTKIHLAVDSYGLPVHFELSGG  134
+
+
+>SDY40275.1 Transposase, partial [Nitrosomonas sp. Nm33]
+Length=178
+
+ Score = 76.3 bits (186),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  13  DWEWEFIDGSYVKAHQHSAGAVGQEPQAIGKSRAGNTTKIHLAVDGCGLPVEFEITGG  70
+
+
+>AKH39503.1 transposase [Nitrosomonas communis]
+Length=245
+
+ Score = 77.8 bits (190),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  80   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLAVDGYGLPVEFEITGG  137
+
+
+>WP_080032929.1 IS5/IS1182 family transposase [Pseudomonas syringae]
+Length=249
+
+ Score = 77.8 bits (190),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  141
+
+
+>WP_082438194.1 IS5/IS1182 family transposase [Pseudomonas cannabina]
+ KPW66180.1 hypothetical protein ALO81_200363 [Pseudomonas cannabina]
+ SDQ59139.1 transposase, IS4 family [Pseudomonas cannabina]
+ SDQ87561.1 Transposase [Pseudomonas cannabina]
+ SDR26783.1 Transposase [Pseudomonas cannabina]
+ SDR37742.1 Transposase [Pseudomonas cannabina]
+ SDR43769.1 Transposase [Pseudomonas cannabina]
+ SDR47454.1 Transposase [Pseudomonas cannabina]
+Length=249
+
+ Score = 77.8 bits (190),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  141
+
+
+>WP_038179891.1 IS5/IS1182 family transposase [Xenorhabdus bovienii]
+Length=253
+
+ Score = 77.8 bits (190),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>WP_051870870.1 IS5 family transposase, partial [Xenorhabdus bovienii]
+Length=214
+
+ Score = 77.0 bits (188),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR T +HLA D+ GLP+ F+++GG
+Sbjct  46   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTTLHLAVDSQGLPVHFELSGG  103
+
+
+>WP_080399766.1 IS5/IS1182 family transposase [Pseudomonas syringae]
+Length=249
+
+ Score = 77.8 bits (190),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  141
+
+
+>CDG92359.1 transposase [Xenorhabdus bovienii str. feltiae Florida]
+Length=213
+
+ Score = 77.0 bits (188),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR T +HLA D+ GLP+ F+++GG
+Sbjct  45   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTTLHLAVDSQGLPVHFELSGG  102
+
+
+>EPM90655.1 transposase, IS4 [Pseudomonas syringae pv. actinidiae ICMP 19068]
+ EPM99560.1 transposase, IS4 [Pseudomonas syringae pv. actinidiae ICMP 19104]
+ EPN07064.1 transposase, IS4 [Pseudomonas syringae pv. actinidiae ICMP 19102]
+ EPN13319.1 transposase, IS4 [Pseudomonas syringae pv. actinidiae ICMP 9855]
+ KCU98809.1 transposase, IS4 [Pseudomonas syringae pv. actinidiae ICMP 9617]
+ GAO95179.1 hypothetical protein PSA5_20700 [Pseudomonas syringae pv. actinidiae]
+ AQL36411.1 IS5 family transposase [Pseudomonas syringae pv. actinidiae ICMP 
+9853]
+Length=245
+
+ Score = 77.4 bits (189),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  137
+
+
+>WP_082045535.1 IS5/IS1182 family transposase [Azotobacter chroococcum]
+Length=249
+
+ Score = 77.4 bits (189),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ+++GA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSAGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>CDH32534.1 transposase [Xenorhabdus bovienii str. Intermedium]
+Length=249
+
+ Score = 77.4 bits (189),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  81   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  138
+
+
+>SDI19110.1 Transposase, partial [Nitrosomonas sp. Nm132]
+Length=155
+
+ Score = 75.5 bits (184),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  84   DWEWEFIDGSYVKAHQHSAGAAGKKPQAIGKSRAGNSTKIHLAVDGCGLPVEFEITGG  141
+
+
+>AJE23431.1 Transposase, IS4 family [Azotobacter chroococcum NCIMB 8003]
+ AJE23600.1 Transposase, IS4 family (plasmid) [Azotobacter chroococcum NCIMB 
+8003]
+ AJE23945.1 Transposase, IS4 family (plasmid) [Azotobacter chroococcum NCIMB 
+8003]
+Length=245
+
+ Score = 77.4 bits (189),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ+++GA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  80   DLEWAFIDGTYVKAHQHSAGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  137
+
+
+>WP_074907651.1 IS5/IS1182 family transposase, partial [Nitrosomonas communis]
+ SFN27909.1 Transposase DDE domain-containing protein, partial [Nitrosomonas 
+communis]
+Length=202
+
+ Score = 76.6 bits (187),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F ITGG
+Sbjct  84   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLAVDGYGLPVEFGITGG  141
+
+
+>WP_071159566.1 IS5/IS1182 family transposase [Methylomonas sp. LWB]
+ OHX35119.1 IS5 family transposase [Methylomonas sp. LWB]
+Length=249
+
+ Score = 77.4 bits (189),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGS ++ HQ++SGA H  + AIG+S  G  TKIH+A DA GLPI F +TGG
+Sbjct  84   DLEWTFIDGSIVKAHQHSSGAAHEQDAAIGKSVAGNTTKIHMAVDACGLPIHFSVTGG  141
+
+
+>SFB65743.1 transposase, IS4 family, partial [Azotobacter beijerinckii]
+Length=215
+
+ Score = 76.6 bits (187),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ++SGA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  84   DLEWAFIDGTYVKAHQHSSGAASDQSEAIGKSRAGLTSKIHLAVDAHGLPVAFEITGG  141
+
+
+>WP_038220425.1 IS5 family transposase, partial [Xenorhabdus nematophila]
+ KHD27609.1 transposase, partial [Xenorhabdus nematophila]
+Length=194
+
+ Score = 76.3 bits (186),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  26  DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  83
+
+
+>KHD28093.1 transposase, partial [Xenorhabdus nematophila]
+Length=142
+
+ Score = 75.1 bits (183),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>WP_080153576.1 IS5/IS1182 family transposase, partial [Pseudomonas syringae]
+Length=231
+
+ Score = 77.0 bits (188),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  84   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  141
+
+
+>SFM78953.1 Transposase [Nitrosomonas communis]
+Length=219
+
+ Score = 76.6 bits (187),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHL  D  GLP++F+ITGG
+Sbjct  54   DWEWKFIDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLVVDGYGLPVEFEITGG  111
+
+
+>WP_082305692.1 MULTISPECIES: hypothetical protein [Pseudoalteromonas]
+Length=109
+
+ Score = 73.9 bits (180),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGSY++ HQ+++GA    E+AI  SRGG I+KIHLA D+ GL I+F IT G
+Sbjct  12  DTEWEFIDGSYVKAHQHSTGAASKHEQAIALSRGGNISKIHLAVDSYGLAIEFIITDG  69
+
+
+>WP_083796423.1 IS5/IS1182 family transposase [Marinobacter sp. ELB17]
+Length=249
+
+ Score = 77.0 bits (188),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA  G++  IG+SR G  +K+HLA +A GLP  F ITGG
+Sbjct  84   DLEWVFIDGSYVKAHQHSAGAAGGYDENIGKSRAGNTSKVHLAVNAYGLPEAFTITGG  141
+
+
+>WP_038207738.1 IS5 family transposase [Xenorhabdus bovienii]
+ CDG88435.1 transposase [Xenorhabdus bovienii str. feltiae France]
+Length=253
+
+ Score = 77.0 bits (188),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR T +HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTTLHLAVDSQGLPVHFELSGG  142
+
+
+>SDY87873.1 Putative transposase of IS4/5 family, partial [Nitrosomonas sp. 
+Nm33]
+Length=160
+
+ Score = 75.1 bits (183),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSYI+ HQ+ +GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  67   DWEWEFIDGSYIKAHQHRAGAAGQEPQAIGKSRAGNTTKIHLAVDGCGLPVEFEITGG  124
+
+
+>CZH55772.1 Transposase and inactivated derivatives [Legionella pneumophila]
+ CZH10764.1 Transposase and inactivated derivatives [Legionella pneumophila]
+Length=124
+
+ Score = 74.3 bits (181),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS ++ HQ+++G      +AIG+SR G  TKIH+A DA+GLPIDF+ITGG
+Sbjct  12  DLEWGFIDGSIVKAHQHSAGGASEENQAIGKSRRGNTTKIHMAVDAHGLPIDFEITGG  69
+
+
+>EAZ98231.1 transposase [Marinobacter sp. ELB17]
+Length=245
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY++ HQ+++GA  G++  IG+SR G  +K+HLA +A GLP  F ITGG
+Sbjct  80   DLEWVFIDGSYVKAHQHSAGAAGGYDENIGKSRAGNTSKVHLAVNAYGLPEAFTITGG  137
+
+
+>WP_013183573.1 IS5/IS1182 family transposase [Xenorhabdus nematophila]
+ CBJ89009.1 transposase [Xenorhabdus nematophila ATCC 19061]
+ CBJ92259.1 transposase [Xenorhabdus nematophila ATCC 19061]
+ KHD29473.1 transposase [Xenorhabdus nematophila]
+ CEK21916.1 transposase [Xenorhabdus nematophila AN6/1]
+ CEK25074.1 transposase [Xenorhabdus nematophila AN6/1]
+Length=253
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>WP_051869151.1 IS5 family transposase [Xenorhabdus bovienii]
+ CDG88297.1 transposase [Xenorhabdus bovienii str. feltiae France]
+Length=236
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGGR T +HLA D+ GLP+ F+++GG
+Sbjct  68   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGRSTTLHLAVDSQGLPVHFELSGG  125
+
+
+>EPM95611.1 transposase, IS4, partial [Pseudomonas syringae pv. actinidiae 
+ICMP 19070]
+Length=220
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  137
+
+
+>WP_038219891.1 IS5/IS1182 family transposase [Xenorhabdus nematophila]
+ KHD28414.1 transposase [Xenorhabdus nematophila]
+Length=253
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRTHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>WP_040107112.1 IS5/IS1182 family transposase [Azotobacter chroococcum]
+Length=236
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ+++GA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  71   DLEWAFIDGTYVKAHQHSAGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  128
+
+
+>WP_013184705.1 IS5/IS1182 family transposase [Xenorhabdus nematophila]
+ CBJ90967.1 transposase [Xenorhabdus nematophila ATCC 19061]
+ CBJ91190.1 putative transposase [Xenorhabdus nematophila ATCC 19061]
+ CEK23793.1 putative transposase [Xenorhabdus nematophila AN6/1]
+ CEK24010.1 putative transposase [Xenorhabdus nematophila AN6/1]
+Length=253
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>EPM47764.1 transposase, IS4, partial [Pseudomonas syringae pv. actinidiae 
+ICMP 19103]
+Length=227
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  80   DMEWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  137
+
+
+>WP_038251361.1 IS5 family transposase, partial [Xenorhabdus nematophila]
+Length=251
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  142
+
+
+>AJE23542.1 Transposase, IS4 family (plasmid) [Azotobacter chroococcum NCIMB 
+8003]
+Length=219
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDG+Y++ HQ+++GA      AIG+SR G  +KIHLA DA+GLP+ F+ITGG
+Sbjct  54   DLEWAFIDGTYVKAHQHSAGAASDQPEAIGKSRAGHTSKIHLAVDAHGLPVAFEITGG  111
+
+
+>SFM53910.1 Transposase [Nitrosomonas communis]
+Length=262
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 33/58 (57%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW FIDGSY++ HQ+++GA     +AIG+SR G  TKIHL  D  GLP++F+ITGG
+Sbjct  84   DWEWEFIDGSYVKAHQHSAGAASQESQAIGKSRAGNTTKIHLVVDGYGLPVEFEITGG  141
+
+
+>WP_082110400.1 IS5/IS1182 family transposase [Nitrosomonas communis]
+Length=249
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  T+IHLA D  GLP++F+ITGG
+Sbjct  84   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTRIHLAVDGYGLPVEFEITGG  141
+
+
+>WP_084188679.1 IS5 family transposase [Salinisphaera hydrothermalis]
+ KEZ77932.1 transposase, IS4 [Salinisphaera hydrothermalis C41B8]
+Length=249
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY + HQ+++GA  G  +AIG SR GR TKIHLA DA G PI F+ITGG
+Sbjct  84   DLEWAFMDGSYAKAHQHSAGASGGQPQAIGPSRAGRTTKIHLAVDAYGFPITFEITGG  141
+
+
+>WP_046336656.1 IS5 family transposase [Xenorhabdus bovienii]
+ CDM89366.1 transposase [Xenorhabdus bovienii]
+Length=253
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D+EW+FIDGS +R HQ+++GA    E AIG+SRGG  TK+HLA D+ GLP+ F+++GG
+Sbjct  85   DREWLFIDGSIVRAHQHSAGAATNEEEAIGKSRGGHSTKLHLAVDSQGLPVHFELSGG  142
+
+
+>WP_084671835.1 IS5/IS1182 family transposase [Halomonas ilicicola]
+ SHF84547.1 transposase, IS4 family [Halomonas ilicicola DSM 19980]
+Length=249
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDG+Y++ HQ+++GA      AIG+SR G  +KIHLA DA GLP+ F++TGG
+Sbjct  84   DFEWMFIDGTYVKAHQHSAGAASSQSEAIGKSRAGHTSKIHLAVDAYGLPVAFRLTGG  141
+
+
+>WP_082110364.1 IS5/IS1182 family transposase [Nitrosomonas communis]
+Length=249
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  T+IHLA D  GLP++F+ITGG
+Sbjct  84   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTRIHLAVDGYGLPVEFEITGG  141
+
+
+>WP_038221071.1 IS5 family transposase, partial [Xenorhabdus nematophila]
+ KHD27087.1 transposase, partial [Xenorhabdus nematophila]
+Length=172
+
+ Score = 75.1 bits (183),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW+FIDGS +R HQ++SGA    + AIG+SRGG  TKIHLA D+ GLP+ F+++GG
+Sbjct  4   DTEWLFIDGSIVRAHQHSSGAASVEDEAIGKSRGGLSTKIHLAVDSYGLPVHFELSGG  61
+
+
+>KTD59725.1 ISSod6 transposase, partial [Legionella sainthelensi]
+Length=140
+
+ Score = 74.3 bits (181),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2   DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           D EW FIDGS ++ HQ+++GA +  E+ IG+S  G  TKIH+  DA+GLPIDF+ITGG
+Sbjct  14  DLEWEFIDGSIVKAHQHSAGAPNKEEQGIGKSAAGNTTKIHMDVDAHGLPIDFEITGG  71
+
+
+>WP_057424415.1 IS5 family transposase, partial [Pseudomonas amygdali]
+Length=181
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 33/56 (59%), Positives = 42/56 (75%), Gaps = 0/56 (0%)
+
+Query  4   EWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+           EWVFIDGSY + HQ+++GA    ++AIG+SR G  +KIHLA DA GLPI F +T G
+Sbjct  18  EWVFIDGSYAKAHQHSAGAASTQDQAIGKSRAGNTSKIHLAVDACGLPIAFDVTAG  73
+
+
+>AKH39567.1 transposase [Nitrosomonas communis]
+Length=245
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  T+IHLA D  GLP++F+ITGG
+Sbjct  80   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTRIHLAVDGYGLPVEFEITGG  137
+
+
+>SDY15129.1 Transposase [Nitrosomonas sp. Nm33]
+Length=249
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D +W FIDGSYI+ HQ+++GA     +AIG+SR G  TKIHLA D  GLP++F+ITGG
+Sbjct  84   DWKWEFIDGSYIKAHQHSAGAGGQEPQAIGKSRAGNTTKIHLAVDGCGLPVEFEITGG  141
+
+
+>WP_082110346.1 IS5/IS1182 family transposase [Nitrosomonas communis]
+Length=249
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW F+DGSY++ HQ+++GA     +AIG+SR G  T+IHLA D  GLP++F+ITGG
+Sbjct  84   DWEWRFMDGSYVKAHQHSAGAASQESQAIGKSRAGNTTRIHLAVDGYGLPVEFEITGG  141
+
+
+>WP_047686025.1 IS5 family transposase, partial [Xenorhabdus sp. NBAII XenSa04]
+Length=220
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  2    DQEWVFIDGSYIRVHQYASGARHGFERAIGQSRGGRITKIHLATDANGLPIDFKITGG  59
+            D EW+FIDG+ +R HQ+++GA    + AIG+SRGGR TKIHLA D+ GLP+ F+++GG
+Sbjct  85   DTEWLFIDGTIVRAHQHSAGAASDNDEAIGKSRGGRSTKIHLAVDSGGLPVHFELSGG  142
+
+
+
+Lambda      K        H
+   0.323    0.142    0.439 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1114016641686
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

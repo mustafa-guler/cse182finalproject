@@ -1,0 +1,1556 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO12981 putative siderophore-interacting protein
+OS=Acinetobacter baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025
+/ NCDC KC755 / 5377) GN=A1S_2564 SV=1 UP=UP000006737:Chromosome
+
+Length=145
+
+RID: K5VD0ETZ015
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO12981.1  putative siderophore-interacting protein [Acinetobact...  298     2e-102
+WP_000929986.1  NADPH-dependent ferric siderophore reductase [Aci...  268     3e-87 
+WP_049594811.1  MULTISPECIES: NADPH-dependent ferric siderophore ...  268     3e-87 
+WP_005181304.1  MULTISPECIES: NADPH-dependent ferric siderophore ...  268     3e-87 
+WP_000929985.1  NADPH-dependent ferric siderophore reductase [Aci...  268     3e-87 
+WP_076032869.1  phage tail protein [Acinetobacter soli]               251     1e-80 
+WP_016655687.1  NADPH-dependent ferric siderophore reductase [Aci...  227     2e-71 
+ENV53428.1  hypothetical protein F952_02489 [Acinetobacter baylyi...  226     5e-71 
+WP_011182610.1  MULTISPECIES: siderophore-interacting protein [Ac...  226     7e-71 
+WP_004749330.1  NADPH-dependent ferric siderophore reductase [Aci...  202     1e-61 
+WP_086208344.1  phage tail protein [Acinetobacter sp. ANC 4204]       200     1e-60 
+WP_023272219.1  siderophore-interacting protein [Acinetobacter ne...  190     9e-57 
+WP_011978175.1  siderophore-interacting protein [Marinomonas sp. ...  137     4e-36 
+WP_042126494.1  siderophore-interacting protein [Pseudomonas japo...  136     6e-36 
+WP_046017292.1  side tail fiber protein [Marinomonas sp. S3726]       136     7e-36 
+WP_060490648.1  hypothetical protein [Psychrobacter sp. P11F6]        136     8e-36 
+WP_063337105.1  MULTISPECIES: phage tail protein [Marinomonas]        134     2e-35 
+WP_009846223.1  siderophore-interacting protein [Vibrio sp. MED222]   134     2e-35 
+WP_063332962.1  siderophore-interacting protein [Marinomonas sp. ...  127     1e-32 
+WP_070475828.1  siderophore-interacting protein [Oligella sp. HMS...  125     8e-32 
+WP_080971335.1  hypothetical protein [Haemophilus parainfluenzae]     120     4e-30 
+WP_018574711.1  hypothetical protein [Oligella ureolytica]            120     5e-30 
+WP_013794752.1  NADPH-dependent ferric siderophore reductase [Mar...  119     2e-29 
+WP_068996648.1  siderophore-interacting protein [Terasakiispira p...  118     6e-29 
+WP_067983919.1  siderophore-interacting protein [Neptuniibacter p...  115     4e-28 
+WP_067863302.1  siderophore-interacting protein [Neptuniibacter m...  112     9e-27 
+WP_081619588.1  hypothetical protein [Vitreoscilla stercoraria]       108     2e-25 
+WP_058356003.1  siderophore-interacting protein [Vitreoscilla sp....  106     1e-24 
+ODA35743.1  hypothetical protein A8L45_03585 [Enterovibrio pacifi...  92.4    2e-19 
+WP_083228186.1  hypothetical protein [Enterovibrio pacificus]         92.4    2e-19 
+WP_077544265.1  hypothetical protein [Rodentibacter genomosp. 2]      82.4    9e-16 
+WP_077551845.1  hypothetical protein [Rodentibacter genomosp. 2]      80.9    3e-15 
+WP_013555412.1  siderophore-interacting protein [Deinococcus mari...  50.8    1e-04 
+WP_055124987.1  siderophore-interacting protein [Psychrobacter gl...  48.9    5e-04 
+WP_060491338.1  hypothetical protein [Psychrobacter sp. P11F6]        48.1    0.001 
+WP_060491291.1  siderophore-interacting protein [Psychrobacter sp...  47.8    0.001 
+WP_062844764.1  hypothetical protein [Psychrobacter alimentarius]     47.0    0.002 
+WP_064617146.1  hypothetical protein [Moraxella catarrhalis]          46.6    0.004 
+GAF62053.1  iron-chelator utilization protein [Psychrobacter sp. ...  46.2    0.004 
+WP_064610318.1  hypothetical protein [Moraxella catarrhalis]          46.2    0.005 
+WP_064643079.1  hypothetical protein [Moraxella catarrhalis]          46.2    0.005 
+WP_075105975.1  siderophore-interacting protein [Psychrobacter sp...  45.8    0.006 
+WP_078306942.1  hypothetical protein [Moraxella lincolnii]            45.8    0.007 
+SJN24776.1  iron-chelator utilization protein, putative [Psychrob...  45.4    0.010 
+GAF56561.1  iron-chelator utilization protein [Psychrobacter sp. ...  45.1    0.014 
+WP_078305485.1  hypothetical protein [Deinococcus sp. LM3]            44.7    0.018 
+WP_025653145.1  MULTISPECIES: siderophore-interacting protein [Ps...  43.9    0.029 
+OEH67823.1  hypothetical protein BAX61_07965 [Psychrobacter sp. B...  43.5    0.043 
+WP_082624689.1  hypothetical protein [Psychrobacter sp. P11G3]        43.5    0.045 
+WP_064608616.1  hypothetical protein [Moraxella catarrhalis]          42.7    0.055 
+WP_065254079.1  hypothetical protein [Moraxella osloensis]            42.7    0.082 
+GAF53518.1  iron-chelator utilization protein [Psychrobacter sp. ...  42.7    0.091 
+WP_022802891.1  hypothetical protein [Deinococcus sp. 2009]           41.2    0.22  
+WP_011960729.1  siderophore synthetase [Psychrobacter sp. PRwf-1]     41.2    0.24  
+WP_076774984.1  hypothetical protein [Enhydrobacter sp. H5]           41.2    0.28  
+EEV21857.1  Siderophore-interacting protein [Enhydrobacter aerosa...  40.8    0.34  
+WP_065262667.1  siderophore-interacting protein [Moraxella osloen...  40.4    0.43  
+WP_040624791.1  hypothetical protein [Moraxella macacae]              40.4    0.47  
+ELA09322.1  siderophore-interacting protein [Moraxella macacae 04...  40.4    0.51  
+WP_010197358.1  siderophore-interacting protein [Psychrobacter sp...  40.0    0.62  
+WP_062332702.1  hypothetical protein [Moraxella osloensis]            40.0    0.73  
+KND22134.1  hypothetical protein AFK20_06095 [Enhydrobacter aeros...  38.9    1.5   
+WP_015228227.1  heme iron utilization protein [Dactylococcopsis s...  37.0    1.9   
+WP_068819379.1  heme iron utilization protein [Phormidesmis pries...  36.6    2.5   
+BAV10742.1  siderophore-interacting protein [Moraxella osloensis]     38.1    3.4   
+WP_036536500.1  heme iron utilization protein [Neosynechococcus s...  35.8    5.9   
+WP_015224448.1  hypothetical protein [Halothece sp. PCC 7418]         35.4    6.9   
+XP_011548611.1  PREDICTED: RNA-binding protein 45-like [Plutella ...  37.0    7.1   
+WP_006901491.1  hypothetical protein [Gordonia paraffinivorans]       35.4    7.3   
+OGC12552.1  hypothetical protein A2246_01530 [candidate division ...  37.0    7.7   
+WP_084473641.1  hypothetical protein [Deinococcus sp. 2009]           36.2    7.8   
+WP_076517390.1  receptor [Achromobacter sp. MFA1 R4]                  37.0    8.7   
+
+
+>ABO12981.1 putative siderophore-interacting protein [Acinetobacter baumannii 
+ATCC 17978]
+Length=145
+
+ Score = 298 bits (762),  Expect = 2e-102, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK
+Sbjct  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY
+Sbjct  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+
+Query  121  AYGFILKVVEKYLWYSRVLRIKVTP  145
+            AYGFILKVVEKYLWYSRVLRIKVTP
+Sbjct  121  AYGFILKVVEKYLWYSRVLRIKVTP  145
+
+
+>WP_000929986.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+ EJG22693.1 siderophore-interacting protein [Acinetobacter baumannii OIFC143]
+ EJP51445.1 siderophore-interacting protein [Acinetobacter baumannii Naval-18]
+ ETR80816.1 hypothetical protein M214_4011 [Acinetobacter baumannii CI86]
+ ETR82217.1 hypothetical protein M212_4032 [Acinetobacter baumannii CI79]
+ KKZ50345.1 side tail fiber protein [Acinetobacter baumannii]
+ KZA17432.1 Siderophore-interacting protein [Acinetobacter baumannii]
+ KZA28923.1 Siderophore-interacting protein [Acinetobacter baumannii]
+ KZA35581.1 Siderophore-interacting protein [Acinetobacter baumannii]
+ OTN16729.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+ OTT19881.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+Length=374
+
+ Score = 268 bits (684),  Expect = 3e-87, Method: Compositional matrix adjust.
+ Identities = 131/131 (100%), Positives = 131/131 (100%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK
+Sbjct  17   MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKVVEK
+Sbjct  137  AYGFILKVVEK  147
+
+
+>WP_049594811.1 MULTISPECIES: NADPH-dependent ferric siderophore reductase [Acinetobacter]
+ AKQ26054.1 side tail fiber protein [Acinetobacter baumannii]
+ ODP44228.1 phage tail protein [Acinetobacter baumannii]
+ ODP46093.1 phage tail protein [Acinetobacter baumannii]
+ ODP53596.1 phage tail protein [Acinetobacter baumannii]
+ ODP57510.1 phage tail protein [Acinetobacter baumannii]
+ ODP61425.1 phage tail protein [Acinetobacter baumannii]
+ ODP62909.1 phage tail protein [Acinetobacter baumannii]
+ ODP64583.1 phage tail protein [Acinetobacter baumannii]
+ ODP72830.1 phage tail protein [Acinetobacter baumannii]
+ APP29606.1 phage tail protein [Acinetobacter baumannii]
+ APX48074.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+Length=374
+
+ Score = 268 bits (684),  Expect = 3e-87, Method: Compositional matrix adjust.
+ Identities = 131/131 (100%), Positives = 131/131 (100%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK
+Sbjct  17   MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKVVEK
+Sbjct  137  AYGFILKVVEK  147
+
+
+>WP_005181304.1 MULTISPECIES: NADPH-dependent ferric siderophore reductase [Acinetobacter]
+ ENW87935.1 hypothetical protein F905_02484 [Acinetobacter sp. CIP 53.82]
+ EXE68211.1 hypothetical protein J585_1838 [Acinetobacter baumannii 397971]
+Length=374
+
+ Score = 268 bits (684),  Expect = 3e-87, Method: Compositional matrix adjust.
+ Identities = 131/131 (100%), Positives = 131/131 (100%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK
+Sbjct  17   MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKVVEK
+Sbjct  137  AYGFILKVVEK  147
+
+
+>WP_000929985.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+ EGJ62230.1 Siderophore-interacting protein [Acinetobacter baumannii 6013150]
+ EGJ62748.1 Siderophore-interacting protein [Acinetobacter baumannii 6013113]
+ EZF17306.1 hypothetical protein BA73_03070 [Acinetobacter baumannii R1B]
+ KLT74492.1 siderophore-interacting protein [Acinetobacter baumannii MRSN 
+4106]
+ KLT83471.1 siderophore-interacting protein [Acinetobacter baumannii MRSN 
+3527]
+ KLT97944.1 siderophore-interacting protein [Acinetobacter baumannii MRSN 
+3405]
+ KLT98733.1 siderophore-interacting protein [Acinetobacter baumannii MRSN 
+3942]
+ ALJ86099.1 putative siderophore-interacting protein [Acinetobacter baumannii]
+ KQD25249.1 phage tail protein [Acinetobacter baumannii]
+ KQE05639.1 phage tail protein [Acinetobacter baumannii]
+ KQF43562.1 phage tail protein [Acinetobacter baumannii]
+ KQF45948.1 phage tail protein [Acinetobacter baumannii]
+ KQF78765.1 phage tail protein [Acinetobacter baumannii]
+ KQF84418.1 phage tail protein [Acinetobacter baumannii]
+ KQF89927.1 phage tail protein [Acinetobacter baumannii]
+ KQF96374.1 phage tail protein [Acinetobacter baumannii]
+ KQF98905.1 phage tail protein [Acinetobacter baumannii]
+ KQG03470.1 phage tail protein [Acinetobacter baumannii]
+ KQG11882.1 phage tail protein [Acinetobacter baumannii]
+ KQG13718.1 phage tail protein [Acinetobacter baumannii]
+ KQG23519.1 phage tail protein [Acinetobacter baumannii]
+ KQG30591.1 phage tail protein [Acinetobacter baumannii]
+ KRJ40675.1 phage tail protein [Acinetobacter baumannii]
+ KRT52101.1 phage tail protein [Acinetobacter baumannii]
+ KRU01808.1 phage tail protein [Acinetobacter baumannii]
+ KRU03107.1 phage tail protein [Acinetobacter baumannii]
+ KRU03407.1 phage tail protein [Acinetobacter baumannii]
+ KRU09350.1 phage tail protein [Acinetobacter baumannii]
+ KZA48479.1 Siderophore-interacting protein [Acinetobacter baumannii]
+ OTM26232.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+ OTT30028.1 NADPH-dependent ferric siderophore reductase [Acinetobacter baumannii]
+Length=374
+
+ Score = 268 bits (684),  Expect = 3e-87, Method: Compositional matrix adjust.
+ Identities = 131/131 (100%), Positives = 131/131 (100%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK
+Sbjct  17   MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKVVEK
+Sbjct  137  AYGFILKVVEK  147
+
+
+>WP_076032869.1 phage tail protein [Acinetobacter soli]
+ APV36112.1 phage tail protein [Acinetobacter soli]
+Length=374
+
+ Score = 251 bits (640),  Expect = 1e-80, Method: Compositional matrix adjust.
+ Identities = 121/131 (92%), Positives = 127/131 (97%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDHRKELLIIAQ YGKNNDIHDAVI+DIYEEGILL TQVPS S+KQDLFIHFELK
+Sbjct  17   MDHVNQDHRKELLIIAQNYGKNNDIHDAVISDIYEEGILLQTQVPSVSMKQDLFIHFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFS+NAKQFFEVVAKSQV+PNITRLTIKSQ PLPNYYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSHNAKQFFEVVAKSQVSPNITRLTIKSQRPLPNYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILK++EK
+Sbjct  137  AYGFILKILEK  147
+
+
+>WP_016655687.1 NADPH-dependent ferric siderophore reductase [Acinetobacter rudis]
+ EPF75610.1 hypothetical protein F945_01276 [Acinetobacter rudis CIP 110305]
+Length=374
+
+ Score = 227 bits (579),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 110/131 (84%), Positives = 119/131 (91%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDH KELLIIAQTYGKNN IH A+IADIYEEGILL+TQ PSS  +Q+LFI FELK
+Sbjct  17   MDHVNQDHHKELLIIAQTYGKNNAIHGALIADIYEEGILLHTQAPSSPSQQELFIQFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEV+ K+Q++PNITRLTIKSQ   P YYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVIEKAQISPNITRLTIKSQTAFPAYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKV+EK
+Sbjct  137  AYGFILKVLEK  147
+
+
+>ENV53428.1 hypothetical protein F952_02489 [Acinetobacter baylyi DSM 14961 
+= CIP 107474]
+Length=373
+
+ Score = 226 bits (576),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 114/131 (87%), Positives = 118/131 (90%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDH KELLIIAQTYGKNN I DAVI DIYEEGILL+TQ P S  KQDLFI FELK
+Sbjct  17   MDHVNQDHHKELLIIAQTYGKNNAIDDAVIVDIYEEGILLHTQDPFSVAKQDLFIQFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEV+ KSQV+ NITRLTIKSQI LP YYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVIEKSQVSQNITRLTIKSQIALPQYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKV+EK
+Sbjct  137  AYGFILKVLEK  147
+
+
+>WP_011182610.1 MULTISPECIES: siderophore-interacting protein [Acinetobacter]
+ CAG69506.1 hypothetical protein; putative siderophore-interacting protein 
+[Acinetobacter sp. ADP1]
+Length=383
+
+ Score = 226 bits (577),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 114/131 (87%), Positives = 118/131 (90%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDH KELLIIAQTYGKNN I DAVI DIYEEGILL+TQ P S  KQDLFI FELK
+Sbjct  27   MDHVNQDHHKELLIIAQTYGKNNAIDDAVIVDIYEEGILLHTQDPFSVAKQDLFIQFELK  86
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEV+ KSQV+ NITRLTIKSQI LP YYAGY
+Sbjct  87   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVIEKSQVSQNITRLTIKSQIALPQYYAGY  146
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKV+EK
+Sbjct  147  AYGFILKVLEK  157
+
+
+>WP_004749330.1 NADPH-dependent ferric siderophore reductase [Acinetobacter sp. 
+ANC 3789]
+ ENU79071.1 hypothetical protein F975_03041 [Acinetobacter sp. ANC 3789]
+Length=371
+
+ Score = 202 bits (515),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 99/131 (76%), Positives = 113/131 (86%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQ+H KELL+IAQ+YGKN  I++A I DIYEEGILL+T+   +     LF+ FELK
+Sbjct  17   MDHVNQEHTKELLMIAQSYGKNMQIYEASINDIYEEGILLHTREGEAQKAATLFVDFELK  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEV+AK Q++ NITRLTIKSQ+ LP YYAGY
+Sbjct  77   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVIAKEQLSKNITRLTIKSQVALPQYYAGY  136
+
+Query  121  AYGFILKVVEK  131
+            AYGFILKV+EK
+Sbjct  137  AYGFILKVLEK  147
+
+
+>WP_086208344.1 phage tail protein [Acinetobacter sp. ANC 4204]
+ OTG59886.1 phage tail protein [Acinetobacter sp. ANC 4204]
+Length=375
+
+ Score = 200 bits (508),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 100/131 (76%), Positives = 112/131 (85%), Gaps = 2/131 (2%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            MDHVNQDH KELLIIAQTYGKN+ I +A IADIYEEGILL+ Q  +   +Q LF+ FELK
+Sbjct  17   MDHVNQDHSKELLIIAQTYGKNDQISNATIADIYEEGILLHIQDLTG--EQPLFVEFELK  74
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSFAKQKIEFS+NA+QFFEV+ K QV+ N+TRLTIKSQ  LP YYAGY
+Sbjct  75   GDLEEQILYLAYNSFAKQKIEFSHNARQFFEVIQKEQVSKNMTRLTIKSQRALPRYYAGY  134
+
+Query  121  AYGFILKVVEK  131
+            AYGFILK +EK
+Sbjct  135  AYGFILKALEK  145
+
+
+>WP_023272219.1 siderophore-interacting protein [Acinetobacter nectaris]
+ ESK40178.1 hypothetical protein P256_00618 [Acinetobacter nectaris CIP 110549]
+Length=370
+
+ Score = 190 bits (482),  Expect = 9e-57, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 106/131 (81%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DHVNQDH KEL +IAQ+YGKN  I +A I DI+EEGILL  +  S     +LF+ FELK
+Sbjct  18   LDHVNQDHSKELCMIAQSYGKNLQIKEAYIVDIFEEGILLKVRESSIQKYNELFVGFELK  77
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLAYNSF KQKIEFSNN KQ+FEVV K QV+ NITRLTIKSQ+PLP YYAGY
+Sbjct  78   GDLEEQILYLAYNSFVKQKIEFSNNTKQYFEVVEKFQVSKNITRLTIKSQLPLPEYYAGY  137
+
+Query  121  AYGFILKVVEK  131
+            AYG +LK +EK
+Sbjct  138  AYGLVLKALEK  148
+
+
+>WP_011978175.1 siderophore-interacting protein [Marinomonas sp. MWYL1]
+ ABR69280.1 Siderophore-interacting protein [Marinomonas sp. MWYL1]
+Length=379
+
+ Score = 137 bits (344),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 66/132 (50%), Positives = 92/132 (70%), Gaps = 1/132 (1%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNND-IHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFEL  59
+            +DHVNQDH +EL  IAQ + +  + I+ A I DI++EGI +N     ++  +D+FI F +
+Sbjct  17   IDHVNQDHPEELFAIAQHHCQQGEEIYSAKILDIFKEGIQVNVAFSDNTDAKDMFIPFAI  76
+
+Query  60   KGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAG  119
+            +GDLEE ILYLAY +  KQ  +FS   K+FFEV++K ++TPNI RLT+K   PLP YY G
+Sbjct  77   EGDLEENILYLAYAAVIKQGRDFSGTGKRFFEVISKQKITPNIIRLTVKCTTPLPEYYPG  136
+
+Query  120  YAYGFILKVVEK  131
+            YA+ F+LK + K
+Sbjct  137  YAHAFVLKSLTK  148
+
+
+>WP_042126494.1 siderophore-interacting protein [Pseudomonas japonica]
+Length=369
+
+ Score = 136 bits (342),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 65/131 (50%), Positives = 89/131 (68%), Gaps = 2/131 (2%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DH+NQDH  EL+++AQ Y  +  +  A I D Y EG+L   +V +   +Q+LFI FEL+
+Sbjct  17   IDHINQDHTDELMVMAQFYSPDRKVDAASILDFYNEGVL--CEVLTGQTRQELFIEFELE  74
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEE +LYL+Y +  KQK   S N K +FEV+ K  +TPN TRL ++ Q PLP YY  Y
+Sbjct  75   GDLEENLLYLSYQAAVKQKKSLSLNQKSYFEVLDKQPLTPNFTRLVVRGQGPLPAYYPEY  134
+
+Query  121  AYGFILKVVEK  131
+            AYGF LK+++K
+Sbjct  135  AYGFQLKLLKK  145
+
+
+>WP_046017292.1 side tail fiber protein [Marinomonas sp. S3726]
+ KJZ13852.1 side tail fiber protein [Marinomonas sp. S3726]
+Length=377
+
+ Score = 136 bits (342),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 63/131 (48%), Positives = 92/131 (70%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DHVNQDH +ELL IA+T    ++I  A I DI+EEG+ +  +      +Q+ F+ FE++
+Sbjct  17   LDHVNQDHTEELLAIARTSQPKSEIQSAKILDIFEEGMKILIKSNQQDTEQEAFVPFEIE  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            G LE++ILY AY + A+Q  +FS  AK FFEV  K +VTPN+ R+++KS  PLP YY GY
+Sbjct  77   GGLEDKILYQAYAAIAQQGKDFSGAAKHFFEVTDKQKVTPNMIRISVKSNTPLPEYYPGY  136
+
+Query  121  AYGFILKVVEK  131
+            A+ F+LK+++K
+Sbjct  137  AFAFLLKIIQK  147
+
+
+>WP_060490648.1 hypothetical protein [Psychrobacter sp. P11F6]
+ KRG34101.1 hypothetical protein AK822_04045 [Psychrobacter sp. P11F6]
+Length=386
+
+ Score = 136 bits (342),  Expect = 8e-36, Method: Compositional matrix adjust.
+ Identities = 66/131 (50%), Positives = 97/131 (74%), Gaps = 2/131 (2%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            ++H+NQDH +E+  IA  Y  +  I + +I DIY+EG+L++ QV  ++  Q+LF+ F+L+
+Sbjct  20   IEHLNQDHIEEVQAIAAYYYPDLAITNPLIIDIYKEGMLISAQV--NNKPQELFVDFKLE  77
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQ+LYLAY + A+Q  + + N K +FEV+ K ++TPN+TRLT+ S+ PLP  YAGY
+Sbjct  78   GDLEEQVLYLAYTAMAEQGRDLTGNKKHYFEVIGKQKLTPNMTRLTLHSETPLPENYAGY  137
+
+Query  121  AYGFILKVVEK  131
+            AYG ILKV+ K
+Sbjct  138  AYGMILKVLNK  148
+
+
+>WP_063337105.1 MULTISPECIES: phage tail protein [Marinomonas]
+ KZM45027.1 side tail fiber protein [Marinomonas sp. SBI22]
+ KZM46726.1 side tail fiber protein [Marinomonas sp. SBI8L]
+Length=377
+
+ Score = 134 bits (338),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 62/131 (47%), Positives = 91/131 (69%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DHVNQDH +ELL IA+T    ++I  A I DI+EEG+ +  +      +Q+ F+ FE++
+Sbjct  17   LDHVNQDHTEELLAIARTSQPKSEIQSAKILDIFEEGMKILIKSNQQDTEQEAFVPFEIE  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            G LE++ILY AY + A+Q  +FS   K FFEV  K +VTPN+ R+++KS  PLP YY GY
+Sbjct  77   GGLEDKILYQAYAAIAQQGKDFSGAGKHFFEVTDKQKVTPNMIRISVKSNTPLPEYYPGY  136
+
+Query  121  AYGFILKVVEK  131
+            A+ F+LK+++K
+Sbjct  137  AFAFLLKIIQK  147
+
+
+>WP_009846223.1 siderophore-interacting protein [Vibrio sp. MED222]
+ EAQ56006.1 hypothetical protein MED222_11298 [Vibrio sp. MED222]
+Length=372
+
+ Score = 134 bits (338),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 63/131 (48%), Positives = 89/131 (68%), Gaps = 0/131 (0%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DH+NQDH +E L IAQ++    DI  A + DI+EEG+ +       +  + +F+ FE++
+Sbjct  17   VDHINQDHLEETLAIAQSHAPALDIATAQVEDIFEEGVHIEVSFNDRTASEVIFVPFEIE  76
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            G LE+++LYLAY S  KQ  +FS   K+FFEV+ K  VT NI RLT+ SQIPLP Y+ GY
+Sbjct  77   GSLEDKVLYLAYASIVKQGRDFSGTGKKFFEVIQKQNVTKNIIRLTVVSQIPLPEYFPGY  136
+
+Query  121  AYGFILKVVEK  131
+            AY F+LK ++K
+Sbjct  137  AYAFVLKSMKK  147
+
+
+>WP_063332962.1 siderophore-interacting protein [Marinomonas sp. TW1]
+ KZN13902.1 side tail fiber protein [Marinomonas sp. TW1]
+Length=382
+
+ Score = 127 bits (319),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 64/140 (46%), Positives = 95/140 (68%), Gaps = 9/140 (6%)
+
+Query  1    MDHVNQDHRKELLIIAQTY-GKNNDIHDAVIADIYEEGILLNTQV----PS----SSIKQ  51
+            ++HVNQDH +E+L IA+++  ++  I  A I D++EEG+L+        PS    S  +Q
+Sbjct  17   LEHVNQDHSEEVLAIAESHLSRSFKIVSAKIVDLFEEGVLIQASTLEAKPSEDSTSESQQ  76
+
+Query  52   DLFIHFELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQI  111
+            D+F  F + G LE++ILYLAY +  KQ  +FS   K+FFEV+   +VTPNITRLT++S  
+Sbjct  77   DIFAPFVINGSLEDKILYLAYAAIVKQGRDFSGTGKRFFEVINTQKVTPNITRLTLQSST  136
+
+Query  112  PLPNYYAGYAYGFILKVVEK  131
+            PLP+YY G+A+ F+LK ++K
+Sbjct  137  PLPDYYPGHAFAFVLKSLQK  156
+
+
+>WP_070475828.1 siderophore-interacting protein [Oligella sp. HMSC05A10]
+ OFS89043.1 hypothetical protein HMPREF3144_01215 [Oligella sp. HMSC05A10]
+Length=394
+
+ Score = 125 bits (315),  Expect = 8e-32, Method: Compositional matrix adjust.
+ Identities = 59/130 (45%), Positives = 87/130 (67%), Gaps = 1/130 (1%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            + H+N +H  +LL+IA  YG  +      + DIYEEG+LL+  V  + I  ++FI F +K
+Sbjct  16   IGHLNNEHSDDLLVIANYYGTQSPYQHTQVQDIYEEGVLLHV-VTMNGIADEVFIEFSIK  74
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            G LEE+ILYLA+ +  KQ +  + N  +FFEVV  S+V+ ++ R+ IKS +PLP YYAGY
+Sbjct  75   GTLEERILYLAFYAMTKQGLSLTGNKHKFFEVVQSSRVSKHMQRIEIKSAVPLPTYYAGY  134
+
+Query  121  AYGFILKVVE  130
+             YGF+L+ +E
+Sbjct  135  TYGFLLRRIE  144
+
+
+>WP_080971335.1 hypothetical protein [Haemophilus parainfluenzae]
+Length=366
+
+ Score = 120 bits (302),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 58/132 (44%), Positives = 87/132 (66%), Gaps = 3/132 (2%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLN-TQVPSSSIKQDLFIHFEL  59
+            MDH+NQDH  ELLI+A  YG+N+D  +A I+DI+EEG++++   +   +++   ++ F +
+Sbjct  16   MDHLNQDHSDELLIVANYYGQNSDYSEARISDIFEEGVVIDACHIDRGNLQ--FYVPFTI  73
+
+Query  60   KGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAG  119
+             G +EE+ILYLAY +  KQ  +F  N +QFF V  KS  + NI R+ I    P P YYA 
+Sbjct  74   TGSIEEKILYLAYYALTKQGEKFKGNKRQFFTVGQKSMPSKNIMRIFINGVNPFPEYYAA  133
+
+Query  120  YAYGFILKVVEK  131
+            Y YGF+LK +++
+Sbjct  134  YCYGFVLKHIDR  145
+
+
+>WP_018574711.1 hypothetical protein [Oligella ureolytica]
+Length=374
+
+ Score = 120 bits (301),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 61/133 (46%), Positives = 89/133 (67%), Gaps = 5/133 (4%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNN---DIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHF  57
+            ++H+NQDH +ELL+IA  YG  +       A+I DIYEEG+L+  +       ++L+I F
+Sbjct  16   VEHINQDHPEELLVIANYYGGKSAYVPYETALIKDIYEEGLLI--EATHDRGVEELYIPF  73
+
+Query  58   ELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYY  117
+             +KG +E +ILYLAY + +KQ I   +N ++FFEVV KS  + N+ R+ I+S  PLP YY
+Sbjct  74   TIKGTIEGKILYLAYYALSKQGINLQSNRRKFFEVVDKSMSSKNMLRIYIRSTTPLPEYY  133
+
+Query  118  AGYAYGFILKVVE  130
+            AGY YG ILK+++
+Sbjct  134  AGYTYGIILKIID  146
+
+
+>WP_013794752.1 NADPH-dependent ferric siderophore reductase [Marinomonas posidonica]
+ AEF53275.1 Siderophore-interacting protein [Marinomonas posidonica IVIA-Po-181]
+Length=382
+
+ Score = 119 bits (298),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 60/140 (43%), Positives = 92/140 (66%), Gaps = 9/140 (6%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNN-DIHDAVIADIYEEGILL--------NTQVPSSSIKQ  51
+            ++HVNQDH +E+L IA+++   +  I  A I D++EEG+L+         ++  +S   Q
+Sbjct  17   LEHVNQDHSEEVLAIAESHLNGSFKIVSAKIVDLFEEGVLIQASTLDEKTSESNTSDNHQ  76
+
+Query  52   DLFIHFELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQI  111
+            D+F  F + G LE++ILYLAY +  KQ  +FS   K+FFEV+    +T NITRLT++S  
+Sbjct  77   DVFAPFVINGSLEDKILYLAYAAIVKQGRDFSGTGKRFFEVINTQNITRNITRLTLQSST  136
+
+Query  112  PLPNYYAGYAYGFILKVVEK  131
+            PLP+YY G+A+ F+LK ++K
+Sbjct  137  PLPDYYPGHAFAFVLKSLQK  156
+
+
+>WP_068996648.1 siderophore-interacting protein [Terasakiispira papahanaumokuakeensis]
+ ODC02264.1 hypothetical protein BFW38_00620 [Terasakiispira papahanaumokuakeensis]
+Length=388
+
+ Score = 118 bits (295),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 63/146 (43%), Positives = 86/146 (59%), Gaps = 15/146 (10%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNN-----------DIHDAV----IADIYEEGILLNTQVP  45
+            +DHVNQDH +EL  I + YG+             +IHD +    + DI ++ +LL     
+Sbjct  17   IDHVNQDHSEELQAIVKHYGRKQSSVINATEPLLNIHDTLHAFNVEDIEDDALLLRVHQS  76
+
+Query  46   SSSIKQDLFIHFELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRL  105
+            + S  Q L I FE++G LE++ILYLAY +  KQ     NN K+FFEV+   Q+T NITR+
+Sbjct  77   TDSPTQLLRIPFEIEGSLEDKILYLAYAAITKQGHHLKNNVKRFFEVIDTQQLTANITRI  136
+
+Query  106  TIKSQIPLPNYYAGYAYGFILKVVEK  131
+            TI S  P P+ Y GYAY F+LK + K
+Sbjct  137  TIHSASPFPDDYPGYAYAFLLKTISK  162
+
+
+>WP_067983919.1 siderophore-interacting protein [Neptuniibacter pectenicola]
+Length=386
+
+ Score = 115 bits (289),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 57/135 (42%), Positives = 89/135 (66%), Gaps = 6/135 (4%)
+
+Query  3    HVNQDHRKELLIIAQTY------GKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIH  56
+            HVNQDH +ELL IA+++          +I  A + DI++EGI ++  + ++     +F+ 
+Sbjct  19   HVNQDHTEELLAIAKSHLSQTKSPHETNIRSASVLDIFQEGIDISVHLKTTPQNTKIFVP  78
+
+Query  57   FELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNY  116
+            FE++G+LE++ILY AY S  +Q  +FS   K+FF+++ K ++T NI RLTI+S   LP Y
+Sbjct  79   FEIEGELEDKILYQAYASIIQQGRDFSGVGKRFFKIIDKQKITTNIVRLTIESTTELPTY  138
+
+Query  117  YAGYAYGFILKVVEK  131
+            Y GYAY F+LK ++K
+Sbjct  139  YPGYAYAFLLKTLKK  153
+
+
+>WP_067863302.1 siderophore-interacting protein [Neptuniibacter marinus]
+Length=386
+
+ Score = 112 bits (280),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 60/139 (43%), Positives = 91/139 (65%), Gaps = 14/139 (10%)
+
+Query  3    HVNQDHRKELLIIAQTY-GKNNDIHDAVIA-----DIYEEG----ILLNTQVPSSSIKQD  52
+            HVNQDH +ELL IA+++  +   +H+A I      D+++EG    + LNT + S+ I   
+Sbjct  19   HVNQDHTEELLAIAKSHLSQIKSLHEATIVSASVLDVFQEGMDIIVHLNTTLQSTKI---  75
+
+Query  53   LFIHFELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIP  112
+             F+ FE++G+LE++ILY AY S  +Q  +FS   K FF+++ K ++T N+ RLTI+S   
+Sbjct  76   -FVPFEIEGELEDKILYQAYASIVQQGRDFSGAGKHFFKIIDKQKITTNMVRLTIESTTE  134
+
+Query  113  LPNYYAGYAYGFILKVVEK  131
+            LP YY GYAY F+LK ++K
+Sbjct  135  LPAYYPGYAYAFLLKTLKK  153
+
+
+>WP_081619588.1 hypothetical protein [Vitreoscilla stercoraria]
+Length=395
+
+ Score = 108 bits (271),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 55/129 (43%), Positives = 85/129 (66%), Gaps = 1/129 (1%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DH+N DH+ ELL IAQ +G + D   A + DI+ EG  L      ++ + +++I F L+
+Sbjct  49   IDHLNDDHQTELLAIAQAHG-HADACAAKLLDIFVEGCYLAIDSSPNATETEVWIPFVLR  107
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            GDLEEQILYLA+++  KQ     +N KQ+FEV+ ++ V+P++ RL +K+  PLP    G+
+Sbjct  108  GDLEEQILYLAHSAMVKQGKSLHHNQKQYFEVLGQTMVSPHMLRLYLKTSQPLPPNAPGF  167
+
+Query  121  AYGFILKVV  129
+            A+ F LKV+
+Sbjct  168  AWLFSLKVL  176
+
+
+>WP_058356003.1 siderophore-interacting protein [Vitreoscilla sp. SN6]
+Length=365
+
+ Score = 106 bits (264),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 58/132 (44%), Positives = 83/132 (63%), Gaps = 7/132 (5%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIA---DIYEEGILLNTQVPSSSIKQDLFIHF  57
+            +DH+N DH+ ELL IAQ +G      DA IA   DI+ EG +L     + S    ++I F
+Sbjct  19   IDHLNDDHQAELLAIAQAHGHA----DAAIAKLLDIFVEGCILEVIQSTHSAATQVWIPF  74
+
+Query  58   ELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYY  117
+             L+GDLEEQILYLA+++  KQ     +  KQ+FEV+ ++ VTP++ RL +K+  PLP   
+Sbjct  75   VLRGDLEEQILYLAHSAMVKQGKSLHHAQKQYFEVLEQTMVTPHMLRLYLKTDKPLPPNA  134
+
+Query  118  AGYAYGFILKVV  129
+             G+A+ F LKV+
+Sbjct  135  PGFAWLFSLKVL  146
+
+
+>ODA35743.1 hypothetical protein A8L45_03585 [Enterovibrio pacificus]
+Length=370
+
+ Score = 92.4 bits (228),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 46/129 (36%), Positives = 77/129 (60%), Gaps = 2/129 (2%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            ++HVN+DH +EL  IA+           ++ DI+EEG+LL  +  +S+ +++LF+ F +K
+Sbjct  16   IEHVNEDHGRELNAIAKAKYPQRTFKSVILEDIFEEGVLLFVEDANSARREELFVPFTIK  75
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            G LEE++ YLAY  FA   +      K+F  V  K  +T N TR+T+++++P P  +AG 
+Sbjct  76   GTLEERVFYLAY-LFADPDV-VQKEVKRFLTVTDKKSLTQNFTRITVRTELPFPEQWAGL  133
+
+Query  121  AYGFILKVV  129
+             +   LK +
+Sbjct  134  CFSTHLKTL  142
+
+
+>WP_083228186.1 hypothetical protein [Enterovibrio pacificus]
+Length=394
+
+ Score = 92.4 bits (228),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 46/129 (36%), Positives = 77/129 (60%), Gaps = 2/129 (2%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            ++HVN+DH +EL  IA+           ++ DI+EEG+LL  +  +S+ +++LF+ F +K
+Sbjct  40   IEHVNEDHGRELNAIAKAKYPQRTFKSVILEDIFEEGVLLFVEDANSARREELFVPFTIK  99
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAGY  120
+            G LEE++ YLAY  FA   +      K+F  V  K  +T N TR+T+++++P P  +AG 
+Sbjct  100  GTLEERVFYLAY-LFADPDV-VQKEVKRFLTVTDKKSLTQNFTRITVRTELPFPEQWAGL  157
+
+Query  121  AYGFILKVV  129
+             +   LK +
+Sbjct  158  CFSTHLKTL  166
+
+
+>WP_077544265.1 hypothetical protein [Rodentibacter genomosp. 2]
+ OOF56243.1 hypothetical protein BKK56_04500 [Pasteurellaceae bacterium ppn422]
+Length=354
+
+ Score = 82.4 bits (202),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 51/132 (39%), Positives = 80/132 (61%), Gaps = 9/132 (7%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            ++HVN+DH  ELL I+Q +   N I    + D++E GI    ++ + S K   F+ F L+
+Sbjct  11   IEHVNEDHLAELLDISQVFCSPN-IKTVKLNDVFENGI----EILADSKK--YFVPFNLQ  63
+
+Query  61   -GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAG  119
+             GD  E+I YLAY++  +     +    ++FEV+A  +VTPN+ RLT+KS +P+P+   G
+Sbjct  64   IGDPHEKIQYLAYSAKIRLGKPLNAKTNRYFEVLATEKVTPNMLRLTLKSDVPIPD-EIG  122
+
+Query  120  YAYGFILKVVEK  131
+             A+ F LK +EK
+Sbjct  123  LAWNFSLKTLEK  134
+
+
+>WP_077551845.1 hypothetical protein [Rodentibacter genomosp. 2]
+ OOF53069.1 hypothetical protein BKK55_11795 [Pasteurellaceae bacterium 1996246016]
+Length=354
+
+ Score = 80.9 bits (198),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 50/132 (38%), Positives = 80/132 (61%), Gaps = 9/132 (7%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            ++HVN+DH  +LL I+Q +   N I    + D++E GI    ++ + S K   F+ F L+
+Sbjct  11   IEHVNEDHLADLLDISQVFCSPN-IKTVKLNDVFENGI----EILADSKK--YFVPFNLQ  63
+
+Query  61   -GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLPNYYAG  119
+             GD  E+I YLAY++  +     +    ++FEV+A  +VTPN+ RLT+KS +P+P+   G
+Sbjct  64   IGDPHEKIQYLAYSAKIRLGKPLNAKTNRYFEVLATEKVTPNMLRLTLKSDVPIPD-EIG  122
+
+Query  120  YAYGFILKVVEK  131
+             A+ F LK +EK
+Sbjct  123  LAWNFSLKTLEK  134
+
+
+>WP_013555412.1 siderophore-interacting protein [Deinococcus maricopensis]
+ ADV65907.1 Siderophore-interacting protein [Deinococcus maricopensis DSM 
+21211]
+Length=331
+
+ Score = 50.8 bits (120),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 35/118 (30%), Positives = 53/118 (45%), Gaps = 8/118 (7%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            +DHVN+DHR ELL+ A   G     HDA++  +YEEG  L  +  +    + LFI +   
+Sbjct  16   LDHVNEDHRPELLLTAHELGGATWAHDALLDALYEEGFRLALR--ADERHEQLFIPYPTP  73
+
+Query  61   GDLEEQILYLAYN-----SFAKQKIEFSNNAKQF-FEVVAKSQVTPNITRLTIKSQIP  112
+                 + L  A         A+   E       F   V A + VT ++ R+T++   P
+Sbjct  74   DGAAHERLRAAVGVARERRAARDGTEAPTTPIWFDGRVHAATDVTLHLRRVTLRHVTP  131
+
+
+>WP_055124987.1 siderophore-interacting protein [Psychrobacter glacincola]
+Length=375
+
+ Score = 48.9 bits (115),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 44/144 (31%), Positives = 69/144 (48%), Gaps = 21/144 (15%)
+
+Query  1    MDHVNQDHRKEL--LIIAQTYGKNNDIHDAVIADIYEEGILLN---------TQVPSSSI  49
+            M HVN++H+ EL   I A T    ++   A IA++Y +GIL++         T   SS +
+Sbjct  24   MSHVNEEHQDELAMFINAFTTTAVSEHEIASIAELYTDGILMDVTTAHHDNDTLTNSSKL  83
+
+Query  50   KQDLFIHFEL----KGDLEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNI  102
+             +  FI F +       L+EQ   +L  + N   K+ I+     +Q F V+     +PN+
+Sbjct  84   SRQYFIDFTVPISDSMTLQEQYITLLQTSANKLGKRTIKLQ---EQRFTVINGYYASPNM  140
+
+Query  103  TRLTIKSQIPLPNYYAGYAYGFIL  126
+             RL + +    P  + GYAY F L
+Sbjct  141  YRLLVTAPDSTPLSHPGYAYLFEL  164
+
+
+>WP_060491338.1 hypothetical protein [Psychrobacter sp. P11F6]
+ KRG34873.1 hypothetical protein AK822_08655 [Psychrobacter sp. P11F6]
+Length=376
+
+ Score = 48.1 bits (113),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 43/147 (29%), Positives = 68/147 (46%), Gaps = 28/147 (19%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGK---NNDIHDAVIADIYEEGILLNTQVP------------  45
+            M+HVN +H+ EL +  + +     +ND+   V+A++Y  G+LL   V             
+Sbjct  24   MNHVNDEHQDELALFVEAFADTKLSNDMA-VVVAEVYSNGLLLEASVQNVEALPNHKVEM  82
+
+Query  46   -SSSIKQDLFIHFELKGD----LEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQ  97
+             S  I Q  FI FE   D    L+ Q   +L +A     K  I+     +++F V+    
+Sbjct  83   LSDGISQ-FFIEFENVIDETITLKSQYINLLQVASKKLGKLAIK---QQERYFTVIDGYY  138
+
+Query  98   VTPNITRLTIKSQIPLPNYYAGYAYGF  124
+             +PN+ RL + +    P  +AGYAY F
+Sbjct  139  ASPNMFRLVVAAPADTPLNHAGYAYLF  165
+
+
+>WP_060491291.1 siderophore-interacting protein [Psychrobacter sp. P11F6]
+ KRG34832.1 hypothetical protein AK822_08380 [Psychrobacter sp. P11F6]
+Length=375
+
+ Score = 47.8 bits (112),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 42/145 (29%), Positives = 69/145 (48%), Gaps = 23/145 (16%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHD---AVIADIYEEGILLN---------TQVPSSS  48
+            M HVN++H+ EL +    +  N  + +   A IA++Y +GIL++         T   SS 
+Sbjct  24   MSHVNEEHQDELAMFINAF-TNTAVSEHEIASIAELYTDGILMDVTTAHHDNDTLTNSSK  82
+
+Query  49   IKQDLFIHFEL----KGDLEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPN  101
+            + +  FI F +       L+EQ   +L  + N   K+ I+     +Q F V+     +PN
+Sbjct  83   LSRQYFIDFIVPISDSMTLQEQYITLLQTSANKLGKRTIKLQ---EQRFTVINGYYASPN  139
+
+Query  102  ITRLTIKSQIPLPNYYAGYAYGFIL  126
+            + RL + +    P  + GYAY F L
+Sbjct  140  MYRLLVTAPDSTPLSHPGYAYLFEL  164
+
+
+>WP_062844764.1 hypothetical protein [Psychrobacter alimentarius]
+ AMT97165.1 Iron-chelator utilization protein [Psychrobacter alimentarius]
+Length=384
+
+ Score = 47.0 bits (110),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 40/140 (29%), Positives = 66/140 (47%), Gaps = 21/140 (15%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAV--IADIYEEGILL-------NTQVPSSSI--  49
+            +DHVN++H+ EL +    + K +   D+V  I ++Y +G+LL       N   P ++   
+Sbjct  24   IDHVNEEHQDELAMFINIFTKASIREDSVPSIVELYSDGMLLALTSIDNNQTDPENAAHP  83
+
+Query  50   KQDLFIHFEL----KGDLEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNI  102
+             +  F+HF         L+EQ   +L  A     K+ I+  +   QFF V+     +PN+
+Sbjct  84   TEQYFVHFTSPVVDAASLQEQYITLLQRAATKLGKRTIKLRD---QFFTVMDGYYASPNM  140
+
+Query  103  TRLTIKSQIPLPNYYAGYAY  122
+             RL + +    P    GYAY
+Sbjct  141  YRLLVTAPDNTPLNQPGYAY  160
+
+
+>WP_064617146.1 hypothetical protein [Moraxella catarrhalis]
+ OAV01655.1 putative iron-chelator utilization protein [Moraxella catarrhalis]
+Length=359
+
+ Score = 46.6 bits (109),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 67/139 (48%), Gaps = 19/139 (14%)
+
+Query  1    MDHVNQDHRKE-------LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQV------PSS  47
+            ++H+N+DH  +       LL + Q   KN  +   ++  IY+EG +L+ Q       P+ 
+Sbjct  18   VNHINEDHLDDIKSMAIGLLELTQNQCKN--LQSVMLKQIYQEGFVLDLQFEQDWYQPNK  75
+
+Query  48   SIKQDLFIHFELK----GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNIT  103
+              +Q  F+ F+        L EQ + L   S  KQ  +     ++ F + A S V+ N+ 
+Sbjct  76   QEQQIWFLQFDTAIQSAEQLNEQYIALLQRSDRKQGKKTIEIRQRHFVLQAVSAVSQNMY  135
+
+Query  104  RLTIKSQIPLPNYYAGYAY  122
+            RLT++S+  L    AGYA+
+Sbjct  136  RLTLQSKTNLSQLPAGYAF  154
+
+
+>GAF62053.1 iron-chelator utilization protein [Psychrobacter sp. JCM 18903]
+Length=375
+
+ Score = 46.2 bits (108),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 42/144 (29%), Positives = 68/144 (47%), Gaps = 21/144 (15%)
+
+Query  1    MDHVNQDHRKEL--LIIAQTYGKNNDIHDAVIADIYEEGILLN---------TQVPSSSI  49
+            M HVN++H+ EL   I A T    ++   A I ++Y +GIL++         T   S+ +
+Sbjct  24   MSHVNEEHQDELAMFINAFTTTAVSEHEIASITELYTDGILMDVTTTNHDNDTLTNSTKL  83
+
+Query  50   KQDLFIHFEL----KGDLEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNI  102
+             +  FI F +       L+EQ   +L  + N   K+ I+     +Q F V+     +PN+
+Sbjct  84   SRQYFIDFTVPISDSMTLQEQYITLLQTSANKLGKRTIKLQ---EQRFTVINGYYASPNM  140
+
+Query  103  TRLTIKSQIPLPNYYAGYAYGFIL  126
+             RL + +    P  + GYAY F L
+Sbjct  141  YRLLVTAPDSTPLTHPGYAYLFEL  164
+
+
+>WP_064610318.1 hypothetical protein [Moraxella catarrhalis]
+ OAU98144.1 putative iron-chelator utilization protein [Moraxella catarrhalis]
+ OAU98401.1 putative iron-chelator utilization protein [Moraxella catarrhalis]
+ OAV03613.1 putative iron-chelator utilization protein [Moraxella catarrhalis]
+Length=359
+
+ Score = 46.2 bits (108),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 67/139 (48%), Gaps = 19/139 (14%)
+
+Query  1    MDHVNQDHRKE-------LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQV------PSS  47
+            ++H+N+DH  +       LL + Q   KN  +   ++  IY+EG +L+ Q       PS 
+Sbjct  18   VNHINEDHLDDIKSMAIGLLELTQNQCKN--LQSVMLKQIYQEGFVLDLQFEQDWYQPSQ  75
+
+Query  48   SIKQDLFIHFELK----GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNIT  103
+              ++  F+ F+        L EQ + L   S  KQ  +     ++ F + A S V+ N+ 
+Sbjct  76   QEQKIWFLQFDTAIQSAEQLNEQYIALLQRSDRKQGKKTIEIRQRHFVLQAVSAVSQNMY  135
+
+Query  104  RLTIKSQIPLPNYYAGYAY  122
+            RLT++S+  L    AGYA+
+Sbjct  136  RLTLQSKTNLSQLPAGYAF  154
+
+
+>WP_064643079.1 hypothetical protein [Moraxella catarrhalis]
+ OAV32875.1 putative iron-chelator utilization protein [Moraxella catarrhalis]
+Length=359
+
+ Score = 46.2 bits (108),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 40/137 (29%), Positives = 65/137 (47%), Gaps = 19/137 (14%)
+
+Query  3    HVNQDHRKE-------LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQV------PSSSI  49
+            H+N+DH  +       LL + Q   KN  +   ++  IY+EG +L+ Q       P+   
+Sbjct  20   HINEDHLDDIKSMAIGLLELTQNQCKN--LQSVILKQIYQEGFVLDLQFGQDWYQPNKQE  77
+
+Query  50   KQDLFIHFELK----GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRL  105
+            +Q  F+ F+        L EQ + L   S  KQ  +     ++ F + A S V+ N+ RL
+Sbjct  78   QQIWFLQFDTAIQSAEQLNEQYIALLQRSDRKQGKKTIEIRQRHFVLQAVSAVSQNMYRL  137
+
+Query  106  TIKSQIPLPNYYAGYAY  122
+            T++S+  L    AGYA+
+Sbjct  138  TLQSKTNLSQLPAGYAF  154
+
+
+>WP_075105975.1 siderophore-interacting protein [Psychrobacter sp. C 20.9]
+ OLF37947.1 hypothetical protein BTW00_01860 [Psychrobacter sp. C 20.9]
+Length=381
+
+ Score = 45.8 bits (107),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 37/150 (25%), Positives = 67/150 (45%), Gaps = 25/150 (17%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAV---IADIYEEGILLNT-QVPSSSIKQDLFIH  56
+            M+HVN +H+ EL +  + +  N  + D +   IA++Y +G+LL T + P   +  D   H
+Sbjct  24   MNHVNDEHQDELAMFVEAF-DNTKVGDDLLVQIAEVYHDGLLLQTCKHPLEKLSIDNPAH  82
+
+Query  57   FELKGDLEEQILY-LAYNSFAKQKIEFSNNAKQFFEVVAKSQ------------------  97
+            ++ + +      Y +A++ F  + +   +      +V AK                    
+Sbjct  83   YQARSEAAALNRYFIAFDDFVDETVTIKSQYIHLLQVAAKKLGKLAIKQQERDFTVIDGY  142
+
+Query  98   -VTPNITRLTIKSQIPLPNYYAGYAYGFIL  126
+              +PN+ RL + +    P  +AGYAY F L
+Sbjct  143  YASPNMFRLVVGAPSDTPLNHAGYAYLFEL  172
+
+
+>WP_078306942.1 hypothetical protein [Moraxella lincolnii]
+ OOS21946.1 hypothetical protein B0682_05035 [Moraxella lincolnii]
+Length=359
+
+ Score = 45.8 bits (107),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 40/137 (29%), Positives = 65/137 (47%), Gaps = 19/137 (14%)
+
+Query  3    HVNQDHRKE-------LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQV------PSSSI  49
+            H+N+DH  +       LL + Q   KN  +   ++  IY+EG +L+ Q       P+   
+Sbjct  20   HINEDHLDDIKSMAIGLLELTQNQCKN--LQSVMLKQIYQEGFVLDLQFGQDWYQPNQQE  77
+
+Query  50   KQDLFIHFELK----GDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRL  105
+            +Q  F+ F+        L EQ + L   S  KQ  +     ++ F + A S V+ N+ RL
+Sbjct  78   QQIWFLQFDTAIQSAEQLNEQYIALLQRSDRKQGKKTIEIRQRHFVLQAVSAVSQNMYRL  137
+
+Query  106  TIKSQIPLPNYYAGYAY  122
+            T++S+  L    AGYA+
+Sbjct  138  TLQSKTNLSQLPAGYAF  154
+
+
+>SJN24776.1 iron-chelator utilization protein, putative [Psychrobacter sp. 
+JB385]
+Length=385
+
+ Score = 45.4 bits (106),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 41/144 (28%), Positives = 65/144 (45%), Gaps = 21/144 (15%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAV--IADIYEEGILLN-TQVPSSSI--------  49
+            +DH+N +H+ EL +    + K     D++  I ++Y +G+LL  T + S           
+Sbjct  24   VDHINDEHQDELAMFINVFTKATLREDSIPSIVELYPDGMLLALTSINSDQTHFEHAPYP  83
+
+Query  50   KQDLFIHFEL----KGDLEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNI  102
+             +  FIHF         L+EQ   +L  A     K+ I+     +QFF V+     +PN+
+Sbjct  84   TEQHFIHFTAPVSDSVSLQEQYIALLQRAATKLGKRTIKLR---EQFFTVMGGYYASPNM  140
+
+Query  103  TRLTIKSQIPLPNYYAGYAYGFIL  126
+             RL + +    P    GYAY F L
+Sbjct  141  YRLLVTAPDNTPLNQPGYAYLFDL  164
+
+
+>GAF56561.1 iron-chelator utilization protein [Psychrobacter sp. JCM 18901]
+Length=402
+
+ Score = 45.1 bits (105),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 50/170 (29%), Positives = 71/170 (42%), Gaps = 48/170 (28%)
+
+Query  3    HVNQDHRKELLIIAQTYGKNN----DIHDAVIADIYEEGILLNTQVPSSSIK--------  50
+            H+N++H  ELL     +   +    D+ DA I DIY EGI + T + SS I+        
+Sbjct  4    HINEEHLDELLGFLSAFTSLSTTELDLVDAQITDIYAEGIAIQTFLKSSEIQPAGAHNTS  63
+
+Query  51   ---QDLFIHFELK----GDLEEQILYL---AYNSFAKQKIEFSNNAKQFFEVVAKSQVTP  100
+               Q  FI F        DL+ Q + L   A     K+ I+ +   KQ FEV    +V+ 
+Sbjct  64   LDDQTFFIAFAAPISQLDDLQAQYILLKQRADKKLGKKTIKLT---KQVFEVQDSYRVSK  120
+
+Query  101  NITRL-----TIKSQIPL------------------PNYYAGYAYGFILK  127
+            N+ RL     ++ +  PL                  P   AGYAY F L+
+Sbjct  121  NMLRLELSMPSLSNDTPLNNTAQLSDAKGATNSTSVPTNEAGYAYLFDLE  170
+
+
+>WP_078305485.1 hypothetical protein [Deinococcus sp. LM3]
+ OOV12462.1 hypothetical protein BXU09_16865 [Deinococcus sp. LM3]
+Length=316
+
+ Score = 44.7 bits (104),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 67/141 (48%), Gaps = 7/141 (5%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLF-IHFEL  59
+            +DHVN+DH  ELL++A+ +        A +  +Y +G  L+ QV + +  QD + + F  
+Sbjct  17   IDHVNEDHPAELLLLARAFTPAPTPDAAAVTALYPDG--LDLQV-THAAGQDTYRVPFTT  73
+
+Query  60   KGDLEEQILYLAYNSFAKQKIEFSNNAKQF-FEVVAKSQVTPNITRLTIKS-QIPLPNYY  117
+              D+  +    A  + A++++      ++  + V A +    ++ RLT+ +   PL  + 
+Sbjct  74   T-DVPPKGRLRATVAAAREQLNEQPRTREVRWTVQAVTSPGADLRRLTLHADPAPLSGWR  132
+
+Query  118  AGYAYGFILKVVEKYLWYSRV  138
+             GYA  F     E+     RV
+Sbjct  133  PGYAARFRTPAGERTYTLRRV  153
+
+
+>WP_025653145.1 MULTISPECIES: siderophore-interacting protein [Psychrobacter]
+Length=379
+
+ Score = 43.9 bits (102),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 40/144 (28%), Positives = 68/144 (47%), Gaps = 21/144 (15%)
+
+Query  1    MDHVNQDHRKEL--LIIAQTYGKNNDIHDAVIADIYEEGILLN---------TQVPSSSI  49
+            + HVN++H+ EL   I A T    ++   A I ++Y +GIL++         T   ++++
+Sbjct  24   ISHVNEEHQDELAMFINAWTSTTVSEYDIASIKELYTDGILMDVTTTNHDTETLANTATL  83
+
+Query  50   KQDLFIHFEL----KGDLEEQ---ILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNI  102
+                FI+F         L+EQ   +L  + N   K+ I+     +Q F V+     +PN+
+Sbjct  84   SSQYFINFTTPISESMTLQEQYITLLQTSANKLGKRTIKLQ---EQRFTVINGYYASPNM  140
+
+Query  103  TRLTIKSQIPLPNYYAGYAYGFIL  126
+             RL + +    P  + GYAY F L
+Sbjct  141  YRLVVTAPDNTPLSHPGYAYLFEL  164
+
+
+>OEH67823.1 hypothetical protein BAX61_07965 [Psychrobacter sp. B29-1]
+Length=431
+
+ Score = 43.5 bits (101),  Expect = 0.043, Method: Compositional matrix adjust.
+ Identities = 49/170 (29%), Positives = 70/170 (41%), Gaps = 48/170 (28%)
+
+Query  3    HVNQDHRKELLIIAQTYGKNN----DIHDAVIADIYEEGILLNTQVPSSSIK--------  50
+            H+N++H  ELL     +   +    D+ DA I DIY EG+ + T   SS I+        
+Sbjct  33   HINEEHLDELLGFLSAFTSLSTAELDLVDAQITDIYAEGLAIQTCPKSSEIQLFGAQNSS  92
+
+Query  51   ---QDLFIHFELK----GDLEEQILYL---AYNSFAKQKIEFSNNAKQFFEVVAKSQVTP  100
+               Q  FI F        DL+ Q + L   A     K+ I+ +   KQ FEV    +++ 
+Sbjct  93   LHDQIFFIAFATPISQLDDLQAQYILLKQRADKKLGKKTIKLT---KQVFEVQNSYRISK  149
+
+Query  101  NITRL-----TIKSQIPL------------------PNYYAGYAYGFILK  127
+            N+ RL     ++ S  PL                  P   AGYAY F L+
+Sbjct  150  NMLRLELSMPSLNSDTPLNNTAQLSNAKGVTSSTSVPTNEAGYAYLFDLE  199
+
+
+>WP_082624689.1 hypothetical protein [Psychrobacter sp. P11G3]
+ KRG37213.1 hypothetical protein AK824_08130 [Psychrobacter sp. P11G3]
+Length=431
+
+ Score = 43.5 bits (101),  Expect = 0.045, Method: Compositional matrix adjust.
+ Identities = 49/170 (29%), Positives = 69/170 (41%), Gaps = 48/170 (28%)
+
+Query  3    HVNQDHRKELLIIAQTYGKNN----DIHDAVIADIYEEGILLNTQVPSSSIK--------  50
+            H+N++H  ELL     +   +    D+ DA I DIY EGI + T+   S  +        
+Sbjct  33   HINEEHLDELLGFLSAFTSLSTAELDLVDAQITDIYAEGIAIQTRSKGSEKQPTDAQDSS  92
+
+Query  51   ---QDLFIHFELK----GDLEEQILYL---AYNSFAKQKIEFSNNAKQFFEVVAKSQVTP  100
+               Q  FI F        DL+ Q + L   A     K+ I+ +   KQ FEV    +V+ 
+Sbjct  93   LHDQTFFIAFAAPLSQLDDLQAQYILLKQRADKKLGKKTIKLT---KQVFEVQDSYRVSK  149
+
+Query  101  NITRL-----TIKSQIPL------------------PNYYAGYAYGFILK  127
+            N+ RL     ++ S  PL                  P   AGYAY F L+
+Sbjct  150  NMLRLELSMPSLNSDTPLSNTAQLSNAKGATSSTSVPTNEAGYAYLFDLE  199
+
+
+>WP_064608616.1 hypothetical protein [Moraxella catarrhalis]
+ OAV02616.1 hypothetical protein AO380_1890 [Moraxella catarrhalis]
+ OAV29624.1 hypothetical protein AO367_1799 [Moraxella catarrhalis]
+Length=205
+
+ Score = 42.7 bits (99),  Expect = 0.055, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 64/137 (47%), Gaps = 19/137 (14%)
+
+Query  3    HVNQDHRKE-------LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQV------PSSSI  49
+            H+N+DH  +       LL + Q   KN  +   ++  IY+EG +L+ Q       P+   
+Sbjct  20   HINEDHLDDIKSMAIGLLELTQNQCKN--LQSVMLKQIYQEGFVLDLQFGQDWYQPNKQE  77
+
+Query  50   KQDLFIHFEL----KGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRL  105
+            ++  F+ F+          EQ + L   S  KQ  +     ++ F + A S V+ N+ RL
+Sbjct  78   QKIWFLQFDTAIQSTEQFNEQYIALLQRSDRKQGKKTIEIRQRHFVLQAVSAVSQNMYRL  137
+
+Query  106  TIKSQIPLPNYYAGYAY  122
+            T++S+  L    AGYA+
+Sbjct  138  TLQSKTNLSQLPAGYAF  154
+
+
+>WP_065254079.1 hypothetical protein [Moraxella osloensis]
+ OBX55057.1 hypothetical protein A9Z61_09375 [Moraxella osloensis]
+Length=364
+
+ Score = 42.7 bits (99),  Expect = 0.082, Method: Compositional matrix adjust.
+ Identities = 39/143 (27%), Positives = 71/143 (50%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   + +A +  IY++G+LL+ Q   S    D  L
+Sbjct  18   IDHINEDHGDDMKHMALGLLNLTKVQQKTLKNATLRQIYQQGLLLDLQFAQSEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F + +   V+ ++ RLT+++ 
+Sbjct  78   LAFSEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQSVEAVSHHMYRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L N  AGYA+ F +K+ +  L
+Sbjct  138  SDLSNLPAGYAFLFDVKLPDTDL  160
+
+
+>GAF53518.1 iron-chelator utilization protein [Psychrobacter sp. JCM 18900]
+Length=431
+
+ Score = 42.7 bits (99),  Expect = 0.091, Method: Compositional matrix adjust.
+ Identities = 48/170 (28%), Positives = 72/170 (42%), Gaps = 48/170 (28%)
+
+Query  3    HVNQDHRKELLIIAQTYGK----NNDIHDAVIADIYEEGILL----------NTQVPSSS  48
+            H+N++H  ELL     +       +D+ DA I DIY EGI +          +T   ++S
+Sbjct  33   HINEEHLDELLGFLSAFTSLSTAESDLVDAQITDIYAEGIAIQACPKGVENQSTDAQNNS  92
+
+Query  49   I-KQDLFIHFELK----GDLEEQILYL---AYNSFAKQKIEFSNNAKQFFEVVAKSQVTP  100
+            +  Q  FI F        DL+ Q + L   A     K+ I+ +   KQ F+V +  +V+ 
+Sbjct  93   LHNQTFFIAFAAPISQLDDLQAQYILLKQRADKKLGKKTIKLT---KQVFDVQSSYRVSK  149
+
+Query  101  NITRL-----TIKSQIPL------------------PNYYAGYAYGFILK  127
+            N+ RL     ++ S  PL                  P   AGYAY F L+
+Sbjct  150  NMLRLELSMPSLNSDTPLNNTAQLSNVKGVTSSTSVPTNEAGYAYLFDLE  199
+
+
+>WP_022802891.1 hypothetical protein [Deinococcus sp. 2009]
+Length=326
+
+ Score = 41.2 bits (95),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 30/125 (24%), Positives = 57/125 (46%), Gaps = 6/125 (5%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            M+HVN  H +ELL   + +        A +  ++ +G+ L+   P+ + +   F+ F   
+Sbjct  26   MEHVNAGHVQELLHCVRAFTPVQGATHAQLTALFTDGMQLDVTTPAGTNRH--FVPFAAP  83
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAK-QFFEVVAKSQVTPNITRLTIKSQIPLPNYYAG  119
+                E +   A  + A QK+    + +   + VV    ++ +  R+T++   PLP +  G
+Sbjct  84   APAHEAV--RATVAAAMQKLGVKPDGRVAHWPVVHTRTLSTHFQRITVQLDEPLP-WAPG  140
+
+Query  120  YAYGF  124
+            YA  F
+Sbjct  141  YACRF  145
+
+
+>WP_011960729.1 siderophore synthetase [Psychrobacter sp. PRwf-1]
+ ABQ94445.1 Siderophore-interacting protein [Psychrobacter sp. PRwf-1]
+Length=385
+
+ Score = 41.2 bits (95),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 44/146 (30%), Positives = 68/146 (47%), Gaps = 20/146 (14%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDI----HDAVIADIYEEGILLN----TQVPSSSIKQD  52
+            +DH+N++H  EL+   + +    D+    HD  + DIY +GI L       + S + + D
+Sbjct  30   IDHINEEHFSELVGFIKAFTPLTDLSPKQHDVRLVDIYAQGIGLQVSALASLASDAPQSD  89
+
+Query  53   L--FIHF-ELKGDLEE-QILYLAYNSFAKQKIEFSN--NAKQFFEVVAKSQVTPNITRLT  106
+               FI F E+   L E Q  Y+A    A +K+       A++ F+V +   VT N+ RL 
+Sbjct  90   THYFIAFPEVITHLNELQYQYIALKQQADKKLRKKTIILAEKLFQVKSGFAVTDNMYRLL  149
+
+Query  107  IKSQIP------LPNYYAGYAYGFIL  126
+            + +          P   AGYAY F L
+Sbjct  150  LSAPAAASDNSCFPASEAGYAYLFDL  175
+
+
+>WP_076774984.1 hypothetical protein [Enhydrobacter sp. H5]
+ ONG39336.1 hypothetical protein BKE17_05095 [Enhydrobacter sp. H5]
+Length=364
+
+ Score = 41.2 bits (95),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 38/143 (27%), Positives = 71/143 (50%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   + +A +  IY++G+LL+ Q   S    D  L
+Sbjct  18   IDHINEDHGDDMKHMALGLLNLTKVQQKTLKNATLRQIYQQGLLLDLQFAQSEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F + +   V+ ++ RLT+++ 
+Sbjct  78   LAFSEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQSVEAVSHHMYRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L +  AGYA+ F +K+ +  L
+Sbjct  138  SDLSDLPAGYAFLFDVKLPDTDL  160
+
+
+>EEV21857.1 Siderophore-interacting protein [Enhydrobacter aerosaccus SK60]
+Length=364
+
+ Score = 40.8 bits (94),  Expect = 0.34, Method: Compositional matrix adjust.
+ Identities = 38/143 (27%), Positives = 71/143 (50%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   + +A +  IY++G+LL+ Q   +    D  L
+Sbjct  18   IDHINEDHGDDMKHMALGLLNLTKVQQKTLKNATLRQIYQQGLLLDLQFAQNEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F + +   V+ ++ RLT+++ 
+Sbjct  78   LAFNEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQSVEAVSHHMYRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L N  AGYA+ F +K+ +  L
+Sbjct  138  SDLSNLPAGYAFLFDVKLPDTDL  160
+
+
+>WP_065262667.1 siderophore-interacting protein [Moraxella osloensis]
+ OBX65207.1 hypothetical protein A9299_09055 [Moraxella osloensis]
+Length=364
+
+ Score = 40.4 bits (93),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 71/143 (50%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   + +A +  IY++G+LL+ Q   +    D  L
+Sbjct  18   IDHINEDHSDDMKHMALGLLNLTKVQQKTLQNATLRQIYQQGLLLDLQFAQNEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F + +   V+ ++ RLT+++ 
+Sbjct  78   LAFSEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQSVEAVSHHMHRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L +  AGYA+ F +K+ +  L
+Sbjct  138  NDLSDLPAGYAFLFDVKLPDTDL  160
+
+
+>WP_040624791.1 hypothetical protein [Moraxella macacae]
+Length=413
+
+ Score = 40.4 bits (93),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 60/134 (45%), Gaps = 12/134 (9%)
+
+Query  3    HVNQDHRKELLIIAQ-----TYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIH-  56
+            HVN +H  EL  +A      T    +++   V+  IY+EG+LL      S  ++ L    
+Sbjct  57   HVNDEHGDELTNMAAVLLDLTDDDKHNLKTVVLQKIYQEGLLLTLHFKDSQTQKILPFEN  116
+
+Query  57   -FELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLP-  114
+              E    L EQ + L   S  +Q  +      + F V  K  V+PN+ RLT+++ +  P 
+Sbjct  117  VIESLNQLNEQYVLLLQKSDKQQGKKTILTKNRQFVVQNKELVSPNMYRLTVQTDLISPA  176
+
+Query  115  ----NYYAGYAYGF  124
+                   AGYA+ F
+Sbjct  177  DDLSAMPAGYAFLF  190
+
+
+>ELA09322.1 siderophore-interacting protein [Moraxella macacae 0408225]
+Length=425
+
+ Score = 40.4 bits (93),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 60/134 (45%), Gaps = 12/134 (9%)
+
+Query  3    HVNQDHRKELLIIAQ-----TYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIH-  56
+            HVN +H  EL  +A      T    +++   V+  IY+EG+LL      S  ++ L    
+Sbjct  69   HVNDEHGDELTNMAAVLLDLTDDDKHNLKTVVLQKIYQEGLLLTLHFKDSQTQKILPFEN  128
+
+Query  57   -FELKGDLEEQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQIPLP-  114
+              E    L EQ + L   S  +Q  +      + F V  K  V+PN+ RLT+++ +  P 
+Sbjct  129  VIESLNQLNEQYVLLLQKSDKQQGKKTILTKNRQFVVQNKELVSPNMYRLTVQTDLISPA  188
+
+Query  115  ----NYYAGYAYGF  124
+                   AGYA+ F
+Sbjct  189  DDLSAMPAGYAFLF  202
+
+
+>WP_010197358.1 siderophore-interacting protein [Psychrobacter sp. PAMC 21119]
+Length=441
+
+ Score = 40.0 bits (92),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 48/170 (28%), Positives = 68/170 (40%), Gaps = 48/170 (28%)
+
+Query  3    HVNQDHRKELL----IIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIK--------  50
+            H+N++H  ELL    +         D  DA I DIY EGI + T+  +S  +        
+Sbjct  33   HINEEHLDELLGFLSVFTSLSTAELDHVDAQITDIYAEGITIQTRQKNSKYQPANAQDNS  92
+
+Query  51   ---QDLFIHFELK----GDLEEQILYL---AYNSFAKQKIEFSNNAKQFFEVVAKSQVTP  100
+               Q  FI+F        DL+ Q + L   A     K+ I+ +   KQ F+V     V+ 
+Sbjct  93   LHDQSFFINFATPISQLDDLQAQYILLKQRADKKLGKKTIKLT---KQVFDVHNSYNVSK  149
+
+Query  101  NITRL-----TIKSQIPL------------------PNYYAGYAYGFILK  127
+            N+ RL     ++ S  PL                  P   AGYAY F L+
+Sbjct  150  NMLRLELSMPSLNSDTPLNNTAKLSNTKGATISTSVPTNEAGYAYLFDLE  199
+
+
+>WP_062332702.1 hypothetical protein [Moraxella osloensis]
+ AME01432.1 hypothetical protein AXE82_06375 [Moraxella osloensis]
+ OBX55257.1 hypothetical protein A9Z64_08735 [Moraxella osloensis]
+Length=364
+
+ Score = 40.0 bits (92),  Expect = 0.73, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 71/143 (50%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   + +A +  IY++G+LL+ Q   +    D  L
+Sbjct  18   IDHINEDHSDDMKHMALGLLNLTKVQQKTLKNATLRQIYQQGLLLDLQFTQNEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F + +   V+ ++ RLT+++ 
+Sbjct  78   LAFSEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQSVEAVSHHMYRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L +  AGYA+ F +K+ +  L
+Sbjct  138  SDLSDLPAGYAFLFDVKLPDTDL  160
+
+
+>KND22134.1 hypothetical protein AFK20_06095 [Enhydrobacter aerosaccus]
+Length=364
+
+ Score = 38.9 bits (89),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 70/143 (49%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   + +A +  IY++G+LL+ Q   +    D  L
+Sbjct  18   IDHINEDHSDDMKHMALGLLNLTKFQQKTLKNATLRQIYQQGLLLDLQFAQNEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F +     V+ ++ RLT+++ 
+Sbjct  78   LAFNEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQTVEAVSHHMYRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L +  AGYA+ F +K+ +  L
+Sbjct  138  SDLSDLPAGYAFLFDVKLPDTDL  160
+
+
+>WP_015228227.1 heme iron utilization protein [Dactylococcopsis salina]
+ AFZ49214.1 putative heme iron utilization protein [Dactylococcopsis salina 
+PCC 8305]
+Length=91
+
+ Score = 37.0 bits (84),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  3   HVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSI  49
+           H+N+DHR  +L+ AQ +G   +   A +A I  EG+ L+  V   S+
+Sbjct  16  HMNEDHRDAVLLYAQKFGNTPEAESATLASIDPEGMNLSAIVAGKSV  62
+
+
+>WP_068819379.1 heme iron utilization protein [Phormidesmis priestleyi]
+Length=97
+
+ Score = 36.6 bits (83),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  3   HVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+           H+N DH   +L+ A  YG+ N+   A +A I  +G+ LN Q+    +   +    ELK
+Sbjct  20  HMNDDHASAVLLYATAYGQANEATSAEMAAIDAQGMDLNAQIKGEPVSLRIPFDHELK  77
+
+
+>BAV10742.1 siderophore-interacting protein [Moraxella osloensis]
+Length=364
+
+ Score = 38.1 bits (87),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 70/143 (49%), Gaps = 10/143 (7%)
+
+Query  1    MDHVNQDHRKE-----LLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQD--L  53
+            +DH+N+DH  +     L ++  T  +   +  A +  IY++G+LL+ Q   +    D  L
+Sbjct  18   IDHINEDHSDDMKHMALGLLNLTKVQQKTLKIATLRQIYQQGLLLDLQFAQNEPHLDNQL  77
+
+Query  54   FIHFELKGDLE---EQILYLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKSQ  110
+                E    LE   +Q + L   S  KQ  +  +  ++ F + +   V+ ++ RLT+++ 
+Sbjct  78   LAFSEPTQTLEKFNDQYVALLQRSDRKQGKKTIDIKQRQFCLQSVEAVSHHMYRLTVQTD  137
+
+Query  111  IPLPNYYAGYAYGFILKVVEKYL  133
+              L +  AGYA+ F +K+ +  L
+Sbjct  138  SDLSDLPAGYAFLFDVKLPDTDL  160
+
+
+>WP_036536500.1 heme iron utilization protein [Neosynechococcus sphagnicola]
+ KGF71532.1 hypothetical protein DO97_17850 [Neosynechococcus sphagnicola 
+sy1]
+Length=94
+
+ Score = 35.8 bits (81),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 33/58 (57%), Gaps = 2/58 (3%)
+
+Query  1   MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFE  58
+            DH+N DH ++L++  + +G   ++  A +  +  EG+ L  QVP+ ++   L I F+
+Sbjct  14  CDHMNADHSEDLVLYVKAFGGPQNLTTAKLVALDPEGMDLVAQVPAGTVS--LRIQFD  69
+
+
+>WP_015224448.1 hypothetical protein [Halothece sp. PCC 7418]
+ AFZ42570.1 hypothetical protein PCC7418_0336 [Halothece sp. PCC 7418]
+Length=92
+
+ Score = 35.4 bits (80),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  3   HVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSI  49
+           H+N+DH   +L+ A+T+GK  +   A++  +  +G+ L+  V  +SI
+Sbjct  16  HMNEDHSDAVLLYAKTFGKTPEAESAILNSVDTDGMNLSATVGGTSI  62
+
+
+>XP_011548611.1 PREDICTED: RNA-binding protein 45-like [Plutella xylostella]
+Length=472
+
+ Score = 37.0 bits (84),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 29/124 (23%), Positives = 54/124 (44%), Gaps = 16/124 (13%)
+
+Query  3    HVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELKGD  62
+            H+   H+ +  I        NDIH    AD Y+  + +NT  P +  +++L  HF   G 
+Sbjct  83   HMKSAHKLQRSIRVMVAASRNDIHTEEDADKYKR-LFINT--PKTITEEELLEHFSQFGK  139
+
+Query  63   LEEQIL-------------YLAYNSFAKQKIEFSNNAKQFFEVVAKSQVTPNITRLTIKS  109
+            +E  I+             Y+ Y  F++  I +    K++  V A+ + +   +  T++ 
+Sbjct  140  VESVIIQRDRETEQPKGFAYIKYRRFSEAAIAYEECDKKYRAVFAQPKASNRKSGATLEP  199
+
+Query  110  QIPL  113
+            +I L
+Sbjct  200  KIGL  203
+
+
+>WP_006901491.1 hypothetical protein [Gordonia paraffinivorans]
+ GAC85269.1 hypothetical protein GP2_033_00020 [Gordonia paraffinivorans 
+NBRC 108238]
+Length=102
+
+ Score = 35.4 bits (80),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  1   MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIK  50
+           +DH+N DH  + L+IA+  G+  D   AV+  +  E  + +  VP   ++
+Sbjct  18  LDHMNTDHADDSLVIAKALGERPDATAAVMTGLDHEAAVFDVTVPEGVVE  67
+
+
+>OGC12552.1 hypothetical protein A2246_01530 [candidate division WOR-1 bacterium 
+RIFOXYA2_FULL_37_7]
+ OGC21587.1 hypothetical protein A2310_02175 [candidate division WOR-1 bacterium 
+RIFOXYB2_FULL_37_13]
+ OGC33034.1 hypothetical protein A3J90_08595 [candidate division WOR-1 bacterium 
+RIFOXYC2_FULL_37_10]
+Length=464
+
+ Score = 37.0 bits (84),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 37/75 (49%), Gaps = 1/75 (1%)
+
+Query  3    HVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELKGD  62
+             + Q      ++ A+  G N  +    + +IY +   +   VP ++IK D +   E+KG+
+Sbjct  266  QIRQKQPIPFIVTARNCG-NTKVDAGGVVEIYNDAGGMIASVPLNTIKIDAYGTGEVKGE  324
+
+Query  63   LEEQILYLAYNSFAK  77
+            LEE I+   Y + AK
+Sbjct  325  LEEDIIIGKYKALAK  339
+
+
+>WP_084473641.1 hypothetical protein [Deinococcus sp. 2009]
+Length=158
+
+ Score = 36.2 bits (82),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 21/88 (24%), Positives = 41/88 (47%), Gaps = 4/88 (5%)
+
+Query  1    MDHVNQDHRKELLIIAQTYGKNNDIHDAVIADIYEEGILLNTQVPSSSIKQDLFIHFELK  60
+            ++HVNQDH ++LL   Q +  ++    A +  +Y +G  +    P  +     F+ F   
+Sbjct  61   IEHVNQDHTQDLLYCLQAFTPSDQPTGATLTALYADGADVTAHAPGRATTH--FLAFPDA  118
+
+Query  61   GDLEEQILYLAYNSFAKQKIEFSNNAKQ  88
+               ++ +  LA  S A++K+      +Q
+Sbjct  119  ASPQDALRALA--SEARKKLGVDTPKRQ  144
+
+
+>WP_076517390.1 receptor [Achromobacter sp. MFA1 R4]
+ SIT15850.1 amino acid/amide ABC transporter substrate-binding protein, HAAT 
+family [Achromobacter sp. MFA1 R4]
+Length=404
+
+ Score = 37.0 bits (84),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  90   FEVVAKSQVTPNITRLTIKSQIPLPNYYAGYAYGFILKVVEKYLWYSRV  138
+            F  VA+SQ  P IT  TIK  +  P   +G AYGF +    K +WY++V
+Sbjct  18   FSAVAQSQQEPGITDKTIKIGVFAPLSGSGMAYGFDVLNAAK-MWYAKV  65
+
+
+
+Lambda      K        H
+   0.320    0.137    0.391 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1107983839690
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

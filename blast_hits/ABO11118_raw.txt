@@ -1,0 +1,302 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO11118 protein tyrosine phosphatase OS=Acinetobacter
+baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 /
+5377) GN=A1S_0670 SV=1 UP=UP000006737:Chromosome
+
+Length=166
+
+RID: K563J706014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO11118.1  protein tyrosine phosphatase [Acinetobacter baumannii...  329     4e-114
+SJE65544.1  Uncharacterised protein [Shigella sonnei]                 309     2e-106
+OCG11847.1  hypothetical protein A9G14_07115 [Gilliamella apicola]    310     7e-106
+SJF65263.1  Uncharacterised protein [Shigella sonnei]                 274     9e-93 
+CUX66865.1  hypothetical protein AGR5A_pa30226 [Agrobacterium gen...  62.0    2e-08 
+WP_032965471.1  hypothetical protein [Stenotrophomonas maltophilia]   48.1    4e-04 
+OGC91140.1  hypothetical protein A2W25_10135 [candidate division ...  47.8    0.001 
+KOO72771.1  hypothetical protein VK66_09140 [Stenotrophomonas mal...  45.4    0.004 
+EQM87410.1  hypothetical protein L681_04500 [Stenotrophomonas mal...  41.6    0.11  
+ALA80629.1  hypothetical protein VN11_00125 [Stenotrophomonas mal...  41.2    0.14  
+OBU53377.1  hypothetical protein A9K69_10905 [Stenotrophomonas ma...  40.8    0.24  
+XP_015585956.1  PREDICTED: Golgi-specific brefeldin A-resistance ...  37.7    7.5   
+WP_020564353.1  glutathione S-transferase [Methylosarcina fibrata]    37.0    7.9   
+WP_048892532.1  potassium transporter TrkA [Mycobacterium heckesh...  37.4    9.8   
+
+
+>ABO11118.1 protein tyrosine phosphatase [Acinetobacter baumannii ATCC 17978]
+Length=166
+
+ Score = 329 bits (844),  Expect = 4e-114, Method: Compositional matrix adjust.
+ Identities = 166/166 (100%), Positives = 166/166 (100%), Gaps = 0/166 (0%)
+
+Query  1    MCRKVCSKAPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGR  60
+            MCRKVCSKAPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGR
+Sbjct  1    MCRKVCSKAPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGR  60
+
+Query  61   GVLVPALAAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRI  120
+            GVLVPALAAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRI
+Sbjct  61   GVLVPALAAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRI  120
+
+Query  121  AGAEDEDVIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE  166
+            AGAEDEDVIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE
+Sbjct  121  AGAEDEDVIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE  166
+
+
+>SJE65544.1 Uncharacterised protein [Shigella sonnei]
+Length=165
+
+ Score = 309 bits (792),  Expect = 2e-106, Method: Compositional matrix adjust.
+ Identities = 157/159 (99%), Positives = 158/159 (99%), Gaps = 0/159 (0%)
+
+Query  8    KAPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPAL  67
+            + PALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPAL
+Sbjct  7    EGPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPAL  66
+
+Query  68   AAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDED  127
+            AAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDED
+Sbjct  67   AAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDED  126
+
+Query  128  VIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE  166
+            VIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE
+Sbjct  127  VIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE  165
+
+
+>OCG11847.1 hypothetical protein A9G14_07115 [Gilliamella apicola]
+Length=205
+
+ Score = 310 bits (793),  Expect = 7e-106, Method: Compositional matrix adjust.
+ Identities = 157/159 (99%), Positives = 158/159 (99%), Gaps = 0/159 (0%)
+
+Query  8    KAPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPAL  67
+            + PALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPAL
+Sbjct  47   EGPALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPAL  106
+
+Query  68   AAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDED  127
+            AAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDED
+Sbjct  107  AAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDED  166
+
+Query  128  VIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE  166
+            VIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE
+Sbjct  167  VIDSFGHDVSLSGSGWGAMAMDERSVASSMTWPAAFRSE  205
+
+
+>SJF65263.1 Uncharacterised protein [Shigella sonnei]
+Length=139
+
+ Score = 274 bits (701),  Expect = 9e-93, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  28   MRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRVIHRLHLFDGEGI  87
+            MRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRVIHRLHLFDGEGI
+Sbjct  1    MRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRVIHRLHLFDGEGI  60
+
+Query  88   DLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDEDVIDSFGHDVSLSGSGWGAMA  147
+            DLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDEDVIDSFGHDVSLSGSGWGAMA
+Sbjct  61   DLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDEDVIDSFGHDVSLSGSGWGAMA  120
+
+Query  148  MDERSVASSMTWPAAFRSE  166
+            MDERSVASSMTWPAAFRSE
+Sbjct  121  MDERSVASSMTWPAAFRSE  139
+
+
+>CUX66865.1 hypothetical protein AGR5A_pa30226 [Agrobacterium genomosp. 5 
+str. CFBP 6626]
+Length=253
+
+ Score = 62.0 bits (149),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 41/116 (35%), Positives = 58/116 (50%), Gaps = 1/116 (1%)
+
+Query  28   MRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRVIHRLHLFDGEGI  87
+            MR  R+ +P  T FA   VAD +DE+HLR       +P L  +   R+  R  L D  G+
+Sbjct  1    MRCHRIPQPDWTRFASRAVADREDEIHLRRARLREHIPVLRGETGRRIAERFQLLDRMGV  60
+
+Query  88   DLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIAGAEDEDVIDSFGHD-VSLSGSG  142
+             LA  +    VG++A  P  + + F  +    IA A++E V+D  GH  V L G G
+Sbjct  61   HLALRMAPRGVGSKATFPLMIQDGFAENRTCGIARAQEEHVVDLVGHGLVPLLGRG  116
+
+
+>WP_032965471.1 hypothetical protein [Stenotrophomonas maltophilia]
+ KPG89542.1 hypothetical protein AN993_00660 [Stenotrophomonas maltophilia]
+Length=139
+
+ Score = 48.1 bits (113),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 43/90 (48%), Gaps = 0/90 (0%)
+
+Query  16   SAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRV  75
+            +A    RV  +P+ R+R+T PH T F    +A G D++HL C      +P LA Q     
+Sbjct  50   AALYCSRVGDTPVSRNRVTWPHWTRFTRCAIAHGHDQIHLWCFRTCECLPRLARQPGNVE  109
+
+Query  76   IHRLHLFDGEGIDLAGWVTAGAVGAEAPLP  105
+             +      G  ++ A  +TAG V A+   P
+Sbjct  110  ANLREHLQGHWMNYALGITAGTVSADTSAP  139
+
+
+>OGC91140.1 hypothetical protein A2W25_10135 [candidate division Zixibacteria 
+bacterium RBG_16_53_22]
+Length=208
+
+ Score = 47.8 bits (112),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/86 (36%), Positives = 46/86 (53%), Gaps = 3/86 (3%)
+
+Query  44   GVVADGDDEVHLRCVGRGVLVPALAAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAP  103
+            GVVA+ D+ + +       LV  L  + +G V       DG+G+D A W  AG +G    
+Sbjct  120  GVVANCDNGIEILAE---ELVQGLGVEAIGNVTVDAEGLDGQGVDYARWFGAGRLGDILA  176
+
+Query  104  LPHRVDESFGHDAARRIAGAEDEDVI  129
+                V++S GHD A RIAGA+++D +
+Sbjct  177  PAELVEDSLGHDRAGRIAGADEQDAM  202
+
+
+>KOO72771.1 hypothetical protein VK66_09140 [Stenotrophomonas maltophilia]
+ KOO80661.1 hypothetical protein VO93_19720 [Stenotrophomonas maltophilia]
+ KOO85789.1 hypothetical protein VL21_05535 [Stenotrophomonas maltophilia]
+ KZE54748.1 hypothetical protein AVW14_06545 [Stenotrophomonas maltophilia]
+Length=139
+
+ Score = 45.4 bits (106),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 35/92 (38%), Positives = 46/92 (50%), Gaps = 4/92 (4%)
+
+Query  16   SAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRV  75
+            +A   GRV  +P+   R+ RPH T F  G +A   DE+HLRC      +P LA Q  G V
+Sbjct  50   TALHCGRVGDAPVGGSRVARPHGTRFTRGTIAHRYDEIHLRCFRTCECIPRLARQS-GNV  108
+
+Query  76   IHRL--HLFDGEGIDLAGWVTAGAVGAEAPLP  105
+               L  HL  G  ++ A  +TA  V A+   P
+Sbjct  109  EANLREHL-QGHRMNYALGMTARTVSADTFAP  139
+
+
+>EQM87410.1 hypothetical protein L681_04500 [Stenotrophomonas maltophilia 
+MF89]
+ KKF87900.1 hypothetical protein XY58_11910 [Stenotrophomonas maltophilia]
+Length=139
+
+ Score = 41.6 bits (96),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 41/90 (46%), Gaps = 0/90 (0%)
+
+Query  16   SAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRV  75
+            +A   GRV  +P+   R+  PH T F  G +A   DE+HLRC      +P LA Q     
+Sbjct  50   TALHCGRVGDAPVGGSRVAWPHGTRFTRGTIAHRYDEIHLRCFRTCECIPRLARQPGNVE  109
+
+Query  76   IHRLHLFDGEGIDLAGWVTAGAVGAEAPLP  105
+             +      G  ++ A  +TA  V A+   P
+Sbjct  110  ANLREHLQGHRMNYALGMTARTVSADTFAP  139
+
+
+>ALA80629.1 hypothetical protein VN11_00125 [Stenotrophomonas maltophilia]
+Length=126
+
+ Score = 41.2 bits (95),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 41/90 (46%), Gaps = 0/90 (0%)
+
+Query  16   SAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRV  75
+            +A   GRV  +P+   R+  PH T F  G +A   DE+HLRC      +P LA Q     
+Sbjct  37   AALHCGRVGDAPVGGSRVAWPHGTRFTRGTIAHRYDEIHLRCFRTCECLPRLARQPGNVE  96
+
+Query  76   IHRLHLFDGEGIDLAGWVTAGAVGAEAPLP  105
+             +      G  ++ A  +TA  V A+   P
+Sbjct  97   ANLREHLQGHRMNYALGMTARTVSADTFTP  126
+
+
+>OBU53377.1 hypothetical protein A9K69_10905 [Stenotrophomonas maltophilia]
+Length=139
+
+ Score = 40.8 bits (94),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 32/91 (35%), Positives = 43/91 (47%), Gaps = 2/91 (2%)
+
+Query  16   SAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVADGDDEVHLRCVGRGVLVPALAAQILGRV  75
+            +A   GRV  +P+   R+  PH T F  G +A   DE+HLRC      +P LA Q  G V
+Sbjct  50   TALHCGRVGDAPVGGSRVAWPHGTRFTRGTIAHRYDEIHLRCFRTCECIPRLARQP-GNV  108
+
+Query  76   IHRLHLF-DGEGIDLAGWVTAGAVGAEAPLP  105
+               L     G  ++ A  +TA  V A+   P
+Sbjct  109  EANLREHPQGHRMNYALGMTARTVSADTFTP  139
+
+
+>XP_015585956.1 PREDICTED: Golgi-specific brefeldin A-resistance guanine nucleotide 
+exchange factor 1 [Cephus cinctus]
+Length=1839
+
+ Score = 37.7 bits (86),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 25/56 (45%), Gaps = 1/56 (2%)
+
+Query  55    LRCVGRGVLVPALAAQILGRVIHRLHLFDGEGID-LAGWVTAGAVGAEAPLPHRVD  109
+             L C G G L+P  +   L  V  R  + D   I  +  WV A   G EAPLP   D
+Sbjct  1255  LECAGAGALLPKQSNSTLDEVPSRTSVLDPRPISPVPEWVLASPTGTEAPLPVTAD  1310
+
+
+>WP_020564353.1 glutathione S-transferase [Methylosarcina fibrata]
+Length=221
+
+ Score = 37.0 bits (84),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 17/38 (45%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  10   PALLGVSAFDGGRVFKSPMRRDRLTRPHRTHFAGGVVA  47
+            PAL G+SA + GR+++S M       PH THF G V +
+Sbjct  81   PALFGLSAAEQGRIWRSIMECVSYWEPHMTHFVGTVFS  118
+
+
+>WP_048892532.1 potassium transporter TrkA [Mycobacterium heckeshornense]
+ KMV21538.1 potassium transporter TrkA [Mycobacterium heckeshornense]
+ OIZ70352.1 potassium transporter TrkA [Mycobacterium heckeshornense]
+Length=574
+
+ Score = 37.4 bits (85),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 33/109 (30%), Positives = 50/109 (46%), Gaps = 16/109 (15%)
+
+Query  62   VLVPALAAQILGRVIHRLHLFDGEGIDLAGWVTAGAVGAEAPLPHRVDESFGHDAARRIA  121
+            ++ PA+    L    H +H F+  G+    W      GAE P    + E +G  A   + 
+Sbjct  101  LVAPAIVEACLA---HAVHPFEAAGVKFVVW------GAETPHDATLRELYGDLAPVAVI  151
+
+Query  122  GAED----EDVIDSFGHDVSLSGSGWGAM--AMDERSVASSMTWPAAFR  164
+            G E+    ++V+   G DVS+ G  W AM    DE + A S+T+P   R
+Sbjct  152  GGENSPNRDEVMVCPGRDVSVCGGDWAAMIGTADEMA-ARSITFPQPSR  199
+
+
+
+Lambda      K        H
+   0.322    0.138    0.430 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1118741254540
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

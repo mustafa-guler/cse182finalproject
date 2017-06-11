@@ -1,0 +1,84 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           123,117,878 sequences; 45,199,647,714 total letters
+
+
+
+Query= embl-cds:ABO11111 phage integrase family protein OS=Acinetobacter
+baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 /
+5377) GN=A1S_0662 SV=1 UP=UP000006737:Chromosome
+
+Length=38
+
+RID: K55STM8A014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ABO11111.1  phage integrase family protein [Acinetobacter baumann...  80.1    3e-19
+SAH12049.1  Uncharacterised protein [Enterobacter cloacae]            51.6    5e-08
+
+
+>ABO11111.1 phage integrase family protein [Acinetobacter baumannii ATCC 
+17978]
+Length=38
+
+ Score = 80.1 bits (196),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+
+Query  1   MRVTAFHPLLWNRPQRFAEIDLAPGRIGQLALAHHRQQ  38
+           MRVTAFHPLLWNRPQRFAEIDLAPGRIGQLALAHHRQQ
+Sbjct  1   MRVTAFHPLLWNRPQRFAEIDLAPGRIGQLALAHHRQQ  38
+
+
+>SAH12049.1 Uncharacterised protein [Enterobacter cloacae]
+Length=36
+
+ Score = 51.6 bits (122),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  1   MRVTAFHPLLWNRPQRFAEIDLAPGRIGQLALAHH  35
+           MR+TA HPL  N P  FAEID AP RIGQ   A+H
+Sbjct  1   MRITALHPLFGNCPDCFAEIDFAPSRIGQFTFANH  35
+
+
+
+Lambda      K        H
+   0.330    0.140    0.462 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1136778062628
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jun 2, 2017 12:00 AM
+  Number of letters in database: 45,199,647,714
+  Number of sequences in database:  123,117,878
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
