@@ -1,0 +1,41 @@
+Run the setup bash script to install dependencies and fix some system dependent code.
+It requires the path to the hmmer binaries.
+    Example: ./setup ~/hmmer-3.1b2-linux-intel-x86_64/bin
+You will need root access. Some commands may not translate well to os x. 
+
+It will install packages:
+    fastxpy with pip
+        https://pypi.python.org/pypi/fastxpy/
+    selenium with pip
+        https://pypi.python.org/pypi/selenium
+    Moose with cpan
+        http://search.cpan.org/~ether/Moose-2.2005/lib/Moose.pm
+
+These are necessary for the code to work, if you do not want these packages don't run the setup script.
+
+
+Install the hmmer tools as a requirement for Pfam:
+    http://hmmer.org/download.html
+
+Also, install the phantomjs driver into the Prints folder from here:
+http://phantomjs.org/download.html
+
+
+
+Sources of Tools (This project's purpose is education only):
+
+Blast/blast/
+    ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+
+Pfam/PfamScan/
+    ftp://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
+
+Prosite/ps_scan/
+    ftp://ftp.expasy.org/databases/prosite/ps_scan/
+
+prosite.dat in Databases directory can be found:
+    ftp://ftp.expasy.org/databases/prosite/
+
+
+
+Besides fastxpy I did not write any of these tools and make no claim on them. 
