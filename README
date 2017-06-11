@@ -42,3 +42,41 @@ prosite.dat in Databases directory can be found:
 
 
 Besides fastxpy I did not write any of these tools and make no claim on them. 
+
+
+root/
+    README                  -this file
+
+    setup                   -setup bash script, explained above
+
+    main.py                 -run with `python main.py [fasta file]`
+
+    protein.fasta           -proteins 151-200 fasta file
+
+    Blast/
+        blast.py            -blast module, can be run on its own
+        blast/blastp        -from ncbi
+
+    blast_hits/             -all the raw blast files
+
+    Prosite/
+        prosite.py          -prosite moudle, can be run on its own
+        ps_scan/            -from expasy prosite
+
+    Prints/
+        prints.py           -prints module, can be run on its own
+        phantomjs           <-----PhantomJS driver [DOWNLOAD]
+
+    Pfam/
+        pfam.py             -pfam module, can be run on its own
+        PfamScan/           -from Pfam ftp server
+
+    ExtraFiles/
+        extract_go.py       -used with a go:slim file to get rough id assignments. call with `python extract_go.py [go:slim file] [file with \n separated assigned funcitons]
+        make_json.py        -used to generate indexed data from tsv. call with `python make_jason.py [tsv file]`
+        comments.txt        -comments column, hand-written
+        functions.txt       -funcion assignments, hand-written
+
+    Results/
+        proteins.txt        -tsv file of data table
+        proteins.json       -json file of data table
