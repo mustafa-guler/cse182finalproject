@@ -1,0 +1,63 @@
+#!/bin/bash
+
+#^change this to the path to your bash
+#find it with command "which bash"
+
+#stores direcotry of this project on your computer
+dir=`pwd`
+
+#stores the location of python on your computer
+py=`which python`
+
+#checks if fastxpy is installed
+checker=`pip freeze | grep "fastxpy"`
+
+if [ -z "$checker" ]
+then
+    #installs fastxpy if it wasn't already installed
+    #https://github.com/mustafa-guler/fastxpy
+    sudo pip install fastxpy
+else
+    #updates fastxpy if it's already installed
+    sudo pip install -U fastxpy
+fi
+
+#sets up the controller
+sed "1s|.*|#!$py|" -i mash
+
+
+#
+#Prosite Setup
+#
+
+#changes paths to aux scripts in prosite scan
+sed "690s|'.*/Prosite|'$dir/Prosite|" -i Prosite/ps_scan/ps_scan.pl
+sed "691s|'.*/Prosite|'$dir/Prosite|" -i Prosite/ps_scan/ps_scan.pl
+
+sed "1s|.*|#!$py|" -i Prosite/prosite.py
+
+#
+#Pfam Setup
+#
+
+#installs dependencies
+sudo cpan Moose
+
+#changes paths in pfam_scan tool to allow for local libraries
+sed "8s|'.*|'${dir}/Pfam/PfamScan/';|" -i Pfam/PfamScan/pfam_scan.pl
+
+#adds hmmer binaries to path
+export PATH="$1:$PATH"
+
+
+#
+#Prints Setup
+#
+
+sudo pip install selenium
+export PATH="$dir/Prints/:$PATH"
+
+
+#
+#Blast just works (:
+#

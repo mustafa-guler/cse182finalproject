@@ -14,6 +14,9 @@ It will install packages:
 These are necessary for the code to work, if you do not want these packages don't run the setup script.
 
 
+Install the pfamscan tool under the Pfam directory (whole folder from ftp)
+    ftp://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
+
 Install the hmmer tools as a requirement for Pfam:
     http://hmmer.org/download.html
 
