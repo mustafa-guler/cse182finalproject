@@ -1,0 +1,101 @@
+Function
+transposase
+cysteine peptidase
+hemoglobinase
+regulatory protein (diguanylate cyclase)
+ribosomal protein
+amp binding enzyme (nucleotide binding) [thioester synthesis]
+disease resistance (siderophore intereacting protein, used in obtaining iron))
+methyl transferase
+transposase
+lipid attachment site
+adhesion
+chaperone protein
+zinc binding protein
+dna gyrase inhibitor
+transferase
+adhesion
+membrane protein
+permease
+transposase
+ribonucleotide reductase
+transketolase
+peptidase
+integrase
+phage tail protein
+acetyltransferase
+transferase
+nucleotide binding protein
+antioxidant enzyme
+histidine kinase
+outer membrane protein
+dehydrogenase
+membrane protein / transporter
+cyclase
+oxidoreductase
+phosphatase
+deacetylase
+cold shock protein
+calcium binding protein
+integrase
+conjugal transfer protein
+symporter
+transferase
+hydroxylating dioxygenase
+hydroxylating dioxygenase
+permease
+nucleotide dependent reductase
+permease
+monooxygenase
+transporter
+transporter
+darcynin
+calcium binding domain
+nucleotide binding protein
+methyltransferase
+helicase
+helicase
+exonuclease
+exonuclease
+transketolase
+thioesterase
+acetyltransferase
+transciptional regulator
+thiolase
+phage tail domain
+ribosomal protein
+integrase
+isomerase
+reductase
+nucleotide reductase
+major facilitator
+translocase
+siderophore reductase
+hydroxylating dioxygenase
+aldehyde dehydrogenase
+protease
+aminotransferase
+aminotransferase
+dehydratase
+transposase
+transposase
+ligase
+amp binding enzyme
+transposase
+transposase
+amp binding domain
+thiolase
+protein kinase
+transporter
+transporter
+transcriptional regulator
+aconitase
+transducer
+translation factor
+ligand binding domain
+nucleotide reductase
+methyltransferase
+protein folding ankyrin repeats
+hydrolase
+copper resistance
+transciptional regulator

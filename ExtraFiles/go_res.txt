@@ -1,0 +1,1271 @@
+> 1 transposase
+go:0004803 transposase activity
+go:0004803 p-element encoded transposase activity
+
+> 2 cysteine peptidase
+go:0008233 peptidase activity
+
+> 3 peptidase
+go:0008233 peptidase activity
+
+> 4 transcription regulator (diguanylate cyclase)
+go:0006351 transcription, dna-templated
+go:0006351 cellular transcription
+go:0006351 cellular transcription, dna-dependent
+go:0006351 dna-dependent transcription
+go:0006351 transcription
+go:0006351 transcription regulator activity
+go:0006351 transcription regulator activity
+go:0006351 transcription, dna-dependent
+go:0008134 transcription factor binding
+go:0004871 quorum sensing response regulator activity
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0003700 transcription factor activity
+
+> 5 ribosomal protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0005840 ribosomal rna
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0003735 ribosomal protein
+go:0003735 ribosomal rna
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 6 amp binding enzyme (nucleotide binding) [thioester synthesis]
+go:1902494 enzyme complex
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0003824 enzyme activity
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein amino acid binding
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0050662 coenzyme binding
+go:0050662 coenzyme binding
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 7 disease resistance (siderophore intereacting protein, used in obtaining iron))
+go:0009288 flagellin-based flagellum
+go:0000150 recombinase activity
+go:0046718 viral entry into host cell
+go:0046718 entry of virus into host cell
+go:0046718 virion penetration into host cell
+go:0046718 virus entry into host cell
+go:0006457 protein folding
+go:0006457 alpha-tubulin folding
+go:0006457 beta-tubulin folding
+go:0006457 chaperonin atpase activity
+go:0006457 chaperonin-mediated tubulin folding
+go:0006457 co-chaperonin activity
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 non-chaperonin molecular chaperone atpase activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0009372 quorum sensing
+go:0009372 quorum sensing system
+go:0009276 cell wall inner membrane
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0008152 metabolic process resulting in cell growth
+go:0008152 metabolism resulting in cell growth
+go:0071973 flagellin-based flagellar cell motility
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0019008 molybdopterin synthase complex
+go:0019008 molybdopterin converting factor complex
+go:0016469 proton-transporting two-sector atpase complex
+go:0016469 hydrogen-transporting two-sector atpase complex
+go:0016469 vacuolar hydrogen-transporting atpase
+go:0004601 eosinophil peroxidase activity
+go:0004601 extensin peroxidase
+go:0004601 scopoletin peroxidase
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 mating pheromone exporter
+go:0019898 extrinsic component of membrane
+go:0019898 extrinsic to membrane
+go:0019898 peripheral membrane protein
+go:0008233 hydrolase, acting on peptide bonds
+go:0008233 proteinase activity
+go:0031224 intrinsic component of membrane
+go:0031224 intrinsic to membrane
+go:0016491 oxidoreductase activity, acting on other substrates
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0009403 toxin biosynthetic process
+go:0009403 toxin anabolism
+go:0009403 toxin biosynthesis
+go:0009403 toxin formation
+go:0009403 toxin synthesis
+go:0005622 intracellular
+go:0005622 internal to cell
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0016301 kinase activity
+go:0016301 phosphokinase activity
+go:0030246 carbohydrate binding
+go:0030246 selectin
+go:0030246 sugar binding
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+go:0004871 quorum sensing response regulator activity
+go:0004871 quorum sensing signal generator activity
+go:0006091 intermediary metabolism
+go:0008218 bioluminescence
+go:0050662 coenzyme binding
+go:0003735 ribosomal protein
+go:0005694 interphase chromosome
+go:0005886 bacterial inner membrane
+go:0005886 inner endospore membrane
+go:0009349 riboflavin synthase complex
+go:0009055 adrenodoxin-type ferredoxin
+go:0009055 amicyanin
+go:0009055 azurin
+go:0009055 bacterial-type ferredoxin
+go:0009055 chloroplast-type ferredoxin
+go:0009055 dicluster bacterial-type ferredoxin
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0009055 electron transfer flavoprotein, group ii
+go:0009055 monocluster bacterial-type ferredoxin
+go:0009055 polyferredoxin
+go:0009055 rubredoxin
+go:0009055 thioredoxin-like 2fe-2s ferredoxin
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0098796 membrane protein complex
+go:0016032 viral infection
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0007165 signaling cascade
+go:0007165 signaling pathway
+go:0007165 signalling cascade
+go:0007165 signalling pathway
+go:0016597 amino acid binding
+go:0005839 macropain
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 8 methyl transferase
+go:0000150 strand transferase
+go:0016779 nucleotidyltransferase activity
+go:0016740 transferase activity
+
+> 9 toxin-antitoxin system
+go:0009372 quorum sensing system
+go:0009055 electron carrier, chlorophyll electron transport system
+go:0000160 phosphorelay signal transduction system
+go:0000160 phosphorelay signal transduction system
+
+> 10 lipid attachment site
+go:0006629 lipid metabolic process
+go:0006629 lipid metabolism
+go:0005886 plasma membrane lipid bilayer
+
+> 11 adhesion
+go:0007155 cell adhesion
+go:0007155 cell adhesion molecule activity
+
+> 12 chaperone protein
+go:0006457 protein folding
+go:0006457 chaperone activity
+go:0006457 co-chaperone activity
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 non-chaperonin molecular chaperone atpase activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 13 zinc binding protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0050662 coenzyme binding
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 14 dna gyrase inhibitor
+go:0006282 regulation of dna repair
+go:0005727 extrachromosomal circular dna
+go:0006351 transcription, dna-templated
+go:0006351 cellular transcription, dna-dependent
+go:0006351 dna-dependent transcription
+go:0006351 transcription, dna-dependent
+go:0033202 dna helicase complex
+go:0042575 dna polymerase complex
+go:0071103 dna conformation change
+go:0071103 dna conformation modification
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0006259 dna metabolic process
+go:0006259 cellular dna metabolism
+go:0006259 dna metabolism
+
+> 15 aldehyde-activating protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 16 adhesion
+go:0007155 cell adhesion
+go:0007155 cell adhesion molecule activity
+
+> 17 membrane protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0009276 cell wall inner membrane
+go:0009579 photosynthetic membrane
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0005840 membrane bound ribosome
+go:0019898 extrinsic component of membrane
+go:0019898 extrinsic to membrane
+go:0019898 peripheral membrane protein
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0031224 intrinsic component of membrane
+go:0031224 intrinsic to membrane
+go:0019867 outer membrane
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0005886 plasma membrane
+go:0005886 bacterial inner membrane
+go:0005886 cell membrane
+go:0005886 cellular membrane
+go:0005886 cytoplasmic membrane
+go:0005886 inner endospore membrane
+go:0005886 juxtamembrane
+go:0005886 plasma membrane lipid bilayer
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016020 membrane
+
+> 18 permease
+go:0043190 abc-type efflux permease complex
+go:0043190 abc-type uptake permease complex
+
+> 19 ankyrin repeat
+
+> 20 ribonucleotide reductase
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+
+> 21 transketolase
+
+> 22 peptidase
+go:0008233 peptidase activity
+
+> 23 integrase
+
+> 24 phage tail protein
+go:0046718 phage translocation
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 25 lipoprotein
+
+> 26 transferase
+go:0000150 strand transferase
+go:0016779 nucleotidyltransferase activity
+go:0016740 transferase activity
+
+> 27 nucleotide binding protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0050662 coenzyme binding
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 28 antioxidant enzyme
+go:1902494 enzyme complex
+go:0016209 antioxidant activity
+go:0003824 enzyme activity
+go:0050662 coenzyme binding
+
+> 29 histidine kinase
+go:0016301 kinase activity
+go:0016301 phosphokinase activity
+
+> 30 outer membrane protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0009276 cell wall inner membrane
+go:0009579 photosynthetic membrane
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0005840 membrane bound ribosome
+go:0019898 extrinsic component of membrane
+go:0019898 extrinsic to membrane
+go:0019898 peripheral membrane protein
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0031224 intrinsic component of membrane
+go:0031224 intrinsic to membrane
+go:0019867 outer membrane
+go:0019867 outer membrane
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0005886 plasma membrane
+go:0005886 bacterial inner membrane
+go:0005886 cell membrane
+go:0005886 cellular membrane
+go:0005886 cytoplasmic membrane
+go:0005886 inner endospore membrane
+go:0005886 juxtamembrane
+go:0005886 plasma membrane lipid bilayer
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016020 membrane
+
+> 31 dehydrogenase
+
+> 32 membrane protein / transporter
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0009276 cell wall inner membrane
+go:0009579 photosynthetic membrane
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0005840 membrane bound ribosome
+go:0051536 fe/s binding
+go:0090484 drug transporter activity
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0019898 extrinsic component of membrane
+go:0019898 extrinsic to membrane
+go:0019898 peripheral membrane protein
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0031224 intrinsic component of membrane
+go:0031224 intrinsic to membrane
+go:0005215 transporter activity
+go:0005215 small-molecule carrier or transporter
+go:0019867 outer membrane
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+go:0003735 ribosomal protein
+go:0005886 plasma membrane
+go:0005886 bacterial inner membrane
+go:0005886 cell membrane
+go:0005886 cellular membrane
+go:0005886 cytoplasmic membrane
+go:0005886 inner endospore membrane
+go:0005886 juxtamembrane
+go:0005886 plasma membrane lipid bilayer
+go:0009055 3fe-4s/4fe-4s electron transfer carrier
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0009055 electron transporter activity
+go:0098796 membrane protein complex
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016020 membrane
+
+> 33 cyclase
+go:0004872 receptor guanylate cyclase activity
+
+> 34 oxidoreductase
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+
+> 35 phosphatase
+go:0016791 phosphatase activity
+go:0016791 4-nitrophenylphosphatase activity
+go:0016791 ecto-p-nitrophenyl phosphatase activity
+go:0016791 nitrophenyl phosphatase activity
+go:0016791 p-nitrophenylphosphatase activity
+go:0016791 para-nitrophenyl phosphatase activity
+go:0016791 phosphatase
+go:0017111 nucleoside-triphosphatase activity
+go:0017111 nucleoside 5-triphosphatase activity
+go:0017111 nucleoside triphosphatase activity
+
+> 36 deacetylase
+
+> 37 cold shock protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 38 calcium binding protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0050662 coenzyme binding
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 39 integrase
+
+> 40 conjugal transfer protein
+go:0000150 strand transferase
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0016779 nucleotidyltransferase activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0009055 2fe-2s electron transfer carrier
+go:0009055 3fe-4s/4fe-4s electron transfer carrier
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0009055 electron transfer flavoprotein, group ii
+go:0009055 iron-sulfur electron transfer carrier
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016740 transferase activity
+
+> 41 symporter
+
+> 42 transferase
+go:0000150 strand transferase
+go:0016779 nucleotidyltransferase activity
+go:0016740 transferase activity
+
+> 43 hydroxylating dioxygenase
+
+> 44 hydroxylating dioxygenase
+
+> 45 permease
+go:0043190 abc-type efflux permease complex
+go:0043190 abc-type uptake permease complex
+
+> 46 nucleotide dependent reductase
+go:0071973 bacterial-type flagellum-dependent cell motility
+go:0006351 cellular transcription, dna-dependent
+go:0006351 dna-dependent transcription
+go:0006351 transcription, dna-dependent
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+go:0006508 atp-dependent proteolysis
+go:0000166 nucleotide binding
+
+> 47 permease
+go:0043190 abc-type efflux permease complex
+go:0043190 abc-type uptake permease complex
+
+> 48 monooxygenase
+
+> 49 azid domain containing protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 50 transporter
+go:0090484 drug transporter activity
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0005215 transporter activity
+go:0005215 small-molecule carrier or transporter
+go:0009055 electron transporter activity
+
+> 51 darcynin
+
+> 52 calcium binding domain
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein amino acid binding
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+go:0050662 coenzyme binding
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 53 nucleotide binding protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0050662 coenzyme binding
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 54 methyltransferase
+
+> 55 helicase
+go:0033202 dna helicase complex
+
+> 56 helicase
+go:0033202 dna helicase complex
+
+> 57 exonuclease
+
+> 58 exonuclease
+
+> 59 transketolase
+
+> 60 thioesterase
+
+> 61 acetyltransferase
+
+> 62 transciptional regulator
+go:0006351 transcription regulator activity
+go:0004871 quorum sensing response regulator activity
+
+> 63 thiolase
+
+> 64 phage tail domain
+go:0046718 phage translocation
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+
+> 65 ribosomal protein
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0005840 ribosomal rna
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0003735 ribosomal protein
+go:0003735 ribosomal rna
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 66 integrase
+
+> 67 isomerase
+go:0016853 isomerase activity
+go:0016853 other isomerase activity
+
+> 68 reductase
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+
+> 69 nucleotide reductase
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+go:0000166 nucleotide binding
+
+> 70 major facilitator
+
+> 71 translocase
+
+> 72 siderophore reductase
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+
+> 73 hydroxylating dioxygenase
+
+> 74 aldehyde dehydrogenase
+
+> 75 protease
+go:0008233 protease activity
+
+> 76 aminotransferase
+
+> 77 aminotransferase
+
+> 78 dehydratase
+
+> 79 transposase
+go:0004803 transposase activity
+go:0004803 p-element encoded transposase activity
+
+> 80 transposase
+go:0004803 transposase activity
+go:0004803 p-element encoded transposase activity
+
+> 81 ligase
+go:0016874 ligase activity
+
+> 82 amp binding enzyme
+go:1902494 enzyme complex
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0003824 enzyme activity
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein amino acid binding
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0050662 coenzyme binding
+go:0050662 coenzyme binding
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 83 transposase
+go:0004803 transposase activity
+go:0004803 p-element encoded transposase activity
+
+> 84 transposase
+go:0004803 transposase activity
+go:0004803 p-element encoded transposase activity
+
+> 85 amp binding domain
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein amino acid binding
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+go:0050662 coenzyme binding
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 86 thiolase
+
+> 87 protein kinase
+go:0006457 protein folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0016301 kinase activity
+go:0016301 phosphokinase activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 88 transporter
+go:0090484 drug transporter activity
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0005215 transporter activity
+go:0005215 small-molecule carrier or transporter
+go:0009055 electron transporter activity
+
+> 89 transporter
+go:0090484 drug transporter activity
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0005215 transporter activity
+go:0005215 small-molecule carrier or transporter
+go:0009055 electron transporter activity
+
+> 90 transcriptional regulator
+go:0006351 transcription regulator activity
+go:0004871 quorum sensing response regulator activity
+
+> 91 aconitase
+
+> 92 transducer
+go:0004871 signal transducer activity
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+
+> 93 translation factor
+go:0019008 molybdopterin converting factor complex
+go:0008134 transcription factor binding
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0003700 transcription factor activity
+go:0006412 translation
+go:0006412 protein translation
+
+> 94 ligand binding domain
+go:0030170 pyridoxal phosphate binding
+go:0003676 nucleic acid binding
+go:0046906 tetrapyrrole binding
+go:0046906 porphyrin binding
+go:0051536 iron-sulfur cluster binding
+go:0051536 fe/s binding
+go:0051536 iron sulfur cluster binding
+go:0051536 iron sulphur cluster binding
+go:0051536 iron-sulphur cluster binding
+go:0008658 penicillin binding
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043190 atp-binding cassette (abc) transporter complex
+go:0043167 ion binding
+go:0043167 atom binding
+go:0008134 transcription factor binding
+go:0008134 tf binding
+go:0005515 protein binding
+go:0005515 protein amino acid binding
+go:0030246 carbohydrate binding
+go:0030246 sugar binding
+go:0004871 hematopoietin/interferon-class (d200-domain) cytokine receptor signal transducer activity
+go:0050662 coenzyme binding
+go:0003700 transcription factor activity, sequence-specific dna binding
+go:0003700 sequence-specific dna binding transcription factor activity
+go:0019842 vitamin binding
+go:0016597 amino acid binding
+go:0000166 nucleotide binding
+go:0046872 metal ion binding
+go:0046872 heavy metal binding
+go:0046872 metal binding
+
+> 95 nucleotide reductase
+go:0004601 donor:hydrogen-peroxide oxidoreductase activity
+go:1990204 oxidoreductase complex
+go:0016491 oxidoreductase activity
+go:0016491 oxidoreductase activity, acting on other substrates
+go:0000166 nucleotide binding
+
+> 96 methyltransferase
+
+> 97 protein folding ankyrin repeats
+go:0006457 protein folding
+go:0006457 protein folding
+go:0006457 alpha-tubulin folding
+go:0006457 beta-tubulin folding
+go:0006457 chaperonin-mediated tubulin folding
+go:0006457 glycoprotein-specific chaperone activity
+go:0006457 protein complex assembly, multichaperone pathway
+go:0006810 auxiliary transport protein activity
+go:0006810 transport accessory protein activity
+go:0019898 peripheral membrane protein
+go:0008233 proteinase activity
+go:0005515 protein binding
+go:0005515 alpha-2 macroglobulin receptor-associated protein activity
+go:0005515 protein amino acid binding
+go:0005515 protein degradation tagging activity
+go:0005515 protein folding chaperone
+go:0005515 protein folding chaperone
+go:0005515 protein tagging activity
+go:0003735 ribosomal protein
+go:0009055 electron transfer flavoprotein
+go:0009055 electron transfer flavoprotein, group i
+go:0009055 electron transfer flavoprotein, group ii
+go:0098796 membrane protein complex
+go:0006412 protein anabolism
+go:0006412 protein biosynthesis
+go:0006412 protein biosynthetic process
+go:0006412 protein formation
+go:0006412 protein synthesis
+go:0006412 protein translation
+
+> 98 hydrolase
+go:0016787 hydrolase activity
+go:0016791 4-nitrophenylphosphate phosphohydrolase activity
+go:0016791 p-nitrophenylphosphate phosphohydrolase activity
+go:0016791 phosphoric monoester hydrolase activity
+go:0008233 hydrolase, acting on peptide bonds
+go:0008233 peptide hydrolase activity
+go:0017111 nucleoside triphosphate hydrolase activity
+go:0017111 nucleoside triphosphate phosphohydrolase activity
+go:0017111 nucleoside-5-triphosphate phosphohydrolase activity
+go:0017111 unspecific diphosphate phosphohydrolase activity
+
+> 99 copper resistance
+go:0009055 copper electron carrier
+go:0009055 small blue copper electron carrier
+
+> 100 transciptional regulator
+go:0006351 transcription regulator activity
+go:0004871 quorum sensing response regulator activity
+

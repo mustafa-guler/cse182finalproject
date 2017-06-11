@@ -1,0 +1,101 @@
+Comments
+dependent on PH and acts to cleave peptidases at cysteine. Peptidase cleavage is a redox reaction, and this acts as a reductase. Similar to Legumain protein
+cystein peptidase (cleaves at cystein) [blast/pfam/prints]
+involved in lipid attachment. In c13 family (very strong blast hits), lipid attachment(prosite), pfam (c13 family), hemoglobinase c13, no clearly known function for hemoglobinase, however we speculate it is part of the lipid attachment pathway which is also involved in secretion pathways effecting many changes to host cell physiology during infection (prints)
+GGDEF Domain (prosite) present in multidomain proteins containing regulatory domains of signaling pathways. Generally part of Gprotein signaling cascade. Involved in transducing cell division signal (prints), very low blast values and GGDEF family protein (blast), nucleotide cyclase superfamily (pfam)
+Larger subunit of 70S ribosome in prokaryotes. Involved in protein folding. All databases gave ribosome protein as the best hit
+Members of this superfamily catalyse the initial adenylation of a carboxylate to form an acyl-AMP intermediate, followed by a second partial reaction, most commonly the formation of a thioester. All databases gave AMP-binding enzyme as primary function, and part of the ANL superfamily (PFAM). 
+no pfam hits, siderophore interacting protein (relatively low blast value), disease resistance (prints)
+Methyl transferase (blast), ankyrin repeat: found in proteins of diverse function such as transcriptional initiators, cell-cycle regulators, cytoskeletal, ion transporters and signal transducers, often these are activated through methylation (transciption initiators)[prints]
+Putative antitoxin of bacterial toxin-antitoxin system (pfam)
+involved in lipid attachment (prosite) through cleavage of amino acids (reduction), uses ANKYRIN methylation (prints), in order to catalyze lipid attachment
+Adhesion (prosite), hypothetical protein (blast), FADPNR (prints)
+chaperone protein (blast and prosite) -> hop3 effector protein. Assists in protein folding
+Zinc binding protein (blast), through N-myristolyation (prosite)
+DNA gyrase inhibitor (blast, pfam), topoisomerase (prints)
+this enzyme creates 2 folds. Beta-tent fold (pfam), aldehyde activating / formaldehyede-activating (pfam/blast), amino transferase (print)
+adhesin superfamily / fimbrial protein: polar filaments to attach to epthelium (pfam])
+involved in transport, beta barrel structure (pfam), outermembrane usher protein (blast), FAD used in transport to carry electrons (prints)
+blast/pfam permease
+essential to cellular functions (prints)
+reductase (prints), multispecies protein involved in DNA synthesis (blast), conserved in bacteria (pfam)
+hit from Blast/prosite/pfam
+Peptidase, (pfam/prosite/prints) NOTE:  DNA polymerase (blast).
+DNA breaking rejoining enzyme / integrase (pfam blast) :  hydrolase (prints)
+Beta structure (prosite/prints) phage tail protein (pfam/blast)
+lipoprotein (blast)
+required for cell growth (prints)/ well conserved region (blast/pfam)
+nucleotide binding protein with FAD domain (prints). Involved in protein folding (blast/pfam)
+antioxidant enzyme peroxidoxin (blast)
+histidine kinase (blast prosite pfam)
+outer membrane family (prints), outermembrane porin/protein (blast/pfam)
+hits from pfam,  blast (strong) , prints. Oxidizes glucose using nucleotide cofactors
+part of major facilitator  family (transport), made of many transmembrane alpha helices. Benzoate transporter (blast), uses nucleotide cofactor(prints), outer membrance beta barrel (pfam)
+cyclase (pfam), GGDEF domain (blast) is part of cyclase. Used in protein ligand interactions and regulatory pathways
+oxidoreductase (blast/pfam), electron exchanger (print) It transfers electrons from one molecule to another, NADH to other molecules (pfam)
+Involved in protein protein interactions. Phosphotase(blast) cuts at tyrosine,NHL repeat profile (common in bacteria /places of cleavage/ prosite). 
+deacetylase(blast) from sir2 family (pfam) involved in transcriptional silencing. Use nucleotide cofactors (prints)
+Help cell survive in cold temperatures, slows cell growth etc (blast/prints)
+Calcium binding protein (blast/pfam). Binds extracellular calcium
+Mediates DNA recombination.  phage integrase (blast)
+conjugal transfer protein, mediates transfer of DNA (blast/pfam)
+Symporter (prosite/blast/pfam), transports sodium
+forms glysodic linkages to form glycoside.Glycosyltransferase(pfam/prosite/blast), uses nucleotide cofactor(prints)
+alpha subunit of ring hydroxylating dioxygenase. (prints/blast/pfam)
+beta subunit of ring hydroxylating dioxygenase. (prints/blast/pfam)
+amino acid permease / GABA permease. (pfam/blast) catalyzes translocation of molecules across plasma membrane
+Nucleotide dependent reductase (uses nucelotide cofactors such as NAD). (Blast/pfam/prints)
+Involved in lipid attachment (prosite) through cleavage (blast/pfam)
+Monooxygenase involved in creating products for protein folding (pfam/blast)
+amino acid transport protein (pfam) AZID domain containing (blast)
+sodium(prints) transporter(blast/print)
+Unknown function, hits from (pfam/blast/prints)
+EF calcium binding domain (pfam) commonly used in signaling pathways
+aminoacetone reductase (blast), uses nucleotide cofactors in protein folding (prints/pfam)
+methyltransferase used in forming menquinone and ubiquinone (blast/pfam/prosite/prints)
+uses lyase and nucleotide triphosphate hydrolase to unwind DNA. (pfam/blast/prosite/prints)
+helicase uses lyase and triphosphate hydrolase to unwind (pfam/blast/prosite/prints)
+ribonuclease (pfam/blast)
+gamma chain exonuclease(blast)
+thiamin diphosphate found in branched alpha keto acids (pfam), transketolase acts here (blast/prints)
+thioesterase (blast/prints/pfam) have acylCoA hydrolase
+acetyltransferase (pfam/blast) important in chloramphenicol resistance
+transciptional regulator (blast) helix turned helix (pfam) show DNA structure where regulators act
+thiolase (pfam / blast)
+phage tail protein (blast). Can be used for motor function
+ribosomal protein involved in transcription (blast/pfam )
+integrase/recombinas (blast/pfam), involved in DNA recombination
+isomerase (blast) FPKB (pfam/prints) prevents unwanted aggregation in protein folding
+nucleotide reductase uses nucleotide cofactors (blast/pfam/prosite/prints)
+Nucleotide cofactors (pfam/prints) used by reductase
+facilitator/transporter, usually in membrane (blast/prints/pfam)
+embedded in cytpolasmic membrane and facilitate transport secD(pfam) translocase(blast/prints)
+siderophore (pfam/blast) used to acquire iron (pfam clan)
+hydorxylating deoxygenase(alpha subunit) [blast] rieske iron sulphur domain (pfam)
+aldehyde dehydrogenase (involved in activating/deactivating transcription) (blast/pfam)
+protease (blast) that acts at above 42degrees (prints) essential for survival
+PLP dependent aminotransferase (pfam/blast)
+PLP dependednt aminotransferase (pfam blast)
+PLP dependent aminotransferase (pfam/blast)
+involved in transposition of DNA  (pfam), mechanism involves cutting w/ ribonuclease/reductase (blast)
+transposase (pfam/blast) which transposes elements near cysteine target (prints)
+ligase which facilitates AMP binding (blast/prints)
+AMP binding enzyme (pfam/prints) which facilitates peptide synthesis (blast)
+Transposase (pfam blast) which uses tyrosine as a nucleophile (pfam)
+Transposase (blast) no other results
+AMP binding enzyme (pfam) which activates peptide synthesis (blast)
+thiolase (pfam) that catalyzes cleavage of beta-ketoadiphyl-coA (blast)
+CGMP dependent protein kinase (prosite)
+sugar transporter (blast/pfam/prints)
+hydroxy benzoate transporter (blast)
+regulates DNA conformation and thereby transcription (pfam/blastprints)
+changes stereospecific conformation (print/pfam)
+Transduces signal using cGMP (gcpr pathway)
+Translation initiation factor (pfam/blast) in the ribosome(prints)
+Regulates helix formation of bacteria (conformation)[pfam] through ligand binding (blast/prints)
+likely nucleotide reducatase as it uses FAD cofactor (prints)
+involved in calcium signaling pathway EF hand (pfam) and activates protein using methyltransferase (blast/print)
+ANKYRIN repeats (blast/prints) regulators in protein folding
+hydrolase (blast) that delaholgenates using active aspartic acid cite (pfam)
+provides copper resistance (pfam/blast) using beta barrel on membrane (pfam)
+regulates(print) helix structure (pfam), to regulate transcription (blast)

@@ -1,0 +1,39 @@
+>embl-cds:ABO11123 : PS00001 ASN_GLYCOSYLATION N-glycosylation site.
+2 - 5  NKSL
+12 - 15  NITS
+>embl-cds:ABO11123 : PS00005 PKC_PHOSPHO_SITE Protein kinase C phosphorylation site.
+122 - 124  SaK
+211 - 213  SrK
+220 - 222  TgR
+267 - 269  TaR
+>embl-cds:ABO11123 : PS00006 CK2_PHOSPHO_SITE Casein kinase II phosphorylation site.
+17 - 20  SfsD
+52 - 55  SnpD
+61 - 64  SdtE
+130 - 133  SvqD
+>embl-cds:ABO11123 : PS00007 TYR_PHOSPHO_SITE Tyrosine kinase phosphorylation site.
+107 - 115  RgfpDaafY
+>embl-cds:ABO11123 : PS00008 MYRISTYL N-myristoylation site.
+79 - 84  GIpvSL
+165 - 170  GIkrNR
+>embl-cds:ABO11123 : PS00792 DHPS_1 Dihydropteroate synthase signature 1.
+7 - 22  IfGIVNiTsDSFsDgG
+>embl-cds:ABO11123 : PS00793 DHPS_2 Dihydropteroate synthase signature 2.
+41 - 54  GAdVIDLGPasSnP
+>embl-cds:ABO11123 : PS50972 PTERIN_BINDING Pterin-binding domain profile.
+5 - 259  LIIFGIVNITSDSFSDGGRYLAPDAAIAQARKLMAEGADVIDLGPASSNPDAAPVSSDTE L=0
+IARIAPVLDA-LKADGIPVSLDSYQPATQAYALSRGVAYLNDIRGFPD-AAFYPQLAKSS
+AKLVVMHSVQDgqadrrEAPAGDIMDHIAAFFDARIAALTGAGIKRNRLVLDPGMGFFLG
+AAPEtSLSVLARFDELRLRFdLPVLLSVSRKSFLRALT-GRGPGDVGAATLAAELAAAAG
+GADFIRTHEPRPLRDGLA
+>embl-cds:ABO11327 : PS00001 ASN_GLYCOSYLATION N-glycosylation site.
+76 - 79  NHSV
+>embl-cds:ABO11327 : PS00006 CK2_PHOSPHO_SITE Casein kinase II phosphorylation site.
+4 - 7  SnqD
+35 - 38  SaeD
+42 - 45  TllE
+60 - 63  TqfE
+78 - 81  SvfE
+113 - 116  SvaE
+>embl-cds:ABO11327 : PS00008 MYRISTYL N-myristoylation site.
+12 - 17  GLkvTL
