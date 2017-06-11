@@ -50,11 +50,6 @@ def get_clanname(clan_acc):
             if init_re.search(line):
                 start = True
 
-#    for line in page_reader:
-#        find = res.search(line)
-#        if find:
-#            return find.group(1)
-
     return None
 
 def extract_results(query):

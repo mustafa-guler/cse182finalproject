@@ -21,7 +21,7 @@ Install the hmmer tools as a requirement for Pfam:
     http://hmmer.org/download.html
 
 Also, install the phantomjs driver into the Prints folder from here:
-http://phantomjs.org/download.html
+    http://phantomjs.org/download.html
 
 
 

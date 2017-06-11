@@ -109,24 +109,11 @@ def extract_results(result):
     ps_patt = "(\S*) : (PS[0-9]{5}) [\d\_A-Z]* ([\w\- \(\)]*)\."
     info = re.findall(ps_patt, result)
 
-#    regexes = []
-#    prot_funcs = []
     results = []
 
     for entry in info:
-#        if entry[0] in results:
-#            results[entry[0]].append((entry[2], getregex.get_regex(entry[1])))
-#        else:
-#            results[entry[0]] = [(entry[2], getregex.get_regex(entry[1]))]
-#        regexes.append(getregex.get_regex(entry[1]))
-#        prot_funcs.append(entry[2])
-#        try:
-#            results[num[1:]].append((entry[2], getregex.get_regex(entry[1])))
-#        except:
-#            results[num[1:]] = [(entry[2], getregex.get_regex(entry[1]))]
-       results.append((entry[2], entry[1])) #getregex.get_regex(entry[1]))) 
+       results.append((entry[2], entry[1]))
 
-#    return ",".join(prot_funcs), regexes
     return results
 
 
@@ -137,26 +124,3 @@ if __name__ == "__main__":
     results = extract_results(result)
     print "Confidence: ",conf
     print results
-
-
-#    print funcs
-#
-#    for regx in regexes:
-#        print regx
-
-
-
-
-#if first:
-#    print first
-#else:
-#    print "fail"
-#
-#second = subprocess.check_output(["perl", "./ps_scan/ps_scan.pl","-s","-l","1","-d", "prosite.dat", "out"])
-#if second:
-#    print "Allowing 1 mismatch"
-#    print second
-#else:
-#    print "Failed, do not ignore high probability matches"
-#    third = subprocess.check_output(["perl", "./ps_scan/ps_scan.pl","-l","1","-d","prosite.dat","out"])
-#

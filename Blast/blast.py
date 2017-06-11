@@ -110,46 +110,8 @@ def extract_results(data):
 
     return name, e_val
 
-#    return [(name[i], e_val[i]) for i in range(len(e_val))]
-
-
-
-#   splitresult=result.splitlines()
-#   for line in splitresult:
-#      line=line.strip()
-#      if len(evalue) < 10:
-#         m=re.findall('[]{2}[0-9]e-[0-9]*',line)
-#         if len(m) > 0:
-#            if float((m[0]))<1:
-#               evalue.append((m[0]))
-#               seq_count+=1
-#            else:
-#               break
-#         eindex+=1
-#      else:
-#         break
-#   for line in splitresult[index:]:
-#      if line and line[0]==">":
-#         if not seq_count2 == seq_count:
-#            name.append(line)
-#            seq_count2+=1
-#         else:
-#            break
-   #print name
-   #print evalue
-#   final=[(name[i],evalue[i]) for i in range(len(name))]
-#   return final
-
-
 if __name__ == "__main__":
-    f = open(sys.argv[1])
-    print extract_results(f.read())
-#   start=time.time()
-#   inputs=get_input()
-#   ans = run_blast(inputs)
-#   print "blast time", time.time() - start
-#   start = time.time()
-#   result = extract_results(ans)
-#   print time.time()-start
-#   print result
-#
+    ans = run_blast(inputs)
+    result = extract_results(ans)
+    print result
+

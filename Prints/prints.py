@@ -54,3 +54,6 @@ def run_prints(arg1):
 
     driver.quit()
     return ans, results
+
+if __name__ == "__main__":
+    print run_prints(sys.argv[1])
