@@ -78,5 +78,5 @@ root/
         functions.txt       -funcion assignments, hand-written
 
     Results/
-        proteins.txt        -tsv file of data table
+        proteins.tsv        -tsv file of data table
         proteins.json       -json file of data table
